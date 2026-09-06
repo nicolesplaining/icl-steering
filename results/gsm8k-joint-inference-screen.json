@@ -18,8 +18,9 @@
     "adaptation_examples": 128,
     "evaluation_examples": 128,
     "zero_shot_accuracy": 0.4453125,
+    "supervised_icl_accuracy": 0.84375,
     "round_1_accuracy": 0.7578125,
-    "round_2_accuracy": 0.8359375,
-    "note": "Adaptation uses the first 128 GSM8K train examples and evaluation uses the first 128 test examples."
+    "round_2_accuracy": 0.828125,
+    "note": "Adaptation uses the first 128 GSM8K train examples and evaluation uses the first 128 test examples. This rerun also saves the final pseudo-labeled support bank."
   }
 }

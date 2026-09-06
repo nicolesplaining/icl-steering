@@ -20,7 +20,7 @@ The [official implementation](https://github.com/mlbio-epfl/joint-inference) use
 
 `replication/gsm8k_joint_inference.py` exposes both modes. `--mode paper` follows the released script's test-pool protocol. `--mode heldout` builds demonstrations from GSM8K train and evaluates on test. The paper mode is useful for checking our implementation against the published number; the held-out mode is the one to use before fitting an activation direction.
 
-Our first screen confirms that this is a viable positive control. With Qwen2.5-Math-7B, eight shots, three-way majority vote, two refinement turns, and a 512-token cap, the 64-example paper-compatible screen moved from 34.4% zero-shot to 78.1%. A disjoint 128-train/128-test screen moved from 44.5% zero-shot to 83.6% after two turns. These are small screens, so they establish a strong signal rather than a replacement for the paper's full 1,319-question result. The compact metrics are in [`results/gsm8k-joint-inference-screen.json`](../results/gsm8k-joint-inference-screen.json).
+Our first screen confirms that this is a viable positive control. With Qwen2.5-Math-7B, eight shots, three-way majority vote, two refinement turns, and a 512-token cap, the 64-example paper-compatible screen moved from 34.4% zero-shot to 78.1%. A disjoint 128-train/128-test screen moved from 44.5% zero-shot to 82.8% after two turns, while a fixed eight-example supervised prompt reached 84.4%. These are small screens, so they establish a strong signal rather than a replacement for the paper's full 1,319-question result. The compact metrics are in [`results/gsm8k-joint-inference-screen.json`](../results/gsm8k-joint-inference-screen.json).
 
 ## Replication audit
 
