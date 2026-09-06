@@ -7,7 +7,7 @@
   "counts": {"demonstration": 16, "screen": 16, "extract": 32, "validation": 12, "test": 48},
   "shots": 4,
   "batch_size": 32,
-  "max_new_tokens": 768,
+  "max_new_tokens": 4096,
   "max_prompt_tokens": 8192,
   "layers": [8, 17, 26, 32],
   "strengths": [0.5, 1.0, 2.0],
