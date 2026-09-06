@@ -41,3 +41,13 @@ Run the small paper-compatible screen on the H100 after setting `HF_HOME` to the
 The released script adapts on the same test pool it scores. For a clean activation study, use `--mode heldout`, which adapts on GSM8K train and scores on test. The runner saves zero-shot and per-turn held-out evaluation results; it does not save model weights or activations.
 
 Add `--save-predictions` when the final pseudo-labeled support bank is needed for activation extraction. The saved file contains text prompts and answers only; activation tensors remain run-local and are never committed.
+
+The activation screen compares final-token decoder states for zero-shot and fixed-support prompts, fits the mean difference on one test subset, and evaluates frozen-model interventions on a disjoint subset. It reports rank-one energy, split-half direction cosine, and accuracy across signed intervention strengths:
+
+```bash
+.venv-benchmark/bin/python replication/gsm8k_activation.py \
+  --support-json runs/gsm8k-heldout-128-preds.json \
+  --fit-examples 64 --test-examples 32 \
+  --tensor-output runs/gsm8k-activation-v1/directions.pt \
+  --output runs/gsm8k-activation-v1/stats.json
+```
