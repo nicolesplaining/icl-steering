@@ -1,0 +1,45 @@
+{
+  "config": {
+    "model": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "enable_thinking": false,
+    "seed": 20260905,
+    "families": [
+      "quadratic_sum",
+      "symmetric_power"
+    ],
+    "counts": {
+      "demonstration": 16,
+      "screen": 16,
+      "extract": 32,
+      "validation": 12,
+      "test": 48
+    },
+    "shots": 4,
+    "batch_size": 32,
+    "max_new_tokens": 4096,
+    "max_prompt_tokens": 8192,
+    "layers": [
+      8,
+      17,
+      26,
+      32
+    ],
+    "strengths": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "random_seeds": [
+      101,
+      202,
+      303
+    ],
+    "min_screen_gain": 0.0625,
+    "intervention_positions": "prefill",
+    "bootstrap_samples": 2000
+  },
+  "source_sha256": "2d419f4512f726f27118b991c1dd7a97c90147f171cbcbd62d3782f9a44fb68e",
+  "dataset_sha256": "fcb67ba6420e3b17a205fbee71bffc1cbd68ead02c4da9fd272be5c427ae16bb",
+  "created_at": "2026-09-06T02:13:48.902191+00:00"
+}

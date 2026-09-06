@@ -1,0 +1,143 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "results": [
+    {
+      "split": "screen",
+      "family": "quadratic_sum",
+      "condition": "icl_a",
+      "n": 16,
+      "accuracy": 0.375,
+      "parse_rate": 1.0,
+      "truncation_rate": 0.0,
+      "mean_generated_tokens": 1124.5625,
+      "method_a_signature_rate": 0.8125,
+      "versus_zero": {
+        "gain": -0.125,
+        "ci95": [
+          -0.5,
+          0.25
+        ],
+        "wins": 4,
+        "losses": 6
+      }
+    },
+    {
+      "split": "screen",
+      "family": "quadratic_sum",
+      "condition": "icl_b",
+      "n": 16,
+      "accuracy": 0.4375,
+      "parse_rate": 0.9375,
+      "truncation_rate": 0.0625,
+      "mean_generated_tokens": 1328.6875,
+      "method_a_signature_rate": 0.0,
+      "versus_zero": {
+        "gain": -0.0625,
+        "ci95": [
+          -0.375,
+          0.25
+        ],
+        "wins": 3,
+        "losses": 4
+      }
+    },
+    {
+      "split": "screen",
+      "family": "quadratic_sum",
+      "condition": "zero",
+      "n": 16,
+      "accuracy": 0.5,
+      "parse_rate": 0.875,
+      "truncation_rate": 0.125,
+      "mean_generated_tokens": 1625.8125,
+      "method_a_signature_rate": 0.0,
+      "versus_zero": {
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    {
+      "split": "screen",
+      "family": "symmetric_power",
+      "condition": "icl_a",
+      "n": 16,
+      "accuracy": 0.875,
+      "parse_rate": 1.0,
+      "truncation_rate": 0.0,
+      "mean_generated_tokens": 611.875,
+      "method_a_signature_rate": 1.0,
+      "versus_zero": {
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    {
+      "split": "screen",
+      "family": "symmetric_power",
+      "condition": "icl_b",
+      "n": 16,
+      "accuracy": 0.875,
+      "parse_rate": 1.0,
+      "truncation_rate": 0.0,
+      "mean_generated_tokens": 605.375,
+      "method_a_signature_rate": 1.0,
+      "versus_zero": {
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0
+      }
+    },
+    {
+      "split": "screen",
+      "family": "symmetric_power",
+      "condition": "zero",
+      "n": 16,
+      "accuracy": 0.875,
+      "parse_rate": 1.0,
+      "truncation_rate": 0.0,
+      "mean_generated_tokens": 700.875,
+      "method_a_signature_rate": 0.6875,
+      "versus_zero": {
+        "gain": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "wins": 0,
+        "losses": 0
+      }
+    }
+  ],
+  "screen_decision": {
+    "scores": {
+      "quadratic_sum": {
+        "zero": 0.5,
+        "icl_a": 0.375,
+        "gain": -0.125
+      },
+      "symmetric_power": {
+        "zero": 0.875,
+        "icl_a": 0.875,
+        "gain": 0.0
+      }
+    },
+    "minimum_gain": 0.0625,
+    "selected_family": null,
+    "rule": "Largest screen ICL-A minus zero accuracy; ties use config family order."
+  }
+}
