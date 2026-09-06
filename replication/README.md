@@ -19,6 +19,8 @@ VLLM_WORKER_MULTIPROC_METHOD=spawn .venv-benchmark/bin/python replication/math_s
 
 The fixed screen has 384 generations: two subjects, three shot counts, and 64 questions. Primary metrics use the released symbolic grader. `final_only_accuracy` additionally requires a completed thinking segment and a boxed answer after it. The report includes paired bootstrap intervals and generation truncation. The first run used 8,172 new tokens to match the upstream script, but its geometry accuracy was dominated by unfinished traces. The replacement run uses 32,768 new tokens, four concurrent requests, and records the stopped run separately.
 
+After geometry reached roughly 96% zero-shot accuracy with the larger budget, the geometry sweep was stopped as saturated. `configs/math_number_theory.json` runs the same screen on number theory, which leaves room for an ICL gain.
+
 Artifacts include `manifest.json`, `prompts.jsonl`, `prompt_lengths.json`, `runtime.json`, `generations.jsonl`, `summary.json`, and `report.md`. A successful run also writes `complete.json`. The remaining official test questions and unused training indices are reserved in the manifest for later work.
 
 The upstream repository is downloaded into an ignored directory; its source is not vendored into this repository. Record the pinned commit when comparing or reporting results.
