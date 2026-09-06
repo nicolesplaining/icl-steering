@@ -1,6 +1,6 @@
 # Which math tasks are worth replicating?
 
-Reviewed September 5, 2026. The strongest positive target we found is GSM8K with Qwen2.5-Math-7B under the unsupervised-ICL protocol below. MATH geometry and number theory on Qwen3-8B remain useful negative controls. A task name alone does not guarantee an ICL gain: model, demonstrations, baseline instructions, and decoding all matter.
+Reviewed September 5, 2026; audited September 6. GSM8K with Qwen2.5-Math-7B remains a literature-backed candidate. Our initial claim of reproducing a large ICL gain was premature: answer parsing and prompt differences confound it. See the [audit](gsm8k-audit.md). A task name alone does not guarantee an ICL gain: model, demonstrations, baseline instructions, and decoding all matter.
 
 ## Evidence
 
@@ -18,9 +18,9 @@ At 128 examples, Chung et al. report Qwen3-8B scores of 67.01% on geometry and 8
 
 The [official implementation](https://github.com/mlbio-epfl/joint-inference) uses GSM8K zero-shot CoT outputs as pseudo-labeled demonstrations, filters malformed outputs, samples eight support examples, and refines the pseudo-labels over multiple turns. For reasoning tasks it initializes the full chain of thought, not just the final number. The paper says GSM8K uses the full 1,319-example test set for evaluation and reports the 52.2% to 91.4% Qwen2.5-Math-7B change. Its released script, however, loads `test_ds` for both initialization and evaluation; it does not implement a held-out adaptation split. That distinction is material for interpreting a replication.
 
-`replication/gsm8k_joint_inference.py` exposes both modes. `--mode paper` follows the released script's test-pool protocol. `--mode heldout` builds demonstrations from GSM8K train and evaluates on test. The paper mode is useful for checking our implementation against the published number; the held-out mode is the one to use before fitting an activation direction.
+The legacy `replication/gsm8k_joint_inference.py` exposes test-pool and train/test modes. Neither is an exact replication: our wrapper repeats the same greedy prompt rather than resampling demonstrations for each vote and adds a separate evaluation pass after each refinement. The saved support bank is still a usable frozen collection of model-generated train solutions, subject to an independent matched ICL check.
 
-Our first screen confirms that this is a viable positive control. With Qwen2.5-Math-7B, eight shots, three-way majority vote, two refinement turns, and a 512-token cap, the 64-example paper-compatible screen moved from 34.4% zero-shot to 78.1%. A disjoint 128-train/128-test screen moved from 44.5% zero-shot to 82.8% after two turns, while a fixed eight-example supervised prompt reached 84.4%. These are small screens, so they establish a strong signal rather than a replacement for the paper's full 1,319-question result. The compact metrics are in [`results/gsm8k-joint-inference-screen.json`](../results/gsm8k-joint-inference-screen.json).
+The historical scores were 34.4% to 78.1% on the 64-question test-pool screen and 44.5% to 82.8% on the 128-train/128-test screen; the supervised condition scored 84.4%. These scores do not establish a usable ICL effect. Correct numeric boxes alone rescue 31 rejected zero-shot answers, and the documented explicit-answer parser scores 101/128 saved zero-shot responses correctly. Finish reasons and corresponding ICL texts were not saved, so a fair rescored contrast is unavailable. Historical metrics are retained with a superseded label in [`results/gsm8k-joint-inference-screen.json`](../results/gsm8k-joint-inference-screen.json).
 
 ## Replication audit
 

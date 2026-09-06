@@ -1,4 +1,8 @@
-"""Measure and causally test an ICL-minus-zero activation direction on GSM8K.
+"""Legacy exploratory activation screen; results do not establish ICL steering.
+
+The v1 contrast changes the query suffix and parser-sensitive format, tunes
+multiple interventions on its evaluation subset, and does not save raw
+generations or truncation. Use gsm8k_steering.py for the corrected protocol.
 
 The support bank is produced by ``gsm8k_joint_inference.py`` on the GSM8K
 training split.  Questions used to fit the direction and questions used for

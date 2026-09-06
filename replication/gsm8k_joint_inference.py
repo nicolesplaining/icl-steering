@@ -1,4 +1,9 @@
-"""Small, auditable reproduction of the GSM8K unsupervised-ICL setup.
+"""Legacy GSM8K pilot, retained to reconstruct the first runs.
+
+AUDIT: This is not an exact reproduction. Repeats reuse identical greedy
+prompts, the answer parser rejects some boxed outputs, and the zero/ICL
+formats differ. Do not use its reported gain as a verified ICL effect.
+Use gsm8k_steering.py for the corrected matched experiment.
 
 This follows Gadetsky et al. (ICLR 2025) closely: Qwen2.5-Math zero-shot CoT
 answers initialize a support pool, then several rounds of self-generated

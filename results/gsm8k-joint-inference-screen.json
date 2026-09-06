@@ -1,4 +1,6 @@
 {
+  "status": "superseded_by_parser_audit",
+  "interpretation": "Historical parser-sensitive scores, not a verified ICL effect or exact paper replication. See gsm8k-parser-audit.json and ../research/gsm8k-audit.md.",
   "model": "Qwen/Qwen2.5-Math-7B",
   "dataset": "openai/gsm8k main",
   "seed": 42,
@@ -19,7 +21,7 @@
     "evaluation_examples": 128,
     "zero_shot_accuracy": 0.4453125,
     "supervised_icl_accuracy": 0.84375,
-    "round_1_accuracy": 0.7578125,
+    "round_1_accuracy": 0.75,
     "round_2_accuracy": 0.828125,
     "note": "Adaptation uses the first 128 GSM8K train examples and evaluation uses the first 128 test examples. This rerun also saves the final pseudo-labeled support bank."
   }
