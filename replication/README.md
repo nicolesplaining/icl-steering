@@ -39,3 +39,5 @@ Run the small paper-compatible screen on the H100 after setting `HF_HOME` to the
 ```
 
 The released script adapts on the same test pool it scores. For a clean activation study, use `--mode heldout`, which adapts on GSM8K train and scores on test. The runner saves zero-shot and per-turn held-out evaluation results; it does not save model weights or activations.
+
+Add `--save-predictions` when the final pseudo-labeled support bank is needed for activation extraction. The saved file contains text prompts and answers only; activation tensors remain run-local and are never committed.

@@ -77,6 +77,8 @@ def test_joint_inference_prompt_and_majority_are_deterministic():
     assert "The final answer is 1." in prompt and "The final answer is 2." in prompt
     result = joint.majority(["The final answer is 3.", "The final answer is 3.", "The final answer is 4."])
     assert result["answer"] == 3 and result["formatted"]
+    supervised = joint.supervised_prompt(support, {"question": "query"}, 2)
+    assert supervised.endswith("Q: query\nA:")
 
 
 def test_joint_inference_can_exclude_query_from_support():

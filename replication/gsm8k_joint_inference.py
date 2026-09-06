@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
-import copy
 import json
 from pathlib import Path
 import random
@@ -89,6 +88,15 @@ def icl_prompt(
     return ICL_HEAD + demonstrations + f"Q: {query['question']}\nA:"
 
 
+def supervised_prompt(support: list[dict[str, Any]], query: dict[str, Any], shots: int) -> str:
+    if len(support) < shots:
+        raise ValueError(f"need {shots} supervised examples, found {len(support)}")
+    demonstrations = "".join(
+        f"Q: {example['question']}\nA:{example['raw_response']}\n\n" for example in support[:shots]
+    )
+    return ICL_HEAD + demonstrations + f"Q: {query['question']}\nA:"
+
+
 def majority(outputs: list[str]) -> dict[str, Any]:
     parsed = [extract_answer(text) for text in outputs]
     valid = [answer for answer in parsed if answer != ""]
@@ -150,6 +158,10 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         return generate(model, expanded, sampling, repeats)
 
     zero_preds = [majority(xs) for xs in ask([zero_prompt(x) for x in evaluation])]
+    supervised_preds = [
+        majority(xs)
+        for xs in ask([supervised_prompt(train, x, args.shots) for x in evaluation])
+    ]
     support_preds = [majority(xs) for xs in ask([zero_prompt(x) for x in adaptation])]
     support = [dict(x, **pred) for x, pred in zip(adaptation, support_preds) if pred["formatted"]]
     rounds = []
@@ -167,9 +179,16 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "model": args.model,
         "mode": args.mode,
         "zero_shot": score(evaluation, zero_preds),
+        "supervised_icl": score(evaluation, supervised_preds),
         "rounds": rounds,
         "gpu": torch.cuda.get_device_name(0),
     }
+    if args.save_predictions:
+        result["adaptation_support"] = support
+        result["evaluation"] = [
+            {"question": row["question"], "answer": row["answer"], "zero_shot": pred}
+            for row, pred in zip(evaluation, zero_preds)
+        ]
     Path(args.output).write_text(json.dumps(result, indent=2) + "\n")
     return result
 
@@ -186,6 +205,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-new-tokens", type=int, default=512)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--exclude-query", action="store_true")
+    parser.add_argument("--save-predictions", action="store_true")
     parser.add_argument("--output", required=True)
     return parser.parse_args()
 
