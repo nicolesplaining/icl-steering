@@ -40,3 +40,5 @@ If ICL improves reliably over zero-shot, repeat with another demonstration order
 ## What happened to the generated tasks?
 
 The [completed synthetic screen](../results/qwen3-pilot-v2/report.md) found no positive ICL-A accuracy gain. Quadratic sums scored 50.0% zero-shot and 37.5% with examples; symmetric powers scored 87.5% in both conditions. Each comparison had only 16 questions. Quadratic zero-shot also had 12.5% truncation. These are weak, task-specific observations, not evidence against ICL in general. The runner correctly stopped before fitting or tuning any direction.
+
+The first Qwen3 MATH run exposed a second failure mode. With the upstream 8,172-token cap, geometry scores were 51.6%, 57.8%, and 71.9% for zero, 16, and 128 examples. But every finished zero-shot and 16-shot thinking trace was correct, as were 46 of 48 finished 128-shot traces. The headline gain mostly measured whether thinking finished before the cap. We stopped after 192/384 generations and increased the budget to 32,768 for the replacement run. This is a useful negative result about evaluation design, not evidence that ICL improves geometry.

@@ -17,7 +17,7 @@ VLLM_WORKER_MULTIPROC_METHOD=spawn .venv-benchmark/bin/python replication/math_s
 
 `prepare` downloads the pinned data and tokenizer if needed, declares the question splits, saves all prompts, and rejects context overflow. The model weights must also be available before setting `HF_HUB_OFFLINE=1`. `run` resumes completed batches, refusing changes to configuration, script, upstream tracked files, or input data. Use only one writer per output directory.
 
-The fixed screen has 384 generations: two subjects, three shot counts, and 64 questions. Primary metrics use the released symbolic grader. `final_only_accuracy` additionally requires a completed thinking segment and a boxed answer after it. The report includes paired bootstrap intervals and generation truncation.
+The fixed screen has 384 generations: two subjects, three shot counts, and 64 questions. Primary metrics use the released symbolic grader. `final_only_accuracy` additionally requires a completed thinking segment and a boxed answer after it. The report includes paired bootstrap intervals and generation truncation. The first run used 8,172 new tokens to match the upstream script, but its geometry accuracy was dominated by unfinished traces. The replacement run uses 32,768 new tokens, four concurrent requests, and records the stopped run separately.
 
 Artifacts include `manifest.json`, `prompts.jsonl`, `prompt_lengths.json`, `runtime.json`, `generations.jsonl`, `summary.json`, and `report.md`. A successful run also writes `complete.json`. The remaining official test questions and unused training indices are reserved in the manifest for later work.
 
