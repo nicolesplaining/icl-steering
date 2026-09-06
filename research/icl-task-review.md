@@ -1,6 +1,6 @@
 # Which math tasks are worth replicating?
 
-Reviewed September 5, 2026. The most relevant next experiment is MATH geometry and number theory on Qwen3-8B. GSM8K is a useful second target. A task name alone does not guarantee an ICL gain: model, demonstrations, baseline instructions, and decoding all matter.
+Reviewed September 5, 2026. The strongest positive target we found is GSM8K with Qwen2.5-Math-7B under the unsupervised-ICL protocol below. MATH geometry and number theory on Qwen3-8B remain useful negative controls. A task name alone does not guarantee an ICL gain: model, demonstrations, baseline instructions, and decoding all matter.
 
 ## Evidence
 
@@ -10,8 +10,17 @@ Reviewed September 5, 2026. The most relevant next experiment is MATH geometry a
 | [Xie, activation-difference steering](https://arxiv.org/html/2510.01246v1#S4.SS3) | Gemma-2-9B GSM8K raw accuracy is 22.29% zero-shot, 69.60% with eight worked examples, 53.37% with MeanActDiff, and 53.90% with the prefix "First". | The closest existing math steering comparison. It also supplies the strongest reason to include cheap textual controls. These are Gemma base-model results, not expected Qwen3 scores. |
 | [Agarwal et al., Many-Shot In-Context Learning](https://arxiv.org/html/2404.11018v2#S3.SS1) | Gemini 1.5 Pro improves on MATH500 with many examples; MATH demonstrations also transfer to GSM8K. Model-generated demonstrations can outperform human solutions. | Supports MATH and GSM8K as candidate tasks, but uses a closed model and often compares many shots with a four-shot baseline. Question-only contexts can also help. |
 | [Chung et al., Many-Shot CoT-ICL](https://arxiv.org/html/2605.13511v2#S4.SS2) | Studies Qwen3-8B/14B on MATH subjects and GSM8K. For Qwen3-14B geometry, 16 to 128 examples raises accuracy from 66.18% to 73.07%. | Best model-family match. It supports testing many-shot scaling, not assuming a gain over zero-shot. |
+| [Gadetsky et al., Large (Vision) Language Models are Unsupervised In-Context Learners](https://proceedings.iclr.cc/paper_files/paper/2025/file/3e887bf77d0ba6db38802e552a0d81d2-Paper-Conference.pdf) | Qwen2.5-Math-7B on GSM8K is reported at 52.2% zero-shot, 91.4% after unsupervised ICL, and 89.9% with supervised ICL. The method repeatedly samples eight self-generated CoT demonstrations and majority-votes five answers for five refinement turns. | The clearest known positive math setup for an open model. It is the primary reproduction target, but it is a protocol-level result rather than evidence that a plain fixed demonstration bank always helps. |
 
 At 128 examples, Chung et al. report Qwen3-8B scores of 67.01% on geometry and 84.63% on number theory with thinking enabled. Their Table 1's enabled/disabled comparison is not an ICL-versus-zero-shot comparison. Their ordering results are also distinct from demonstrating a reusable activation direction. [Source](https://arxiv.org/html/2605.13511v2#S4.SS2)
+
+### GSM8K joint-inference reproduction
+
+The [official implementation](https://github.com/mlbio-epfl/joint-inference) uses GSM8K zero-shot CoT outputs as pseudo-labeled demonstrations, filters malformed outputs, samples eight support examples, and refines the pseudo-labels over multiple turns. For reasoning tasks it initializes the full chain of thought, not just the final number. The paper says GSM8K uses the full 1,319-example test set for evaluation and reports the 52.2% to 91.4% Qwen2.5-Math-7B change. Its released script, however, loads `test_ds` for both initialization and evaluation; it does not implement a held-out adaptation split. That distinction is material for interpreting a replication.
+
+`replication/gsm8k_joint_inference.py` exposes both modes. `--mode paper` follows the released script's test-pool protocol. `--mode heldout` builds demonstrations from GSM8K train and evaluates on test. The paper mode is useful for checking our implementation against the published number; the held-out mode is the one to use before fitting an activation direction.
+
+Our first screen confirms that this is a viable positive control. With Qwen2.5-Math-7B, eight shots, three-way majority vote, two refinement turns, and a 512-token cap, the 64-example paper-compatible screen moved from 34.4% zero-shot to 78.1%. A disjoint 128-train/128-test screen moved from 44.5% zero-shot to 83.6% after two turns. These are small screens, so they establish a strong signal rather than a replacement for the paper's full 1,319-question result. The compact metrics are in [`results/gsm8k-joint-inference-screen.json`](../results/gsm8k-joint-inference-screen.json).
 
 ## Replication audit
 

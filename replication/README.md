@@ -24,3 +24,18 @@ After geometry reached roughly 96% zero-shot accuracy with the larger budget, th
 Artifacts include `manifest.json`, `prompts.jsonl`, `prompt_lengths.json`, `runtime.json`, `generations.jsonl`, `summary.json`, and `report.md`. A successful run also writes `complete.json`. The remaining official test questions and unused training indices are reserved in the manifest for later work.
 
 The upstream repository is downloaded into an ignored directory; its source is not vendored into this repository. Record the pinned commit when comparing or reporting results.
+
+## GSM8K positive-control reproduction
+
+The strongest literature-backed positive control is [Gadetsky et al., ICLR 2025](https://proceedings.iclr.cc/paper_files/paper/2025/file/3e887bf77d0ba6db38802e552a0d81d2-Paper-Conference.pdf), which reports Qwen2.5-Math-7B GSM8K accuracy rising from 52.2% zero-shot to 91.4% with unsupervised ICL. The released code is [mlbio-epfl/joint-inference](https://github.com/mlbio-epfl/joint-inference).
+
+Run the small paper-compatible screen on the H100 after setting `HF_HOME` to the model cache:
+
+```bash
+.venv-benchmark/bin/python replication/gsm8k_joint_inference.py \
+  --mode paper --adaptation-examples 128 --evaluation-examples 128 \
+  --turns 5 --num-repeats 5 --max-new-tokens 1024 \
+  --output runs/gsm8k-paper-128.json
+```
+
+The released script adapts on the same test pool it scores. For a clean activation study, use `--mode heldout`, which adapts on GSM8K train and scores on test. The runner saves zero-shot and per-turn held-out evaluation results; it does not save model weights or activations.

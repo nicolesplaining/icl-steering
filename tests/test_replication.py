@@ -8,6 +8,12 @@ spec = importlib.util.spec_from_file_location("math_screen", Path(__file__).pare
 screen = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(screen)
 
+joint_spec = importlib.util.spec_from_file_location(
+    "gsm8k_joint_inference", Path(__file__).parents[1] / "replication/gsm8k_joint_inference.py"
+)
+joint = importlib.util.module_from_spec(joint_spec)
+joint_spec.loader.exec_module(joint)
+
 
 def test_replication_partition_is_disjoint_and_reproducible():
     train = [{"problem": f"train {i}"} for i in range(20)]
@@ -59,3 +65,24 @@ def test_paired_replication_checks_question_identity():
         screen.paired(rows, ref[:1], config)
     with pytest.raises(ValueError):
         screen.paired(rows + rows, ref + ref, config)
+
+
+def test_joint_inference_prompt_and_majority_are_deterministic():
+    support = [
+        {"question": "one", "raw_response": "The final answer is 1."},
+        {"question": "two", "raw_response": "The final answer is 2."},
+    ]
+    prompt = joint.icl_prompt(support, {"question": "query"}, 2, __import__("random").Random(4))
+    assert prompt.endswith("Q: query\nA:")
+    assert "The final answer is 1." in prompt and "The final answer is 2." in prompt
+    result = joint.majority(["The final answer is 3.", "The final answer is 3.", "The final answer is 4."])
+    assert result["answer"] == 3 and result["formatted"]
+
+
+def test_joint_inference_can_exclude_query_from_support():
+    support = [
+        {"question": "query", "raw_response": "The final answer is 1."},
+        {"question": "other", "raw_response": "The final answer is 2."},
+    ]
+    with pytest.raises(ValueError):
+        joint.icl_prompt(support, {"question": "query"}, 2, __import__("random").Random(4), exclude_query=True)
