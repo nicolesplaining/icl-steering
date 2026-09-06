@@ -200,3 +200,61 @@ def test_staged_run_persists_selection_before_test_and_resumes_without_inference
     with pytest.raises(ValueError, match="Selection changed"):
         rerun.test(selection)
     assert (tmp_path / "test_lock.json").read_text() == before
+
+
+def test_legacy_audit_does_not_invent_termination_metadata(tmp_path):
+    from replication.audit_gsm8k import audit
+
+    path = tmp_path / "legacy.json"
+    path.write_text(json.dumps({"evaluation": [
+        {"answer": 18, "zero_shot": {"answer": "", "raw_response": r"\(\boxed{18}\)"}}]}))
+    result = audit(path)
+    assert result["legacy_correct"] == 0 and result["explicit_answer_correct"] == 1
+    assert result["truncation_available"] is False
+    assert "completed_correct" not in result["rows"][0]
+    assert result["parser_sha256"]
+
+
+def test_prepare_checks_provenance_and_freezes_inputs_without_gpu(tmp_path, monkeypatch):
+    import huggingface_hub
+    import pyarrow as pa
+    import pyarrow.parquet as pq
+    import transformers
+    from replication.gsm8k_steering import prepare
+
+    config = json.loads((Path(__file__).parents[1] / "configs/gsm8k_steering.json").read_text())
+    config.update(reserved_train=2, reserved_test=2, n_extract=2, n_validation=2,
+                  n_test=2, shots=1)
+    files = {}
+    for split in ("train", "test"):
+        rows = [{"question": f"{split} {i}", "answer": "calculation\n#### 1"} for i in range(12)]
+        files[split] = tmp_path / f"{split}.parquet"
+        pq.write_table(pa.Table.from_pylist(rows), files[split])
+    monkeypatch.setattr(huggingface_hub, "hf_hub_download",
+        lambda dataset, filename, **kwargs: str(files["train" if "train" in filename else "test"]))
+
+    class TokenizerFixture:
+        def encode(self, text, **kwargs):
+            return text.split()
+
+    monkeypatch.setattr(transformers.AutoTokenizer, "from_pretrained", lambda *a, **k: TokenizerFixture())
+    path = tmp_path / "support.json"
+    record = {"mode": "heldout", "model": config["model"], "args": {"adaptation_examples": 2},
+              "adaptation_support": [
+                  {"question": f"train {i}", "formatted": True, "raw_response": "The answer is 1."}
+                  for i in range(2)]}
+    path.write_text(json.dumps(record))
+    output = tmp_path / "prepared"
+    pinned, prepared = prepare(config, path, output)
+    assert {k: len(v) for k, v in prepared["splits"].items()} == dict(extract=2, validation=2, test=2)
+    assert prepare(config, path, output) == (pinned, prepared)
+    with pytest.raises(ValueError, match="Inputs or code changed"):
+        prepare({**config, "seed": 999}, path, output)
+    data_path = output / "prepared.json"
+    data_path.write_text("{}")
+    with pytest.raises(ValueError, match="Prepared data changed"):
+        prepare(config, path, output)
+    record["adaptation_support"][0]["question"] = "test 5"
+    path.write_text(json.dumps(record))
+    with pytest.raises(ValueError, match="outside the reserved training"):
+        prepare(config, path, tmp_path / "bad-support")
