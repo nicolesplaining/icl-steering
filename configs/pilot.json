@@ -1,0 +1,18 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "enable_thinking": false,
+  "seed": 20260905,
+  "families": ["quadratic_sum", "symmetric_power"],
+  "counts": {"demonstration": 16, "screen": 16, "extract": 32, "validation": 12, "test": 48},
+  "shots": 4,
+  "batch_size": 32,
+  "max_new_tokens": 768,
+  "max_prompt_tokens": 8192,
+  "layers": [8, 17, 26, 32],
+  "strengths": [0.5, 1.0, 2.0],
+  "random_seeds": [101, 202, 303],
+  "min_screen_gain": 0.0625,
+  "intervention_positions": "prefill",
+  "bootstrap_samples": 2000
+}
