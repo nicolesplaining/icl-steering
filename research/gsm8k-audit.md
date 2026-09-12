@@ -1,5 +1,11 @@
 # GSM8K experiment audit
 
+The September 13 v2 test and shared answer review are complete. See the
+[final results](gsm8k-v2-results.md): full ICL improves audited accuracy,
+but the selected mean direction does not show a reliable advantage over
+zero-shot and trails the step-by-step prompt. The sections below preserve
+the earlier audit and interim findings in chronological order.
+
 September 6, 2026. No positive activation-steering result has been verified.
 The earlier statement that we reproduced a strong, clean ICL effect was too
 strong. The code audit changes the next experiment.
