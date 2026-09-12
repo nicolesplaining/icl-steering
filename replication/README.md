@@ -162,3 +162,56 @@ CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
 `comparison.json` and `comparison.md` report both metrics and paired
 comparisons against every control. The original grades and selection remain
 unchanged. The intervals are exploratory and unadjusted.
+
+## Query-dependent follow-up
+
+The completed mean-direction test is summarized in
+[the final v2 report](../research/gsm8k-v2-results.md). The
+[conditional protocol](../research/gsm8k-conditional-protocol.md) fits an
+affine map from zero-shot extraction activations to paired ICL differences,
+then evaluates it on fresh questions. It selects using audited validation
+scores and stops before confirmation if the declared gates fail.
+
+Prepare on CPU using the existing extraction arrays. Fitted arrays stay in
+the ignored output directory:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_conditional prepare \
+  --config configs/gsm8k_conditional.json \
+  --parent runs/gsm8k-steering-v2 --controls runs/gsm8k-prefix-controls-v1 \
+  --output runs/gsm8k-conditional-v1
+```
+
+After verifying GPU 0 is available, run validation. It exits after exporting
+the shared blinded packet, leaving the GPU free during review:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_conditional validate --output runs/gsm8k-conditional-v1
+```
+
+Review only `validation-review-packet.json`, save all annotations, then run
+selection. No test generation happens in this command:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_conditional select --output runs/gsm8k-conditional-v1 \
+  --annotations runs/gsm8k-conditional-v1/validation-review-annotations.json
+```
+
+If eligible, the test stage locks selection and fitted maps before inference.
+It also exits for a blinded review after all sixteen conditions finish:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_conditional test --output runs/gsm8k-conditional-v1
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_conditional report --output runs/gsm8k-conditional-v1 \
+  --annotations runs/gsm8k-conditional-v1/test-review-annotations.json
+```
+
+Use two CPU threads for NumPy fitting and tests on the shared node. Keep
+`HF_HOME=/lambda/nfs/icl/huggingface`, `USE_TF=0`, and
+`TOKENIZERS_PARALLELISM=false` in the runtime environment. The original v2
+source files and its selection remain unchanged.
