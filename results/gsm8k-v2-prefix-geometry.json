@@ -1,0 +1,210 @@
+{
+  "status": "extraction_controls_complete",
+  "provenance": {
+    "model": "Qwen/Qwen2.5-Math-7B",
+    "revision": "b101308fe89651ea5ce025f25317fea6fc07e96e",
+    "seed": 907,
+    "n_extract": 128,
+    "inputs_sha256": "70c4f720e69de0b0b035b0dc6f0c32d81a64589a7bb7e80ee644f9e4613f6e5b",
+    "primary_source_sha256": "76eb1d5403cad9f093153e55b30f21af8571b9f38ff728916681b6b4734923bf",
+    "prepared_sha256": "1ce2601e5f8377b230b4481ad2937405a2e3bc36ddc3e9a99d060471703de174",
+    "reference_tensor_sha256": "390f6be135e37cc42b8018ee18757433f8d02a0a4346d77ad6c191aa3f9ce428",
+    "control_code_sha256": "e3517fb37b83afeeeae27838f3ca0a6d4bc447dec19fd0fa6b788fdeb6f67917",
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "input_check_ranges": {
+      "prefix_tokens_changed": [
+        1922,
+        1922
+      ],
+      "icl_tokens": [
+        1987,
+        2121
+      ],
+      "rotated_length_delta": [
+        0,
+        0
+      ]
+    }
+  },
+  "primary_replay_max_abs_error": {
+    "7": 0.0,
+    "13": 0.0,
+    "20": 0.0,
+    "27": 0.0
+  },
+  "layers": {
+    "7": {
+      "icl_a": {
+        "mean_norm": 37.09156799316406,
+        "mean_shift_fraction": 0.8804831504821777,
+        "energy_along_mean": 0.8843115568161011,
+        "mean_example_cosine": 0.9398091435432434,
+        "split_half_cosine": 0.9982156157493591,
+        "centered_rank1_energy": 0.2212645709514618
+      },
+      "rotated_pairs": {
+        "mean_norm": 37.42619705200195,
+        "mean_shift_fraction": 0.8778257369995117,
+        "energy_along_mean": 0.8818010687828064,
+        "mean_example_cosine": 0.9385000467300415,
+        "split_half_cosine": 0.9981305599212646,
+        "centered_rank1_energy": 0.207768976688385,
+        "cosine_to_real_icl": 0.9779891967773438,
+        "norm_ratio_to_real": 1.0090217590332031,
+        "relative_distance_to_real": 0.21095022559165955
+      },
+      "token_shuffle": {
+        "mean_norm": 47.737464904785156,
+        "mean_shift_fraction": 0.8702671527862549,
+        "energy_along_mean": 0.8742698431015015,
+        "mean_example_cosine": 0.9334682822227478,
+        "split_half_cosine": 0.9976820945739746,
+        "centered_rank1_energy": 0.1980549395084381,
+        "cosine_to_real_icl": 0.03552292287349701,
+        "norm_ratio_to_real": 1.2870166301727295,
+        "relative_distance_to_real": 1.6015537977218628
+      },
+      "length_filler": {
+        "mean_norm": 104.3384780883789,
+        "mean_shift_fraction": 0.9611645340919495,
+        "energy_along_mean": 0.9623595476150513,
+        "mean_example_cosine": 0.980850338935852,
+        "split_half_cosine": 0.9993404150009155,
+        "centered_rank1_energy": 0.16991665959358215,
+        "cosine_to_real_icl": -0.025756526738405228,
+        "norm_ratio_to_real": 2.812997341156006,
+        "relative_distance_to_real": 3.0096285343170166
+      }
+    },
+    "13": {
+      "icl_a": {
+        "mean_norm": 90.7574691772461,
+        "mean_shift_fraction": 0.8024293780326843,
+        "energy_along_mean": 0.8048292398452759,
+        "mean_example_cosine": 0.8964263796806335,
+        "split_half_cosine": 0.9962232708930969,
+        "centered_rank1_energy": 0.15262582898139954
+      },
+      "rotated_pairs": {
+        "mean_norm": 89.78223419189453,
+        "mean_shift_fraction": 0.8112014532089233,
+        "energy_along_mean": 0.813740074634552,
+        "mean_example_cosine": 0.9013770222663879,
+        "split_half_cosine": 0.9963979721069336,
+        "centered_rank1_energy": 0.17374074459075928,
+        "cosine_to_real_icl": 0.9685227274894714,
+        "norm_ratio_to_real": 0.9892544746398926,
+        "relative_distance_to_real": 0.24978643655776978
+      },
+      "token_shuffle": {
+        "mean_norm": 82.49309539794922,
+        "mean_shift_fraction": 0.7248504161834717,
+        "energy_along_mean": 0.7285115122795105,
+        "mean_example_cosine": 0.8519683480262756,
+        "split_half_cosine": 0.9942473769187927,
+        "centered_rank1_energy": 0.1437530517578125,
+        "cosine_to_real_icl": 0.3427601456642151,
+        "norm_ratio_to_real": 0.9089400172233582,
+        "relative_distance_to_real": 1.0968478918075562
+      },
+      "length_filler": {
+        "mean_norm": 154.8580780029297,
+        "mean_shift_fraction": 0.8888434171676636,
+        "energy_along_mean": 0.8898699283599854,
+        "mean_example_cosine": 0.9432506561279297,
+        "split_half_cosine": 0.998074471950531,
+        "centered_rank1_energy": 0.11600970476865768,
+        "cosine_to_real_icl": 0.12397350370883942,
+        "norm_ratio_to_real": 1.7062846422195435,
+        "relative_distance_to_real": 1.8677093982696533
+      }
+    },
+    "20": {
+      "icl_a": {
+        "mean_norm": 222.62542724609375,
+        "mean_shift_fraction": 0.7193022966384888,
+        "energy_along_mean": 0.7224364280700684,
+        "mean_example_cosine": 0.8500438928604126,
+        "split_half_cosine": 0.9932990074157715,
+        "centered_rank1_energy": 0.10223779827356339
+      },
+      "rotated_pairs": {
+        "mean_norm": 227.0391387939453,
+        "mean_shift_fraction": 0.7489684224128723,
+        "energy_along_mean": 0.7514123320579529,
+        "mean_example_cosine": 0.8671539425849915,
+        "split_half_cosine": 0.9941995143890381,
+        "centered_rank1_energy": 0.1205207034945488,
+        "cosine_to_real_icl": 0.8172823786735535,
+        "norm_ratio_to_real": 1.0198256969451904,
+        "relative_distance_to_real": 0.6107974648475647
+      },
+      "token_shuffle": {
+        "mean_norm": 173.49497985839844,
+        "mean_shift_fraction": 0.5748767256736755,
+        "energy_along_mean": 0.5788114070892334,
+        "mean_example_cosine": 0.7595095038414001,
+        "split_half_cosine": 0.9875645041465759,
+        "centered_rank1_energy": 0.08412780612707138,
+        "cosine_to_real_icl": 0.331343412399292,
+        "norm_ratio_to_real": 0.7793133854866028,
+        "relative_distance_to_real": 1.0444562435150146
+      },
+      "length_filler": {
+        "mean_norm": 230.04287719726562,
+        "mean_shift_fraction": 0.7187888622283936,
+        "energy_along_mean": 0.7204915285110474,
+        "mean_example_cosine": 0.8493603467941284,
+        "split_half_cosine": 0.9934730529785156,
+        "centered_rank1_energy": 0.08895867317914963,
+        "cosine_to_real_icl": 0.2371850460767746,
+        "norm_ratio_to_real": 1.033318042755127,
+        "relative_distance_to_real": 1.2560142278671265
+      }
+    },
+    "27": {
+      "icl_a": {
+        "mean_norm": 925.1548461914062,
+        "mean_shift_fraction": 0.704249918460846,
+        "energy_along_mean": 0.7218559384346008,
+        "mean_example_cosine": 0.8425570726394653,
+        "split_half_cosine": 0.9919982552528381,
+        "centered_rank1_energy": 0.15522810816764832
+      },
+      "rotated_pairs": {
+        "mean_norm": 1078.4881591796875,
+        "mean_shift_fraction": 0.7446905374526978,
+        "energy_along_mean": 0.7546615600585938,
+        "mean_example_cosine": 0.8658738732337952,
+        "split_half_cosine": 0.9925496578216553,
+        "centered_rank1_energy": 0.15115591883659363,
+        "cosine_to_real_icl": 0.6323938369750977,
+        "norm_ratio_to_real": 1.1657379865646362,
+        "relative_distance_to_real": 0.9404967427253723
+      },
+      "token_shuffle": {
+        "mean_norm": 750.3865966796875,
+        "mean_shift_fraction": 0.5922490954399109,
+        "energy_along_mean": 0.6137291789054871,
+        "mean_example_cosine": 0.7746138572692871,
+        "split_half_cosine": 0.9898828268051147,
+        "centered_rank1_energy": 0.14965307712554932,
+        "cosine_to_real_icl": 0.383523553609848,
+        "norm_ratio_to_real": 0.8110929727554321,
+        "relative_distance_to_real": 1.017706036567688
+      },
+      "length_filler": {
+        "mean_norm": 682.5186767578125,
+        "mean_shift_fraction": 0.49242132902145386,
+        "energy_along_mean": 0.5109586119651794,
+        "mean_example_cosine": 0.708115816116333,
+        "split_half_cosine": 0.986146092414856,
+        "centered_rank1_energy": 0.25003236532211304,
+        "cosine_to_real_icl": 0.46994414925575256,
+        "norm_ratio_to_real": 0.7377345561981201,
+        "relative_distance_to_real": 0.9224231839179993
+      }
+    }
+  },
+  "limitations": "Extraction geometry only; no accuracy inference or test labels used. Token shuffle and filler keep all query positions exactly fixed, but are unnatural contexts. Rotated pairs retain the question and solution inventory but break their correspondence; their token-length differences are recorded. These diagnostics cannot alone establish a causal mathematical benefit."
+}

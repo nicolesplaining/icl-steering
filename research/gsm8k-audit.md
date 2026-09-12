@@ -150,3 +150,31 @@ prompts. They do not show that the shift carries useful mathematical
 information: prompt length and output format remain possible explanations.
 Causal accuracy tests are still running. The measurements and input hashes
 are in [`results/gsm8k-v2-geometry.json`](../results/gsm8k-v2-geometry.json).
+
+An extraction-only control experiment changes the 1,922 demonstration tokens
+while preserving the query positions. It exactly reproduces the original
+mean directions on a second H100, with zero maximum absolute replay error.
+All control prompts, including rotated solution pairings, have the same total
+token counts as the real ICL prompts.
+
+| Block index | Rotated pairings, cosine to ICL | Shuffled tokens, cosine to ICL | Repeated filler, cosine to ICL |
+|---|---:|---:|---:|
+| 7 | 0.978 | 0.036 | -0.026 |
+| 13 | 0.969 | 0.343 | 0.124 |
+| 20 | 0.817 | 0.331 | 0.237 |
+| 27 | 0.632 | 0.384 | 0.470 |
+
+Block indices are zero based. The orientation varies with the prefix's
+structure, but a common shift is not specific to worked examples. At block 7,
+the mean direction retains 96.2% of the filler difference energy and 87.4%
+of the shuffled-token difference energy, compared with 88.4% for real ICL.
+Rotating solutions barely changes the early-layer direction. These controls
+therefore weaken any interpretation of high shared energy alone as evidence
+for useful ICL. They do not settle the causal accuracy question.
+
+The measurements are in
+[`results/gsm8k-v2-prefix-geometry.json`](../results/gsm8k-v2-prefix-geometry.json).
+The [supplementary test protocol](gsm8k-prefix-test-protocol.md) adds these
+three directions at the primary selection's layer, strength, and scope, with
+matched norms and no additional tuning. It expands the answer-audit packet
+to all thirteen conditions and preserves the original review rubric.

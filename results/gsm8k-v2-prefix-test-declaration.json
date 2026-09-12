@@ -1,0 +1,25 @@
+{
+  "request": {
+    "inputs_sha256": {
+      "parent_manifest": "45e51ddf4dbf689f070d97b5e97a051700b57eb8b29562808f585b8c079a1e73",
+      "parent_directions": "390f6be135e37cc42b8018ee18757433f8d02a0a4346d77ad6c191aa3f9ce428",
+      "control_metrics": "fbdbf30c16396afafbbacbb0502cb8579b9fa808220a43a177c41d5c97884af8",
+      "protocol": "ff4cee902dbd7fd5184f75ffd3b7ca4f8d41bbe257ebabcc6e4e2621c5bd0013",
+      "zero": "908f28cdd0a835020c0931f8aade35c8f4aacb923ac23aa9913023a338f3ed98",
+      "rotated_pairs": "2804f42fea60229a0daa10bb12e092d994eba0de864bc6b20ce5e15971bb2f3a",
+      "token_shuffle": "e58aab528bbe03fc2747d2d8efe161614f7c0bd2b60ca1760d7a938e5329fa9b",
+      "length_filler": "66097d3dcce8591a0b6610103af75dd95f9812f8ccc13e48ab6d062317b6674a"
+    },
+    "code_sha256": "5a6e310b21794e61bcc976e75c39253795ef22df0f7fa306171f6cd260ebf328",
+    "conditions": [
+      "prefix_rotated_pairs",
+      "prefix_token_shuffle",
+      "prefix_length_filler"
+    ],
+    "selection": "Use primary locked layer, strength, and scope without retuning.",
+    "normalization": "Scale every control mean to the real ICL mean norm at the selected layer.",
+    "n_test": 256
+  },
+  "declared_at_utc": "2026-09-12T21:48:53.618225+00:00",
+  "primary_test_lock_present": false
+}
