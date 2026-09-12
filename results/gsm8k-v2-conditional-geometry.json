@@ -1,0 +1,942 @@
+{
+  "status": "extraction_conditional_geometry",
+  "n_extract": 128,
+  "folds": 8,
+  "seed": 907,
+  "fold_assignment": [
+    7,
+    4,
+    6,
+    3,
+    3,
+    1,
+    0,
+    3,
+    0,
+    0,
+    4,
+    3,
+    4,
+    7,
+    1,
+    6,
+    0,
+    6,
+    1,
+    3,
+    7,
+    5,
+    0,
+    6,
+    6,
+    4,
+    1,
+    3,
+    2,
+    1,
+    6,
+    1,
+    1,
+    4,
+    3,
+    2,
+    7,
+    7,
+    0,
+    4,
+    6,
+    5,
+    0,
+    1,
+    1,
+    0,
+    5,
+    4,
+    7,
+    4,
+    2,
+    2,
+    5,
+    1,
+    2,
+    1,
+    5,
+    3,
+    3,
+    0,
+    2,
+    5,
+    7,
+    4,
+    0,
+    4,
+    6,
+    2,
+    4,
+    4,
+    4,
+    7,
+    1,
+    7,
+    2,
+    5,
+    5,
+    0,
+    0,
+    7,
+    4,
+    5,
+    5,
+    7,
+    4,
+    1,
+    5,
+    3,
+    2,
+    6,
+    6,
+    7,
+    2,
+    2,
+    7,
+    6,
+    3,
+    5,
+    6,
+    7,
+    2,
+    6,
+    4,
+    7,
+    3,
+    5,
+    1,
+    0,
+    6,
+    1,
+    5,
+    1,
+    6,
+    6,
+    3,
+    5,
+    7,
+    2,
+    0,
+    3,
+    2,
+    0,
+    0,
+    2,
+    2,
+    3,
+    5,
+    3
+  ],
+  "method": "Training-fold means, a fitted scalar rescaling of centered zero-shot activations, and dual ridge regression with lambda=trace(Xc@Xc.T)/n_train. All settings fixed; no outcome-based tuning. Predictions are evaluated only outside their training folds.",
+  "layers": {
+    "7": {
+      "icl_a": {
+        "mean_prediction_error": 24262.845950219158,
+        "delta_squared_energy": 200004.26533173164,
+        "mean_explained_energy": 0.8786883574208968,
+        "predictors": {
+          "mean": {
+            "squared_error": 24262.845950219158,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 15920.432199040417,
+            "error_reduction_vs_mean": 0.34383492226324697,
+            "fold_error_reduction_vs_mean": [
+              0.3347533462510829,
+              0.3471333080752277,
+              0.37572740781938363,
+              0.41211580652337254,
+              0.31259375902427033,
+              0.2742358610665748,
+              0.3722169312820267,
+              0.3336156508261491
+            ]
+          },
+          "ridge": {
+            "squared_error": 11847.95446607459,
+            "error_reduction_vs_mean": 0.5116832340944912,
+            "fold_error_reduction_vs_mean": [
+              0.5614226385581484,
+              0.5241731164883456,
+              0.5082200044113121,
+              0.4671291259676287,
+              0.5318600873925019,
+              0.5383450091367563,
+              0.4338782223884725,
+              0.5147742425613829
+            ]
+          }
+        }
+      },
+      "rotated_pairs": {
+        "mean_prediction_error": 25325.037872619665,
+        "delta_squared_energy": 204245.75507131542,
+        "mean_explained_energy": 0.87600702955233,
+        "predictors": {
+          "mean": {
+            "squared_error": 25325.037872619665,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 15024.353350314213,
+            "error_reduction_vs_mean": 0.4067391556970624,
+            "fold_error_reduction_vs_mean": [
+              0.39892499391338676,
+              0.41549574921219823,
+              0.43869082329309617,
+              0.4770904348830449,
+              0.3774214118695308,
+              0.3209376310170049,
+              0.4463642147576734,
+              0.3917513300096219
+            ]
+          },
+          "ridge": {
+            "squared_error": 12263.891094102248,
+            "error_reduction_vs_mean": 0.5157404638134249,
+            "fold_error_reduction_vs_mean": [
+              0.5693079872994364,
+              0.5338768276320977,
+              0.4990797250468444,
+              0.47834556558919183,
+              0.5335636035866431,
+              0.5346724961327467,
+              0.44542784502334887,
+              0.5196296351796229
+            ]
+          }
+        }
+      },
+      "token_shuffle": {
+        "mean_prediction_error": 44142.90190293033,
+        "delta_squared_energy": 335178.3845407074,
+        "mean_explained_energy": 0.868300272514831,
+        "predictors": {
+          "mean": {
+            "squared_error": 44142.90190293033,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 28754.393016093996,
+            "error_reduction_vs_mean": 0.3486066439554759,
+            "fold_error_reduction_vs_mean": [
+              0.35861502161282877,
+              0.3029514366664334,
+              0.3639717570780433,
+              0.3659576828745571,
+              0.3268030691128593,
+              0.366886930605418,
+              0.3632270780058845,
+              0.34454576831530825
+            ]
+          },
+          "ridge": {
+            "squared_error": 22721.451699614394,
+            "error_reduction_vs_mean": 0.485275078888593,
+            "fold_error_reduction_vs_mean": [
+              0.5253974115393147,
+              0.5058548752381657,
+              0.48169488009109696,
+              0.4462781966515096,
+              0.5322162475101808,
+              0.5036496605547746,
+              0.403605211528129,
+              0.46506606378077286
+            ]
+          }
+        }
+      },
+      "length_filler": {
+        "mean_prediction_error": 57160.18152327176,
+        "delta_squared_energy": 1449777.6807430044,
+        "mean_explained_energy": 0.9605731400872598,
+        "predictors": {
+          "mean": {
+            "squared_error": 57160.18152327176,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 28751.279641145535,
+            "error_reduction_vs_mean": 0.49700510259156616,
+            "fold_error_reduction_vs_mean": [
+              0.5088800622306748,
+              0.5344347348959186,
+              0.4721460031493523,
+              0.4886882679458594,
+              0.5318880526591232,
+              0.5178995850666435,
+              0.4566254247536945,
+              0.46406245508691935
+            ]
+          },
+          "ridge": {
+            "squared_error": 30558.95375011478,
+            "error_reduction_vs_mean": 0.46538039355817584,
+            "fold_error_reduction_vs_mean": [
+              0.5118582955833524,
+              0.5000176943235073,
+              0.4644656047093927,
+              0.43104726320635056,
+              0.464002516359053,
+              0.49480382698803493,
+              0.37904244454364444,
+              0.47111303192919796
+            ]
+          }
+        }
+      }
+    },
+    "13": {
+      "icl_a": {
+        "mean_prediction_error": 263384.90234413627,
+        "delta_squared_energy": 1313916.6900419341,
+        "mean_explained_energy": 0.7995421594532526,
+        "predictors": {
+          "mean": {
+            "squared_error": 263384.90234413627,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 150260.3509514064,
+            "error_reduction_vs_mean": 0.4295027937665249,
+            "fold_error_reduction_vs_mean": [
+              0.42585541985956854,
+              0.43959453853382624,
+              0.43197144954714395,
+              0.41041388088870634,
+              0.38165214351058985,
+              0.4134209537415777,
+              0.4472046218518251,
+              0.4847390337032256
+            ]
+          },
+          "ridge": {
+            "squared_error": 144838.5308588097,
+            "error_reduction_vs_mean": 0.4500879527651701,
+            "fold_error_reduction_vs_mean": [
+              0.49252105658000844,
+              0.45205319188510906,
+              0.4463660045720177,
+              0.4008694703227611,
+              0.4488582094306871,
+              0.4425356338819785,
+              0.44304878802673997,
+              0.4704899271180364
+            ]
+          }
+        }
+      },
+      "rotated_pairs": {
+        "mean_prediction_error": 243593.8146700287,
+        "delta_squared_energy": 1271926.4719668746,
+        "mean_explained_energy": 0.8084843581458436,
+        "predictors": {
+          "mean": {
+            "squared_error": 243593.8146700287,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 116799.15506615568,
+            "error_reduction_vs_mean": 0.5205167453682213,
+            "fold_error_reduction_vs_mean": [
+              0.5154814121407161,
+              0.5329409384608041,
+              0.5218849259605176,
+              0.5016585381580096,
+              0.47823140862315694,
+              0.4991812271415349,
+              0.540898326608284,
+              0.5724112538798358
+            ]
+          },
+          "ridge": {
+            "squared_error": 126638.74890889434,
+            "error_reduction_vs_mean": 0.48012329836683765,
+            "fold_error_reduction_vs_mean": [
+              0.5254013908280879,
+              0.48589147528631693,
+              0.4769989217684857,
+              0.4250206535635077,
+              0.4795878335109406,
+              0.4682010486510749,
+              0.46938566685363836,
+              0.5043037726491816
+            ]
+          }
+        }
+      },
+      "token_shuffle": {
+        "mean_prediction_error": 335494.48722984677,
+        "delta_squared_energy": 1201702.1611277189,
+        "mean_explained_energy": 0.7208172722973161,
+        "predictors": {
+          "mean": {
+            "squared_error": 335494.48722984677,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 236168.83954771515,
+            "error_reduction_vs_mean": 0.29605746580892034,
+            "fold_error_reduction_vs_mean": [
+              0.2956164086916936,
+              0.28641021905500863,
+              0.31817689662490256,
+              0.27206223232811455,
+              0.2852566720735511,
+              0.29928184086455956,
+              0.32839769683727027,
+              0.2870645621964376
+            ]
+          },
+          "ridge": {
+            "squared_error": 216705.436662387,
+            "error_reduction_vs_mean": 0.35407154242173156,
+            "fold_error_reduction_vs_mean": [
+              0.38717190597668727,
+              0.36735726550997194,
+              0.36238720746417563,
+              0.3049228165024047,
+              0.37481728271888115,
+              0.36073728036215025,
+              0.3152913950984656,
+              0.352863592696139
+            ]
+          }
+        }
+      },
+      "length_filler": {
+        "mean_prediction_error": 389414.07233781536,
+        "delta_squared_energy": 3453443.518667512,
+        "mean_explained_energy": 0.8872389051007071,
+        "predictors": {
+          "mean": {
+            "squared_error": 389414.07233781536,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 246896.0147324831,
+            "error_reduction_vs_mean": 0.36598075860416857,
+            "fold_error_reduction_vs_mean": [
+              0.40753307368458425,
+              0.3829133280782152,
+              0.3688013523352014,
+              0.3405387520708,
+              0.387239946975798,
+              0.3184688508914074,
+              0.33596456486314996,
+              0.3898756678793637
+            ]
+          },
+          "ridge": {
+            "squared_error": 256429.66513375516,
+            "error_reduction_vs_mean": 0.3414987198734223,
+            "fold_error_reduction_vs_mean": [
+              0.40330306433708374,
+              0.3461609438738652,
+              0.35057483987948135,
+              0.29192327028644827,
+              0.33192772796546177,
+              0.3214954247414238,
+              0.3189284641581347,
+              0.37063355048380997
+            ]
+          }
+        }
+      }
+    },
+    "20": {
+      "icl_a": {
+        "mean_prediction_error": 2513808.8028132273,
+        "delta_squared_energy": 8819585.084714448,
+        "mean_explained_energy": 0.7149742557424835,
+        "predictors": {
+          "mean": {
+            "squared_error": 2513808.8028132273,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 1305121.030649085,
+            "error_reduction_vs_mean": 0.480819293341438,
+            "fold_error_reduction_vs_mean": [
+              0.48828123771556453,
+              0.4815161359474902,
+              0.532104605453271,
+              0.4328354943741056,
+              0.46748828595765235,
+              0.44447202668714936,
+              0.4997349145525414,
+              0.5007638898780005
+            ]
+          },
+          "ridge": {
+            "squared_error": 1588808.9149847988,
+            "error_reduction_vs_mean": 0.3679674789877625,
+            "fold_error_reduction_vs_mean": [
+              0.4115393010048789,
+              0.38578785526093495,
+              0.3632049703459157,
+              0.34525204060644066,
+              0.36965516351462957,
+              0.3286282807370615,
+              0.36467470815624436,
+              0.3739791016074341
+            ]
+          }
+        }
+      },
+      "rotated_pairs": {
+        "mean_prediction_error": 2244841.857155744,
+        "delta_squared_energy": 8809431.683667853,
+        "mean_explained_energy": 0.745177448697679,
+        "predictors": {
+          "mean": {
+            "squared_error": 2244841.857155744,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 586124.1900901357,
+            "error_reduction_vs_mean": 0.73890179024336,
+            "fold_error_reduction_vs_mean": [
+              0.7485883076035826,
+              0.739025313800766,
+              0.7458105566479968,
+              0.7216343514915817,
+              0.7419052761902493,
+              0.6941371117823909,
+              0.7653487983105215,
+              0.7557884768955991
+            ]
+          },
+          "ridge": {
+            "squared_error": 1364949.0982526932,
+            "error_reduction_vs_mean": 0.3919620244509745,
+            "fold_error_reduction_vs_mean": [
+              0.42951360291707363,
+              0.40829109384697426,
+              0.3915399591802673,
+              0.36976509653300893,
+              0.386869303814643,
+              0.35809143844886737,
+              0.3902437497675809,
+              0.39893182637844604
+            ]
+          }
+        }
+      },
+      "token_shuffle": {
+        "mean_prediction_error": 2892961.832861007,
+        "delta_squared_energy": 6702070.828681399,
+        "mean_explained_energy": 0.568348066319946,
+        "predictors": {
+          "mean": {
+            "squared_error": 2892961.832861007,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 1694394.9614461195,
+            "error_reduction_vs_mean": 0.4143044190215118,
+            "fold_error_reduction_vs_mean": [
+              0.4493982140339162,
+              0.40877613975969307,
+              0.44565102582298877,
+              0.36824915030551675,
+              0.41790650911165284,
+              0.38675713317275395,
+              0.41741788007594594,
+              0.4168808838439769
+            ]
+          },
+          "ridge": {
+            "squared_error": 2132078.294459537,
+            "error_reduction_vs_mean": 0.26301195188910975,
+            "fold_error_reduction_vs_mean": [
+              0.31525181266471836,
+              0.25523870333912013,
+              0.2750622989595143,
+              0.23434157488505736,
+              0.27606580732063946,
+              0.2516981764335092,
+              0.2400138884136871,
+              0.25129755549412613
+            ]
+          }
+        }
+      },
+      "length_filler": {
+        "mean_prediction_error": 2688570.475444663,
+        "delta_squared_energy": 9423804.8854496,
+        "mean_explained_energy": 0.7147043568786289,
+        "predictors": {
+          "mean": {
+            "squared_error": 2688570.475444663,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 1408744.6705346548,
+            "error_reduction_vs_mean": 0.47602464454584836,
+            "fold_error_reduction_vs_mean": [
+              0.5113292474017335,
+              0.47388506920937223,
+              0.5090921159243578,
+              0.4366231747958482,
+              0.48007392841118535,
+              0.4412533697077107,
+              0.4482337866499567,
+              0.5025617740772115
+            ]
+          },
+          "ridge": {
+            "squared_error": 1873752.0719913896,
+            "error_reduction_vs_mean": 0.30306752636585077,
+            "fold_error_reduction_vs_mean": [
+              0.3599427085004002,
+              0.3088847388121343,
+              0.31242960473716264,
+              0.272188212188644,
+              0.2960128178457686,
+              0.27232770738817336,
+              0.2898912134353838,
+              0.3102261614272278
+            ]
+          }
+        }
+      }
+    },
+    "27": {
+      "icl_a": {
+        "mean_prediction_error": 46773202.1306551,
+        "delta_squared_energy": 155565071.9285456,
+        "mean_explained_energy": 0.6993335229379829,
+        "predictors": {
+          "mean": {
+            "squared_error": 46773202.1306551,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 26728786.08886985,
+            "error_reduction_vs_mean": 0.4285448746013514,
+            "fold_error_reduction_vs_mean": [
+              0.47881680563446705,
+              0.4388712519539909,
+              0.5133653834312193,
+              0.40121831908673833,
+              0.26578551895591884,
+              0.4152315526129515,
+              0.43118938391755857,
+              0.4771478676404274
+            ]
+          },
+          "ridge": {
+            "squared_error": 30985466.297512326,
+            "error_reduction_vs_mean": 0.33753805841733275,
+            "fold_error_reduction_vs_mean": [
+              0.40673973189445634,
+              0.33646366639987335,
+              0.3703730530204524,
+              0.2904132933752386,
+              0.2840352746336616,
+              0.3407927926932346,
+              0.30231873393650766,
+              0.3646439564135927
+            ]
+          }
+        }
+      },
+      "rotated_pairs": {
+        "mean_prediction_error": 51893344.35338998,
+        "delta_squared_energy": 199923972.63279623,
+        "mean_explained_energy": 0.7404346078661443,
+        "predictors": {
+          "mean": {
+            "squared_error": 51893344.35338998,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 9132331.94567899,
+            "error_reduction_vs_mean": 0.8240172789117529,
+            "fold_error_reduction_vs_mean": [
+              0.8237126216513254,
+              0.8372380401004448,
+              0.8070439244170939,
+              0.8184908053553301,
+              0.8171523481475734,
+              0.7954302845846745,
+              0.8403474759249402,
+              0.8550773015449232
+            ]
+          },
+          "ridge": {
+            "squared_error": 30123250.50777659,
+            "error_reduction_vs_mean": 0.41951610783380233,
+            "fold_error_reduction_vs_mean": [
+              0.4207496847522736,
+              0.4295375571976786,
+              0.4338784972212236,
+              0.40241418326289424,
+              0.37990126089176124,
+              0.42560084259995157,
+              0.3563127050156195,
+              0.49633735138764823
+            ]
+          }
+        }
+      },
+      "token_shuffle": {
+        "mean_prediction_error": 50476549.37121596,
+        "delta_squared_energy": 121695879.68005668,
+        "mean_explained_energy": 0.5852238423854544,
+        "predictors": {
+          "mean": {
+            "squared_error": 50476549.37121596,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 28222473.91008131,
+            "error_reduction_vs_mean": 0.44087949232569656,
+            "fold_error_reduction_vs_mean": [
+              0.36851443632385605,
+              0.48752535313382084,
+              0.5350273210025753,
+              0.3952446450179863,
+              0.4696022539233633,
+              0.3892221744327675,
+              0.4253335301223342,
+              0.4589160788274227
+            ]
+          },
+          "ridge": {
+            "squared_error": 38038597.173298165,
+            "error_reduction_vs_mean": 0.2464105085006164,
+            "fold_error_reduction_vs_mean": [
+              0.23292665688587544,
+              0.2774648509205999,
+              0.2946315736595506,
+              0.236614919982283,
+              0.2711213672497865,
+              0.2188627260407887,
+              0.2103950319032588,
+              0.22704730360299363
+            ]
+          }
+        }
+      },
+      "length_filler": {
+        "mean_prediction_error": 62300075.568713106,
+        "delta_squared_energy": 121088302.99645287,
+        "mean_explained_energy": 0.4854988134523769,
+        "predictors": {
+          "mean": {
+            "squared_error": 62300075.568713106,
+            "error_reduction_vs_mean": 0.0,
+            "fold_error_reduction_vs_mean": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "scalar": {
+            "squared_error": 54065574.829196155,
+            "error_reduction_vs_mean": 0.13217481141631693,
+            "fold_error_reduction_vs_mean": [
+              0.10465584635482628,
+              0.13119665328224162,
+              0.15083073690227922,
+              0.14013707417641297,
+              0.12109842652505443,
+              0.10674612148631146,
+              0.13104136220556306,
+              0.17809118969481563
+            ]
+          },
+          "ridge": {
+            "squared_error": 48862926.48955171,
+            "error_reduction_vs_mean": 0.21568431428852852,
+            "fold_error_reduction_vs_mean": [
+              0.3285502694485217,
+              0.18861758692692143,
+              0.24979304580322825,
+              0.17293504208329002,
+              0.23430872297897876,
+              0.172381902534267,
+              0.16764937677180847,
+              0.2004462778264391
+            ]
+          }
+        }
+      }
+    }
+  },
+  "source_tensor_sha256": {
+    "zero": "908f28cdd0a835020c0931f8aade35c8f4aacb923ac23aa9913023a338f3ed98",
+    "icl_a": "e812046ca6bd2550ce890e6cb1c33ab45f2f7ed4a60d5a99cf66f62bd0554abd",
+    "rotated_pairs": "2804f42fea60229a0daa10bb12e092d994eba0de864bc6b20ce5e15971bb2f3a",
+    "token_shuffle": "e58aab528bbe03fc2747d2d8efe161614f7c0bd2b60ca1760d7a938e5329fa9b",
+    "length_filler": "66097d3dcce8591a0b6610103af75dd95f9812f8ccc13e48ab6d062317b6674a"
+  },
+  "prepared_sha256": "1ce2601e5f8377b230b4481ad2937405a2e3bc36ddc3e9a99d060471703de174",
+  "inputs_sha256": "70c4f720e69de0b0b035b0dc6f0c32d81a64589a7bb7e80ee644f9e4613f6e5b",
+  "code_sha256": "877be3dd479e878ebce666c54ff0004e9abfb52f9fdfbc13fb47c7dc9eb650fe",
+  "limitations": "Exploratory geometry on 128 extraction questions from one demonstration bank. Cross-validation training folds overlap. Better activation prediction does not establish better math accuracy or a causal intervention. The original mean direction, selection, and ongoing final test are unchanged. No test generations are loaded."
+}

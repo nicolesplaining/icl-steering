@@ -243,6 +243,13 @@ information: prompt length and output format remain possible explanations.
 Causal accuracy tests are still running. The measurements and input hashes
 are in [`results/gsm8k-v2-geometry.json`](../results/gsm8k-v2-geometry.json).
 
+A later [conditional geometry check](gsm8k-conditional-geometry.md) finds
+that a linear map predicts some of the question-dependent changes missed by
+the mean. The same pattern also occurs for control prefixes, so it is not
+evidence of a useful mathematical intervention. An independent numerical
+audit confirms the saved geometry statistics after a CPU solver failure in
+the new diagnostic.
+
 An extraction-only control experiment changes the 1,922 demonstration tokens
 while preserving the query positions. It exactly reproduces the original
 mean directions on a second H100, with zero maximum absolute replay error.
