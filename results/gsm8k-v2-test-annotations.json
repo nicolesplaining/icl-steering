@@ -1,0 +1,1613 @@
+{
+  "packet_sha256": "67c2c8bd18f70477350410d738ca75d1032f97b5aa509eccb1ae8daa358fdb7f",
+  "answers": [
+    {
+      "response_id": "0221f74feb47cab9873fcc7a6f227b478abfd43c33ff6c9fc31c5032a3dc25ab",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The concluding sentence states 60,000 total hours."
+    },
+    {
+      "response_id": "fa0f33883d558e431cd42855d61268234cf41648b8a9e5e29feb7d3badc7b8df",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The response concludes that Morgan can invite 3 friends; preserve that stated count."
+    },
+    {
+      "response_id": "be3d082c58b883fc86df8edfd477fcfc9d00fc3a8896655cdb8dc524a73868c6",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final boxed probability is 12 percent, the requested percentage."
+    },
+    {
+      "response_id": "3b9fbcfad74904c10de16db9ae80c0dbf882aa74649623a93e90a3b6cad592fd",
+      "stated_answer": "9859.78",
+      "reviewed": true,
+      "rationale": "The concluding sentence gives the 2010 car price as $9,859.78."
+    },
+    {
+      "response_id": "1d60caedfd3712618e78ba9470239b37e5e1426014d4eba2416f7f562d4645f5",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The final calculation and box settle on 1 hour after the opening 1.5-hour claim."
+    },
+    {
+      "response_id": "db4c44544d6ae59345ac994035b7b8cfa9ac1f7abefa6bfc663642d93c365fd6",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The final sentence states $64800 more revenue."
+    },
+    {
+      "response_id": "2f3f06fee99af9f90bdab507b23cc8ac55162d89d7102903ede6d2fdc6ad29c8",
+      "stated_answer": "27",
+      "reviewed": true,
+      "rationale": "The concluding sentence gives a weekly total of 27 rides."
+    },
+    {
+      "response_id": "b3f24e072b79bd0f00f6ee460285f3b0b429dc01ed114feecaeb707d686bf61f",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "The final placeholder equation explicitly states 80 pencils left."
+    },
+    {
+      "response_id": "bc5943e1a5e0bb1028d9ecaeb6320e70660fb79ae6d049cfc879f65ad2098b61",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The conclusion states an enrollment difference of 1000 students."
+    },
+    {
+      "response_id": "bfe6ee3718c20471c7746c623cce2bacacd92380fa04f65fdcc97c6b31517521",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response lists 10 oatmeal, 7 chocolate chip, and 6 sugar cookies but never states the requested total; do not add them for it."
+    },
+    {
+      "response_id": "6f7762f181e6d66e471f7b6163ba428641d889b98c975d17bcc5c1111ba3532e",
+      "stated_answer": "1200",
+      "reviewed": true,
+      "rationale": "Both opening and concluding claims state a $1,200 total; preserve this despite the arithmetic."
+    },
+    {
+      "response_id": "40296db265fde0b59f08fa9bd192bb111e10a0c0187dc98718403c06e618a812",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The single sentence states 10 days before the deadline."
+    },
+    {
+      "response_id": "f7695dace51821f39f0921b3bb02e36e6b9120426bd316f711d8f545b396945d",
+      "stated_answer": "9860.78",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a 2010 price of $9860.78."
+    },
+    {
+      "response_id": "055506bfce102f94971edc3b6b436ac47eb1d4a31951217fe30b22ec44c6c77a",
+      "stated_answer": "5",
+      "reviewed": true,
+      "rationale": "The final sentence settles on buying 5 goats after discussing other counts."
+    },
+    {
+      "response_id": "552a57b66b3a06730c2ec5b154619afd120a676eb6049f22ea9519fba680b27a",
+      "stated_answer": "5",
+      "reviewed": true,
+      "rationale": "The concluding sentence states 5 ounces of oil."
+    },
+    {
+      "response_id": "d59fa2a69947f00fb6998d46907fa8cad84e6d8294232532676e17ef3c2bf7bc",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The final answer states 9 movies for Friday or Saturday, matching the question's Friday; 12 is explicitly for other days."
+    },
+    {
+      "response_id": "fcb3aa3745c1d190a19a455cbbec910ef9c2b006c1b486e28056cecd9656d250",
+      "stated_answer": "5760",
+      "reviewed": true,
+      "rationale": "The final bracketed answer states a combined total of 5760 coins."
+    },
+    {
+      "response_id": "b3d3e97d6a1c03f1fb896710135e925c4da6fda754000b1e90f64e9fc775f1f2",
+      "stated_answer": "250",
+      "reviewed": true,
+      "rationale": "The final answer sentence states savings of 250 pesos."
+    },
+    {
+      "response_id": "bdf230ff1d3c68e870e4213bd97d8f9fb32eaa7e7b8e89451c8c4346327e6756",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final sentence states Bubbles should buy 6 goats."
+    },
+    {
+      "response_id": "e1191ebc50a314be4bac0139f199840e4e6105ef9d3f77c6343e47517330d795",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response lists three flavor counts and ends with an unresolved answer placeholder; no total is stated."
+    },
+    {
+      "response_id": "d6b0c569d2eb21556ff609e6e1d13fd304fb146b82951ddee84aa50f53819eae",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final boxed answer states 12 percent."
+    },
+    {
+      "response_id": "ef459c15bb8a6fb75342304b51de5de5fe00b9109111604d1f653cbeee4235b3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final answer lists counts by flavor without stating the requested total; do not sum them."
+    },
+    {
+      "response_id": "48f1f227cbaa4977a440ea1877aa2e5d7483a7578a3635a03a19fc70de219e7b",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The conclusion gives a current weight of 10 pounds."
+    },
+    {
+      "response_id": "d597e1d2f53f91a2a6f3a0ce689bfdfa883783049636657d49ab02347cd0beb8",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "Both opening and final sentence state 70 feet of crepe paper."
+    },
+    {
+      "response_id": "a9b3a382f3722eda4beda6aa38cfba27fdaf2b28a966ee13cf6bf58c62c95daa",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "The response explicitly settles on 80 beads; do not repair its sum."
+    },
+    {
+      "response_id": "ae397c7eb1aebe6033aa73d12bb1dcd94185862f15fb9d6f3f45420208ee0c4b",
+      "stated_answer": "34",
+      "reviewed": true,
+      "rationale": "The final sentence states a total of 34 pens."
+    },
+    {
+      "response_id": "f6052196d7db591feaceb7772da153bc6f5821f81db8ee6cae3c6cb9889298dd",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The single sentence states $120 in Erika's purse."
+    },
+    {
+      "response_id": "f32a5ec9bbb6fc957ea9a431952d55cbc4098d1f80dd72003403a89d54aa4e39",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The final answer states 1 more movie for Friday or Saturday, the requested day category."
+    },
+    {
+      "response_id": "bf5d62661ff4e9aedd0b3467e81dc5f32eb7b3f9ce20c4b5fc8e0a715f3295c1",
+      "stated_answer": "240",
+      "reviewed": true,
+      "rationale": "The final sentence states a roof height of 240 inches above the second-floor floor."
+    },
+    {
+      "response_id": "00dad61e1e7b10770e8c3fa5e8e68f8dddf000e63a6014d820018827b29e2a25",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The concluding sentence states the red rope is 20 centimeters long."
+    },
+    {
+      "response_id": "f178cf68becd13d09db67476aeac1cc4d2e26b0b155106655a3056a86373d437",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final sentence states Jairus gets $6 more."
+    },
+    {
+      "response_id": "a367e8995440630b3e14599255ca2f25a0e21927fc32a7eee758af7baeed8ef4",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The prose and box state 12 percent before the code block; no code execution is needed."
+    },
+    {
+      "response_id": "7f99b00b5600ab9ab22ee65397183ba04fb3d0716d7f0f629da6722eb1b948ca",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final sentence states the red rope length is 20 centimeters."
+    },
+    {
+      "response_id": "b2e2a820686d96e4abcee4c072f6db5f7a54603cff610297cf5aace25aa28a52",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "After listing options, the final prose and box settle on 10 hours."
+    },
+    {
+      "response_id": "606eee90fa0cb3943d5bf3ec4280873b3701a4d0fa212b150d9c8ef1f104a5f1",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "The final sentence states 35 correct answers are needed on the second test."
+    },
+    {
+      "response_id": "93733c79fd759d2a85a6cad68893e0cca68d11b52fc315c14221c0ea280cc85d",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The conclusion states $64,800 more revenue."
+    },
+    {
+      "response_id": "dd1ac56377004d2febed47fae1c7fa78d70f39ea83da3c3436763b6f9c770221",
+      "stated_answer": "1022",
+      "reviewed": true,
+      "rationale": "The response states a total cost of $1,022; preserve the stated value."
+    },
+    {
+      "response_id": "e13d51685f13fd3133f7b7c98cb4a70e4839c8c44ae8c28a55b01bc3d4dc6fa7",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The final sentence gives the revenue difference as $64,800."
+    },
+    {
+      "response_id": "ab055ef6e1f27f9fcba5367c36755e17b9f8b8d349b6c6b94b4adb45654d3548",
+      "stated_answer": "5760",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly evaluates the combined savings to 5760 coins."
+    },
+    {
+      "response_id": "a362ea8192f21dcf15b5c3124e1b1ab6ee2ada036cffff91e5858069577582ee",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The concluding box states a 20 percent likelihood."
+    },
+    {
+      "response_id": "5e9c6e0b884ae918ae82c058f55760254c83ceaa7d125b4c116f4784bb8a23f6",
+      "stated_answer": "98",
+      "reviewed": true,
+      "rationale": "The penultimate paragraph explicitly states the needed sixth-test score is 98; the final placeholder supplies no different answer."
+    },
+    {
+      "response_id": "9dc00ac50a27f6c488bbfb72c0695a1a7158189a16d4597cbe5276366adf7ea2",
+      "stated_answer": "160",
+      "reviewed": true,
+      "rationale": "The final sentence states 160 chairs left."
+    },
+    {
+      "response_id": "e0469e548335e8ebfa886f8b2418b663cf678a80ecc2d1b469eabbad8d450909",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The single sentence states a reduction of 2 cups."
+    },
+    {
+      "response_id": "561214164c1ec4ae854432beb9b8ef3fa96bfbfa73c1a16d24d9818a1d962d9f",
+      "stated_answer": "98",
+      "reviewed": true,
+      "rationale": "The response explicitly gives the needed sixth-test score as 98 before an empty final placeholder."
+    },
+    {
+      "response_id": "ba72ea72394d584405bfca5afd3b5d6c9528ceb6f4e2e5c17b8157fb5c7484c9",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final boxed probability is 12 percent."
+    },
+    {
+      "response_id": "98b25c1465eb623832f9e8eb4d6283d3fa27f32b57978e3fc239542cef22a9e5",
+      "stated_answer": "350",
+      "reviewed": true,
+      "rationale": "The opening and conclusion both state 350 inches of fabric."
+    },
+    {
+      "response_id": "b3d87bbf469e3d3b6c83e1b445c5d299641a37a604738ae76a4f3a91b70d6dbe",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The last calculation explicitly gives the number of rats in each cage as 9; the following placeholder does not change it."
+    },
+    {
+      "response_id": "fb69afadfdae08215433cc920886c3753dd90c002a5e2ae2e75cd81f51b5f439",
+      "stated_answer": "160",
+      "reviewed": true,
+      "rationale": "The opening answer and concluding calculation both state 160 legs."
+    },
+    {
+      "response_id": "76a6260eb04f7fe691b4fc402eef5881ac45c0f8f41878b6c9485122b737b0a4",
+      "stated_answer": "105000",
+      "reviewed": true,
+      "rationale": "The single sentence states annual earnings of $105,000."
+    },
+    {
+      "response_id": "aa4e1cf424693c422e2d1641ec5011f3af0d81022c732b05bfcdfe5abe325466",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states $64,800 more revenue."
+    },
+    {
+      "response_id": "3bb22c1666e300e634114909ff325b9710d56630f2df3f96065672396e5e1668",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The final sentence states Morgan can invite 2 friends."
+    },
+    {
+      "response_id": "30b09675821cbd20014d1c470aa53f320ab441b46c000b4673d104a1f8e18028",
+      "stated_answer": "104",
+      "reviewed": true,
+      "rationale": "The conclusion gives a total of 104 games after three years."
+    },
+    {
+      "response_id": "4dd2fed6e1d7ac2b542b7cc1c4b73d57dd58746a42b7918d41b91047b58a2a2f",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The opening answer and final subtraction state 24 boys in each class."
+    },
+    {
+      "response_id": "7732cdf86c1dd1f50e031b0686fb137e5bd1913a546a29efced25b22f9937d5a",
+      "stated_answer": "45",
+      "reviewed": true,
+      "rationale": "The final sentence states a second-half daily saving of $45; preserve its arithmetic."
+    },
+    {
+      "response_id": "8117181e5f0cad3963f308429f11de440bce6257884a6f73429f367d7369bb15",
+      "stated_answer": "1200",
+      "reviewed": true,
+      "rationale": "The response states a total of $1,200 at both start and end."
+    },
+    {
+      "response_id": "8b09438fc09a512feb760da0630baed59dea33d57dd3475a8494a64fadab0c13",
+      "stated_answer": "37",
+      "reviewed": true,
+      "rationale": "The opening answer and final payment calculation settle on $37."
+    },
+    {
+      "response_id": "589a0501a911f3710ead5e0432848605d80b9587e8563fa2725be5878ea1e0a8",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The conclusion states a red-rope length of 20 centimeters."
+    },
+    {
+      "response_id": "be12ee0697ac39cd30a15b05d9b207e7667e228b05ae4a9329c8097a08cc6498",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly corrects the opening 80-bead answer to 90."
+    },
+    {
+      "response_id": "bf7c6e4a0f1a3be530ac27ac904606941c5bcca9ba0ff38be1cc5f758c0c1fdf",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The single sentence states 100 rides a week."
+    },
+    {
+      "response_id": "665906714462df4479c5b8d8c870ba29daf6c10a6a11d504aeded1cc8594b417",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeatedly halves amounts and stops mid-number without identifying a final price per pair."
+    },
+    {
+      "response_id": "e83f4aada170baa684b840e62abaf7c64c0e0c2a6ecf75e1912bed9ac3ab14e4",
+      "stated_answer": "1200",
+      "reviewed": true,
+      "rationale": "The opening statement explicitly gives a total visit cost of $1,200."
+    },
+    {
+      "response_id": "4240b9600da882a569b20458676edf276af3d2d09e8ae67179f4d28fb3601659",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The single sentence states 100 people are needed to fill the bus."
+    },
+    {
+      "response_id": "4fb8a1436298474287afbb05bdd4e94831e9ddfc6c187a94727a6fb6fa5c8931",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeatedly alternates 220 and 260 hours as interpretations of the question and ends mid-sentence without a final choice."
+    },
+    {
+      "response_id": "cf4ead8a99cea154594a27b9ba20d8fc81d691fdb98a460bd9925be7e7d7641a",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The opening and concluding claims both state savings of 1000 pesos; preserve the stated arithmetic result."
+    },
+    {
+      "response_id": "5f4b5316c350071a4842923d9365117618e9234067a560a76d4916d6caeedffe",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "Both opening and closing statements say John is missing $100."
+    },
+    {
+      "response_id": "7106b92e7a676ed26ec2527337b40f1616afe46965cbf12e08b3ca03f727992f",
+      "stated_answer": "160",
+      "reviewed": true,
+      "rationale": "The response consistently states a total of 160 legs."
+    },
+    {
+      "response_id": "b03fc6ef4416c94fcdba59e180babe723dac3f039c1db7cc54216d12eafa9df7",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The single sentence states savings of 1000 pesos."
+    },
+    {
+      "response_id": "3fc28b83a4222a8db1ac91ada6f00632f77475d3d144773de39a1208441a3c2a",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "Both the opening answer and explanation conclude Trent is 32 years old."
+    },
+    {
+      "response_id": "5e2aaf10f9317ad38b01598b363e811f8b11fedc5b536e61b790d8eef23e04de",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "The entire response states 16 people."
+    },
+    {
+      "response_id": "890eb55b6e9e2bd53ad4d920c2fd03819a86439528cd7b443b98350d174f30f9",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The conclusion explicitly states Jennifer remains with 3 oranges."
+    },
+    {
+      "response_id": "41c5721aa1d9320ab3ca8d7e9d7dc85437d197477eefc8e8525c531f74c5689b",
+      "stated_answer": "31800",
+      "reviewed": true,
+      "rationale": "The final sentence gives the annual total as $31,800."
+    },
+    {
+      "response_id": "08ab4297687de478e5c1f7104c134db5b67d6412dd1b8de466559601dc1a2e6a",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The concluding sentence states Bubbles should buy 6 goats."
+    },
+    {
+      "response_id": "8614908bc560dceec9736c68bc795a043e75740a12a8a091366d9a6d928a7485",
+      "stated_answer": "600",
+      "reviewed": true,
+      "rationale": "The final answer sentence states $600 remains after two years."
+    },
+    {
+      "response_id": "dce157ba192c119dc948edd66332ae79d749b1319bdef3c8a4010a6f062cb36f",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The final bracketed answer states 2 bars per child; the slash denotes a unit."
+    },
+    {
+      "response_id": "33d4c81bc780867c1416cf2ff5d6f5c488bd49723e708d3ec8a86763fd7f7f07",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 4 ounces of oil."
+    },
+    {
+      "response_id": "20e4b1576585854d7c87b6f2272bb0af2ea70b888b7ae7e3a8aa85e5d06e395c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "After deriving age 210, the response rejects it as impossible and concludes the problem may be mistaken; it leaves no settled age."
+    },
+    {
+      "response_id": "39c25482bd145dfb55815dc393e538c9105402611f12440a0d1290d4cae8a662",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The final sentence states a total duration of 60,000 hours."
+    },
+    {
+      "response_id": "f1c4bb0deb48565b9d4d57e1e03ae3eed9acb53e20e58d75fde0ed4e86a6eedf",
+      "stated_answer": "104",
+      "reviewed": true,
+      "rationale": "The concluding calculation explicitly states 104 games after three years."
+    },
+    {
+      "response_id": "b0ee874cf74974040d6e36f126799e88a4b54db7824440967cf24537fec7ecc7",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "The concluding sentence states James needs 70 feet of crepe paper."
+    },
+    {
+      "response_id": "60e6e9e098e7a9eefbc323318a3206b2014538e71f32dc46c4b955f0b228bd88",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The single sentence states Raymond has $1 left."
+    },
+    {
+      "response_id": "a223740ad51dd9a4ed2275d0072961fe80113165b58d07c4aefbd2bce02b23f9",
+      "stated_answer": "22.22",
+      "reviewed": true,
+      "rationale": "The final sentence states an approximate likelihood of 22.22 percent."
+    },
+    {
+      "response_id": "cbee3724bfabc85a1ca053b8a1f91892a1fdf7da295551f51c6986ff24548c45",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The conclusion explicitly states Fawn has 24 books."
+    },
+    {
+      "response_id": "aebc374609471659c5793ae53cbe759f330db7eb7634368903d64d45e6e9429b",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The single sentence states the beanstalk is 10 inches tall after three weeks."
+    },
+    {
+      "response_id": "5495b78d18ad4d416aa31714000bc5c152ae21a55028ad58516ac8b752fadb79",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The response explicitly gives 2 additional Friday/Saturday movies after rounding; the other final counts repeat prior attendance and other-day capacity."
+    },
+    {
+      "response_id": "e6014a35340701d8f430d7d79e295bfce97b0413937e576a0c9546084281e02f",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states 20 percent."
+    },
+    {
+      "response_id": "888776d7ed8fa963f1b6ef3f0dbdffed4c37fd1d1527ce2708d8c274df22ae0f",
+      "stated_answer": "300",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states a combined $300 left."
+    },
+    {
+      "response_id": "773630dce811d619d0ee7ba95127b9eefa96c7fb5a31a676bc30d1299d808dda",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "Both the opening and conclusion state 1000 pesos saved; do not repair the subtraction."
+    },
+    {
+      "response_id": "25e06cf83e4677b28f2eed2c9cef542b7a2d4af40acb835611344d2c34b027e1",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states a 20 percent likelihood."
+    },
+    {
+      "response_id": "298c122a29f7c7e264203037c1c29740123612133651a1ac988d5131f1096e92",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states a Wednesday depth of 16 feet."
+    },
+    {
+      "response_id": "1c65ea2173aa791b753d7d88631ec18181f06f3cf43dfce25a68f4cf68a9e697",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The single sentence states the turtle crawls 120 feet."
+    },
+    {
+      "response_id": "b2583a99e4a55f61c169143b5a5035bc9203f5c8f3ac858b0267d18c440c3baa",
+      "stated_answer": "104",
+      "reviewed": true,
+      "rationale": "The final sentence gives the total as 104 games."
+    },
+    {
+      "response_id": "13af65075e04af328e37b193fa3b604b4b533756b03165e5acbce68212cb273a",
+      "stated_answer": "2000",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states 2000 gallons remain after six days."
+    },
+    {
+      "response_id": "7b34dffd896724532bd07c7c865ac357b797e088bc8190ab8d95f2044746426e",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final boxed probability is 12 percent."
+    },
+    {
+      "response_id": "c5368f890334e3c05b7bb70d90bc648d0d7b1e4ea60ec72107312cab80277a52",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly chooses 1000 pesos as its answer after calculating a different difference; preserve its final choice."
+    },
+    {
+      "response_id": "a16ccceae905df7c3ba28a4efbd07efea8928e4cc395b49df974ce4b0f7d5ab1",
+      "stated_answer": "17",
+      "reviewed": true,
+      "rationale": "The final boxed answer states 17 hours."
+    },
+    {
+      "response_id": "eab14524c78a2060a5baea7a7e0d5eaab5aa5c1c2fe9bb02ab0204b26bf4ac10",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The opening and final calculation both state an average heel height of 3 inches."
+    },
+    {
+      "response_id": "69ccdf3580b61ae2195d63214c42f415d6cf1e38c199228ae2ddcef5b7f95baf",
+      "stated_answer": "41",
+      "reviewed": true,
+      "rationale": "The concluding answer states 41 total pens, distinct from 16 new pens."
+    },
+    {
+      "response_id": "53482733205ddb200d59d83c6644a439cddb409f196dbcd7857d84e1fd781d77",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly evaluates the extra monthly revenue to $64800."
+    },
+    {
+      "response_id": "bc62463bc617ab63c913c8a8ef236183c5c0f2604a6e7dac9e6f33bcc586127d",
+      "stated_answer": "21",
+      "reviewed": true,
+      "rationale": "The final sentence states Andrea saved $21."
+    },
+    {
+      "response_id": "dbb0db465cf3391710160c8f91cae72c44ac0254004bb705e1046a5971912e97",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "The final placeholder equation gives a difference of 15 pages."
+    },
+    {
+      "response_id": "8eb3bf51da7640c27fc9f6f5029914d1c6bca9338baffa6e60f17ca54caa68d1",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The concluding sentence states the coffee is 75 milliliters weaker."
+    },
+    {
+      "response_id": "f8b8ec1607ba3c56a843aecb001cbf5831abf5e0449b40cba9b1d6bb3c80b052",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Both the opening and final calculation state 4 ounces of oil."
+    },
+    {
+      "response_id": "37bf98a55deafde8bd984e5731c91826f0337a8dfd5f32edb3014665720386e5",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final sentence states the red rope is 20 centimeters long."
+    },
+    {
+      "response_id": "cc73555476c889d3ad761f6449460523757a33f1e286de46c0073d8561e9ea6b",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The single sentence states John has 120 minutes to nap."
+    },
+    {
+      "response_id": "02f535df1660126e6ce0b5cb9612e2f3884348fd99e689d653ea7d1810c09e4e",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The penultimate sentence explicitly says Morgan can invite 2 friends; the final placeholder supplies no alternative."
+    },
+    {
+      "response_id": "03036ffddf6ae86838dc4664b8b3eb0a839a91d1dc1c6f4fa72faf69209616a8",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The opening and conclusion state 24 boys in each class."
+    },
+    {
+      "response_id": "7e7b5ad6b280486b16c3b06d870f232234c524d0390918917767f81e5f6aa045",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "The final calculation explicitly states each adult gets 25 percent."
+    },
+    {
+      "response_id": "8f135250f41a2a4b263e7e83e1ca87f51483eea704b2a6cf58b336879f718802",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The final calculation explicitly identifies 2 bars per child before an empty answer placeholder."
+    },
+    {
+      "response_id": "6675786283acf49fbfdbbef4516fd58f10470580c05d189f5a96f422e57a8ab9",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 4 ounces of oil."
+    },
+    {
+      "response_id": "c05c6d17c6a18f01eff472f018a4fafb470399f88985794062012e253a922566",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response ends with three flavor counts but never states a total cookie count."
+    },
+    {
+      "response_id": "b7c25ec01e43093a1fce94b808161e12842c33dc6169826470fd748ac81c062e",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "The final sentence states an average time of 25 minutes."
+    },
+    {
+      "response_id": "924868c7824f23133c489e76db2dfd6afa8af04444a989d321af79c40fe8d8de",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The opening and final subtraction state Adam contributes $12."
+    },
+    {
+      "response_id": "d4caa53a0a09a85ddcdca3585f291300b0b0eb49d3ce32b7040416dcd9f2df71",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The final answer states 3 movies for Friday/Saturday, the question's day category; 4 is for other days."
+    },
+    {
+      "response_id": "1d20da2b3e0504d6ae8b714dd1f235e5d300e0210087c31758de734e4d5e3707",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The output devolves into repeated fraction conversions and stops mid-number without stating a total monetary cost."
+    },
+    {
+      "response_id": "c1dd21cd9478e97bbda0e03c57c71fa84af56cadd8286a2e7dd1a684f19065e1",
+      "stated_answer": "150",
+      "reviewed": true,
+      "rationale": "The concluding sentence states second-half daily savings of $150."
+    },
+    {
+      "response_id": "d35a251a296bf235c549c6756e7c9d108d56c0f4beb6ee0c1646aadf23cfd3ec",
+      "stated_answer": "41",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states 41 total years; preserve its written sum."
+    },
+    {
+      "response_id": "430fafda5aa4bc25605054ab97cb9927201bab4a61c3b78d1b8ae000511bbaf1",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The single sentence states an enrollment difference of 1000 students."
+    },
+    {
+      "response_id": "6acf4bb5f01dcc7a3718839a767035809e50ccbab4d6331a54a7a34142c244ba",
+      "stated_answer": "42000",
+      "reviewed": true,
+      "rationale": "The single sentence gives a total truck cost of $42,000."
+    },
+    {
+      "response_id": "57d9b1bbc6fe4dd7ed50876896d5a53e8de76db586107e1c6beb013e8741db4e",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly chooses 120 hours despite the intervening 260-hour calculation; preserve the final choice."
+    },
+    {
+      "response_id": "fead45821ca63a231130fdade2c8741b5841afafe74902e76391a808b60d0e18",
+      "stated_answer": "480",
+      "reviewed": true,
+      "rationale": "The single sentence states weekly earnings of $480."
+    },
+    {
+      "response_id": "b369907d3be73c7507e60c7bcdf2ab1581a9d4cfa7b484ecef4b6130ab62979c",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The conclusion states daily earnings are 10 percent greater."
+    },
+    {
+      "response_id": "5533c380b29b07767b5b82307c4637bb0ee33db70226657fb1da7ba290e7e4ec",
+      "stated_answer": "81",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 81 families in the fourth round."
+    },
+    {
+      "response_id": "87441c7c6b71a9199a7a569803215a1babcef543b164e57d6d104516d91f31dc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response states cookie counts by flavor without ever stating the requested total."
+    },
+    {
+      "response_id": "d2e9a7dcf0518eeeebcc26cae6a2959449e99679c28c44c63700b1f51cab6733",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The single sentence states the teacher has 100 bottles for herself."
+    },
+    {
+      "response_id": "efef8635936f184e4d43d6d3ecabdfa2fc9fd7aeb6f1cd984094973685dc6031",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "The final sentence states James needs 70 feet of crepe paper."
+    },
+    {
+      "response_id": "928030bb74a5ab7d5138ce9060ebac8e8e28c8b7db3980bfdc4b68a49d7b17b2",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final sentence settles on buying 4 stuffed goats."
+    },
+    {
+      "response_id": "400d4e3a60234ffb4cbdc31040855fa42bc5478b4833ff7bccca03327d364037",
+      "stated_answer": "191",
+      "reviewed": true,
+      "rationale": "The concluding answer explicitly states a required score of 191."
+    },
+    {
+      "response_id": "5eaea8fe9567f811061f3c41d4e04ad2605fedc1e81f1ac49a39c215299911e4",
+      "stated_answer": "350",
+      "reviewed": true,
+      "rationale": "The opening and final sentence state Luke should buy 350 inches of fabric."
+    },
+    {
+      "response_id": "2137882f11874a7817ec97f685b0c6f3e396b136eb4c34fdbe8ceded81a07dc6",
+      "stated_answer": "8",
+      "reviewed": true,
+      "rationale": "The last substantive sentence explicitly rounds to 8 rats per cage before an empty placeholder."
+    },
+    {
+      "response_id": "5d37a649e63ea2ab943072e03f07d37babe795f3e82475dc6f9067b7d721c14c",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The final sentence states a total duration of 60,000 hours."
+    },
+    {
+      "response_id": "208ab8dbb8909158d18b48e99281c79c1a54e88c28c451d817aa70af1bbbdf73",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response withdraws confidence in its 15-year answer after a conflicting generated output of 14, then stops during reevaluation without settling on an age."
+    },
+    {
+      "response_id": "b503b126e235ed3f0eb97117688adf1ad92e9389e938ad90677dde1acd699187",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The last substantive sentence explicitly says Morgan can invite 3 friends before a placeholder."
+    },
+    {
+      "response_id": "f3a19b01624d25f03fe246b3995646f4c9e12da273254bbffa083b511aa007d7",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The conclusion states Morgan can invite 4 friends."
+    },
+    {
+      "response_id": "98c251d64d74d22633e6b9b148fafe0d31a2c6e950657cee17375c1b33e0f349",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The concluding sentence states 60,000 total hours."
+    },
+    {
+      "response_id": "b9497135397988f91dc6ceeaf9bdb936f101684636c50e4a15ffd3595a6319b0",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response rejects its intermediate exact counts, says the exact number cannot be determined, and offers only a lower bound of at least 18 tickets."
+    },
+    {
+      "response_id": "38668d2c17410bf60e73267ed4e701bc5c0c3ebc51201fe9378357d69f0a7846",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response leaves Jim's age in variables and repetitive code comments without stating a numerical age."
+    },
+    {
+      "response_id": "0f54d90489e6164f468bf8f8b76a8547de2c0cde72de339a80ec2e02ecd69b4e",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states 10 pounds."
+    },
+    {
+      "response_id": "2db50ae3f4b177ce6f62b686831efabdb5c25971a270fdb772ef3001b8df40f9",
+      "stated_answer": "33",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives the rounded percentage as 33 percent."
+    },
+    {
+      "response_id": "25130728a38d34139a16c4804cfb7f026772bf7f16c6ba613ac53e33756947c2",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The concluding sentence states $64,800 more revenue."
+    },
+    {
+      "response_id": "c20b828714fb17ed208704580ca1592ef07e3b8fa597aa4ecf106a133c2788dd",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "The final sentence states 35 correct second-test answers are needed."
+    },
+    {
+      "response_id": "e5031d9fee964562c1b9ecb4bc28640d628e223fdcfe825c6c48832fe4f6ed97",
+      "stated_answer": "1200",
+      "reviewed": true,
+      "rationale": "The response states a $1,200 total at the beginning and end; preserve its incorrect sum."
+    },
+    {
+      "response_id": "60bd2c3ba59c8f5ff319673493411b7deec110f995eed1ce3aa54539279b2776",
+      "stated_answer": "9860.78",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives the 2010 price as $9860.78."
+    },
+    {
+      "response_id": "230fcd2b2be1b79ad15ec52760c51dc0dd2f492bce48535971177c69a8cbcd03",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The single sentence states a reduction of 24 cups."
+    },
+    {
+      "response_id": "255042e2c553317d287737028abb15df55955ca6a9d969000496b78fda9c0c13",
+      "stated_answer": "32.5",
+      "reviewed": true,
+      "rationale": "The final box and preceding total settle on 32.5 minutes after the opening 15-minute claim."
+    },
+    {
+      "response_id": "f8a1f91a9f11f2b93ea921ba1c3272f408c9201dda471edf13a324bb45986768",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly corrects the initial 80-bead claim to 90."
+    },
+    {
+      "response_id": "1533379ebb455720a39f68b99c49a13a08911c14ff2960a3f719f3384ba80bc0",
+      "stated_answer": "350",
+      "reviewed": true,
+      "rationale": "The opening and conclusion state 350 inches of fabric."
+    },
+    {
+      "response_id": "c9253610777d0216f95e1983c545b477dbebbc086fd90622bdf7c7691938a804",
+      "stated_answer": "64",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states $64 earned in the workday."
+    },
+    {
+      "response_id": "2a1da59187c3137d680d699ffad02eb3e1b94a9f090b37e0b7352d53857b01bf",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The final sentence states a 10 percent increase in daily earnings."
+    },
+    {
+      "response_id": "f94c6307e80c451c86b6d46cf46ccc821cf25d896e11e633549aea25813813c8",
+      "stated_answer": "81",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 81 families notified in the fourth round."
+    },
+    {
+      "response_id": "63d58be352af62f61284c8e0f7c5a7dae262f2e5ea5b2ad6200b47084eff4c31",
+      "stated_answer": "40000",
+      "reviewed": true,
+      "rationale": "The single sentence states a truck cost of $40,000."
+    },
+    {
+      "response_id": "4465aa155dfd7a71421bb07a77c7384cd998c97a1abfdbe0842a43a26b0d45b4",
+      "stated_answer": "220",
+      "reviewed": true,
+      "rationale": "The final sentence states Erika has $220 in her purse."
+    },
+    {
+      "response_id": "c330f00fcae9099c1ab589f4a322db2bdcd1b069d555f1b921e3c27fd16daf46",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The output repeatedly states and then rejects 24 tickets as the full amount, ending mid-calculation without settling on a final count."
+    },
+    {
+      "response_id": "4eefacd08359901dbb3269a3f487eacd299a67cb24015498ce6273689a46392b",
+      "stated_answer": "22",
+      "reviewed": true,
+      "rationale": "The opening and final sum explicitly state 22 points; do not repair the arithmetic."
+    },
+    {
+      "response_id": "58354bc52bd57c083d0410f763a742fe9abeabaf4d94f123f714432e27fec5ed",
+      "stated_answer": "160",
+      "reviewed": true,
+      "rationale": "The opening and final sum both state 160 legs."
+    },
+    {
+      "response_id": "1360ecdf0ff57bbab471c54991190f60b58586656d960368707f72ac08ca53eb",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The opening and explanation both state Trent is 32 years old."
+    },
+    {
+      "response_id": "5d60c7f73c4854ccf4dbd2e99a42af9b1fc5a1a4cbcf78a8785f201895e235c7",
+      "stated_answer": "11050",
+      "reviewed": true,
+      "rationale": "The final sentence states Bentley paid $11,050."
+    },
+    {
+      "response_id": "acbe71a1366ec14b3ee00249a5b947323c38ea7fd37f5b96716aafd35f02be47",
+      "stated_answer": "98",
+      "reviewed": true,
+      "rationale": "The last calculation explicitly gives the needed sixth-test score as 98 before an empty placeholder."
+    },
+    {
+      "response_id": "b18a39e7520f27f200a454f197b34bb60a2389b9b1b48e452410ec56a7cb9dce",
+      "stated_answer": "740",
+      "reviewed": true,
+      "rationale": "After changing earlier figures, the response repeatedly states the difference between the options is 740 pesos; subsequent repetition does not supply a different difference."
+    },
+    {
+      "response_id": "349e7a34cc1b72bcffbf3139e93506ada14151eda74bd8eba8c6956288c9e5d2",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The final sentence states the enrollment difference is 1000 students."
+    },
+    {
+      "response_id": "fe2cb6a9c747e52a0ab9718c0f674ad60aae234b5b07b7bf5a5be9c37fb68bf8",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The final answer explicitly evaluates the count to 9 rats in each cage."
+    },
+    {
+      "response_id": "5df931e356987671b6bf65360263c775ab0bf8d91e41e29ae8627e3afa7f0e7a",
+      "stated_answer": "452",
+      "reviewed": true,
+      "rationale": "The final sentence states a two-year cost of $452."
+    },
+    {
+      "response_id": "43f116d99cbdb49f8a2eeca08d46ef1e8e359313378d2fe876d72f8bfbd08040",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The single sentence states 12 holes were dug on the fourth day."
+    },
+    {
+      "response_id": "ae6eead23a0f9dfb1756d5035b96937d1ce08570cd308361415d2ceef0b92be2",
+      "stated_answer": "22.22",
+      "reviewed": true,
+      "rationale": "The final substantive paragraph explicitly converts its likelihood to approximately 22.22 percent before a placeholder."
+    },
+    {
+      "response_id": "fbd0653a78593369d9ed4ea12391ac98c6d88724868621bf5105ff9f13677eee",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeatedly rejects and alternates 57 and 69, then ends before a final choice."
+    },
+    {
+      "response_id": "c2d3fb2c0e763780ea15652e16e624e7677eeb04a361f56e178159f6012b64fb",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The final bracketed answer states the turtle crawls 120 feet."
+    },
+    {
+      "response_id": "30f0899b9aed3f307e2ffe3f023d912920fae481ff79b29e5e50be91558657f9",
+      "stated_answer": "6000",
+      "reviewed": true,
+      "rationale": "The penultimate paragraph explicitly states 6000 gallons of remaining capacity before an empty placeholder."
+    },
+    {
+      "response_id": "6c3911da7fda4c9d6775f2deb08a834ca636fac6d32ea7e1d004c0a2ef409cfd",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 4 ounces of oil."
+    },
+    {
+      "response_id": "722e1c95e0480cc0dfb52455a9d0195accb940ddd62c5548a26cf7124bd92116",
+      "stated_answer": "940",
+      "reviewed": true,
+      "rationale": "The opening and final sentence state total spending of $940."
+    },
+    {
+      "response_id": "a72c11e853a40bbffd770d06736016dc9e294221bc9ef1895b648604494a3a8e",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The conclusion states the coffee is 75 milliliters weaker."
+    },
+    {
+      "response_id": "aa4a9ed1b3f9c25912ec6c872ada2ccb9a7fa8e3d38c6fafbf7dd2cc55645f96",
+      "stated_answer": "45",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states a total of 45 rodents."
+    },
+    {
+      "response_id": "f726ec0440b8a05ea516216d162cabf745aa5da04ea737a3ac373a0dddb6d7a5",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The opening and final sentence state John is missing $100."
+    },
+    {
+      "response_id": "78101ab9a7891e9d67240092fa177e40a3aa7eca566557c1b4338beb003f3f69",
+      "stated_answer": "105",
+      "reviewed": true,
+      "rationale": "The opening and final sum both state 105 rides per week; preserve the stated arithmetic result."
+    },
+    {
+      "response_id": "9e6861df8606f07583ec585f25d01b2f8f7124a960e28aa25e6910951ec76075",
+      "stated_answer": "11023.20",
+      "reviewed": true,
+      "rationale": "The opening and conclusion state a 2010 car price of $11023.20."
+    },
+    {
+      "response_id": "3ba8ada2826d1ef2859e6e692843a8137424f9d97a8910cb75638258b428313b",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The final quoted answer states the turtle crawls 120 feet."
+    },
+    {
+      "response_id": "2a91c57ee753be6e3e5963273b5cd8e983cc1684607391f1c74ac7f13a4f557b",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly evaluates the total commission to $15."
+    },
+    {
+      "response_id": "a8a9ae89becf44edaea3a3fd7d476ad8d9a76a091a737a3a0e3b90dda3ef2f9b",
+      "stated_answer": "81",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 81 families notified in the fourth round."
+    },
+    {
+      "response_id": "19e60923e57ed36014473adbcbd3ee1869b3e32510e6c0dcd3f42d41111d26d3",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "The conclusion states James needs 70 feet of crepe paper."
+    },
+    {
+      "response_id": "78bac9c84e1925cb496522d6982b1574a3a4f692122564522020e96b6de55d50",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly corrects the original 80-bead answer to 90."
+    },
+    {
+      "response_id": "0fd11d73231f28b11687fe9f02b7b26109cf9319adbef206232ec739b0237a06",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 4 ounces of oil."
+    },
+    {
+      "response_id": "c8e3dea62fe3d4a1164d47ecc8a9212a4c3f20c8d62daea5b6d9443e17605590",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states 16 feet of water on Wednesday."
+    },
+    {
+      "response_id": "93f85e518c7b2c26bc7c2ab4474c7396fb3059a5a2a2691fc9b1d9bcd0c74bd6",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "The entire response is the number 16."
+    },
+    {
+      "response_id": "169b22ee3f1de729b451047ce9049adaa84916c4c2fff184bdfcd6f7d25c9b2d",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The final sentence states the coffee is 75 milliliters weaker."
+    },
+    {
+      "response_id": "891f438dd3f6c82f6cd79c2ebffc1232e2de89661b6bf910c9d10a19f768d27b",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "The single sentence states 16 holes dug on the fourth day."
+    },
+    {
+      "response_id": "963be3ed7bcaf73ce37150f9eb35bfe38d478eb8703b538e02a917adf42071de",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The final sentence states a needed sixth-test score of 120."
+    },
+    {
+      "response_id": "3f5d869d6f46c957d1db59e6fa687efaa5a4c5ff8a5aa59dbcea6c89aa41d4fe",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states 75 milliliters."
+    },
+    {
+      "response_id": "a40e2cf9fbce51bdad91950315b07149ea156307d9e05f353e116cabc7b725e1",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 4 ounces of oil."
+    },
+    {
+      "response_id": "dddc8916ea18542eeac522b9ed2acce68b5f55479ba7a8e151eecdab3849cdc2",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response only repeats the question and never states an answer."
+    },
+    {
+      "response_id": "b6febd3f007aae97efe3c9c50bac644a842bacd4c5e4f08e6a248ba491b58c7b",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final sentence states Ray takes 54 minutes longer."
+    },
+    {
+      "response_id": "c798005636a9cc6f59a7093f9d6901a555d704f3b23b56cda630fdf82172afa5",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The final sentence states second-half daily savings of $75."
+    },
+    {
+      "response_id": "81fd568054f24c5e78755e5193ea78299a41e44c4d69f4c6a4b8db26616a8905",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The single sentence states Raymond has $12 left."
+    },
+    {
+      "response_id": "bb36451449c7da080d254fd0f69483ebc1f22566d800c0ef0efb7db0dea3b35b",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The opening and conclusion state the turtle travels 120 feet."
+    },
+    {
+      "response_id": "990cd53b5079192fa500830ccb443386c31d1935a38c1093b51664ad38874d9b",
+      "stated_answer": "8",
+      "reviewed": true,
+      "rationale": "Despite noting a discrepancy, the final sentence explicitly concludes 8 rats per cage, with 2 left over."
+    },
+    {
+      "response_id": "e5266960524fd10fa0be13d0a70603d2e7d750d375cd5ecfe76a89fd1f7ecc80",
+      "stated_answer": "26",
+      "reviewed": true,
+      "rationale": "The final sentence states an additional $26 is needed."
+    },
+    {
+      "response_id": "612fab82d9052afccc21586b2dab8c5a11aa7922dc7fc515c5834a94f14a4b9f",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The concluding answer states 54 minutes longer."
+    },
+    {
+      "response_id": "1e19bb356a3f0e5b2fdee1c330282a09e261dd680f6094761ccf19826238a537",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The final sentence states daily earnings are 10 percent greater."
+    },
+    {
+      "response_id": "faf357834cb103bf55d882dd6f59265fe0efe2511b49159fcccd96f2c88cb2b4",
+      "stated_answer": "50",
+      "reviewed": true,
+      "rationale": "The final answer sentence states $50 saved per day in the second half."
+    },
+    {
+      "response_id": "09505a14025194732e0b32630c814f684df6c0190fa9c830e59d8b4937487715",
+      "stated_answer": "105",
+      "reviewed": true,
+      "rationale": "The single sentence states 105 rides per week."
+    },
+    {
+      "response_id": "491d6f2e484c396ecba6195ba6a20307cda7fd60bb1f81d52164aa97f351e36f",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The final sentence states a height of 10 inches after three weeks."
+    },
+    {
+      "response_id": "419a95eb549785a94d0b213b9631c55faaf2916fb6a6a04dc86ba2eed6035e06",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final answer states Ray takes 54 minutes longer."
+    },
+    {
+      "response_id": "5f90bcd71294d0764eb0b7292bda8a86f85d612e26782a673021a777b2f9256e",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The single sentence states the farmer needs 2 trips."
+    },
+    {
+      "response_id": "befa3be5a5734b7d90f0bd0c91aa8575030c6c90e21f7f017174cdf0e82b6554",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The single sentence states Erika has $100 in her purse."
+    },
+    {
+      "response_id": "4033466c244f59d7b4d4d4be35f6467f189932c816cfc293287896be9b9414b2",
+      "stated_answer": "26",
+      "reviewed": true,
+      "rationale": "The conclusion states an additional $26 is needed."
+    },
+    {
+      "response_id": "cc9c01f57446b1b81b13cc9d208e2cd2849a67ac4488c65aad1125caea6e1cbf",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The final sentence states $64,800 more revenue."
+    },
+    {
+      "response_id": "18ff64e61014ff526342ba54367b6b2766d9014558bbbf2fd36e0a30db12be22",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "The single sentence states Adrianne has 80 beads."
+    },
+    {
+      "response_id": "a3ca48ed00931741b00bc1623d8d5a46c9a4c3bf2f6b071411c6be1ec37edb1d",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The single sentence states Mike finishes 20 days before the deadline."
+    },
+    {
+      "response_id": "b176f4513027c10a507d0c0a18ea8cb57d62286a32e824d76ae819094938f025",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The final sentence states the turtle crawls 120 feet."
+    },
+    {
+      "response_id": "5d7d09cdd5667385e6c8e20964942af2144b622805b3c0ffabe980101b7134b6",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states a height difference of 1 inch."
+    },
+    {
+      "response_id": "946c20bdd30b13666a8c9acd0e2167f2390fcb180c9a76aa53a97731f8481a3f",
+      "stated_answer": "40",
+      "reviewed": true,
+      "rationale": "The opening and conclusion state 40 total legs; preserve the written total."
+    },
+    {
+      "response_id": "5925090575bf0a907aaa6b8c520f994f7d60608c2150e5b76494f9921039069d",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 100 hours; do not repair the division."
+    },
+    {
+      "response_id": "c1381fe54b85e076b6a58527903c5478446feba7553e36992ff11e8d0db84618",
+      "stated_answer": "600",
+      "reviewed": true,
+      "rationale": "The final sentence states $600 remaining after two years."
+    },
+    {
+      "response_id": "4c275be7c037e4d1d6acd081385cfb18c86e6a634486172c0b9757a46fa11050",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "The last calculation explicitly states 2 bars per child before an empty placeholder."
+    },
+    {
+      "response_id": "dffaa150be090207085e04469bb39b4bed8a2bb5b8388817c9add1af45249922",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "The opening and final sentence state John is missing $100."
+    },
+    {
+      "response_id": "da375423f5dc6630376cde028405b101062406177f5b29038226b50f47f060bc",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The concluding sentence states a total of 60,000 hours."
+    },
+    {
+      "response_id": "ec8872e40ebdad9c55159c6805266a9207e8d5af0babcbfe2907564f34ed9b0f",
+      "stated_answer": "8",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states 8 rats in each cage."
+    },
+    {
+      "response_id": "d981c05e71e9127180291063af5e2a2835e5bd19c0d522da241a5e8a3ce28ba2",
+      "stated_answer": "28",
+      "reviewed": true,
+      "rationale": "The final sentence states Fawn has 28 books."
+    },
+    {
+      "response_id": "5287a0d44df7dbe91ebd3b83c5baa5b919afeaf1db0f557e6a34b4a7bb317657",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The last equation explicitly states Bill's age at the first sighting is 30 before an empty placeholder."
+    },
+    {
+      "response_id": "43bb7e1b072ccdd9a10f1116db4f995d85dadb36352863e9bfa65d09ff14944d",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final sentence states a red-rope length of 20 centimeters."
+    },
+    {
+      "response_id": "a24b7751c33b3ee11780ad5d0dfae9ffce63a6dbc05802748901c61240b9d590",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final sentence states Adam needs 4 years to reach the required height."
+    },
+    {
+      "response_id": "ba88d53c372e1f113910091811e61968effffe18a2d946c64e3d389e50c6ecd9",
+      "stated_answer": "159",
+      "reviewed": true,
+      "rationale": "The concluding sentence states 159 pounds of hay are needed."
+    },
+    {
+      "response_id": "486c4732fd81513d8adeef850a9ea658a8df9c3b4374a457efa642f91d849165",
+      "stated_answer": "1022",
+      "reviewed": true,
+      "rationale": "The opening and final sum state $1,022; preserve the stated total."
+    },
+    {
+      "response_id": "e140250c1775024827057ef92bee681576d4795c10d55279736fa5f81b017cc8",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The opening answer and final calculation state the turtle crawls 120 feet."
+    },
+    {
+      "response_id": "6ad766ef4c0a0cda6a55ea0e1f09484a904ff2961dbcc73a56fbb9cd72146933",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final answer states 54 minutes longer."
+    },
+    {
+      "response_id": "415a14daaf6a797ee1dbb053828b748ac90039c6b2358ad8cb3e104502954197",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The final sentence states $64,800 more revenue."
+    },
+    {
+      "response_id": "4bd59be5e446c2c0e871be611af22e9fea19ba1e70c63393bc6f129cb18fe1ef",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final prose and box state 12 percent, superseding floating-point digits in the generated output."
+    },
+    {
+      "response_id": "251d3683b637c540706e8a57dc2f7167c853233f984de2c8becc9d3f053cf46f",
+      "stated_answer": "160",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states a total of 160 chairs left."
+    },
+    {
+      "response_id": "ba01f0a1f5888a19f7ad5196580751f0ad7f1e1e4bb05db1d0d45f5b9305fd24",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state the turtle crawls 120 feet."
+    },
+    {
+      "response_id": "c17ebe4d7dbc3aa22ad279e89801f809caeba4301f4913edcc44104d06a98f10",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The response frames its calculation as the first-sighting answer and states Bill's age is 90 before an empty placeholder."
+    },
+    {
+      "response_id": "a81b8c2d30693c322cd8e42857939159b41d822aff3ec0d5408a16e2845c8dfb",
+      "stated_answer": "13",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states a height of 13 inches after three weeks."
+    },
+    {
+      "response_id": "c6d8a8b472b353108e98eabfe427bfcec878f6bf6b33aa887c1520414604e97b",
+      "stated_answer": "350",
+      "reviewed": true,
+      "rationale": "The opening and conclusion state 350 inches of fabric."
+    },
+    {
+      "response_id": "af7be22da4542626d23043442bcade9f15d6ccee4ce917e51e93466070deab73",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The final sentence states Morgan can invite 3 friends."
+    },
+    {
+      "response_id": "a8eaabaad3da9a129706194bc1771815020ad022d8f9c4f4f9dde3d250aeeb7e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final answer lists separate flavor counts without stating the requested total cookie count."
+    },
+    {
+      "response_id": "3b2d93f6ded5de7423a2d1ae7f47575ee14fdb7537f0900a036787c2783c47df",
+      "stated_answer": "64800",
+      "reviewed": true,
+      "rationale": "The final sentence states $64,800 more revenue."
+    },
+    {
+      "response_id": "d429f56e17322cf79a4c6abb4fd7a0564c90233a962162468c848d56ab899ef5",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "The opening and final sum both state 80 beads; preserve the written total."
+    },
+    {
+      "response_id": "845fd1e5a7d3d972df60aca014dc5e51e5d6ecdd80aada2c5c95e6587ba51503",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The bracketed answer lists counts by flavor but gives no total; do not add the counts."
+    },
+    {
+      "response_id": "b14eca3e78400b2dccefc9faa2eab8ec6547e67f023170683282247c2495be7a",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final box states a probability of 12 percent."
+    },
+    {
+      "response_id": "532299007fd1f45e3f746ecd7323f30872ec77b1bd87a31137e8ee43052ba92c",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final sentence states 54 minutes longer."
+    },
+    {
+      "response_id": "43643ead2ad585ebc3c32a5174f272cc45181973a30e84303f648ed1f35e1fda",
+      "stated_answer": "6000",
+      "reviewed": true,
+      "rationale": "The penultimate paragraph explicitly states the remaining tank capacity is 6000 gallons before an empty placeholder."
+    },
+    {
+      "response_id": "8d118f4dcccb23f2bff4f7d7544656b496f7daaadf5ee2c201c8cad632aaf53c",
+      "stated_answer": "101",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly gives a total catering cost of $101."
+    },
+    {
+      "response_id": "94bf9d2dd20fc669666d9bf15d49d924e581f1e684b175c088436a62f5645afd",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The final sentence states a duration of 60,000 hours."
+    },
+    {
+      "response_id": "43ef8c59e3a1cc01faf6401f802f714aba56ff809404ce1364ccbcec56a8eb6f",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly corrects the opening 80-bead answer to 90."
+    },
+    {
+      "response_id": "70985abf6ec95760ff8f3ccca4056345de90e1b71612ee050c24642a0999e721",
+      "stated_answer": "180",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly chooses 180 inches and rejects the opening 120-inch answer."
+    },
+    {
+      "response_id": "9277cd7decdaf968939c3a7b37ba54b891b99f89cfb9d440b726b9b3780e9676",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response says each person has $60 left but never states the requested combined amount; do not compute a total."
+    },
+    {
+      "response_id": "a848ce16360b220dd7dae1daafdc294b7681a6006bd3e7b282d33a274ec30905",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "The opening and final sum state 80 beads; preserve the written result."
+    },
+    {
+      "response_id": "a692fbbf375371c07938643ee4b8e09b4764dcab63b92fc7de2ec6b870efae39",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly corrects the opening 80-bead answer to 90."
+    },
+    {
+      "response_id": "f896b501f3db2a8cef89b6c7d85c24ff7719d6fed0e1cca86c0e797af4437dd1",
+      "stated_answer": "61",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states John leaves with $61."
+    },
+    {
+      "response_id": "1d7da16f57d277803379fd814ea3832faa386397127f5afe5ef815de8e036060",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final answer states Ray takes 54 minutes longer."
+    },
+    {
+      "response_id": "c202739127132bd0794ebe2caaeecd64b94f0da9440008fee0c9f4cd7c12b36b",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states a total of 30 pens."
+    },
+    {
+      "response_id": "8e773cc6bf394e212f87ca5b8b7dd9c40edc09e4dd73e035804fea61284072b1",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final sentence states 20 feet are left for Sam."
+    },
+    {
+      "response_id": "bcc4e9ff53b6f60a5aaa5d1895b9483ed2114ecbe57e0f5c6aa7f7ac0c054e54",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The conclusion states separate remaining amounts of $80 and $90 without a combined total; do not add them."
+    },
+    {
+      "response_id": "ebe20aa87ee5aee6c856549244e26fc924adb32928e900054641f93804f3cea5",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The final placeholder equation states a height difference of 1 inch."
+    },
+    {
+      "response_id": "e50c172a277a5110151d8f5392fa9e16ddbb4dfe3310122205e03fb9cdc29d9a",
+      "stated_answer": "10810.60",
+      "reviewed": true,
+      "rationale": "The final sentence gives the 2010 car price as $10,810.60."
+    },
+    {
+      "response_id": "6b460d3ff6eb6cea015475e6b51921ea50fe883ca97c1e4170c18a845441dab5",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The final sentence states the coffee is 75 milliliters weaker."
+    },
+    {
+      "response_id": "f19eb5b74641c7468c5483206d2c11464ac16826e3989d3dc2c0edc587809979",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states John leaves with $25."
+    },
+    {
+      "response_id": "110a35922f90b1cfc2e890f7c7cfb4187148b38030040e63a8bc49d54594d960",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response derives 315 years but rejects that age as nonsensical and leaves the problem unresolved."
+    },
+    {
+      "response_id": "4634ee4315138fd1ccf98368fdd2a349d06b168acbf2381bf4e8ee29e567e06e",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The last calculation explicitly gives 9 rats per cage before an empty placeholder."
+    },
+    {
+      "response_id": "763d78cdcd52c4e1427b6dc36c49ab8f809df0b07adc8d3ff7737e55caafd7d4",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The last equation explicitly states a total weakening of 75 milliliters before an empty placeholder."
+    },
+    {
+      "response_id": "5c62284f82c0829e0f1686ef7653486b24c285a3530a08bb054ab4a44774a4e8",
+      "stated_answer": "159",
+      "reviewed": true,
+      "rationale": "The concluding sentence states Nate needs 159 pounds of hay."
+    },
+    {
+      "response_id": "2d20017c2e0eb60ec205daee70b4ed00eb9d5a029e0efc5727253c531dea64e3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response leaves Jim's age as an expression with an unknown variable and repeats code comments without a numerical answer."
+    },
+    {
+      "response_id": "e853a30baa9f839a196ef930fa8affca77950330d9af38a640c1e8c7363670dc",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "The concluding sentence states James needs 70 feet of crepe paper."
+    },
+    {
+      "response_id": "6479982f8638a4aeff211fcab5a3e47d331eb896e72dc12c03e8de5e9f1a525c",
+      "stated_answer": "11050",
+      "reviewed": true,
+      "rationale": "The final sentence states Bentley paid $11,050."
+    },
+    {
+      "response_id": "5d7cbd065de4e4612b79732e1fbfc96876739ee51a932f099eedbc9c0a5878d4",
+      "stated_answer": "60000",
+      "reviewed": true,
+      "rationale": "The final sentence states a total of 60,000 hours."
+    },
+    {
+      "response_id": "58d46b168baf63a33d1f4f0528340e84e9b21cc8e7d744e778d0c496a000d81f",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The opening and final calculation state 24 boys per class."
+    },
+    {
+      "response_id": "e7cca721decb057adb62b752ed72b9eff4c15a58bac1d52508f64d92bdea8b4f",
+      "stated_answer": "40",
+      "reviewed": true,
+      "rationale": "The opening and final sum both state 40 legs; preserve the written total."
+    },
+    {
+      "response_id": "9930ca3d13e4cd982551a396aeb585b65fdf62b210188ab1b6be09bffe96e675",
+      "stated_answer": "250",
+      "reviewed": true,
+      "rationale": "The final sentence settles on 250 pesos saved after the opening 1000-peso claim."
+    },
+    {
+      "response_id": "9ed8cd45e9e2cd9ebe869d3cd10489c06c71d8fb66c7a98ed20a2f9b891eb73f",
+      "stated_answer": "18",
+      "reviewed": true,
+      "rationale": "The opening and final sum state a total of 18 kids."
+    },
+    {
+      "response_id": "57c2b1e0942e60901d3ff01b6e209d105b1c3398c2bff27bea3de04af0a9d8f2",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states John leaves with $25."
+    },
+    {
+      "response_id": "251e388d1d824cc67b335c69d6f85fe51dd70c4d0414d4c57c0a04a963644d11",
+      "stated_answer": "75",
+      "reviewed": true,
+      "rationale": "The final sentence states the coffee is 75 milliliters weaker."
+    },
+    {
+      "response_id": "c28c2e2cc94196669b66fd27a7e0c261e8238e8740a612efbeedae7c6a447292",
+      "stated_answer": "240",
+      "reviewed": true,
+      "rationale": "The final sentence states the coffee is 240 milliliters weaker; preserve the model's stated conversion."
+    }
+  ]
+}
