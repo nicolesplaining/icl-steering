@@ -94,6 +94,13 @@ If another configuration is tried after seeing these final test results, its
 new confirmation set must exclude them. A useful scientific result must
 survive these controls rather than merely be the best value in a sweep.
 
-The code passes CPU regression tests, including a tiny Qwen2 model. The
-corrected H100 run has not started because SSH to 192.222.54.79 times out.
-The completed v1 statistics remain on that host and have not been retrieved.
+The original H100 became unreachable before its completed v1 statistics could
+be retrieved. Those statistics remain unavailable.
+
+On September 13, access to a replacement machine succeeded through the
+laptop's configured SOCKS proxy. All 53 regression tests passed there, and
+`gsm8k-steering-v2` started with the configuration above. Its source is commit
+`929df44`; the saved support artifact has the same SHA-256 recorded in the
+parser audit. Code, model cache, and run outputs are on the mounted persistent
+volume. Validation is running; no corrected ICL or steering result has yet
+been established.
