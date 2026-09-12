@@ -57,3 +57,37 @@ PYTHONPATH=src .venv-benchmark/bin/python -m replication.gsm8k_steering run \
 The same invocation resumes saved batches. A kernel lock prevents simultaneous writers. Source, config, support, and data hashes must match the prepared manifest; use a new output directory after changing them. Preparation resolves a dataset revision if the config leaves it null and then pins it in the manifest.
 
 Both ICL banks must improve validation completed-answer accuracy by at least five points, with at most 5% truncation, before fitting directions. The selected intervention must improve by three points before final testing. Test comparisons include actual ICL, text cues, sign reversal, and three random directions. Failed gates remain negative results and preserve the unseen final test. See the audit for selection rules and limitations.
+
+### Supplementary answer audit
+
+The [audit protocol](../research/gsm8k-answer-audit-protocol.md) supplements the
+fixed explicit-answer metric. After all final conditions finish, export a
+packet of unparsed responses with condition names and gold answers withheld:
+
+```bash
+PYTHONPATH=src python -m analysis.gsm8k_answer_audit export \
+  --run runs/gsm8k-steering-v2 --split test \
+  --conditions zero icl_a icl_b first cot steered reverse random_31 random_59 random_83 \
+  --packet runs/gsm8k-steering-v2/test-review-packet.json
+```
+
+Write `test-review-annotations.json` with the packet SHA-256 printed by export
+and an `answers` list. Every response needs `response_id`, `stated_answer`
+as a numerical string or null, `reviewed: true`, and a `rationale`. Finish
+transcribing the stated answers before comparing them with reference labels.
+Then score all conditions together:
+
+```bash
+PYTHONPATH=src python -m analysis.gsm8k_answer_audit score \
+  --run runs/gsm8k-steering-v2 --split test \
+  --conditions zero icl_a icl_b first cot steered reverse random_31 random_59 random_83 \
+  --packet runs/gsm8k-steering-v2/test-review-packet.json \
+  --annotations runs/gsm8k-steering-v2/test-review-annotations.json \
+  --output runs/gsm8k-steering-v2/test-answer-audit.json
+```
+
+The annotation file's top-level keys are `packet_sha256` and `answers`.
+The tool rejects incomplete conditions, changed inputs, and incomplete
+reviews. It leaves parsed grades and experiment selection unchanged, and
+truncated generations still receive no completed-answer credit. Raw packets
+and model responses stay in the ignored run directory.

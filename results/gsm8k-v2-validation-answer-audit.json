@@ -1,19 +1,39 @@
 {
   "status": "validation_only_exploratory_audit",
   "run": "gsm8k-steering-v2",
-  "scope": "All unparsed responses in the completed zero/ICL-A/ICL-B validation conditions. Parsed responses retain their original grades. This does not replace the preregistered metric or alter selection.",
+  "scope": "All unparsed responses in all five completed validation baselines: zero, ICL-A, ICL-B, First, and CoT. Parsed responses retain their original grades. This does not replace the prespecified metric or alter selection.",
   "method": "Stated answers transcribed from saved response text before comparing with dataset labels. No code in model responses was executed; erroneous stated answers were not corrected.",
   "summary": {
     "zero": {
       "n": 64,
       "original_completed_correct": 48,
       "unparsed": 10,
-      "audited_completed_correct": 56
+      "truncated": 0,
+      "audited_completed_correct": 56,
+      "versus_first": {
+        "gain": -0.015625,
+        "ci95": [
+          -0.109375,
+          0.078125
+        ],
+        "wins": 4,
+        "losses": 5
+      },
+      "versus_cot": {
+        "gain": 0.015625,
+        "ci95": [
+          -0.0625,
+          0.09375
+        ],
+        "wins": 4,
+        "losses": 3
+      }
     },
     "icl_a": {
       "n": 64,
       "original_completed_correct": 59,
       "unparsed": 1,
+      "truncated": 0,
       "audited_completed_correct": 60,
       "versus_zero": {
         "gain": 0.0625,
@@ -23,12 +43,31 @@
         ],
         "wins": 5,
         "losses": 1
+      },
+      "versus_first": {
+        "gain": 0.046875,
+        "ci95": [
+          -0.015625,
+          0.109375
+        ],
+        "wins": 4,
+        "losses": 1
+      },
+      "versus_cot": {
+        "gain": 0.078125,
+        "ci95": [
+          0.0,
+          0.15625
+        ],
+        "wins": 6,
+        "losses": 1
       }
     },
     "icl_b": {
       "n": 64,
       "original_completed_correct": 58,
       "unparsed": 1,
+      "truncated": 0,
       "audited_completed_correct": 59,
       "versus_zero": {
         "gain": 0.046875,
@@ -38,6 +77,74 @@
         ],
         "wins": 6,
         "losses": 3
+      },
+      "versus_first": {
+        "gain": 0.03125,
+        "ci95": [
+          -0.046875,
+          0.125
+        ],
+        "wins": 5,
+        "losses": 3
+      },
+      "versus_cot": {
+        "gain": 0.0625,
+        "ci95": [
+          -0.015625,
+          0.15625
+        ],
+        "wins": 6,
+        "losses": 2
+      }
+    },
+    "first": {
+      "n": 64,
+      "original_completed_correct": 51,
+      "unparsed": 8,
+      "truncated": 0,
+      "audited_completed_correct": 57,
+      "versus_zero": {
+        "gain": 0.015625,
+        "ci95": [
+          -0.078125,
+          0.109375
+        ],
+        "wins": 5,
+        "losses": 4
+      },
+      "versus_cot": {
+        "gain": 0.03125,
+        "ci95": [
+          -0.0625,
+          0.125
+        ],
+        "wins": 6,
+        "losses": 4
+      }
+    },
+    "cot": {
+      "n": 64,
+      "original_completed_correct": 51,
+      "unparsed": 6,
+      "truncated": 1,
+      "audited_completed_correct": 55,
+      "versus_zero": {
+        "gain": -0.015625,
+        "ci95": [
+          -0.09375,
+          0.0625
+        ],
+        "wins": 3,
+        "losses": 4
+      },
+      "versus_first": {
+        "gain": -0.03125,
+        "ci95": [
+          -0.125,
+          0.0625
+        ],
+        "wins": 4,
+        "losses": 6
       }
     }
   },
@@ -161,6 +268,148 @@
       "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer.",
       "original_correct": false,
       "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:1712",
+      "solution_sha256": "3d1627595ec0d0e5955a6d5f26d9853c9f667fa17dcd717615a71779ae592cc8",
+      "stated_answer": "240",
+      "rationale": "Concluding sentence states $240.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:2043",
+      "solution_sha256": "73cadfdc26e9b3e450217ef4fe97f452bfa57f49cf41deb7495a57ba15156d1e",
+      "stated_answer": "4",
+      "rationale": "Prose box states Brad read 4 more books.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:2631",
+      "solution_sha256": "101632213cd801b9e958eb31e8a28d593f8d00aebee4535c2402c355dd09519c",
+      "stated_answer": "93",
+      "rationale": "Answer states 93 yards every 3 days; 3 identifies the requested time period.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:3171",
+      "solution_sha256": "20e44ff5c2346796a9a0d09e3f1dd5b2187fa343b183c677a9868f38d0ea37f3",
+      "stated_answer": "540",
+      "rationale": "Concluding sentence states 540 inches.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:5015",
+      "solution_sha256": "1f897cd8b517478285fd3b9bb83bdf0e79444e7ba63cb594cc01112403c3125d",
+      "stated_answer": null,
+      "rationale": "Final answer is an expression with unresolved variables; no numerical total is stated.",
+      "original_correct": false,
+      "audited_correct": false
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:6029",
+      "solution_sha256": "0c4e6a9ea04c3af2dd776c6ebed2e75614ad8aad22a5c46c083d07ae646f10d4",
+      "stated_answer": "2500",
+      "rationale": "Concluding sentence states 2500 tons. Preserve the response error.",
+      "original_correct": false,
+      "audited_correct": false
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:6929",
+      "solution_sha256": "98a847b55dce1282ad2504ef9b8d178c35d89dc1e05c6beb246f279818eb5c0f",
+      "stated_answer": "3",
+      "rationale": "Concluding sentence states $3 profit.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "first",
+      "problem_id": "gsm8k:train:7298",
+      "solution_sha256": "476a2a195d8df6567ce2eea7b519316c3465d15221d30abeb7cf20da5e51b92f",
+      "stated_answer": "12",
+      "rationale": "Answer states 12 liters per 100 km; 100 belongs to the unit.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "cot",
+      "problem_id": "gsm8k:train:2043",
+      "solution_sha256": "c59c984d1bbc789a0174d557c78b6d7ffe01193c861a8e2b5eecf2caf6d9bfcd",
+      "stated_answer": "4",
+      "rationale": "Prose box states Brad read 4 more books.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "cot",
+      "problem_id": "gsm8k:train:3755",
+      "solution_sha256": "049e196acef286ed79e69a66014eb18d86d1bfae839dbe11046f2f17ab744362",
+      "stated_answer": "237",
+      "rationale": "Final sentence states 237 fish per day.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "cot",
+      "problem_id": "gsm8k:train:4451",
+      "solution_sha256": "03587a9c6fdb2c1e129b8871c2e71daede576bd4af1cfcb1bd290db7269ea3da",
+      "stated_answer": null,
+      "rationale": "Length-truncated repeated revisions do not settle on a final answer; no completed-answer credit.",
+      "original_correct": false,
+      "audited_correct": false
+    },
+    {
+      "split": "validation",
+      "condition": "cot",
+      "problem_id": "gsm8k:train:6325",
+      "solution_sha256": "c13f6a5a1df70b715af9026b88b159d64a180b89b153334d0cc56bc8006876b4",
+      "stated_answer": "14",
+      "rationale": "The explicit final calculation ends with $14.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "cot",
+      "problem_id": "gsm8k:train:7125",
+      "solution_sha256": "dffa908b749601c25ebf6fb61e18ea2598215a31724ec63f65ffd72bb9d5fd46",
+      "stated_answer": "60",
+      "rationale": "Response states 60 bottles, then an unfilled answer placeholder. Preserve the stated 60, without repairing its arithmetic.",
+      "original_correct": false,
+      "audited_correct": false
+    },
+    {
+      "split": "validation",
+      "condition": "cot",
+      "problem_id": "gsm8k:train:7298",
+      "solution_sha256": "4741080f84d43b710d1a6d5caf6923babb2248150d9efd9b259b9ace64b378f2",
+      "stated_answer": "12",
+      "rationale": "Answer states 12 liters per 100 km; 100 belongs to the unit.",
+      "original_correct": false,
+      "audited_correct": true
     }
-  ]
+  ],
+  "paired_bootstrap_samples": 10000,
+  "paired_bootstrap_seed": 777
 }

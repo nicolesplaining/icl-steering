@@ -127,6 +127,18 @@ claim also needs an answer audit and comparison with the text-prefix controls.
 See the per-response hashes, transcribed answers, and paired estimates in
 [`results/gsm8k-v2-validation-answer-audit.json`](../results/gsm8k-v2-validation-answer-audit.json).
 
+The same inspection of all unparsed text-prefix responses gives 57/64 for
+`First,` and 55/64 for `Let's think step by step.`, compared with 51/64 each
+under the primary metric. The step-by-step condition has one truncated
+response, which receives no completed-answer credit. These controls further
+limit what can be inferred from the small validation ICL gain. The
+[supplementary test-audit protocol](gsm8k-answer-audit-protocol.md) was declared
+before final test inference; it withholds condition names and reference
+answers from the review packet and applies the same rules to all ten final
+test conditions. The [timestamped declaration](../results/gsm8k-v2-audit-declaration.json)
+records zero test outputs and no test lock at declaration, with the audit code
+and protocol hashes.
+
 ### Activation geometry
 
 Across the 128 extraction questions, projection onto the mean direction retains

@@ -1,0 +1,9 @@
+{
+  "declared_at_utc": "2026-09-12T21:35:02.752387+00:00",
+  "run": "gsm8k-steering-v2",
+  "test_rows_at_declaration": 0,
+  "test_lock_present": false,
+  "audit_code_sha256": "294d3b60f83a7eedb8e1d99c93d1214b4629b23d76acb0cbd64f4a5aef182cb6",
+  "protocol_sha256": "439b54c8561696800aeefaf3fdb23bdd6c4667a214d9f76c94c92287dea76a29",
+  "primary_source_sha256": "76eb1d5403cad9f093153e55b30f21af8571b9f38ff728916681b6b4734923bf"
+}
