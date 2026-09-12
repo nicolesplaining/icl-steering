@@ -202,9 +202,9 @@ packet. Steering, text-prefix, and direction controls are still pending.
 The bounds, paired counts, and source hashes are in
 [`results/gsm8k-v2-icl-audit-bounds.json`](../results/gsm8k-v2-icl-audit-bounds.json).
 
-### Completed primary steering and text controls
+### Completed primary test
 
-The selected intervention has now completed all 256 test questions.
+All ten primary conditions have completed the same 256 test questions.
 
 | Test condition | Primary correct | Unparsed | Truncated |
 |---|---:|---:|---:|
@@ -214,6 +214,10 @@ The selected intervention has now completed all 256 test questions.
 | Step by step | 208/256 | 18 | 0 |
 | ICL-A | 231/256 | 0 | 1 |
 | ICL-B | 227/256 | 0 | 0 |
+| Reversed steering | 162/256 | 47 | 1 |
+| Random 31 | 161/256 | 42 | 3 |
+| Random 59 | 173/256 | 37 | 4 |
+| Random 83 | 180/256 | 33 | 1 |
 
 Steering improves the primary score by 9.765625 percentage points over
 zero-shot, with an exploratory paired-bootstrap interval of [4.6875,
@@ -222,11 +226,18 @@ losses on individual questions. It trails the step-by-step prefix by ten
 questions; that paired interval includes zero. The primary result therefore
 does not show an advantage over cheap text prompts.
 
+Real steering exceeds the reversed direction by 14.0625 percentage points
+and the three norm-matched random directions by 14.453125, 9.765625, and
+7.03125 points. Each exploratory primary-score interval excludes zero.
+Thus, the primary gain is sensitive to the direction and its sign. The
+controls also have more unparsed responses, so this comparison alone cannot
+distinguish answer-format changes from mathematical improvements.
+
 Even if the supplementary audit recovers all 22 unparsed steering answers,
 steering could reach only 220/256 under its rules. Both actual ICL banks
 already exceed that score. This limits how much ICL benefit the selected
 mean direction can recover, but the audited difference from zero-shot is
-still unknown. Reversed, random, and prefix-control directions continue
+still unknown. The supplementary prefix-control directions continue
 running. The shared answer review will cover all thirteen conditions after
 both runs finish. Scores, paired estimates, and source hashes are in
 [`results/gsm8k-v2-interim-primary.json`](../results/gsm8k-v2-interim-primary.json).
