@@ -24,6 +24,16 @@ The historical scores were 34.4% to 78.1% on the 64-question test-pool screen an
 
 ## Replication audit
 
+A September 13 follow-up found another concrete same-model target. Appendix
+C.2.3, Table 16 of [Wang et al., One Training Example](https://arxiv.org/html/2504.20571v3)
+reports Qwen2.5-Math-7B MATH500 scores of 51.0% zero-shot, 75.4% with the
+single self-generated demonstration called pi1, and 59.2% with Qwen's four
+official demonstrations. The single example is a wind-pressure proportionality
+problem. This is evidence for a specific demonstration, not for arbitrary
+one-shot prompts. The authors also discuss large formatting effects, so this
+is a possible follow-up to audit, not a verified positive result for our
+project. The current GSM8K steering run remains the active experiment.
+
 I inspected the [released code](https://github.com/TTChungC/Manyshot-CoT-ICL/tree/c6ddffbbd8c4093a03090aa468e8048a43589340), pinned at `c6ddffbbd8c4093a03090aa468e8048a43589340`. The local MATH runner uses the first N training examples in original order, gold worked solutions, a shared step-by-step query suffix, greedy decoding, an 8,172-token output limit, and repetition penalty 1.1. Its model setup uses FP16 and enables thinking for Qwen3. Our runner reads its prompt constants and imports its grader rather than substituting the synthetic pilot's numeric grader.
 
 There are reproducibility gaps. The code does not pin the authors' dataset snapshot, model snapshot, dependency versions, or explicitly supply its stated long-context RoPE settings. Its chat helper omits `enable_thinking=False` when disabling thinking, which would leave the current Qwen3 template's default enabled. Our planned run enables thinking, so that ambiguity does not affect this comparison. We do not claim the released code reproduces every reported table exactly.

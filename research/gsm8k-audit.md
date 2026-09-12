@@ -102,5 +102,39 @@ laptop's configured SOCKS proxy. All 53 regression tests passed there, and
 `gsm8k-steering-v2` started with the configuration above. Its source is commit
 `929df44`; the saved support artifact has the same SHA-256 recorded in the
 parser audit. Code, model cache, and run outputs are on the mounted persistent
-volume. Validation is running; no corrected ICL or steering result has yet
+volume. Steering validation is running; no positive steering result has yet
 been established.
+
+### Initial validation and answer audit
+
+On all 64 validation questions, the prespecified explicit-answer scores are
+48/64 for zero-shot, 59/64 for ICL-A, and 58/64 for ICL-B, with no truncated
+outputs in these conditions. These gains are partly answer-format effects:
+10 zero-shot responses and one response in each ICL bank are unparsed.
+
+Inspection of all 12 unparsed responses recovers eight correct zero-shot
+answers and the correct ICL answer in each bank. The rejected responses
+include plain concluding sentences without an answer marker, prose inside a
+box, and `12 liters per 100 km`, where 100 is part of the unit. The audit
+preserves erroneous stated answers and never executes generated code.
+
+The resulting scores are 56/64 for zero-shot, 60/64 for ICL-A, and 59/64 for
+ICL-B. These are exploratory corrections to unparsed answers only; parsed
+answers retain their original grades. The ICL gains narrow to 6.25 and 4.69
+percentage points. They do not establish a robust mathematical advantage.
+The frozen primary metric and selection rule remain unchanged. Any steering
+claim also needs an answer audit and comparison with the text-prefix controls.
+See the per-response hashes, transcribed answers, and paired estimates in
+[`results/gsm8k-v2-validation-answer-audit.json`](../results/gsm8k-v2-validation-answer-audit.json).
+
+### Activation geometry
+
+Across the 128 extraction questions, projection onto the mean direction retains
+72.2% to 88.4% of uncentered squared activation-difference energy at the four
+tested layers. Split-half mean directions have cosine similarity of
+0.992 to 0.998; the two disjoint support banks agree at 0.879 to 0.968.
+These measurements support a stable common activation shift for these
+prompts. They do not show that the shift carries useful mathematical
+information: prompt length and output format remain possible explanations.
+Causal accuracy tests are still running. The measurements and input hashes
+are in [`results/gsm8k-v2-geometry.json`](../results/gsm8k-v2-geometry.json).

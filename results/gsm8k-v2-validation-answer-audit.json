@@ -1,0 +1,166 @@
+{
+  "status": "validation_only_exploratory_audit",
+  "run": "gsm8k-steering-v2",
+  "scope": "All unparsed responses in the completed zero/ICL-A/ICL-B validation conditions. Parsed responses retain their original grades. This does not replace the preregistered metric or alter selection.",
+  "method": "Stated answers transcribed from saved response text before comparing with dataset labels. No code in model responses was executed; erroneous stated answers were not corrected.",
+  "summary": {
+    "zero": {
+      "n": 64,
+      "original_completed_correct": 48,
+      "unparsed": 10,
+      "audited_completed_correct": 56
+    },
+    "icl_a": {
+      "n": 64,
+      "original_completed_correct": 59,
+      "unparsed": 1,
+      "audited_completed_correct": 60,
+      "versus_zero": {
+        "gain": 0.0625,
+        "ci95": [
+          0.0,
+          0.140625
+        ],
+        "wins": 5,
+        "losses": 1
+      }
+    },
+    "icl_b": {
+      "n": 64,
+      "original_completed_correct": 58,
+      "unparsed": 1,
+      "audited_completed_correct": 59,
+      "versus_zero": {
+        "gain": 0.046875,
+        "ci95": [
+          -0.046875,
+          0.140625
+        ],
+        "wins": 6,
+        "losses": 3
+      }
+    }
+  },
+  "annotations": [
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:246",
+      "solution_sha256": "5f1ef6a0b47e693e1e724b2192faad3cab4881fb0ee945c7a530a4ed01c4eef2",
+      "stated_answer": "52",
+      "rationale": "Concluding sentence gives $52.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:1712",
+      "solution_sha256": "47e76d930cb0f2c6ec3d1748ba4d9a6fbd9e0d1ac81c55e5b9143b9f58d342cf",
+      "stated_answer": "240",
+      "rationale": "Concluding sentence gives $240.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:2043",
+      "solution_sha256": "415790790fca1c16995b2d24b5d53163a5421d642135a5fb9dcc83c6e0dcc5bb",
+      "stated_answer": "4",
+      "rationale": "Box contains prose stating Brad read 4 more books.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:3786",
+      "solution_sha256": "650ea164ad671f6513e32032da480942f35812152573ba5f1f3a7797b5615f07",
+      "stated_answer": "21",
+      "rationale": "Concluding sentence gives 21 inches.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:4122",
+      "solution_sha256": "266106c8448afbb4a1225f3399cda5ffdc32773c778c5256d52251a5fb76ee18",
+      "stated_answer": "32",
+      "rationale": "Concluding sentence gives 32 hours.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:6033",
+      "solution_sha256": "d0ff1880df4d186bd9eba6853ceba489c542cf4b4a3cbbbe45f8b5cd055a4083",
+      "stated_answer": "25",
+      "rationale": "Concluding sentence gives 25 cm.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:6325",
+      "solution_sha256": "d49ab0a2bb7c42f9aeef7bf6d8355f11ae77a1e74a1e507ed076cf525436fc21",
+      "stated_answer": null,
+      "rationale": "Final claim is insufficient money; no numerical amount left is stated. Do not infer an unstated answer.",
+      "original_correct": false,
+      "audited_correct": false
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:6929",
+      "solution_sha256": "dff6b698abc525580f5e274ab578cecedfe7ce05b4b0c428394ae5aaad96a4b6",
+      "stated_answer": "3",
+      "rationale": "Concluding sentence gives $3 profit.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:7125",
+      "solution_sha256": "6a54578f677ae0fda6bea8af84de7d9af57c3a755847deb5a202d6a52075de2f",
+      "stated_answer": "10",
+      "rationale": "Response explicitly concludes 10 bottles, including an arithmetic error. Preserve its stated answer.",
+      "original_correct": false,
+      "audited_correct": false
+    },
+    {
+      "split": "validation",
+      "condition": "zero",
+      "problem_id": "gsm8k:train:7298",
+      "solution_sha256": "5c1ef69e445bfcf2fe37f1b4a0a58d9f56d34246c03152d51908a6e4a6bf7b0e",
+      "stated_answer": "12",
+      "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "icl_a",
+      "problem_id": "gsm8k:train:7298",
+      "solution_sha256": "62e64d2923a6bdedc15e9bb11185735f7ca498d5c8cd67eebb3dc31c79de343a",
+      "stated_answer": "12",
+      "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer.",
+      "original_correct": false,
+      "audited_correct": true
+    },
+    {
+      "split": "validation",
+      "condition": "icl_b",
+      "problem_id": "gsm8k:train:7298",
+      "solution_sha256": "05b72bdff6cb0c55405d7f5b5e7fc94c4e4d6d830fb19e8ac87688f3b43860a8",
+      "stated_answer": "12",
+      "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer.",
+      "original_correct": false,
+      "audited_correct": true
+    }
+  ]
+}

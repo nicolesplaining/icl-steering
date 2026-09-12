@@ -1,0 +1,52 @@
+{
+  "status": "extraction_geometry_only",
+  "run": "gsm8k-steering-v2",
+  "model": "Qwen/Qwen2.5-Math-7B",
+  "revision": "b101308fe89651ea5ce025f25317fea6fc07e96e",
+  "n_extraction": 128,
+  "shots_per_bank": 8,
+  "source_sha256": "76eb1d5403cad9f093153e55b30f21af8571b9f38ff728916681b6b4734923bf",
+  "prepared_sha256": "1ce2601e5f8377b230b4481ad2937405a2e3bc36ddc3e9a99d060471703de174",
+  "support_sha256": "ee8f68606746a98e2a484f59e8d58f732efe62f60cb928495c96fe204d0e6607",
+  "layers": {
+    "7": {
+      "mean_norm": 37.09156799316406,
+      "mean_shift_fraction": 0.880483090877533,
+      "energy_along_mean": 0.8843114376068115,
+      "mean_example_cosine": 0.9398091435432434,
+      "split_half_cosine": 0.9982156157493591,
+      "centered_rank1_energy": 0.2212645709514618,
+      "cross_bank_cosine": 0.9628587961196899
+    },
+    "13": {
+      "mean_norm": 90.7574691772461,
+      "mean_shift_fraction": 0.8024294376373291,
+      "energy_along_mean": 0.8048292994499207,
+      "mean_example_cosine": 0.8964263796806335,
+      "split_half_cosine": 0.9962232708930969,
+      "centered_rank1_energy": 0.15262582898139954,
+      "cross_bank_cosine": 0.9684574604034424
+    },
+    "20": {
+      "mean_norm": 222.62542724609375,
+      "mean_shift_fraction": 0.7193022966384888,
+      "energy_along_mean": 0.7224364280700684,
+      "mean_example_cosine": 0.8500438928604126,
+      "split_half_cosine": 0.9932990074157715,
+      "centered_rank1_energy": 0.10223779827356339,
+      "cross_bank_cosine": 0.9447855353355408
+    },
+    "27": {
+      "mean_norm": 925.1548461914062,
+      "mean_shift_fraction": 0.704249918460846,
+      "energy_along_mean": 0.7218559384346008,
+      "mean_example_cosine": 0.8425570726394653,
+      "split_half_cosine": 0.9919982552528381,
+      "centered_rank1_energy": 0.15522810816764832,
+      "cross_bank_cosine": 0.879308819770813
+    }
+  },
+  "tensor_sha256": "390f6be135e37cc42b8018ee18757433f8d02a0a4346d77ad6c191aa3f9ce428",
+  "note": "Uncentered metrics test a common shift; centered PCA alone does not establish one.",
+  "interpretation": "A stable mean activation shift exists across these questions and banks. This does not establish a causal accuracy gain or separate task content from prompt length and output format."
+}
