@@ -1,0 +1,274 @@
+{
+  "torch_version": "2.7.0",
+  "numpy_version": "1.24.4",
+  "cpu_threads": 2,
+  "synthetic_check": {
+    "n": 112,
+    "d": 3,
+    "seed": 31,
+    "min_eigenvalue": 2.5806229550800843,
+    "torch_solve_residual_norm": 227586.4345177454,
+    "numpy_solve_residual_norm": 1.6940031911436245e-14,
+    "torch_cholesky_info": 29,
+    "input_definition": "torch.randn(112, 3, generator=manual_seed(31), dtype=float64), then subtract column means",
+    "matrix_definition": "A = X @ X.T + trace(X @ X.T) / 112 * I",
+    "target_transform": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        -3
+      ],
+      [
+        4,
+        0,
+        0
+      ]
+    ],
+    "target_definition": "Y = X @ target_transform"
+  },
+  "saved_svd_comparison": {
+    "icl_a": {
+      "7": {
+        "saved_centered_rank1_energy": 0.2212645709514618,
+        "numpy_centered_rank1_energy": 0.22126468614526815,
+        "absolute_difference": 1.1519380635482968e-07
+      },
+      "13": {
+        "saved_centered_rank1_energy": 0.15262582898139954,
+        "numpy_centered_rank1_energy": 0.1526257858957913,
+        "absolute_difference": 4.3085608247839247e-08
+      },
+      "20": {
+        "saved_centered_rank1_energy": 0.10223779827356339,
+        "numpy_centered_rank1_energy": 0.10223780925132882,
+        "absolute_difference": 1.0977765432795827e-08
+      },
+      "27": {
+        "saved_centered_rank1_energy": 0.15522810816764832,
+        "numpy_centered_rank1_energy": 0.15522806725563768,
+        "absolute_difference": 4.0912010640381524e-08
+      }
+    },
+    "rotated_pairs": {
+      "7": {
+        "saved_centered_rank1_energy": 0.207768976688385,
+        "numpy_centered_rank1_energy": 0.20776897377980724,
+        "absolute_difference": 2.9085777675241786e-09
+      },
+      "13": {
+        "saved_centered_rank1_energy": 0.17374074459075928,
+        "numpy_centered_rank1_energy": 0.1737407619595812,
+        "absolute_difference": 1.7368821936258882e-08
+      },
+      "20": {
+        "saved_centered_rank1_energy": 0.1205207034945488,
+        "numpy_centered_rank1_energy": 0.12052069490886372,
+        "absolute_difference": 8.58568507955404e-09
+      },
+      "27": {
+        "saved_centered_rank1_energy": 0.15115591883659363,
+        "numpy_centered_rank1_energy": 0.15115589617690683,
+        "absolute_difference": 2.2659686793602418e-08
+      }
+    },
+    "token_shuffle": {
+      "7": {
+        "saved_centered_rank1_energy": 0.1980549395084381,
+        "numpy_centered_rank1_energy": 0.198054865394094,
+        "absolute_difference": 7.411434410631301e-08
+      },
+      "13": {
+        "saved_centered_rank1_energy": 0.1437530517578125,
+        "numpy_centered_rank1_energy": 0.1437530161864481,
+        "absolute_difference": 3.5571364409570094e-08
+      },
+      "20": {
+        "saved_centered_rank1_energy": 0.08412780612707138,
+        "numpy_centered_rank1_energy": 0.08412780291667692,
+        "absolute_difference": 3.210394464159272e-09
+      },
+      "27": {
+        "saved_centered_rank1_energy": 0.14965307712554932,
+        "numpy_centered_rank1_energy": 0.14965308014116205,
+        "absolute_difference": 3.0156127317493286e-09
+      }
+    },
+    "length_filler": {
+      "7": {
+        "saved_centered_rank1_energy": 0.16991665959358215,
+        "numpy_centered_rank1_energy": 0.16991661666374902,
+        "absolute_difference": 4.292983313280985e-08
+      },
+      "13": {
+        "saved_centered_rank1_energy": 0.11600970476865768,
+        "numpy_centered_rank1_energy": 0.11600967680428641,
+        "absolute_difference": 2.7964371276945066e-08
+      },
+      "20": {
+        "saved_centered_rank1_energy": 0.08895867317914963,
+        "numpy_centered_rank1_energy": 0.08895868609432994,
+        "absolute_difference": 1.2915180314099217e-08
+      },
+      "27": {
+        "saved_centered_rank1_energy": 0.25003236532211304,
+        "numpy_centered_rank1_energy": 0.2500323460382321,
+        "absolute_difference": 1.9283880936526998e-08
+      }
+    }
+  },
+  "note": "Torch CPU float64 solves and matrix products failed checks on this node. The new diagnostic uses NumPy for fitting and checks each solve residual. Saved SVD and projection statistics agree with independent NumPy calculations. The GPU generation experiment and its mean direction are unchanged; no shared environment settings were modified.",
+  "saved_projection_comparison": {
+    "icl_a": {
+      "7": {
+        "numpy_energy_along_mean": 0.8843114878582591,
+        "saved_energy_along_mean": 0.8843115568161011,
+        "energy_absolute_difference": 6.895784199212329e-08,
+        "numpy_mean_shift_fraction": 0.8804831786675881,
+        "saved_mean_shift_fraction": 0.8804831504821777,
+        "fraction_absolute_difference": 2.8185410338998906e-08
+      },
+      "13": {
+        "numpy_energy_along_mean": 0.8048293549115284,
+        "saved_energy_along_mean": 0.8048292398452759,
+        "energy_absolute_difference": 1.1506625252621916e-07,
+        "numpy_mean_shift_fraction": 0.8024293986867714,
+        "saved_mean_shift_fraction": 0.8024293780326843,
+        "fraction_absolute_difference": 2.0654087107274677e-08
+      },
+      "20": {
+        "numpy_energy_along_mean": 0.7224362953217255,
+        "saved_energy_along_mean": 0.7224364280700684,
+        "energy_absolute_difference": 1.3274834287368975e-07,
+        "numpy_mean_shift_fraction": 0.7193022505753984,
+        "saved_mean_shift_fraction": 0.7193022966384888,
+        "fraction_absolute_difference": 4.606309034205225e-08
+      },
+      "27": {
+        "numpy_energy_along_mean": 0.7218558019735309,
+        "saved_energy_along_mean": 0.7218559384346008,
+        "energy_absolute_difference": 1.36461069888405e-07,
+        "numpy_mean_shift_fraction": 0.7042499487048084,
+        "saved_mean_shift_fraction": 0.704249918460846,
+        "fraction_absolute_difference": 3.024396244555305e-08
+      }
+    },
+    "rotated_pairs": {
+      "7": {
+        "numpy_energy_along_mean": 0.8818011751890437,
+        "saved_energy_along_mean": 0.8818010687828064,
+        "energy_absolute_difference": 1.0640623726576592e-07,
+        "numpy_mean_shift_fraction": 0.877825679939605,
+        "saved_mean_shift_fraction": 0.8778257369995117,
+        "fraction_absolute_difference": 5.7059906688472495e-08
+      },
+      "13": {
+        "numpy_energy_along_mean": 0.8137402685896222,
+        "saved_energy_along_mean": 0.813740074634552,
+        "energy_absolute_difference": 1.9395507022679226e-07,
+        "numpy_mean_shift_fraction": 0.8112014626203736,
+        "saved_mean_shift_fraction": 0.8112014532089233,
+        "fraction_absolute_difference": 9.411450285767842e-09
+      },
+      "20": {
+        "numpy_energy_along_mean": 0.7514123247322635,
+        "saved_energy_along_mean": 0.7514123320579529,
+        "energy_absolute_difference": 7.325689388437695e-09,
+        "numpy_mean_shift_fraction": 0.7489684685579888,
+        "saved_mean_shift_fraction": 0.7489684224128723,
+        "fraction_absolute_difference": 4.614511650569142e-08
+      },
+      "27": {
+        "numpy_energy_along_mean": 0.7546615427626308,
+        "saved_energy_along_mean": 0.7546615600585938,
+        "energy_absolute_difference": 1.7295962995156344e-08,
+        "numpy_mean_shift_fraction": 0.744690539717384,
+        "saved_mean_shift_fraction": 0.7446905374526978,
+        "fraction_absolute_difference": 2.2646862163355763e-09
+      }
+    },
+    "token_shuffle": {
+      "7": {
+        "numpy_energy_along_mean": 0.874270009619381,
+        "saved_energy_along_mean": 0.8742698431015015,
+        "energy_absolute_difference": 1.6651787948518404e-07,
+        "numpy_mean_shift_fraction": 0.870267215959935,
+        "saved_mean_shift_fraction": 0.8702671527862549,
+        "fraction_absolute_difference": 6.317368006492075e-08
+      },
+      "13": {
+        "numpy_energy_along_mean": 0.7285113226860178,
+        "saved_energy_along_mean": 0.7285115122795105,
+        "energy_absolute_difference": 1.8959349268321546e-07,
+        "numpy_mean_shift_fraction": 0.7248504060578909,
+        "saved_mean_shift_fraction": 0.7248504161834717,
+        "fraction_absolute_difference": 1.012558081825432e-08
+      },
+      "20": {
+        "numpy_energy_along_mean": 0.5788115227937093,
+        "saved_energy_along_mean": 0.5788114070892334,
+        "energy_absolute_difference": 1.1570447588926669e-07,
+        "numpy_mean_shift_fraction": 0.5748767118341345,
+        "saved_mean_shift_fraction": 0.5748767256736755,
+        "fraction_absolute_difference": 1.383954106870533e-08
+      },
+      "27": {
+        "numpy_energy_along_mean": 0.6137288515656127,
+        "saved_energy_along_mean": 0.6137291789054871,
+        "energy_absolute_difference": 3.2733987431754485e-07,
+        "numpy_mean_shift_fraction": 0.5922490961370935,
+        "saved_mean_shift_fraction": 0.5922490954399109,
+        "fraction_absolute_difference": 6.971826449486684e-10
+      }
+    },
+    "length_filler": {
+      "7": {
+        "numpy_energy_along_mean": 0.9623591687436804,
+        "saved_energy_along_mean": 0.9623595476150513,
+        "energy_absolute_difference": 3.7887137083192357e-07,
+        "numpy_mean_shift_fraction": 0.9611645063328936,
+        "saved_mean_shift_fraction": 0.9611645340919495,
+        "fraction_absolute_difference": 2.7759055831744206e-08
+      },
+      "13": {
+        "numpy_energy_along_mean": 0.8898700843291272,
+        "saved_energy_along_mean": 0.8898699283599854,
+        "energy_absolute_difference": 1.5596914182403054e-07,
+        "numpy_mean_shift_fraction": 0.888843508350708,
+        "saved_mean_shift_fraction": 0.8888434171676636,
+        "fraction_absolute_difference": 9.118304444832859e-08
+      },
+      "20": {
+        "numpy_energy_along_mean": 0.720491372766844,
+        "saved_energy_along_mean": 0.7204915285110474,
+        "energy_absolute_difference": 1.5574420331176952e-07,
+        "numpy_mean_shift_fraction": 0.7187889044554314,
+        "saved_mean_shift_fraction": 0.7187888622283936,
+        "fraction_absolute_difference": 4.222703786638249e-08
+      },
+      "27": {
+        "numpy_energy_along_mean": 0.510958611011809,
+        "saved_energy_along_mean": 0.5109586119651794,
+        "energy_absolute_difference": 9.533704936615095e-10,
+        "numpy_mean_shift_fraction": 0.4924213509909822,
+        "saved_mean_shift_fraction": 0.49242132902145386,
+        "fraction_absolute_difference": 2.19695283631971e-08
+      }
+    }
+  },
+  "real_activation_gram_check": {
+    "layer": 7,
+    "training_rows": 112,
+    "features": 3584,
+    "dtype": "float64",
+    "torch_symmetry_error": 39.069981756552615,
+    "torch_vs_numpy_max_absolute_difference": 375.1083473689914,
+    "numpy_symmetry_error": 0.0
+  },
+  "source_zero_tensor_sha256": "908f28cdd0a835020c0931f8aade35c8f4aacb923ac23aa9913023a338f3ed98",
+  "source_saved_metrics_sha256": "fbdbf30c16396afafbbacbb0502cb8579b9fa808220a43a177c41d5c97884af8"
+}

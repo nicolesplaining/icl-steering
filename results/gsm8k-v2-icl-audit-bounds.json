@@ -1,0 +1,58 @@
+{
+  "status": "exploratory_fixed_grade_audit_bounds",
+  "conditions": {
+    "zero": {
+      "n": 256,
+      "primary_completed_correct": 173,
+      "unparsed": 39,
+      "unparsed_completed": 38,
+      "truncated": 1,
+      "audit_correct_lower_bound": 173,
+      "audit_correct_upper_bound": 211
+    },
+    "icl_a": {
+      "n": 256,
+      "primary_completed_correct": 231,
+      "unparsed": 0,
+      "unparsed_completed": 0,
+      "truncated": 1,
+      "audit_correct_lower_bound": 231,
+      "audit_correct_upper_bound": 231
+    },
+    "icl_b": {
+      "n": 256,
+      "primary_completed_correct": 227,
+      "unparsed": 0,
+      "unparsed_completed": 0,
+      "truncated": 0,
+      "audit_correct_lower_bound": 227,
+      "audit_correct_upper_bound": 227
+    }
+  },
+  "worst_case_versus_zero": {
+    "icl_a": {
+      "gain": 0.078125,
+      "ci95": [
+        0.03125,
+        0.125
+      ],
+      "wins": 30,
+      "losses": 10
+    },
+    "icl_b": {
+      "gain": 0.0625,
+      "ci95": [
+        0.01171875,
+        0.11328125
+      ],
+      "wins": 31,
+      "losses": 15
+    }
+  },
+  "source_rows_sha256": "eacd724373ca4de292cee64276f4544ba1292ce91aa877f33e26ce0bef11879f",
+  "parent_manifest_sha256": "45e51ddf4dbf689f070d97b5e97a051700b57eb8b29562808f585b8c079a1e73",
+  "selection_sha256": "efeb50717e1fcc3c8a089e6d87989279dd1f137e291ff884f33c344f2366059a",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 907,
+  "note": "These bounds give every completed unparsed zero-shot response credit and no unparsed ICL response credit. Parsed grades remain fixed and truncated responses receive no credit, as in the declared supplementary audit. These are exploratory ICL diagnostics, not steering results or audits of parsed answers. No individual test responses or reference answers were inspected. Both banks use the same questions and are not independent dataset replications."
+}

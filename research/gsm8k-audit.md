@@ -139,6 +139,98 @@ test conditions. The [timestamped declaration](../results/gsm8k-v2-audit-declara
 records zero test outputs and no test lock at declaration, with the audit code
 and protocol hashes.
 
+### Completed selection and validation audit
+
+The completed 24-setting sweep selected block 7, strength 0.5, with injection
+at the last prefill position and every decoded token. Its primary completed
+score is 55/64 versus 48/64 for zero-shot, with no truncated responses.
+Selection and direction hashes were locked before the 256-question test
+started. The final test is now running on GPU 0; the three supplementary
+prefix controls will run afterward on the same GPU.
+
+The apparent validation gain does not survive answer reading at its original
+size. Reviewing all five unparsed selected-condition answers recovers three
+correct answers. One response states an incorrect fuel-consumption value of
+833, which the audit preserves. Another concludes that a shopper lacks enough
+money and states no numeric amount remaining; the audit does not invent one.
+
+| Validation condition | Primary correct | Audited correct |
+|---|---:|---:|
+| Zero-shot | 48/64 | 56/64 |
+| Selected steering | 55/64 | 58/64 |
+| ICL-A | 59/64 | 60/64 |
+| ICL-B | 58/64 | 59/64 |
+| First | 51/64 | 57/64 |
+| Step by step | 51/64 | 55/64 |
+
+The audited steering gain over zero-shot is 3.125 percentage points, with
+five wins and three losses. Its exploratory paired-bootstrap 95% interval
+is [-4.6875, 12.5] points. The advantage over `First,` is one question and
+also has an interval spanning zero. These are selected validation estimates,
+not independent confirmation. The review reuses 26 baseline annotations and
+adds four newly reviewed unique responses; one selected response duplicates
+a previously reviewed response. This audit leaves the frozen selection and
+test unchanged. The full sweep, all 30 annotations, and paired estimates
+are in [`results/gsm8k-v2-selected-validation-audit.json`](../results/gsm8k-v2-selected-validation-audit.json).
+
+Large interventions at deep blocks cause clear failures. At strength 1 with
+injection through decoding, blocks 13, 20, and 27 truncate 20, 45, and 42 of
+64 responses, respectively. Their completed scores are 30/64, 3/64, and
+10/64. These failed settings are retained in the saved sweep. They do not
+justify stopping the smaller selected intervention's held-out test.
+
+### Interim held-out ICL contrast
+
+The first three test conditions have completed all 256 locked questions.
+ICL-A scores 231/256 and ICL-B scores 227/256 under the primary completed
+metric, versus 173/256 for zero-shot. Both ICL banks have fully parseable
+outputs. Zero-shot has 39 unparsed responses, of which one is truncated.
+
+Give all 38 completed unparsed zero-shot responses credit. Its audited score
+could then reach at most 211/256, since the declared audit keeps parsed grades
+fixed and excludes truncated generations. Even under this pessimistic
+assignment, ICL-A leads by 20 questions and ICL-B by 16, or 7.8125 and 6.25
+percentage points. The corresponding exploratory paired-bootstrap intervals
+are [3.125, 12.5] and [1.171875, 11.328125] points. They are unadjusted.
+
+These bounds show that the ICL gains cannot all be explained by rescuing
+unparsed zero-shot answers under our audit rules. They do not audit parsed
+answers or establish an activation-steering benefit. The banks share the
+same test questions and are not independent dataset replications. Individual
+test responses and reference answers remain unopened for the shared review
+packet. Steering, text-prefix, and direction controls are still pending.
+The bounds, paired counts, and source hashes are in
+[`results/gsm8k-v2-icl-audit-bounds.json`](../results/gsm8k-v2-icl-audit-bounds.json).
+
+### Completed primary steering and text controls
+
+The selected intervention has now completed all 256 test questions.
+
+| Test condition | Primary correct | Unparsed | Truncated |
+|---|---:|---:|---:|
+| Zero-shot | 173/256 | 39 | 1 |
+| Selected steering | 198/256 | 22 | 0 |
+| First | 198/256 | 23 | 1 |
+| Step by step | 208/256 | 18 | 0 |
+| ICL-A | 231/256 | 0 | 1 |
+| ICL-B | 227/256 | 0 | 0 |
+
+Steering improves the primary score by 9.765625 percentage points over
+zero-shot, with an exploratory paired-bootstrap interval of [4.6875,
+14.84375] points. It ties `First,` in total accuracy, with 24 wins and 24
+losses on individual questions. It trails the step-by-step prefix by ten
+questions; that paired interval includes zero. The primary result therefore
+does not show an advantage over cheap text prompts.
+
+Even if the supplementary audit recovers all 22 unparsed steering answers,
+steering could reach only 220/256 under its rules. Both actual ICL banks
+already exceed that score. This limits how much ICL benefit the selected
+mean direction can recover, but the audited difference from zero-shot is
+still unknown. Reversed, random, and prefix-control directions continue
+running. The shared answer review will cover all thirteen conditions after
+both runs finish. Scores, paired estimates, and source hashes are in
+[`results/gsm8k-v2-interim-primary.json`](../results/gsm8k-v2-interim-primary.json).
+
 ### Activation geometry
 
 Across the 128 extraction questions, projection onto the mean direction retains
@@ -150,6 +242,13 @@ prompts. They do not show that the shift carries useful mathematical
 information: prompt length and output format remain possible explanations.
 Causal accuracy tests are still running. The measurements and input hashes
 are in [`results/gsm8k-v2-geometry.json`](../results/gsm8k-v2-geometry.json).
+
+A later [conditional geometry check](gsm8k-conditional-geometry.md) finds
+that a linear map predicts some of the question-dependent changes missed by
+the mean. The same pattern also occurs for control prefixes, so it is not
+evidence of a useful mathematical intervention. An independent numerical
+audit confirms the saved geometry statistics after a CPU solver failure in
+the new diagnostic.
 
 An extraction-only control experiment changes the 1,922 demonstration tokens
 while preserving the query positions. It exactly reproduces the original

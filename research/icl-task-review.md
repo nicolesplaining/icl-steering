@@ -34,6 +34,38 @@ one-shot prompts. The authors also discuss large formatting effects, so this
 is a possible follow-up to audit, not a verified positive result for our
 project. The current GSM8K steering run remains the active experiment.
 
+I checked the released evaluation code at commit
+`3140fa3b72daa3034746270eec445167dd698c41`. The exact pi1 question and solution
+are present. There are several details a follow-up must preserve:
+
+- The `math500` demonstration bank contains only pi1. Requesting four shots
+  still returns one example. The separate `math` bank contains five examples;
+  a comparison with the first four requires explicitly selecting that bank.
+  [Example banks](https://github.com/ypwang61/One-Shot-RLVR/blob/3140fa3b72daa3034746270eec445167dd698c41/Qwen2.5-Eval/evaluation/examples.py#L377),
+  [bank selection](https://github.com/ypwang61/One-Shot-RLVR/blob/3140fa3b72daa3034746270eec445167dd698c41/Qwen2.5-Eval/evaluation/utils.py#L55).
+- The `qwen25-math-cot` template places the worked example and query together
+  inside one user message. Zero-shot has the same system instruction and
+  assistant suffix. Replacing this with separate chat turns would change the
+  experiment. [Prompt construction](https://github.com/ypwang61/One-Shot-RLVR/blob/3140fa3b72daa3034746270eec445167dd698c41/Qwen2.5-Eval/evaluation/utils.py#L227).
+- The saved pi1 solution ends in 12.8 even though the paper identifies 12.7
+  as the better rounded answer. Reproducing the published demonstration means
+  preserving it. Appendix B.5 specifies a 3,072-token output cap, seed 0,
+  and top-p 1; MATH500 uses greedy decoding. The authors report substantial
+  repetition in the base model, so finish reasons and answer review are still
+  needed. [Paper, appendices B.5 and C.2.3](https://arxiv.org/html/2504.20571v3).
+- Output filenames omit the shot count. Each condition needs a separate
+  output directory to prevent reuse or overwriting of another condition's
+  outputs. The stock launcher also selects four GPUs; a follow-up on our
+  shared node must use its own GPU 0 launcher.
+  [Output handling](https://github.com/ypwang61/One-Shot-RLVR/blob/3140fa3b72daa3034746270eec445167dd698c41/Qwen2.5-Eval/evaluation/math_eval.py#L80),
+  [launcher](https://github.com/ypwang61/One-Shot-RLVR/blob/3140fa3b72daa3034746270eec445167dd698c41/Qwen2.5-Eval/evaluation/sh/eval_one_experiment_all_ckpts.sh#L3).
+
+This inspection renders illustrative prompts from the released constants;
+it does not run another model experiment. A later steering confirmation must
+use questions excluded from prior MATH screening and any replication screen.
+The reported ICL result is worth checking, but it is not evidence that our
+current GSM8K direction transfers mathematical ability.
+
 I inspected the [released code](https://github.com/TTChungC/Manyshot-CoT-ICL/tree/c6ddffbbd8c4093a03090aa468e8048a43589340), pinned at `c6ddffbbd8c4093a03090aa468e8048a43589340`. The local MATH runner uses the first N training examples in original order, gold worked solutions, a shared step-by-step query suffix, greedy decoding, an 8,172-token output limit, and repetition penalty 1.1. Its model setup uses FP16 and enables thinking for Qwen3. Our runner reads its prompt constants and imports its grader rather than substituting the synthetic pilot's numeric grader.
 
 There are reproducibility gaps. The code does not pin the authors' dataset snapshot, model snapshot, dependency versions, or explicitly supply its stated long-context RoPE settings. Its chat helper omits `enable_thinking=False` when disabling thinking, which would leave the current Qwen3 template's default enabled. Our planned run enables thinking, so that ambiguity does not affect this comparison. We do not claim the released code reproduces every reported table exactly.
