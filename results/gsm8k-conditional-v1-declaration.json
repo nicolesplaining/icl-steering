@@ -1,0 +1,356 @@
+{
+  "status": "declared_before_new_evaluation",
+  "declared_at": "2026-09-12T23:53:37.762226+00:00",
+  "source_commit": "e9aaf83",
+  "manifest": {
+    "request": {
+      "config": {
+        "model": "Qwen/Qwen2.5-Math-7B",
+        "revision": "b101308fe89651ea5ce025f25317fea6fc07e96e",
+        "dataset": "openai/gsm8k",
+        "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+        "seed": 1301,
+        "reserved_train": 128,
+        "reserved_test": 128,
+        "n_validation": 96,
+        "n_test": 512,
+        "layers": [
+          7,
+          13
+        ],
+        "strengths": [
+          0.5,
+          1.0
+        ],
+        "positions": [
+          "prefill",
+          "all"
+        ],
+        "random_seeds": [
+          31,
+          59,
+          83
+        ],
+        "batch_size": 4,
+        "max_model_len": 4096,
+        "max_new_tokens": 1024,
+        "max_truncation_rate": 0.05,
+        "min_icl_gain": 0.05,
+        "min_steering_gain": 0.03,
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 907
+      },
+      "code_sha256": "a4354fba806341bc7ca01dcabae6fbbd7eded023fb2d07096ae3c2ed1052d5db",
+      "inputs_sha256": {
+        "parent_manifest": "45e51ddf4dbf689f070d97b5e97a051700b57eb8b29562808f585b8c079a1e73",
+        "parent_prepared": "1ce2601e5f8377b230b4481ad2937405a2e3bc36ddc3e9a99d060471703de174",
+        "parent_selection": "efeb50717e1fcc3c8a089e6d87989279dd1f137e291ff884f33c344f2366059a",
+        "parent_directions": "390f6be135e37cc42b8018ee18757433f8d02a0a4346d77ad6c191aa3f9ce428",
+        "control_inputs": "70c4f720e69de0b0b035b0dc6f0c32d81a64589a7bb7e80ee644f9e4613f6e5b",
+        "control_metrics": "fbdbf30c16396afafbbacbb0502cb8579b9fa808220a43a177c41d5c97884af8",
+        "tensor_zero": "908f28cdd0a835020c0931f8aade35c8f4aacb923ac23aa9913023a338f3ed98",
+        "tensor_icl_a": "e812046ca6bd2550ce890e6cb1c33ab45f2f7ed4a60d5a99cf66f62bd0554abd",
+        "tensor_rotated_pairs": "2804f42fea60229a0daa10bb12e092d994eba0de864bc6b20ce5e15971bb2f3a"
+      }
+    },
+    "config": {
+      "model": "Qwen/Qwen2.5-Math-7B",
+      "revision": "b101308fe89651ea5ce025f25317fea6fc07e96e",
+      "dataset": "openai/gsm8k",
+      "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+      "seed": 1301,
+      "reserved_train": 128,
+      "reserved_test": 128,
+      "n_validation": 96,
+      "n_test": 512,
+      "layers": [
+        7,
+        13
+      ],
+      "strengths": [
+        0.5,
+        1.0
+      ],
+      "positions": [
+        "prefill",
+        "all"
+      ],
+      "random_seeds": [
+        31,
+        59,
+        83
+      ],
+      "batch_size": 4,
+      "max_model_len": 4096,
+      "max_new_tokens": 1024,
+      "max_truncation_rate": 0.05,
+      "min_icl_gain": 0.05,
+      "min_steering_gain": 0.03,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 907
+    },
+    "prepared_sha256": "d878907eebddba2138fff00d3aefc8faf0821d20ed08e9ce144bbb9a8660332c",
+    "maps_sha256": "56da4ff7d8766e4bf253fb191806f587089eb5fe87eb04d38f23888b50789078",
+    "fit_sha256": "1879ac7569b05e1a735a87e63d76ab8bc7e09407434ae1f57061b4e284ec02b0",
+    "data_sha256": {
+      "train": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+      "test": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59"
+    },
+    "created_at": "2026-09-12T23:50:21.521018+00:00",
+    "validation_conditions": [
+      "zero",
+      "icl_a",
+      "icl_b",
+      "first",
+      "cot",
+      "legacy_mean",
+      "ridge_l7_a0.5_prefill",
+      "mean_l7_a0.5_prefill",
+      "ridge_l7_a0.5_all",
+      "mean_l7_a0.5_all",
+      "ridge_l7_a1_prefill",
+      "mean_l7_a1_prefill",
+      "ridge_l7_a1_all",
+      "mean_l7_a1_all",
+      "ridge_l13_a0.5_prefill",
+      "mean_l13_a0.5_prefill",
+      "ridge_l13_a0.5_all",
+      "mean_l13_a0.5_all",
+      "ridge_l13_a1_prefill",
+      "mean_l13_a1_prefill",
+      "ridge_l13_a1_all",
+      "mean_l13_a1_all"
+    ],
+    "test_generation_requires_selection": true
+  },
+  "manifest_sha256": "35a8a18fb47647f48b4fa97289a3bb5e79a0c8330241d6e7008b5db8ec74a18d",
+  "fit": {
+    "n_extract": 128,
+    "permutation": [
+      11,
+      23,
+      121,
+      106,
+      9,
+      126,
+      72,
+      4,
+      22,
+      118,
+      107,
+      85,
+      24,
+      7,
+      109,
+      8,
+      119,
+      116,
+      54,
+      120,
+      53,
+      95,
+      26,
+      31,
+      75,
+      1,
+      127,
+      125,
+      108,
+      114,
+      64,
+      98,
+      25,
+      111,
+      3,
+      62,
+      93,
+      77,
+      42,
+      49,
+      90,
+      87,
+      117,
+      88,
+      28,
+      101,
+      41,
+      94,
+      20,
+      70,
+      56,
+      47,
+      73,
+      76,
+      59,
+      12,
+      21,
+      122,
+      0,
+      61,
+      83,
+      45,
+      100,
+      82,
+      48,
+      60,
+      30,
+      34,
+      10,
+      43,
+      44,
+      105,
+      84,
+      97,
+      124,
+      113,
+      112,
+      104,
+      123,
+      63,
+      103,
+      99,
+      32,
+      14,
+      102,
+      16,
+      19,
+      78,
+      2,
+      92,
+      55,
+      57,
+      74,
+      79,
+      81,
+      37,
+      18,
+      86,
+      52,
+      89,
+      15,
+      80,
+      65,
+      50,
+      67,
+      33,
+      6,
+      39,
+      68,
+      13,
+      40,
+      66,
+      69,
+      5,
+      46,
+      96,
+      29,
+      36,
+      17,
+      38,
+      35,
+      115,
+      27,
+      58,
+      110,
+      51,
+      91,
+      71
+    ],
+    "fits": {
+      "7/real": {
+        "width": 3584,
+        "mean_norm": 37.091566520230415,
+        "penalty": 350.63398830188527,
+        "relative_solver_residual": 5.723954459997118e-16
+      },
+      "7/permuted": {
+        "width": 3584,
+        "mean_norm": 37.091566520230415,
+        "penalty": 350.63398830188527,
+        "relative_solver_residual": 7.638778389660021e-16
+      },
+      "7/rotated": {
+        "width": 3584,
+        "mean_norm": 37.42619495631698,
+        "penalty": 350.63398830188527,
+        "relative_solver_residual": 5.723351278617666e-16
+      },
+      "13/real": {
+        "width": 3584,
+        "mean_norm": 90.75746265437273,
+        "penalty": 1819.1264894012543,
+        "relative_solver_residual": 5.922426182793544e-16
+      },
+      "13/permuted": {
+        "width": 3584,
+        "mean_norm": 90.75746265437273,
+        "penalty": 1819.1264894012543,
+        "relative_solver_residual": 7.678782018289413e-16
+      },
+      "13/rotated": {
+        "width": 3584,
+        "mean_norm": 89.78222847557218,
+        "penalty": 1819.1264894012543,
+        "relative_solver_residual": 5.829564582117882e-16
+      }
+    }
+  },
+  "smoke": {
+    "status": "smoke_passed",
+    "uses_only_old_extraction_questions": true,
+    "problem_ids": [
+      "gsm8k:train:162",
+      "gsm8k:train:185",
+      "gsm8k:train:234",
+      "gsm8k:train:302"
+    ],
+    "gpu": 0,
+    "replayed_zero_activation_max_abs_error": {
+      "7": 0.0,
+      "13": 0.0
+    },
+    "zero_strength_tokens_identical": true,
+    "nonzero_scope_output_lengths": {
+      "prefill": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "all": [
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    "question_vector_norms": [
+      38.746559143066406,
+      37.56727600097656,
+      38.930362701416016,
+      39.87450408935547
+    ],
+    "manifest_sha256": "35a8a18fb47647f48b4fa97289a3bb5e79a0c8330241d6e7008b5db8ec74a18d",
+    "script_sha256": "8120daffc6789935cafc1f6153e1f3ad4b14eefd443cfceaf5491888b91e9e93",
+    "note": "Eight-token software smoke check only. No new validation/test questions or accuracy measurements."
+  },
+  "validation_rows": 0,
+  "test_rows": 0,
+  "independent_partition_check": {
+    "validation": 96,
+    "test": 512,
+    "prior_normalized_questions_excluded": 704,
+    "overlap_with_prior": {
+      "validation": 0,
+      "test": 0
+    },
+    "validation_test_overlap": 0,
+    "reserved_id_prefixes_excluded": true
+  },
+  "versions": {
+    "numpy": "1.24.4",
+    "torch": "2.7.0",
+    "transformers": "4.51.3",
+    "pyarrow": "20.0.0"
+  }
+}
