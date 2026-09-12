@@ -138,3 +138,27 @@ hashes. Include `prefix_rotated_pairs`, `prefix_token_shuffle`, and
 `prefix_length_filler` alongside the ten primary conditions. Use the same
 answer-audit rubric for every condition. Additional paired comparisons are
 exploratory; they cannot change the selected intervention.
+
+The combined analysis command checks completion, selection locks, question
+identities, and source hashes before creating the shared review packet.
+Run it on the server, where the original direction file is available:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_comparison prepare \
+  --run runs/gsm8k-steering-v2 --prefix runs/gsm8k-prefix-test-v1 \
+  --output runs/gsm8k-comparison-v2
+```
+
+Review only `review-packet.json` while transcribing the stated answers.
+Save the complete annotations using the audit protocol, then score them:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_comparison report --run runs/gsm8k-comparison-v2 \
+  --annotations runs/gsm8k-comparison-v2/review-annotations.json
+```
+
+`comparison.json` and `comparison.md` report both metrics and paired
+comparisons against every control. The original grades and selection remain
+unchanged. The intervals are exploratory and unadjusted.
