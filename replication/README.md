@@ -91,3 +91,46 @@ The tool rejects incomplete conditions, changed inputs, and incomplete
 reviews. It leaves parsed grades and experiment selection unchanged, and
 truncated generations still receive no completed-answer credit. Raw packets
 and model responses stay in the ignored run directory.
+
+### Prefix geometry controls
+
+The extraction-only diagnostic compares real demonstrations with rotated
+question/solution pairings, shuffled demonstration tokens, and repeated
+single-token filler. Shuffling and filler preserve every token position of
+the query and leave the instruction header unchanged. They are deliberately
+unnatural controls. Their similarity to the real ICL direction can expose
+a generic prefix effect; dissimilarity alone cannot prove useful ICL.
+
+On the two-GPU machine, run this on the spare GPU while the main sweep uses
+GPU 0:
+
+```bash
+CUDA_VISIBLE_DEVICES=1 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_prefix_controls \
+  --run runs/gsm8k-steering-v2 --output runs/gsm8k-prefix-controls-v1
+```
+
+It uses only the 128 extraction questions and verifies that replaying the
+original prompts reproduces the saved mean directions. Model weights stay
+frozen. Inputs and activation tensors remain in the ignored output directory;
+`metrics.json` records geometry and provenance. Inspect any existing control
+run before starting a new one; the command refuses to overwrite its manifest.
+
+The [fixed supplementary test](../research/gsm8k-prefix-test-protocol.md) must
+be declared before the main test starts. It waits for the main selection and
+test lock, then evaluates all three directions with the same selected
+parameters and norms. Supply the actual main Python process ID:
+
+```bash
+CUDA_VISIBLE_DEVICES=1 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_prefix_test \
+  --run runs/gsm8k-steering-v2 --controls runs/gsm8k-prefix-controls-v1 \
+  --output runs/gsm8k-prefix-test-v1 --parent-pid MAIN_PYTHON_PID
+```
+
+After both tests finish, combine their generation records for the review
+packet, retaining the original prepared data and a record of both source
+hashes. Include `prefix_rotated_pairs`, `prefix_token_shuffle`, and
+`prefix_length_filler` alongside the ten primary conditions. Use the same
+answer-audit rubric for every condition. Additional paired comparisons are
+exploratory; they cannot change the selected intervention.
