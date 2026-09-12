@@ -1,0 +1,11 @@
+{
+  "status": "blinded_review_complete_before_scoring",
+  "reviewed": 268,
+  "total": 268,
+  "packet_sha256": "67c2c8bd18f70477350410d738ca75d1032f97b5aa509eccb1ae8daa358fdb7f",
+  "annotations_file_sha256": "160a09339678bc433a6f069849833d59962fe554ffb604d04d91e01bc55693eb",
+  "updated_at": "2026-09-12T23:26:43.681461+00:00",
+  "scored": false,
+  "reviewer": "single assistant reviewer",
+  "note": "All 268 unique unparsed responses reviewed through the blinded packet. Reference answers and condition mappings were not inspected during annotation. Full annotations saved before scoring."
+}
