@@ -202,6 +202,35 @@ packet. Steering, text-prefix, and direction controls are still pending.
 The bounds, paired counts, and source hashes are in
 [`results/gsm8k-v2-icl-audit-bounds.json`](../results/gsm8k-v2-icl-audit-bounds.json).
 
+### Completed primary steering and text controls
+
+The selected intervention has now completed all 256 test questions.
+
+| Test condition | Primary correct | Unparsed | Truncated |
+|---|---:|---:|---:|
+| Zero-shot | 173/256 | 39 | 1 |
+| Selected steering | 198/256 | 22 | 0 |
+| First | 198/256 | 23 | 1 |
+| Step by step | 208/256 | 18 | 0 |
+| ICL-A | 231/256 | 0 | 1 |
+| ICL-B | 227/256 | 0 | 0 |
+
+Steering improves the primary score by 9.765625 percentage points over
+zero-shot, with an exploratory paired-bootstrap interval of [4.6875,
+14.84375] points. It ties `First,` in total accuracy, with 24 wins and 24
+losses on individual questions. It trails the step-by-step prefix by ten
+questions; that paired interval includes zero. The primary result therefore
+does not show an advantage over cheap text prompts.
+
+Even if the supplementary audit recovers all 22 unparsed steering answers,
+steering could reach only 220/256 under its rules. Both actual ICL banks
+already exceed that score. This limits how much ICL benefit the selected
+mean direction can recover, but the audited difference from zero-shot is
+still unknown. Reversed, random, and prefix-control directions continue
+running. The shared answer review will cover all thirteen conditions after
+both runs finish. Scores, paired estimates, and source hashes are in
+[`results/gsm8k-v2-interim-primary.json`](../results/gsm8k-v2-interim-primary.json).
+
 ### Activation geometry
 
 Across the 128 extraction questions, projection onto the mean direction retains

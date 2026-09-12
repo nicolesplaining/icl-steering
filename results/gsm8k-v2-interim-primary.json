@@ -1,0 +1,112 @@
+{
+  "status": "interim_complete_primary_conditions",
+  "summary": {
+    "zero": {
+      "n": 256,
+      "primary_completed_correct": 173,
+      "primary_completed_accuracy": 0.67578125,
+      "unparsed": 39,
+      "truncated": 1,
+      "audit_correct_lower_bound": 173,
+      "audit_correct_upper_bound": 211
+    },
+    "icl_a": {
+      "n": 256,
+      "primary_completed_correct": 231,
+      "primary_completed_accuracy": 0.90234375,
+      "unparsed": 0,
+      "truncated": 1,
+      "audit_correct_lower_bound": 231,
+      "audit_correct_upper_bound": 231
+    },
+    "icl_b": {
+      "n": 256,
+      "primary_completed_correct": 227,
+      "primary_completed_accuracy": 0.88671875,
+      "unparsed": 0,
+      "truncated": 0,
+      "audit_correct_lower_bound": 227,
+      "audit_correct_upper_bound": 227
+    },
+    "first": {
+      "n": 256,
+      "primary_completed_correct": 198,
+      "primary_completed_accuracy": 0.7734375,
+      "unparsed": 23,
+      "truncated": 1,
+      "audit_correct_lower_bound": 198,
+      "audit_correct_upper_bound": 221
+    },
+    "cot": {
+      "n": 256,
+      "primary_completed_correct": 208,
+      "primary_completed_accuracy": 0.8125,
+      "unparsed": 18,
+      "truncated": 0,
+      "audit_correct_lower_bound": 208,
+      "audit_correct_upper_bound": 226
+    },
+    "steered": {
+      "n": 256,
+      "primary_completed_correct": 198,
+      "primary_completed_accuracy": 0.7734375,
+      "unparsed": 22,
+      "truncated": 0,
+      "audit_correct_lower_bound": 198,
+      "audit_correct_upper_bound": 220
+    }
+  },
+  "primary_steered_comparisons": {
+    "zero": {
+      "gain": 0.09765625,
+      "ci95": [
+        0.046875,
+        0.1484375
+      ],
+      "wins": 35,
+      "losses": 10
+    },
+    "icl_a": {
+      "gain": -0.12890625,
+      "ci95": [
+        -0.1796875,
+        -0.078125
+      ],
+      "wins": 7,
+      "losses": 40
+    },
+    "icl_b": {
+      "gain": -0.11328125,
+      "ci95": [
+        -0.16796875,
+        -0.0625
+      ],
+      "wins": 10,
+      "losses": 39
+    },
+    "first": {
+      "gain": 0.0,
+      "ci95": [
+        -0.0546875,
+        0.05078125
+      ],
+      "wins": 24,
+      "losses": 24
+    },
+    "cot": {
+      "gain": -0.0390625,
+      "ci95": [
+        -0.09375,
+        0.015625
+      ],
+      "wins": 21,
+      "losses": 31
+    }
+  },
+  "source_rows_sha256": "8b38e0a176997b8b5adfd7845f6a9aa82493c461deb3c4240f41ed94541fff32",
+  "parent_manifest_sha256": "45e51ddf4dbf689f070d97b5e97a051700b57eb8b29562808f585b8c079a1e73",
+  "selection_sha256": "efeb50717e1fcc3c8a089e6d87989279dd1f137e291ff884f33c344f2366059a",
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 777,
+  "note": "Each listed condition is complete on all 256 locked questions. Remaining direction controls and the shared answer audit are pending. These primary comparisons use the frozen explicit-answer grader and do not establish a robust mathematical steering benefit. Audit bounds retain parsed grades and exclude truncated responses; no individual test responses or reference answers were inspected."
+}
