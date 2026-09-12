@@ -179,6 +179,29 @@ injection through decoding, blocks 13, 20, and 27 truncate 20, 45, and 42 of
 10/64. These failed settings are retained in the saved sweep. They do not
 justify stopping the smaller selected intervention's held-out test.
 
+### Interim held-out ICL contrast
+
+The first three test conditions have completed all 256 locked questions.
+ICL-A scores 231/256 and ICL-B scores 227/256 under the primary completed
+metric, versus 173/256 for zero-shot. Both ICL banks have fully parseable
+outputs. Zero-shot has 39 unparsed responses, of which one is truncated.
+
+Give all 38 completed unparsed zero-shot responses credit. Its audited score
+could then reach at most 211/256, since the declared audit keeps parsed grades
+fixed and excludes truncated generations. Even under this pessimistic
+assignment, ICL-A leads by 20 questions and ICL-B by 16, or 7.8125 and 6.25
+percentage points. The corresponding exploratory paired-bootstrap intervals
+are [3.125, 12.5] and [1.171875, 11.328125] points. They are unadjusted.
+
+These bounds show that the ICL gains cannot all be explained by rescuing
+unparsed zero-shot answers under our audit rules. They do not audit parsed
+answers or establish an activation-steering benefit. The banks share the
+same test questions and are not independent dataset replications. Individual
+test responses and reference answers remain unopened for the shared review
+packet. Steering, text-prefix, and direction controls are still pending.
+The bounds, paired counts, and source hashes are in
+[`results/gsm8k-v2-icl-audit-bounds.json`](../results/gsm8k-v2-icl-audit-bounds.json).
+
 ### Activation geometry
 
 Across the 128 extraction questions, projection onto the mean direction retains
