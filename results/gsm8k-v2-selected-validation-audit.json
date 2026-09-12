@@ -1,0 +1,709 @@
+{
+  "status": "supplementary_answer_audit",
+  "split": "validation",
+  "source_sha256": "63c6af593e13694b8ba98a56ea85e576f9bb02fbe53fb062d0bddfe880b60c65",
+  "packet_sha256": "974ec768f345b0942c71f0312075a72c338a83e41f26626fed34c794e6a98aff",
+  "annotations_sha256": "d8d5d525f7b83ecb8ac8976a3b933ef39556c547d6f4cdc57059beb36b2a47a3",
+  "audit_code_sha256": "294d3b60f83a7eedb8e1d99c93d1214b4629b23d76acb0cbd64f4a5aef182cb6",
+  "summary": {
+    "cot": {
+      "n": 64,
+      "primary_completed_correct": 51,
+      "audited_completed_correct": 55,
+      "unparsed": 6,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.015625,
+          "ci95": [
+            -0.09375,
+            0.0625
+          ],
+          "wins": 3,
+          "losses": 4
+        }
+      }
+    },
+    "first": {
+      "n": 64,
+      "primary_completed_correct": 51,
+      "audited_completed_correct": 57,
+      "unparsed": 8,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.015625,
+          "ci95": [
+            -0.078125,
+            0.109375
+          ],
+          "wins": 5,
+          "losses": 4
+        }
+      }
+    },
+    "icl_a": {
+      "n": 64,
+      "primary_completed_correct": 59,
+      "audited_completed_correct": 60,
+      "unparsed": 1,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.0625,
+          "ci95": [
+            0.0,
+            0.140625
+          ],
+          "wins": 5,
+          "losses": 1
+        },
+        "first": {
+          "gain": 0.046875,
+          "ci95": [
+            -0.015625,
+            0.109375
+          ],
+          "wins": 4,
+          "losses": 1
+        },
+        "cot": {
+          "gain": 0.078125,
+          "ci95": [
+            0.0,
+            0.15625
+          ],
+          "wins": 6,
+          "losses": 1
+        }
+      }
+    },
+    "icl_b": {
+      "n": 64,
+      "primary_completed_correct": 58,
+      "audited_completed_correct": 59,
+      "unparsed": 1,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.046875,
+          "ci95": [
+            -0.046875,
+            0.140625
+          ],
+          "wins": 6,
+          "losses": 3
+        },
+        "first": {
+          "gain": 0.03125,
+          "ci95": [
+            -0.046875,
+            0.125
+          ],
+          "wins": 5,
+          "losses": 3
+        },
+        "cot": {
+          "gain": 0.0625,
+          "ci95": [
+            -0.015625,
+            0.15625
+          ],
+          "wins": 6,
+          "losses": 2
+        }
+      }
+    },
+    "steer_l7_a0.5_all": {
+      "n": 64,
+      "primary_completed_correct": 55,
+      "audited_completed_correct": 58,
+      "unparsed": 5,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.03125,
+          "ci95": [
+            -0.046875,
+            0.125
+          ],
+          "wins": 5,
+          "losses": 3
+        }
+      }
+    },
+    "zero": {
+      "n": 64,
+      "primary_completed_correct": 48,
+      "audited_completed_correct": 56,
+      "unparsed": 10,
+      "truncated": 0,
+      "paired": {}
+    }
+  },
+  "annotations": [
+    {
+      "response_id": "6cc667b4c24fb9f7c7fb32dd11377b42a1e39ed096b813f7bb9e61278acd0f9d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Final answer is an expression with unresolved variables; no numerical total is stated."
+    },
+    {
+      "response_id": "cfd3aca546b75997f0df85b5494544a6f6ca335664bfb29acbac21228b250249",
+      "stated_answer": "52",
+      "reviewed": true,
+      "rationale": "Concluding sentence gives $52."
+    },
+    {
+      "response_id": "0e7c3f0889135ef5094d7e007f220da659f22cae4506a0f02c19586d1d8a588e",
+      "stated_answer": "52",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states that each boy receives $52."
+    },
+    {
+      "response_id": "99f3ff17431c828cded32a76eba7a8feff95bcf6a91d58c4bc6718fc3fa6dcc3",
+      "stated_answer": "21",
+      "reviewed": true,
+      "rationale": "Concluding sentence gives 21 inches."
+    },
+    {
+      "response_id": "8c9da9d4894e0bf23de799365eaa6ed9827130ca7bab078e6c84274a75724b42",
+      "stated_answer": "240",
+      "reviewed": true,
+      "rationale": "Concluding sentence states $240."
+    },
+    {
+      "response_id": "e6bf46949936131b70caab046ad919cd73b7f76691dc487a76ef271c0c490c19",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final box states that Brad read 4 more books than William. The quantity is explicit in prose; no generated code was executed."
+    },
+    {
+      "response_id": "48213e75850b829beac21a3a0abe2bc01254312922dbd22d0689b1a38fc6fc99",
+      "stated_answer": "240",
+      "reviewed": true,
+      "rationale": "Concluding sentence gives $240."
+    },
+    {
+      "response_id": "65710e0eb2608ef750415126fbf8faac808c87450a3366c67c56f7186d0cf613",
+      "stated_answer": "93",
+      "reviewed": true,
+      "rationale": "Answer states 93 yards every 3 days; 3 identifies the requested time period."
+    },
+    {
+      "response_id": "570f04b03c25059b36557f50d372b72474fe2d019d4462c64a2f97dfc3eb9fc2",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer."
+    },
+    {
+      "response_id": "94c1c3828368b3f9b5295a9938f734d6d68cfa3b97f468a9236807048b469423",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "Response states 60 bottles, then an unfilled answer placeholder. Preserve the stated 60, without repairing its arithmetic."
+    },
+    {
+      "response_id": "e7c93a370b0ad94a6a91e346492e5c7b852f2ae054b8ea2bf61ec65585723f81",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Prose box states Brad read 4 more books."
+    },
+    {
+      "response_id": "3c735ff96e78c334207d82d17a56423e700d4e33391835a5a7dc055b06d1c35f",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "Concluding sentence gives 32 hours."
+    },
+    {
+      "response_id": "ec0c2fbb3bb17dbf3a5621b0c5f9337820de35f60e27c501dd9fcad9f6776658",
+      "stated_answer": "2500",
+      "reviewed": true,
+      "rationale": "Concluding sentence states 2500 tons. Preserve the response error."
+    },
+    {
+      "response_id": "b4d256b858ca60a4ad5b96b4cac137b23b08b5e307b14e667e8bc2bb5ccedbca",
+      "stated_answer": "237",
+      "reviewed": true,
+      "rationale": "Final sentence states 237 fish per day."
+    },
+    {
+      "response_id": "00361417d444f5de297f71a2e4e4d57bed08193ffb226c720be2f9fc526fe25d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response concludes that Rihanna does not have enough money. It states no numeric amount left; no answer is inferred from the intermediate spending amounts."
+    },
+    {
+      "response_id": "8150c6166eb99c5c81f6e7180c668cfd17bf168926a82aabcbf3cd4105dd451f",
+      "stated_answer": "833",
+      "reviewed": true,
+      "rationale": "The concluding sentence explicitly states 833 liters per 100 km. This stated value is retained without correcting its calculation."
+    },
+    {
+      "response_id": "2c9c65cb4cd98851dc68b33b74fcdd90c4c814998eeefb0b2b68cda2dd0f8ac1",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "Concluding sentence gives $3 profit."
+    },
+    {
+      "response_id": "b6acac4e2ed37b7ad166f306bb19bb5642ef0c7511cd72e72b4373bab875c097",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The explicit final calculation ends with $14."
+    },
+    {
+      "response_id": "0764d1a179f9e30b6ae27d9bc0f5b57e2485f27f1bd7006b1ce8b6f2afe014f6",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Final claim is insufficient money; no numerical amount left is stated. Do not infer an unstated answer."
+    },
+    {
+      "response_id": "ce61faa358390fcc9f8fb7b42aa8ff900f3e266c520085c31174bb2925c021e8",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Concluding sentence gives 25 cm."
+    },
+    {
+      "response_id": "281b15b6c7f5b6b550aeaa972b36b8b627e2034c64ccc8e417da0c3243143db8",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Box contains prose stating Brad read 4 more books."
+    },
+    {
+      "response_id": "f3c2e4b754aaa9e4169b927b4730af03eebe016815b4c372b05193b6b5468d9d",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Response explicitly concludes 10 bottles, including an arithmetic error. Preserve its stated answer."
+    },
+    {
+      "response_id": "279546b51d607fab3652320c705d4b550dc300dfbed851a91ca6aaca196cab76",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Length-truncated repeated revisions do not settle on a final answer; no completed-answer credit."
+    },
+    {
+      "response_id": "74d31efe911d42a6b61ef0d2113f96f2f27ad3638a6e8a4154a52c302d406b9e",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "Concluding sentence states $3 profit."
+    },
+    {
+      "response_id": "d81cba942b9faa57a0340dc3350c5acc690cd9b65736e19d0bc49a947093a21c",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Answer states 12 liters per 100 km; 100 belongs to the unit."
+    },
+    {
+      "response_id": "44f7d774969d2f39c8b37ef8ebe5f8d84e381967de009a41b38956878643becf",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Answer states 12 liters per 100 km; 100 belongs to the unit."
+    },
+    {
+      "response_id": "11ad10677bd00a4e2b6188f31601b574de02b05d24f8ada67b3ad781d9749edd",
+      "stated_answer": "540",
+      "reviewed": true,
+      "rationale": "Concluding sentence states 540 inches."
+    },
+    {
+      "response_id": "00a344950de56ceed9046994df8b9ac35220ce17a832848d17a0e34eb67bd2c6",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer."
+    },
+    {
+      "response_id": "623b8479300a16c2c0ddbae763db42613166f6dbba697e27b098c88ec5c28f3c",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Prose box states Brad read 4 more books."
+    },
+    {
+      "response_id": "c80f06d7e2d0cc0ad2a50edb4608103dc77e12c0b5b736c408bcd4f30fec1512",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Final consumption is 12 liters per 100 km; 100 is part of the unit, not an alternative answer."
+    }
+  ],
+  "limitations": "Only unparsed answers are reviewed. Parsed grades are unchanged. Truncated responses receive no completed-answer credit. This is a single-reviewer supplementary measure with exploratory, unadjusted paired intervals; it does not change the primary metric, direction, or selection. This validation audit is exploratory, after selection, and reuses 26 prior baseline reviews. It is not a blinded held-out confirmation. Selection and final test remain unchanged.",
+  "selected_condition": "steer_l7_a0.5_all",
+  "selected_paired_controls": {
+    "zero": {
+      "gain": 0.03125,
+      "ci95": [
+        -0.046875,
+        0.125
+      ],
+      "wins": 5,
+      "losses": 3
+    },
+    "icl_a": {
+      "gain": -0.03125,
+      "ci95": [
+        -0.125,
+        0.046875
+      ],
+      "wins": 3,
+      "losses": 5
+    },
+    "icl_b": {
+      "gain": -0.015625,
+      "ci95": [
+        -0.109375,
+        0.078125
+      ],
+      "wins": 4,
+      "losses": 5
+    },
+    "first": {
+      "gain": 0.015625,
+      "ci95": [
+        -0.09375,
+        0.125
+      ],
+      "wins": 6,
+      "losses": 5
+    },
+    "cot": {
+      "gain": 0.046875,
+      "ci95": [
+        -0.046875,
+        0.15625
+      ],
+      "wins": 7,
+      "losses": 4
+    }
+  },
+  "provenance": {
+    "source_run": "/home/ubuntu/icl-steering/runs/gsm8k-steering-v2",
+    "scope": "validation baselines and selected intervention only",
+    "conditions": [
+      "zero",
+      "icl_a",
+      "icl_b",
+      "first",
+      "cot",
+      "steer_l7_a0.5_all"
+    ],
+    "selection_sha256": "efeb50717e1fcc3c8a089e6d87989279dd1f137e291ff884f33c344f2366059a",
+    "generations_sha256": "98941e8346bc09fac0c0923bdc0384375ce297b3e8acc0d69b31211fac8d51e2",
+    "note": "Exploratory validation audit after selection. Does not change selection or test."
+  },
+  "selection": {
+    "chosen": {
+      "condition": "steer_l7_a0.5_all",
+      "layer": 7,
+      "alpha": 0.5,
+      "positions": "all",
+      "n": 64,
+      "accuracy": 0.859375,
+      "completed_accuracy": 0.859375,
+      "truncation_rate": 0.0,
+      "parse_rate": 0.921875
+    },
+    "validation_gain": 0.109375,
+    "eligible": true,
+    "rule": "Max validation completed accuracy; ties use alpha, layer, positions in ascending order.",
+    "baselines": {
+      "zero": {
+        "n": 64,
+        "accuracy": 0.75,
+        "completed_accuracy": 0.75,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.84375
+      },
+      "icl_a": {
+        "n": 64,
+        "accuracy": 0.921875,
+        "completed_accuracy": 0.921875,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.984375
+      },
+      "icl_b": {
+        "n": 64,
+        "accuracy": 0.90625,
+        "completed_accuracy": 0.90625,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.984375
+      },
+      "first": {
+        "n": 64,
+        "accuracy": 0.796875,
+        "completed_accuracy": 0.796875,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      "cot": {
+        "n": 64,
+        "accuracy": 0.796875,
+        "completed_accuracy": 0.796875,
+        "truncation_rate": 0.015625,
+        "parse_rate": 0.90625
+      }
+    },
+    "candidates": [
+      {
+        "condition": "steer_l7_a0.25_prefill",
+        "layer": 7,
+        "alpha": 0.25,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.796875,
+        "completed_accuracy": 0.796875,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.890625
+      },
+      {
+        "condition": "steer_l7_a0.25_all",
+        "layer": 7,
+        "alpha": 0.25,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.796875,
+        "completed_accuracy": 0.796875,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l7_a0.5_prefill",
+        "layer": 7,
+        "alpha": 0.5,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.75,
+        "completed_accuracy": 0.75,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l7_a0.5_all",
+        "layer": 7,
+        "alpha": 0.5,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.859375,
+        "completed_accuracy": 0.859375,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.921875
+      },
+      {
+        "condition": "steer_l7_a1_prefill",
+        "layer": 7,
+        "alpha": 1.0,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.828125,
+        "completed_accuracy": 0.828125,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.890625
+      },
+      {
+        "condition": "steer_l7_a1_all",
+        "layer": 7,
+        "alpha": 1.0,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.828125,
+        "completed_accuracy": 0.828125,
+        "truncation_rate": 0.015625,
+        "parse_rate": 0.890625
+      },
+      {
+        "condition": "steer_l13_a0.25_prefill",
+        "layer": 13,
+        "alpha": 0.25,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.78125,
+        "completed_accuracy": 0.78125,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l13_a0.25_all",
+        "layer": 13,
+        "alpha": 0.25,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.734375,
+        "completed_accuracy": 0.734375,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l13_a0.5_prefill",
+        "layer": 13,
+        "alpha": 0.5,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.796875,
+        "completed_accuracy": 0.796875,
+        "truncation_rate": 0.015625,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l13_a0.5_all",
+        "layer": 13,
+        "alpha": 0.5,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.78125,
+        "completed_accuracy": 0.78125,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.890625
+      },
+      {
+        "condition": "steer_l13_a1_prefill",
+        "layer": 13,
+        "alpha": 1.0,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.84375,
+        "completed_accuracy": 0.84375,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.890625
+      },
+      {
+        "condition": "steer_l13_a1_all",
+        "layer": 13,
+        "alpha": 1.0,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.484375,
+        "completed_accuracy": 0.46875,
+        "truncation_rate": 0.3125,
+        "parse_rate": 0.703125
+      },
+      {
+        "condition": "steer_l20_a0.25_prefill",
+        "layer": 20,
+        "alpha": 0.25,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.765625,
+        "completed_accuracy": 0.765625,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.84375
+      },
+      {
+        "condition": "steer_l20_a0.25_all",
+        "layer": 20,
+        "alpha": 0.25,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.765625,
+        "completed_accuracy": 0.765625,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l20_a0.5_prefill",
+        "layer": 20,
+        "alpha": 0.5,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.78125,
+        "completed_accuracy": 0.78125,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.859375
+      },
+      {
+        "condition": "steer_l20_a0.5_all",
+        "layer": 20,
+        "alpha": 0.5,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.8125,
+        "completed_accuracy": 0.8125,
+        "truncation_rate": 0.03125,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l20_a1_prefill",
+        "layer": 20,
+        "alpha": 1.0,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.8125,
+        "completed_accuracy": 0.8125,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.859375
+      },
+      {
+        "condition": "steer_l20_a1_all",
+        "layer": 20,
+        "alpha": 1.0,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.046875,
+        "completed_accuracy": 0.046875,
+        "truncation_rate": 0.703125,
+        "parse_rate": 0.28125
+      },
+      {
+        "condition": "steer_l27_a0.25_prefill",
+        "layer": 27,
+        "alpha": 0.25,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.78125,
+        "completed_accuracy": 0.78125,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l27_a0.25_all",
+        "layer": 27,
+        "alpha": 0.25,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.765625,
+        "completed_accuracy": 0.765625,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.8125
+      },
+      {
+        "condition": "steer_l27_a0.5_prefill",
+        "layer": 27,
+        "alpha": 0.5,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.78125,
+        "completed_accuracy": 0.78125,
+        "truncation_rate": 0.015625,
+        "parse_rate": 0.875
+      },
+      {
+        "condition": "steer_l27_a0.5_all",
+        "layer": 27,
+        "alpha": 0.5,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.765625,
+        "completed_accuracy": 0.765625,
+        "truncation_rate": 0.0,
+        "parse_rate": 0.828125
+      },
+      {
+        "condition": "steer_l27_a1_prefill",
+        "layer": 27,
+        "alpha": 1.0,
+        "positions": "prefill",
+        "n": 64,
+        "accuracy": 0.828125,
+        "completed_accuracy": 0.828125,
+        "truncation_rate": 0.015625,
+        "parse_rate": 0.890625
+      },
+      {
+        "condition": "steer_l27_a1_all",
+        "layer": 27,
+        "alpha": 1.0,
+        "positions": "all",
+        "n": 64,
+        "accuracy": 0.15625,
+        "completed_accuracy": 0.15625,
+        "truncation_rate": 0.65625,
+        "parse_rate": 0.171875
+      }
+    ]
+  }
+}

@@ -139,6 +139,46 @@ test conditions. The [timestamped declaration](../results/gsm8k-v2-audit-declara
 records zero test outputs and no test lock at declaration, with the audit code
 and protocol hashes.
 
+### Completed selection and validation audit
+
+The completed 24-setting sweep selected block 7, strength 0.5, with injection
+at the last prefill position and every decoded token. Its primary completed
+score is 55/64 versus 48/64 for zero-shot, with no truncated responses.
+Selection and direction hashes were locked before the 256-question test
+started. The final test is now running on GPU 0; the three supplementary
+prefix controls will run afterward on the same GPU.
+
+The apparent validation gain does not survive answer reading at its original
+size. Reviewing all five unparsed selected-condition answers recovers three
+correct answers. One response states an incorrect fuel-consumption value of
+833, which the audit preserves. Another concludes that a shopper lacks enough
+money and states no numeric amount remaining; the audit does not invent one.
+
+| Validation condition | Primary correct | Audited correct |
+|---|---:|---:|
+| Zero-shot | 48/64 | 56/64 |
+| Selected steering | 55/64 | 58/64 |
+| ICL-A | 59/64 | 60/64 |
+| ICL-B | 58/64 | 59/64 |
+| First | 51/64 | 57/64 |
+| Step by step | 51/64 | 55/64 |
+
+The audited steering gain over zero-shot is 3.125 percentage points, with
+five wins and three losses. Its exploratory paired-bootstrap 95% interval
+is [-4.6875, 12.5] points. The advantage over `First,` is one question and
+also has an interval spanning zero. These are selected validation estimates,
+not independent confirmation. The review reuses 26 baseline annotations and
+adds four newly reviewed unique responses; one selected response duplicates
+a previously reviewed response. This audit leaves the frozen selection and
+test unchanged. The full sweep, all 30 annotations, and paired estimates
+are in [`results/gsm8k-v2-selected-validation-audit.json`](../results/gsm8k-v2-selected-validation-audit.json).
+
+Large interventions at deep blocks cause clear failures. At strength 1 with
+injection through decoding, blocks 13, 20, and 27 truncate 20, 45, and 42 of
+64 responses, respectively. Their completed scores are 30/64, 3/64, and
+10/64. These failed settings are retained in the saved sweep. They do not
+justify stopping the smaller selected intervention's held-out test.
+
 ### Activation geometry
 
 Across the 128 extraction questions, projection onto the mean direction retains
