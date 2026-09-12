@@ -101,11 +101,12 @@ the query and leave the instruction header unchanged. They are deliberately
 unnatural controls. Their similarity to the real ICL direction can expose
 a generic prefix effect; dissimilarity alone cannot prove useful ICL.
 
-On the two-GPU machine, run this on the spare GPU while the main sweep uses
-GPU 0:
+The two-H100 node is shared with another project. Use GPU 0 for this
+repository and run GPU jobs sequentially. Leave GPU 1 available for the
+other project. Run this extraction diagnostic when GPU 0 is free:
 
 ```bash
-CUDA_VISIBLE_DEVICES=1 PYTHONPATH=src .venv-benchmark/bin/python \
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
   -m analysis.gsm8k_prefix_controls \
   --run runs/gsm8k-steering-v2 --output runs/gsm8k-prefix-controls-v1
 ```
@@ -119,10 +120,13 @@ run before starting a new one; the command refuses to overwrite its manifest.
 The [fixed supplementary test](../research/gsm8k-prefix-test-protocol.md) must
 be declared before the main test starts. It waits for the main selection and
 test lock, then evaluates all three directions with the same selected
-parameters and norms. Supply the actual main Python process ID:
+parameters and norms. On the shared node, resume the declared supplementary
+run only after the main process exits and its test finishes. The internal
+selection wait alone does not prevent GPU contention. Supply the main
+Python process ID, which can have exited after completing its test:
 
 ```bash
-CUDA_VISIBLE_DEVICES=1 PYTHONPATH=src .venv-benchmark/bin/python \
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
   -m analysis.gsm8k_prefix_test \
   --run runs/gsm8k-steering-v2 --controls runs/gsm8k-prefix-controls-v1 \
   --output runs/gsm8k-prefix-test-v1 --parent-pid MAIN_PYTHON_PID
@@ -134,3 +138,27 @@ hashes. Include `prefix_rotated_pairs`, `prefix_token_shuffle`, and
 `prefix_length_filler` alongside the ten primary conditions. Use the same
 answer-audit rubric for every condition. Additional paired comparisons are
 exploratory; they cannot change the selected intervention.
+
+The combined analysis command checks completion, selection locks, question
+identities, and source hashes before creating the shared review packet.
+Run it on the server, where the original direction file is available:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_comparison prepare \
+  --run runs/gsm8k-steering-v2 --prefix runs/gsm8k-prefix-test-v1 \
+  --output runs/gsm8k-comparison-v2
+```
+
+Review only `review-packet.json` while transcribing the stated answers.
+Save the complete annotations using the audit protocol, then score them:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_comparison report --run runs/gsm8k-comparison-v2 \
+  --annotations runs/gsm8k-comparison-v2/review-annotations.json
+```
+
+`comparison.json` and `comparison.md` report both metrics and paired
+comparisons against every control. The original grades and selection remain
+unchanged. The intervals are exploratory and unadjusted.
