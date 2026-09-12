@@ -94,6 +94,59 @@ If another configuration is tried after seeing these final test results, its
 new confirmation set must exclude them. A useful scientific result must
 survive these controls rather than merely be the best value in a sweep.
 
-The code passes CPU regression tests, including a tiny Qwen2 model. The
-corrected H100 run has not started because SSH to 192.222.54.79 times out.
-The completed v1 statistics remain on that host and have not been retrieved.
+The original H100 became unreachable before its completed v1 statistics could
+be retrieved. Those statistics remain unavailable.
+
+On September 13, access to a replacement machine succeeded through the
+laptop's configured SOCKS proxy. All 53 regression tests passed there, and
+`gsm8k-steering-v2` started with the configuration above. Its source is commit
+`929df44`; the saved support artifact has the same SHA-256 recorded in the
+parser audit. Code, model cache, and run outputs are on the mounted persistent
+volume. Steering validation is running; no positive steering result has yet
+been established.
+
+### Initial validation and answer audit
+
+On all 64 validation questions, the prespecified explicit-answer scores are
+48/64 for zero-shot, 59/64 for ICL-A, and 58/64 for ICL-B, with no truncated
+outputs in these conditions. These gains are partly answer-format effects:
+10 zero-shot responses and one response in each ICL bank are unparsed.
+
+Inspection of all 12 unparsed responses recovers eight correct zero-shot
+answers and the correct ICL answer in each bank. The rejected responses
+include plain concluding sentences without an answer marker, prose inside a
+box, and `12 liters per 100 km`, where 100 is part of the unit. The audit
+preserves erroneous stated answers and never executes generated code.
+
+The resulting scores are 56/64 for zero-shot, 60/64 for ICL-A, and 59/64 for
+ICL-B. These are exploratory corrections to unparsed answers only; parsed
+answers retain their original grades. The ICL gains narrow to 6.25 and 4.69
+percentage points. They do not establish a robust mathematical advantage.
+The frozen primary metric and selection rule remain unchanged. Any steering
+claim also needs an answer audit and comparison with the text-prefix controls.
+See the per-response hashes, transcribed answers, and paired estimates in
+[`results/gsm8k-v2-validation-answer-audit.json`](../results/gsm8k-v2-validation-answer-audit.json).
+
+The same inspection of all unparsed text-prefix responses gives 57/64 for
+`First,` and 55/64 for `Let's think step by step.`, compared with 51/64 each
+under the primary metric. The step-by-step condition has one truncated
+response, which receives no completed-answer credit. These controls further
+limit what can be inferred from the small validation ICL gain. The
+[supplementary test-audit protocol](gsm8k-answer-audit-protocol.md) was declared
+before final test inference; it withholds condition names and reference
+answers from the review packet and applies the same rules to all ten final
+test conditions. The [timestamped declaration](../results/gsm8k-v2-audit-declaration.json)
+records zero test outputs and no test lock at declaration, with the audit code
+and protocol hashes.
+
+### Activation geometry
+
+Across the 128 extraction questions, projection onto the mean direction retains
+72.2% to 88.4% of uncentered squared activation-difference energy at the four
+tested layers. Split-half mean directions have cosine similarity of
+0.992 to 0.998; the two disjoint support banks agree at 0.879 to 0.968.
+These measurements support a stable common activation shift for these
+prompts. They do not show that the shift carries useful mathematical
+information: prompt length and output format remain possible explanations.
+Causal accuracy tests are still running. The measurements and input hashes
+are in [`results/gsm8k-v2-geometry.json`](../results/gsm8k-v2-geometry.json).
