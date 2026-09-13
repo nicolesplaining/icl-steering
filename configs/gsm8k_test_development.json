@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-Math-7B",
+  "revision": "b101308fe89651ea5ce025f25317fea6fc07e96e",
+  "dataset": "openai/gsm8k",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "batch_size": 4,
+  "max_model_len": 4096,
+  "max_new_tokens": 1024,
+  "max_truncation_rate": 0.05,
+  "min_icl_gain": 0.05,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 907,
+  "seed": 1701,
+  "n_screen": 128,
+  "n_reserved": 256
+}
