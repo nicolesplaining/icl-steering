@@ -1,0 +1,13 @@
+{
+  "status": "annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T08:51:40.597417+00:00",
+  "packet_sha256": "bd661f09bc51f4677c72f53c3377596cd13db6888efed52199467d7aa33a3ee5",
+  "packet_file_sha256": "581fa08d2294e2a76ea240edce8a015ce38e0561dd8a25baae4c864287912f06",
+  "packet_lock_commit": "f975aec197e8d9f1ee8315bfb867945b61d48866",
+  "annotations_file_sha256": "cc22e8b726059541c18c4c64d16877f7b54187a61ac5cc76bf7a18ded0551e7c",
+  "reviewed_items": 39,
+  "individually_reviewed_items": 39,
+  "unreviewed_items": 0,
+  "generation_file_sha256": "fe1aae08e2e15a7248d601429f8bde59f9102dae087d310eeff8c8d555cee63e",
+  "scores_opened": false
+}
