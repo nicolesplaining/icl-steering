@@ -307,3 +307,57 @@ CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
   -m analysis.gsm8k_fixed_controls report --output runs/gsm8k-fixed-controls-v1 \
   --annotations runs/gsm8k-fixed-controls-v1/validation-review-annotations.json
 ```
+
+## Final-state LTV development run
+
+The [LTV protocol](../research/gsm8k-ltv-protocol.md) fixes one final-normalized
+mapping and five controls after the completed internal-block diagnostic.
+The five baseline output sets are reused. No confirmation entry point exists.
+Use two CPU threads for NumPy operations and preserve the existing environment.
+
+```bash
+CUDA_VISIBLE_DEVICES='' USE_TF=0 PYTHONPATH=src OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 \
+  .venv-benchmark/bin/python -m analysis.gsm8k_ltv prepare --output runs/gsm8k-ltv-v1
+```
+
+Commit the implementation, protocol, and declaration containing the prepared
+manifest hash before extraction. The declaration also lives in the run as
+`declaration.json`. Extract on GPU 0 only when it is available:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 USE_TF=0 PYTHONPATH=src OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 \
+  .venv-benchmark/bin/python -m analysis.gsm8k_ltv extract --output runs/gsm8k-ltv-v1
+```
+
+Verify the fit, then commit its hashes before development generation.
+`fit-declaration.json` in the run must include `manifest_sha256` and
+`fit_sha256`. The saved declaration records that no new generation exists.
+
+```bash
+CUDA_VISIBLE_DEVICES=0 USE_TF=0 PYTHONPATH=src OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 \
+  .venv-benchmark/bin/python -m analysis.gsm8k_ltv validate --output runs/gsm8k-ltv-v1
+```
+
+The run-local supervisor records process identities and exit status. Complete
+batch JSON files are authoritative for progress and resume. Their trace
+arrays hold the normalized inputs, predicted shifts, and actual states passed
+to the language-model head. Replay them without displaying answers or scores:
+
+```bash
+CUDA_VISIBLE_DEVICES='' USE_TF=0 PYTHONPATH=src OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 \
+  .venv-benchmark/bin/python -m analysis.ltv_trace_audit --output runs/gsm8k-ltv-v1 --complete
+```
+
+Omit `--complete` for a snapshot during generation. Freeze the completed
+review packet and preserve inherited annotations. Commit all new blinded
+transcriptions before creating `review-freeze.json` with `packet_sha256`,
+`annotations_file_sha256`, and `annotations_commit`. Then score once:
+
+```bash
+CUDA_VISIBLE_DEVICES='' USE_TF=0 PYTHONPATH=src OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 \
+  .venv-benchmark/bin/python -m analysis.gsm8k_ltv select --output runs/gsm8k-ltv-v1 \
+  --annotations runs/gsm8k-ltv-v1/validation-review-annotations.json
+```
+
+Report every condition and all ten contrasts. A failed gate stops this
+candidate; a passing gate still requires a separately declared confirmation.

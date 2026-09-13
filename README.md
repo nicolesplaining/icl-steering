@@ -18,6 +18,12 @@ case for the full map: a scalar control supplied with ridge's per-question
 norms scores 106/128. The raw-mean advantage survives adjustment, but the
 controls do not establish a need for ridge's learned directions.
 
+A [new development run](research/gsm8k-ltv-protocol.md) recomputes the shift
+at each decoding step at the final normalized activation. Its
+[fit is frozen](results/gsm8k-ltv-v1-fit-declaration.json), with a standalone
+scalar control and a fixed validation gate. Results are pending; no
+confirmation questions have been generated.
+
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
 
