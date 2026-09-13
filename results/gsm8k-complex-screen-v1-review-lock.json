@@ -1,0 +1,14 @@
+{
+  "status": "frozen_before_blinded_review",
+  "frozen_at": "2026-09-13T08:46:52.744073+00:00",
+  "manifest_sha256": "ff4116b15e3e371930b6ed242b733ddb3815d5d2177b2b9cd5ae3472ec9b5503",
+  "generation_file_sha256": "fe1aae08e2e15a7248d601429f8bde59f9102dae087d310eeff8c8d555cee63e",
+  "packet_file_sha256": "581fa08d2294e2a76ea240edce8a015ce38e0561dd8a25baae4c864287912f06",
+  "packet_sha256": "bd661f09bc51f4677c72f53c3377596cd13db6888efed52199467d7aa33a3ee5",
+  "rows": 1280,
+  "blinded_items": 39,
+  "source_declaration_commit": "bf6ae45b45bbd810e727c5112c4dc780d88d0793",
+  "supervisor_exit_code": 0,
+  "reserved_rows": 0,
+  "scores_opened": false
+}
