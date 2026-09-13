@@ -1,0 +1,26 @@
+{
+  "status": "declared_before_nested_evaluation",
+  "declared_at": "2026-09-13T05:41:53.774751+00:00",
+  "source_commit": "d438d661d2e6cc43c05ec2ed1b8c21230ca82c4c",
+  "parent_report_commit": "d60a964",
+  "manifest_sha256": "6d02c70d2f2f6659cad5f8414f8d97828c8900d96c34f0bb907d5d7c1016b83e",
+  "source_sha256": "b2ec5be53e7c48441f18a7487427c09faaf41fc2db195a0f32202e7abca329a0",
+  "fold_assignment_sha256": "b2cfa8e6a96c8f5aef3595cda47a1257edd4bedd2eb5c5e14110b79913fa4533",
+  "inner_folds_sha256": "8f68c8d85144ee50fefcd88f1fb950079ba641fa89918d2aad394b803504c549",
+  "n_questions": 128,
+  "outer_folds": 4,
+  "inner_folds_per_outer": 3,
+  "rules": [
+    "fixed_5",
+    "scaled_0.001",
+    "scaled_0.01",
+    "scaled_0.1",
+    "scaled_1",
+    "scaled_10"
+  ],
+  "tests_passed": 3,
+  "cpu_only": true,
+  "n_development": 0,
+  "n_reserved": 0,
+  "note": "Penalty selection uses only inner question folds; unchanged activation diagnostic gate. No math accuracy claim."
+}
