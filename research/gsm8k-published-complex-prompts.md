@@ -60,7 +60,42 @@ all gates would need freezing before generation. The three current
 reservations remain reserved for their original experiments. No follow-up
 screen is launched or declared by this inspection.
 
-Reproduce the inspection with:
+## Context budget
+
+The [tokenizer check](../results/gsm8k-published-prompt-budget-v1.json) uses
+the frozen Qwen2.5-Math-7B tokenizer and every one of the 7,473 training
+question texts. It reads no answer labels and loads no model weights.
+For the proposed query framing, append one newline to each unchanged prompt
+file, then `Question: {question}`, a newline, `Let's think step by step`,
+and a final newline. Zero-shot uses that same query without demonstrations.
+No chat template, special tokens, or truncation are applied.
+
+| Bank | Median prompt tokens | Maximum prompt tokens | Maximum with 1,024 answer tokens |
+|---|---:|---:|---:|
+| Zero-shot | 64 | 220 | 1,244 |
+| Original | 801 | 957 | 1,981 |
+| Complex | 2,695 | 2,851 | 3,875 |
+
+All fit the model's configured 4,096-token context. The complex bank leaves
+221 tokens beyond the maximum prompt plus answer allowance, so this framing
+does not require shortening the released examples. This check covers question
+texts from previously used and reserved partitions as well as unused ones;
+it does not select evaluation questions or make them eligible. It establishes
+context feasibility, not accuracy or GPU memory requirements. The ongoing
+candidate experiment and its declarations remain unchanged.
+
+Reproduce the tokenizer check in the benchmark environment with cached model
+and dataset revisions:
+
+```bash
+CUDA_VISIBLE_DEVICES='' USE_TF=0 TOKENIZERS_PARALLELISM=false \
+HF_HOME=/lambda/nfs/icl/huggingface \
+.venv-benchmark/bin/python -m analysis.complexity_prompt_budget \
+  --prompt-dir research/upstream/complexity-based-prompting/GSM8K/lib_prompt \
+  --output runs/published-prompt-budget.json
+```
+
+Reproduce the asset inspection with:
 
 ```bash
 python3 -m analysis.complexity_prompt_inspection \
