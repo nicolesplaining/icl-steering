@@ -33,6 +33,13 @@ four tested continuation positions, predicting zero shift has lower squared
 error. The [prompt-only interpretation](research/ltv-first-token-interpretation.md)
 shows that its effect enters later decoding through the first generated token.
 
+The [continuation crossfit](research/ltv-prefix-crossfit-results.md) failed
+with penalty five. [Nested regularization](research/ltv-prefix-regularization-results.md)
+passes the activation diagnostic: mean continuation error is 0.639 versus
+0.716 for the strongest scalar control. The margin is modest and concentrated
+early in the answer. This warrants an accuracy experiment, not a positive
+steering claim; no reserved answers have been generated.
+
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
 

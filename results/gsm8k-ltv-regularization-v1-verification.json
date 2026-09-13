@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "manifest_sha256": "6d02c70d2f2f6659cad5f8414f8d97828c8900d96c34f0bb907d5d7c1016b83e",
+  "source_sha256": "b2ec5be53e7c48441f18a7487427c09faaf41fc2db195a0f32202e7abca329a0",
+  "report_file_sha256": "84edabb7b3a3eb0c758647a1ce00e7ce5045fdc541db5aaa28ab3d3070e3f616",
+  "predictions_file_sha256": "244e3b5b3549e7fb592fa9e5b1624595802ce22101ee4003d2eaeeb5167d09d9",
+  "declaration_commit": "ee63e19",
+  "tests_passed": 3,
+  "separate_report_and_prediction_replay_exit_code": 0,
+  "n_questions": 128,
+  "available_rows": 620,
+  "n_development": 0,
+  "n_reserved": 0,
+  "cpu_only": true,
+  "interpretation": "The activation diagnostic gate passes. No math-accuracy or causal steering result has been established."
+}
