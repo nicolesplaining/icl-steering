@@ -56,5 +56,6 @@ unparsed responses, including 39 unchanged inherited annotations and 279 new
 responses requiring individual review. The review lock's row digest uses
 condition/problem-ID sorted order, as does the packet; the runtime report's
 row digest uses the runner's collection order. Both were checked against the
-same complete generation file. At this update, 100 new responses have been
-reviewed, 179 remain, and no candidate accuracy scores have been opened.
+same complete generation file. All 279 new responses were subsequently
+reviewed and committed before scoring. The [completed evaluation](gsm8k-complex-candidate-results.md)
+failed the development gate; its independent score recount passed.

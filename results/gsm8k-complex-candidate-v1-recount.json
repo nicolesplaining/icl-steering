@@ -1,0 +1,265 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T11:15:28.779421+00:00",
+  "script_sha256": "e1810b451325432a7137e645149ba9f358c2364f971c492f05ac30caf84c02bf",
+  "interval_checker_sha256": "395812c6060b32ecb8c8e3d4eabbbba114b4e9241b5b7e4dc942ad698bee7f3e",
+  "manifest_sha256": "480d6b1a1891ec365112b377111aa7e9cc5ee17489e62ea4e4cbc093059c6c98",
+  "fit_sha256": "61240dfd5148d3cdbdc10c53732a1854ce45c35f9fd87b67088d1b2b0b3a9b45",
+  "report_file_sha256": "fd6276b295affc437e8321c31dc73b83bff845847ff67e30310e5e799e260458",
+  "generation_file_sha256": "948984dd490fb56719818418e7c9f33287ee444bb2f211e0327f93e3bd6458fd",
+  "annotations_file_sha256": "60db6b5a3b6891bccbf59c3a2b33106f82015c21469888b60997c2b18d54f0fa",
+  "annotations_commit": "3990986335641da47552a3dc697cac999b13311f",
+  "rows": 4352,
+  "conditions": 17,
+  "inherited_baseline_rows": 1280,
+  "inherited_annotations": 39,
+  "paired_contrasts_checked": 32,
+  "counts": {
+    "steered": {
+      "primary": 219,
+      "audited": 224,
+      "unparsed": 11,
+      "truncated": 1
+    },
+    "scalar": {
+      "primary": 189,
+      "audited": 204,
+      "unparsed": 40,
+      "truncated": 0
+    },
+    "position_scalar": {
+      "primary": 107,
+      "audited": 130,
+      "unparsed": 124,
+      "truncated": 40
+    },
+    "first": {
+      "primary": 221,
+      "audited": 226,
+      "unparsed": 6,
+      "truncated": 0
+    },
+    "permuted": {
+      "primary": 202,
+      "audited": 209,
+      "unparsed": 13,
+      "truncated": 3
+    },
+    "cot": {
+      "primary": 218,
+      "audited": 227,
+      "unparsed": 13,
+      "truncated": 0
+    },
+    "icl_a": {
+      "primary": 227,
+      "audited": 230,
+      "unparsed": 6,
+      "truncated": 1
+    },
+    "shared_high": {
+      "primary": 206,
+      "audited": 216,
+      "unparsed": 18,
+      "truncated": 3
+    },
+    "real_high": {
+      "primary": 212,
+      "audited": 222,
+      "unparsed": 16,
+      "truncated": 2
+    },
+    "prefill": {
+      "primary": 213,
+      "audited": 220,
+      "unparsed": 8,
+      "truncated": 1
+    },
+    "mean": {
+      "primary": 198,
+      "audited": 216,
+      "unparsed": 30,
+      "truncated": 0
+    },
+    "zero": {
+      "primary": 210,
+      "audited": 216,
+      "unparsed": 10,
+      "truncated": 0
+    },
+    "icl_b": {
+      "primary": 227,
+      "audited": 229,
+      "unparsed": 4,
+      "truncated": 0
+    },
+    "shared_low": {
+      "primary": 213,
+      "audited": 222,
+      "unparsed": 16,
+      "truncated": 2
+    },
+    "position_mean": {
+      "primary": 206,
+      "audited": 217,
+      "unparsed": 19,
+      "truncated": 1
+    },
+    "regularized_prefill": {
+      "primary": 217,
+      "audited": 223,
+      "unparsed": 9,
+      "truncated": 1
+    },
+    "permuted_low": {
+      "primary": 198,
+      "audited": 208,
+      "unparsed": 19,
+      "truncated": 3
+    }
+  },
+  "ci95": {
+    "primary:zero": [
+      -0.01171875,
+      0.0859375
+    ],
+    "primary:icl_a": [
+      -0.0703125,
+      0.0078125
+    ],
+    "primary:icl_b": [
+      -0.0703125,
+      0.0078125
+    ],
+    "primary:first": [
+      -0.0546875,
+      0.0390625
+    ],
+    "primary:cot": [
+      -0.04296875,
+      0.05078125
+    ],
+    "primary:regularized_prefill": [
+      -0.03515625,
+      0.05078125
+    ],
+    "primary:shared_low": [
+      -0.0234375,
+      0.06640625
+    ],
+    "primary:permuted_low": [
+      0.03125,
+      0.1328125
+    ],
+    "primary:permuted": [
+      0.01953125,
+      0.11328125
+    ],
+    "primary:shared_high": [
+      0.00390625,
+      0.09765625
+    ],
+    "primary:real_high": [
+      -0.01953125,
+      0.07041015625
+    ],
+    "primary:prefill": [
+      -0.0234375,
+      0.0703125
+    ],
+    "primary:mean": [
+      0.02734375,
+      0.13671875
+    ],
+    "primary:scalar": [
+      0.0625,
+      0.171875
+    ],
+    "primary:position_mean": [
+      0.00390625,
+      0.09765625
+    ],
+    "primary:position_scalar": [
+      0.37109375,
+      0.50390625
+    ],
+    "audited:zero": [
+      -0.01171875,
+      0.07421875
+    ],
+    "audited:icl_a": [
+      -0.05859375,
+      0.01171875
+    ],
+    "audited:icl_b": [
+      -0.0546875,
+      0.015625
+    ],
+    "audited:first": [
+      -0.046875,
+      0.03125
+    ],
+    "audited:cot": [
+      -0.046875,
+      0.0234375
+    ],
+    "audited:regularized_prefill": [
+      -0.03125,
+      0.04296875
+    ],
+    "audited:shared_low": [
+      -0.03125,
+      0.046875
+    ],
+    "audited:permuted_low": [
+      0.015625,
+      0.109375
+    ],
+    "audited:permuted": [
+      0.015625,
+      0.10546875
+    ],
+    "audited:shared_high": [
+      -0.01171875,
+      0.07421875
+    ],
+    "audited:real_high": [
+      -0.03125,
+      0.046875
+    ],
+    "audited:prefill": [
+      -0.0234375,
+      0.05859375
+    ],
+    "audited:mean": [
+      -0.01171875,
+      0.07421875
+    ],
+    "audited:scalar": [
+      0.03125,
+      0.12890625
+    ],
+    "audited:position_mean": [
+      -0.01171875,
+      0.06640625
+    ],
+    "audited:position_scalar": [
+      0.30078125,
+      0.43359375
+    ]
+  },
+  "checks": {
+    "icl_screen": true,
+    "zero_gain": true,
+    "zero_interval": false,
+    "beats_controls": true,
+    "beats_same_map_prefill": true,
+    "matches_text_and_prefill": false,
+    "parser_not_below_zero": true,
+    "truncation": true
+  },
+  "eligible": false,
+  "reserved_rows": 0,
+  "method": "Rebuild the blind packet, compare rational answers, recount paired outcomes, replay bootstrap intervals, independently calculate exact McNemar and Holm, and recompute every candidate gate. No production scorer imports.",
+  "limits": "Uses saved parses without reimplementing parsing. Shares declared PCG64 draws. Checks the prior screen flag and runtime audit provenance; does not repeat their underlying audits."
+}

@@ -1,9 +1,10 @@
 # ICL steering
 
-No steering method has yet passed independent confirmation. The current
-experiment tests the frozen continuation map and its controls on a fresh
-population where the matched ICL screen passed. Generation and evaluation
-are still in progress.
+No steering method has yet passed independent confirmation. The latest
+[fresh-question candidate](research/gsm8k-complex-candidate-results.md) scored
+224/256 versus 216/256 zero-shot after blinded review, but its gain interval
+includes zero and text cues score higher. It failed the declared gate;
+reserved questions remain untouched.
 
 [GSM8K results](research/gsm8k-v2-results.md): full ICL improves audited
 accuracy, but the selected mean activation direction falls short.
@@ -75,15 +76,21 @@ The conditional [candidate plan](research/gsm8k-complex-candidate-protocol.md)
 retains all 17 prior conditions and requires superiority over the stronger
 shuffled control and same-map prompt-only control. Its gates were fixed before
 the screen's accuracy was opened.
-The [conditional implementation](research/gsm8k-complex-candidate-implementation.md)
-passed saved-map reconstruction and synthetic execution tests. The
-[declared candidate run](results/gsm8k-complex-candidate-v1-declaration.json)
-is generating sequentially on GPU 0. A
-[two-condition runtime audit](research/gsm8k-complex-candidate-recount.md)
-verified all 512 candidate and same-map prompt-only responses, including
-33,280 saved state vectors and exact first-token agreement on all 256 questions.
-The remaining controls, full runtime audit, blinded review, and score recount
-must finish before the development result can be interpreted.
+The [completed candidate](research/gsm8k-complex-candidate-results.md) scores
+224/256 audited and 219/256 with the explicit parser. The same-map prompt-only
+control scores 223 audited, shared targets at the same penalty score 222,
+and First/CoT score 226/227. The audited zero-shot gain is +3.125 percentage
+points, with interval [-1.171875, 7.421875]. A primary-metric advantage over
+matched-penalty shuffled targets survives Holm adjustment, but its audited
+counterpart does not. The full runtime audit and independent score recount
+passed; all 279 new answer annotations were frozen before scoring. No
+candidate advanced to reserved evaluation.
+
+The [published demonstration-bank inspection](research/gsm8k-published-complex-prompts.md)
+identifies a concrete follow-up using the released original and complex
+examples. Both fit the existing context and answer budgets without shortening.
+That adaptation still requires fresh partitions, new extraction, and a
+declaration before any model inference.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
