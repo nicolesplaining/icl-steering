@@ -49,10 +49,11 @@ reliable. Explicit-parser accuracy is 96/128. All 232 new unparsed responses
 were individually reviewed and committed before scoring; the independent
 recount passed. The 256 reserved questions remain untouched.
 
-The [pairing diagnostic](research/ltv-pairing-protocol.md) is declared next.
+The [pairing diagnostic](research/ltv-pairing-protocol.md) is running on GPU 0.
 It compares correctly paired, shuffled, and position-average targets at
 both existing regularization strengths. It adds four conditions and makes
-no candidate selection or reserved-test transition.
+no candidate selection or reserved-test transition. Its first live audit
+passed on eight batches; the complete audit and blinded review are pending.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

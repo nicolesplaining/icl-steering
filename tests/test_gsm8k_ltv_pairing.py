@@ -21,6 +21,7 @@ def test_batch_resume_and_independent_trace_replay(tmp_path, monkeypatch):
     questions = [{'problem_id': str(i), 'question': f'Question {i}', 'answer': '1',
                   'prompts': {k: f'{k} question {i}' for k in run.screen.CONDITIONS}} for i in range(128)]
     data = {'splits': {'validation': questions, 'reserved': [{'problem_id': 'never'}]}}
+    (tmp_path/'prepared.json').write_text(json.dumps(data))
     monkeypatch.setattr(run, 'verify', lambda *a, **k: (config, data))
     for name in ['manifest.json', 'fit.json']: (tmp_path/name).write_text('{}')
     (tmp_path/'fit-declaration.json').write_text(json.dumps({
@@ -68,7 +69,7 @@ def test_batch_resume_and_independent_trace_replay(tmp_path, monkeypatch):
     annotations = {'packet_sha256': run.audit.digest(packet), 'answers': [
         {'response_id': item['response_id'], 'stated_answer': '1', 'reviewed': True,
          'rationale': 'Synthetic explicit one.'} for item in packet['items']]}
-    annotation_path = tmp_path/'review-annotations.json'
+    annotation_path = tmp_path/'validation-review-annotations.json'
     annotation_path.write_text(json.dumps(annotations))
     with pytest.raises(FileNotFoundError): run.report(tmp_path, annotation_path)
     (tmp_path/'review-freeze.json').write_text(json.dumps({
@@ -82,6 +83,13 @@ def test_batch_resume_and_independent_trace_replay(tmp_path, monkeypatch):
     for metric in ['primary', 'audited']:
         assert len(report['contrasts'][metric]) == 7
         assert {(v['left'], v['right']) for v in report['contrasts'][metric].values()} == set(run.PAIRS)
+    from analysis.pairing_score_recount import recount
+    assert recount(tmp_path)['paired_contrasts'] == 14
+    broken = json.loads(json.dumps(report))
+    broken['contrasts']['audited']['steered__minus__shared_low']['left'] = 'permuted'
+    (tmp_path/'diagnostic-report.json').write_text(json.dumps(broken))
+    with pytest.raises(AssertionError): recount(tmp_path)
+    (tmp_path/'diagnostic-report.json').write_text(json.dumps(report))
     with pytest.raises(ValueError, match='Diagnostic already scored'): run.validate(tmp_path)
     with pytest.raises(ValueError, match='Trace changed'):
         (tmp_path/'traces/shared_low-000.npz').write_bytes(b'changed')
