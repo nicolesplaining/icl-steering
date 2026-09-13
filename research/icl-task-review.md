@@ -15,6 +15,10 @@ scored 89/96 zero-shot, 89/96 ICL-A, and 87/96 ICL-B on fresh training-split
 questions. Its best ridge shift scored 90/96 and failed the declared gain
 threshold. No confirmation test was run. The earlier test-split ICL benefit
 therefore does not justify assuming the same benefit on every validation set.
+The one fixed [test-distribution screen](gsm8k-test-development-results.md)
+subsequently scored 93/128 zero-shot and 115/128 and 116/128 with ICL after
+review. Both ICL gains passed the declared screen gates. Step-by-step scored
+110/128, so the predeclared fixed steering candidate faces a strong text control.
 
 The train/test score difference does not by itself establish contamination.
 [Qwen's release report](https://qwenlm.github.io/blog/qwen2.5-math/#decontamination)
