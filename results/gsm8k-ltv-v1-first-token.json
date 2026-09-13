@@ -1,0 +1,56 @@
+{
+  "status": "post_score_descriptive_check",
+  "source_file_sha256": "73ae7bdb083b9837376fcd368b9878326e3967c53439826b3ab811fae2348292",
+  "code_sha256": "1d475db840c60f40c1567fe5362d49e655b9947afc824fb0f56c5eb0bfc0b9ec",
+  "questions": 128,
+  "first_token_ids": {
+    "zero": {
+      "576": 48,
+      "2014": 66,
+      "6771": 3,
+      "35370": 1,
+      "43537": 1,
+      "220": 1,
+      "18246": 1,
+      "5512": 1,
+      "54735": 1,
+      "10244": 1,
+      "3984": 1,
+      "40704": 1,
+      "53391": 1,
+      "18477": 1
+    },
+    "prefill": {
+      "6771": 52,
+      "5512": 70,
+      "2014": 6
+    }
+  },
+  "first_whitespace_delimited_words": {
+    "zero": {
+      "The": 48,
+      "To": 66,
+      "Let's": 3,
+      "Brady": 1,
+      "Maddison": 1,
+      "105": 1,
+      "Josh": 1,
+      "First,": 1,
+      "Joey": 1,
+      "Mary": 1,
+      "Elise": 1,
+      "Shiela": 1,
+      "Caroline": 1,
+      "Jason": 1
+    },
+    "prefill": {
+      "Let's": 50,
+      "First,": 70,
+      "To": 6,
+      "Let": 2
+    }
+  },
+  "same_first_token": 7,
+  "identical_complete_token_sequences_given_same_first_token": 7,
+  "interpretation": "Final-norm prompt-only intervention changes next-token logits after KV construction. The changed first token is its only route into subsequent greedy decoding. Matching sequences support that mechanism on seven observed questions; no forced-token GPU replay was performed. This is not a new accuracy test."
+}
