@@ -1,5 +1,11 @@
 # ICL steering
 
+No steering method has yet passed independent confirmation. The latest
+[fresh-question candidate](research/gsm8k-complex-candidate-results.md) scored
+224/256 versus 216/256 zero-shot after blinded review, but its gain interval
+includes zero and text cues score higher. It failed the declared gate;
+reserved questions remain untouched.
+
 [GSM8K results](research/gsm8k-v2-results.md): full ICL improves audited
 accuracy, but the selected mean activation direction falls short.
 
@@ -68,11 +74,27 @@ also fixes a separate 512-question reservation. All 39 annotations were committe
 before scoring, and the independent count and interval replay passed.
 The conditional [candidate plan](research/gsm8k-complex-candidate-protocol.md)
 retains all 17 prior conditions and requires superiority over the stronger
-shuffled control and same-map prompt-only control. Its gates are fixed before
-the screen's accuracy is opened; no steering stage starts unless the screen passes.
-The [conditional implementation](research/gsm8k-complex-candidate-implementation.md)
-has passed saved-map reconstruction and synthetic execution tests. The reviewed
-screen now qualifies this fixed candidate for development evaluation.
+shuffled control and same-map prompt-only control. Its gates were fixed before
+the screen's accuracy was opened.
+The [completed candidate](research/gsm8k-complex-candidate-results.md) scores
+224/256 audited and 219/256 with the explicit parser. The same-map prompt-only
+control scores 223 audited, shared targets at the same penalty score 222,
+and First/CoT score 226/227. The audited zero-shot gain is +3.125 percentage
+points, with interval [-1.171875, 7.421875]. A primary-metric advantage over
+matched-penalty shuffled targets survives Holm adjustment, but its audited
+counterpart does not. The full runtime audit and independent score recount
+passed; all 279 new answer annotations were frozen before scoring. No
+candidate advanced to reserved evaluation.
+
+The [published demonstration-bank inspection](research/gsm8k-published-complex-prompts.md)
+identifies a concrete follow-up using the released original and complex
+examples. Both fit the existing context and answer budgets without shortening.
+The [new screen protocol](research/gsm8k-published-screen-protocol.md) fixes
+three conditions and the complex bank as its sole later steering target.
+The [reconciled inventory](research/gsm8k-published-inventory.md) leaves 6,282
+unused training questions while preserving all three prior reservations.
+Runner implementation and a declaration of the exact partitions are required
+before inference; no new screen outputs have been generated.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

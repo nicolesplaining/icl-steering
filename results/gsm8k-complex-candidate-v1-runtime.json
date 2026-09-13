@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T11:06:31.700907+00:00",
+  "rows_sha256": "275d0072c7109d08692131500ec0ed5f717d0f28a1e7f53e1579c0e3c28171eb",
+  "script_sha256": "7b35a417f58023879bd1b1fae5bb6a5cd3c57b1139980a30dea8643d5a216815",
+  "manifest_sha256": "480d6b1a1891ec365112b377111aa7e9cc5ee17489e62ea4e4cbc093059c6c98",
+  "fit_sha256": "61240dfd5148d3cdbdc10c53732a1854ce45c35f9fd87b67088d1b2b0b3a9b45",
+  "completed_batches": 768,
+  "new_generation_rows": 3072,
+  "saved_state_vectors_replayed": 330376,
+  "candidate_prefill_first_tokens_matched": 256,
+  "head_calls_verified": 82594,
+  "complete": true,
+  "reserved_rows": 0,
+  "scores_not_displayed": true
+}

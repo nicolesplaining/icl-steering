@@ -1,0 +1,155 @@
+{
+  "status": "inspected_without_inference",
+  "checked_at": "2026-09-13T09:32:33.649555+00:00",
+  "upstream_repository": "https://github.com/FranxYao/Complexity-Based-Prompting",
+  "upstream_commit": "378f7a88fb4c6a3fdb294f0dcf8a702420f76724",
+  "script_sha256": "60f71b10784cfe600d93dca83c6e072aef3927b141be40bd676004337e0f9f03",
+  "input_files_sha256": {
+    "runs/gsm8k-complex-screen-v1/prepared.json": "3ef34ef3cdcb9c4daf03716d7f6cd13b0b1e42bf89d16bc5e5a672521afa7f31",
+    "runs/gsm8k-conditional-v1/prepared.json": "d878907eebddba2138fff00d3aefc8faf0821d20ed08e9ce144bbb9a8660332c",
+    "runs/gsm8k-test-development-v1/prepared.json": "ba6d9216c6d9b6647b0236a5196be32bb67d52a12528717ed81fc6885cd2fa74"
+  },
+  "partition_sizes": {
+    "gsm8k-complex-screen-v1:validation": 256,
+    "gsm8k-complex-screen-v1:reserved": 512,
+    "gsm8k-conditional-v1:test": 512,
+    "gsm8k-test-development-v1:reserved": 256
+  },
+  "prompts": {
+    "original": {
+      "upstream_path": "GSM8K/lib_prompt/prompt_original.txt",
+      "sha256": "db8c84b10707a16cc2f61e192e1e55452393510470a3d5790db86188a42ae4e0",
+      "bytes": 2374,
+      "demonstrations": 8,
+      "solution_line_counts": [
+        3,
+        3,
+        4,
+        3,
+        3,
+        4,
+        3,
+        4
+      ],
+      "question_sha256": [
+        "8829584724eeeef0ef021b58d0ce6fc12069eac51e1aad7cbe4b135993386c5d",
+        "deec29034e37dcf6d10c84bf699e0663812191023eb46c7dc95a4a9b8842f735",
+        "9f79a2bd416e47b83719195b4094a8f5498ecc4b3bfa8a3e3ee43b647bb05af7",
+        "0aa763c369349c0fa4eea297ce814290d4c5abdfed9b3f3a65d868be593cbf2c",
+        "8f45a8cca3c824e05b269e6baf9cde200116fb6bad8ddc3499fee772f12b7253",
+        "ac61853234f79c44f4a82b51fa399569cc6bafd6f68d6ccdc30691a637aa5e25",
+        "612fb416bfd97231cccb983967a4147c78493909eddb20aebba1c1839a6226f3",
+        "4417411ae01276b3fd64fe5aa471da4657d8a3ffdee65ae724545debe00cf8eb"
+      ],
+      "overlap": {
+        "gsm8k-complex-screen-v1:validation": [],
+        "gsm8k-complex-screen-v1:reserved": [],
+        "gsm8k-conditional-v1:test": [],
+        "gsm8k-test-development-v1:reserved": []
+      }
+    },
+    "simple": {
+      "upstream_path": "GSM8K/lib_prompt/prompt_simple.txt",
+      "sha256": "e47a4425475eed38cc0e6de602340dde83db57d192d83021ba8cc358affb655b",
+      "bytes": 3168,
+      "demonstrations": 8,
+      "solution_line_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "question_sha256": [
+        "012648d670ca15a8143a5d84c5effe96ba4dc84081f45dd260bf2c0700ca73ae",
+        "0d2d78831793625a55fffaa39f457f887d4f4d9f27519049379b711c2b7ce423",
+        "166358bd8a4880ec750da1268f7eb0769b5516aa89d1d6c8b44d24727bcec3f4",
+        "bf018c71f4dbee0f004755dfd386da4b17ee016cb2fcc18596e264365bb08618",
+        "5fb53812e8163ed7f7739a91c2213b5f53596426f04703d58a74cf13f8670da1",
+        "d8e576b13822aada450676baea67a102e5637ac7b5de904ccf0585cdf5f32630",
+        "d27638be8d0d042594c33218e10c7d57aa3343bad735d327edbf73d3d158b040",
+        "1ed8e1fea4547130ab21c78c21e3b682ac305275132e3eac50880765edac70aa"
+      ],
+      "overlap": {
+        "gsm8k-complex-screen-v1:validation": [],
+        "gsm8k-complex-screen-v1:reserved": [],
+        "gsm8k-conditional-v1:test": [],
+        "gsm8k-test-development-v1:reserved": []
+      }
+    },
+    "mid": {
+      "upstream_path": "GSM8K/lib_prompt/prompt_mid.txt",
+      "sha256": "7443493c8440aa164cda6aa29e10408b02835b5cf99d8b207844e3f017bff7e5",
+      "bytes": 3183,
+      "demonstrations": 8,
+      "solution_line_counts": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "question_sha256": [
+        "cfc9c579ad05282d71115136d9bf4ac3d71211edb5122d1735fd989b2aa5f469",
+        "e4bf874877dea4a0d02541eb9f4a2158e9f4ac0460e3d87f99288a99e8fa1002",
+        "73e00dde1035da555a712c0fab164a8f7df4a1d80600abde37109c846b9e6a8c",
+        "a8237f0c60bd335bb31dca7c5c894b424bdf022628a98593b902a9debb543275",
+        "79f62b5a1e6f65baa28e47c99e098e84ec8cf1922a143484d70f68ea9ed24038",
+        "5a12c11b73cca29ac32c3f9a5a83c4849a8e8d0003baaec4e50e37d0c08af727",
+        "8b337e7dbbe2e6c692df601d144dd51464ce18c19ebd3be749de0b07b85c6a9b",
+        "af23361efe926d0b414c9704cba5144c7ea2fe1a9bc1ac0ef2b1b159efcde80e"
+      ],
+      "overlap": {
+        "gsm8k-complex-screen-v1:validation": [
+          "gsm8k:train:1169",
+          "gsm8k:train:7174"
+        ],
+        "gsm8k-complex-screen-v1:reserved": [],
+        "gsm8k-conditional-v1:test": [],
+        "gsm8k-test-development-v1:reserved": []
+      }
+    },
+    "complex": {
+      "upstream_path": "GSM8K/lib_prompt/prompt_complex.txt",
+      "sha256": "d20a8061b484da2d93d10152727c5c137f7bec76f5f4f9e1c94f17cf33051aee",
+      "bytes": 8464,
+      "demonstrations": 8,
+      "solution_line_counts": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "question_sha256": [
+        "fdacdf9668c2ad8d0392e78f393e0b4058732e2275fd238a2e2da37147e176cd",
+        "6eb42a0bedfab070d74b9e05d1f48f8a407f62d70dbdd93acd082826216ededc",
+        "2f1d23c731b26b7b23c7f87cab40cfdad4fb2337d9cb55661786d2d77c524467",
+        "ca1b567cc91a0135ce891300d9087fc5cecc9f4447a2cff03ba50279e19a7320",
+        "733c2ed7820a3d0de5448744f970515a50ffbbcad6769f064efc78c7f15280a3",
+        "ee87998ec0fed3e4db81814f6d4a2048022a06b9a892b7e2e4aac79cc9c169ad",
+        "12cf258b169cea6a39f687290a2ac05861f5cf3190788fa9c5a905c7d03c41c2",
+        "a7848d82acd8aef93e7d1d34b57cefe70fad49a61b4bccd4ddaf56ed310e375d"
+      ],
+      "overlap": {
+        "gsm8k-complex-screen-v1:validation": [
+          "gsm8k:train:6724"
+        ],
+        "gsm8k-complex-screen-v1:reserved": [],
+        "gsm8k-conditional-v1:test": [],
+        "gsm8k-test-development-v1:reserved": []
+      }
+    }
+  },
+  "generation_rows": 0,
+  "limits": "Counts nonempty solution lines, not semantic reasoning steps. Overlap uses casefolded whitespace-normalized exact question text, not paraphrase detection. This is an asset inspection, not a model replication or a new experiment declaration."
+}

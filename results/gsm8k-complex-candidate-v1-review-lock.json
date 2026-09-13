@@ -1,0 +1,22 @@
+{
+  "status": "frozen_before_blinded_review",
+  "frozen_at": "2026-09-13T11:04:37.467198+00:00",
+  "manifest_sha256": "480d6b1a1891ec365112b377111aa7e9cc5ee17489e62ea4e4cbc093059c6c98",
+  "fit_sha256": "61240dfd5148d3cdbdc10c53732a1854ce45c35f9fd87b67088d1b2b0b3a9b45",
+  "generation_file_sha256": "948984dd490fb56719818418e7c9f33287ee444bb2f211e0327f93e3bd6458fd",
+  "rows_sha256": "3f87c5159743717417675cbde1187e014257a4a6f1ee954f35ae17990596f5e1",
+  "packet_file_sha256": "5104477e7e9bfd9cb991a41dfc234be5d5272314e2a6e8e94ddc0e641ef43028",
+  "packet_sha256": "1c15fee71949d2331f438b9bb2b643e38e2917e6e9c7ed98b2f6af4facb8c2e6",
+  "source_annotations_file_sha256": "cc22e8b726059541c18c4c64d16877f7b54187a61ac5cc76bf7a18ded0551e7c",
+  "rows": 4352,
+  "new_rows": 3072,
+  "conditions": 17,
+  "blinded_items": 318,
+  "inherited_items": 39,
+  "new_items": 279,
+  "source_declaration_commit": "ff0366d86c536a045662db8811f3093dcf6fb442",
+  "supervisor_exit_code": 0,
+  "reserved_rows": 0,
+  "scores_opened": false,
+  "runtime_audit": "Running separately; complete replay required before scoring."
+}

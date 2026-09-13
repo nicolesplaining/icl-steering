@@ -1,0 +1,19 @@
+{
+  "eligible": false,
+  "checks": {
+    "icl_screen": true,
+    "zero_gain": true,
+    "zero_interval": false,
+    "beats_controls": true,
+    "beats_same_map_prefill": true,
+    "matches_text_and_prefill": false,
+    "parser_not_below_zero": true,
+    "truncation": true
+  },
+  "candidate": "steered",
+  "reserved_generation_authorized": false,
+  "manifest_sha256": "480d6b1a1891ec365112b377111aa7e9cc5ee17489e62ea4e4cbc093059c6c98",
+  "fit_sha256": "61240dfd5148d3cdbdc10c53732a1854ce45c35f9fd87b67088d1b2b0b3a9b45",
+  "rows_sha256": "275d0072c7109d08692131500ec0ed5f717d0f28a1e7f53e1579c0e3c28171eb",
+  "annotations_sha256": "eaf0a5b6ccb86e2ce381fac5d3fb1d038dd9452cb26a72986487c64e86502f45"
+}

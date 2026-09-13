@@ -1,0 +1,16 @@
+{
+  "status": "annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T11:14:00.138867+00:00",
+  "packet_sha256": "1c15fee71949d2331f438b9bb2b643e38e2917e6e9c7ed98b2f6af4facb8c2e6",
+  "packet_file_sha256": "5104477e7e9bfd9cb991a41dfc234be5d5272314e2a6e8e94ddc0e641ef43028",
+  "packet_lock_commit": "82a3eb05df59e3ede71db0fb9599330db67434a8",
+  "annotations_file_sha256": "60db6b5a3b6891bccbf59c3a2b33106f82015c21469888b60997c2b18d54f0fa",
+  "reviewed_items": 318,
+  "inherited_items": 39,
+  "individually_reviewed_new_items": 279,
+  "unreviewed_items": 0,
+  "generation_file_sha256": "948984dd490fb56719818418e7c9f33287ee444bb2f211e0327f93e3bd6458fd",
+  "runtime_file_sha256": "67e2eecd52a633d000fd90a6f179961d5fd94b894fca78fa6ca6f970aedadcf7",
+  "scores_opened": false,
+  "review_method": "Single reviewer, blinded to condition and gold labels. Transcribe stated answers without solving missing calculations, correcting answers, or executing generated code. Exact consecutive repetitions of the literal string space-find were displayed with their repeat counts; all other text was displayed without shortening. Inherited annotations preserved exactly by response hash."
+}
