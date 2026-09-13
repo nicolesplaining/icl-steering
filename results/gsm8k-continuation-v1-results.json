@@ -1,0 +1,2304 @@
+{
+  "status": "completed_development_failure",
+  "selection": {
+    "eligible": false,
+    "checks": {
+      "icl_screen": true,
+      "zero_gain": true,
+      "beats_controls": false,
+      "matches_text_and_prefill": true,
+      "beats_same_map_prefill": true,
+      "truncation": true
+    },
+    "chosen": {
+      "kind": "ridge",
+      "site": "final_norm",
+      "layer": null,
+      "alpha": 1.0,
+      "positions": "prefix_0_128"
+    },
+    "manifest_sha256": "bb7ad537a63e54121f0e8dad36d2da97cf9ab67a2ad6436a86b07cd10496b340",
+    "fit_sha256": "b17461c1c9693fe4d0af2296ba2e3547fb210916c29e3161569bb78b5a98fff1",
+    "rows_sha256": "535fa345eb58168564a552fc422eedcddcbff81d24e5b626e1791a935cd776c1",
+    "annotations_sha256": "174638b996ec8313a70741562ca7e96443bc0c16a994b1fa994ab4cf62d64e59"
+  },
+  "audit": {
+    "status": "supplementary_answer_audit",
+    "split": "validation",
+    "source_sha256": "e6c7e854613b408825799a8f07c520381481d9f546976dcdf1a3daae8192e772",
+    "packet_sha256": "6524452cb091d1438bfac24acec4e4ecc8105a4f6beaa3cd7e1d0912b25c0409",
+    "annotations_sha256": "174638b996ec8313a70741562ca7e96443bc0c16a994b1fa994ab4cf62d64e59",
+    "audit_code_sha256": "294d3b60f83a7eedb8e1d99c93d1214b4629b23d76acb0cbd64f4a5aef182cb6",
+    "summary": {
+      "cot": {
+        "n": 128,
+        "primary_completed_correct": 105,
+        "audited_completed_correct": 110,
+        "unparsed": 7,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1328125,
+            "ci95": [
+              0.0546875,
+              0.2109375
+            ],
+            "wins": 22,
+            "losses": 5
+          }
+        }
+      },
+      "first": {
+        "n": 128,
+        "primary_completed_correct": 97,
+        "audited_completed_correct": 108,
+        "unparsed": 11,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1171875,
+            "ci95": [
+              0.0390625,
+              0.1953125
+            ],
+            "wins": 22,
+            "losses": 7
+          }
+        }
+      },
+      "icl_a": {
+        "n": 128,
+        "primary_completed_correct": 114,
+        "audited_completed_correct": 115,
+        "unparsed": 1,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.171875,
+            "ci95": [
+              0.1015625,
+              0.25
+            ],
+            "wins": 25,
+            "losses": 3
+          },
+          "first": {
+            "gain": 0.0546875,
+            "ci95": [
+              0.0,
+              0.1171875
+            ],
+            "wins": 11,
+            "losses": 4
+          },
+          "cot": {
+            "gain": 0.0390625,
+            "ci95": [
+              -0.015625,
+              0.1015625
+            ],
+            "wins": 10,
+            "losses": 5
+          }
+        }
+      },
+      "icl_b": {
+        "n": 128,
+        "primary_completed_correct": 115,
+        "audited_completed_correct": 116,
+        "unparsed": 2,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1796875,
+            "ci95": [
+              0.109375,
+              0.2578125
+            ],
+            "wins": 25,
+            "losses": 2
+          },
+          "first": {
+            "gain": 0.0625,
+            "ci95": [
+              0.0078125,
+              0.125
+            ],
+            "wins": 12,
+            "losses": 4
+          },
+          "cot": {
+            "gain": 0.046875,
+            "ci95": [
+              0.0,
+              0.1015625
+            ],
+            "wins": 9,
+            "losses": 3
+          }
+        }
+      },
+      "mean": {
+        "n": 128,
+        "primary_completed_correct": 67,
+        "audited_completed_correct": 89,
+        "unparsed": 46,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": -0.03125,
+            "ci95": [
+              -0.109375,
+              0.046875
+            ],
+            "wins": 11,
+            "losses": 15
+          }
+        }
+      },
+      "permuted": {
+        "n": 128,
+        "primary_completed_correct": 99,
+        "audited_completed_correct": 115,
+        "unparsed": 19,
+        "truncated": 3,
+        "paired": {
+          "zero": {
+            "gain": 0.171875,
+            "ci95": [
+              0.09375,
+              0.25
+            ],
+            "wins": 26,
+            "losses": 4
+          }
+        }
+      },
+      "position_mean": {
+        "n": 128,
+        "primary_completed_correct": 93,
+        "audited_completed_correct": 108,
+        "unparsed": 21,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1171875,
+            "ci95": [
+              0.0390625,
+              0.203125
+            ],
+            "wins": 22,
+            "losses": 7
+          }
+        }
+      },
+      "position_scalar": {
+        "n": 128,
+        "primary_completed_correct": 29,
+        "audited_completed_correct": 41,
+        "unparsed": 89,
+        "truncated": 51,
+        "paired": {
+          "zero": {
+            "gain": -0.40625,
+            "ci95": [
+              -0.5080078124999998,
+              -0.296875
+            ],
+            "wins": 9,
+            "losses": 61
+          }
+        }
+      },
+      "prefill": {
+        "n": 128,
+        "primary_completed_correct": 105,
+        "audited_completed_correct": 113,
+        "unparsed": 11,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.15625,
+            "ci95": [
+              0.0703125,
+              0.2421875
+            ],
+            "wins": 26,
+            "losses": 6
+          }
+        }
+      },
+      "regularized_prefill": {
+        "n": 128,
+        "primary_completed_correct": 103,
+        "audited_completed_correct": 111,
+        "unparsed": 10,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.140625,
+            "ci95": [
+              0.0625,
+              0.21875
+            ],
+            "wins": 24,
+            "losses": 6
+          }
+        }
+      },
+      "scalar": {
+        "n": 128,
+        "primary_completed_correct": 63,
+        "audited_completed_correct": 78,
+        "unparsed": 55,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": -0.1171875,
+            "ci95": [
+              -0.203125,
+              -0.03125
+            ],
+            "wins": 8,
+            "losses": 23
+          }
+        }
+      },
+      "steered": {
+        "n": 128,
+        "primary_completed_correct": 96,
+        "audited_completed_correct": 115,
+        "unparsed": 20,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.171875,
+            "ci95": [
+              0.1015625,
+              0.2421875
+            ],
+            "wins": 24,
+            "losses": 2
+          },
+          "first": {
+            "gain": 0.0546875,
+            "ci95": [
+              0.0,
+              0.1171875
+            ],
+            "wins": 11,
+            "losses": 4
+          },
+          "cot": {
+            "gain": 0.0390625,
+            "ci95": [
+              -0.0234375,
+              0.109375
+            ],
+            "wins": 12,
+            "losses": 7
+          }
+        }
+      },
+      "zero": {
+        "n": 128,
+        "primary_completed_correct": 78,
+        "audited_completed_correct": 93,
+        "unparsed": 23,
+        "truncated": 3,
+        "paired": {}
+      }
+    },
+    "annotations": [
+      {
+        "response_id": "0b9cb0ebd905d2c0667e89e1131d86e5c024c9ce03100429b0dd5cb9e7e9f3db",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 35 cars remained during lunch break."
+      },
+      {
+        "response_id": "0041c07b207379b3a448e22f9a3b87a733492d1e32aea80f84b4b21a4a782c81",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 9 500 dollars over budget."
+      },
+      {
+        "response_id": "32d863c5c0a51de254529777b0d30cb4adcdb070fc4b7f99fe429b5abbb3d26e",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 168 dollars for two weeks of tutoring."
+      },
+      {
+        "response_id": "d041bcbefd200dcb55fb19912aca68d478f086d1dcd18fee550faeb6c131d65d",
+        "stated_answer": "1600",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 1600 popsicle sticks."
+      },
+      {
+        "response_id": "146ce5ffe8e93d4d81f56cef59ec33fada44929309976e4ed6b622ada92711e1",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "The response ends with a boxed 12 minutes."
+      },
+      {
+        "response_id": "f81decf30ea2ad1c470807bb3dc22c362bbcc560825728108d702a8e9f019fea",
+        "stated_answer": "147",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 147 buttons. Transcribed without repairing its trades or arithmetic."
+      },
+      {
+        "response_id": "2035e7094dd87564fcb431434b7685c7e8dbe12b32f99c21f8eb1e4bc1ce6bd0",
+        "stated_answer": "13",
+        "reviewed": true,
+        "rationale": "After its initial 39-letter claim, the explanation explicitly concludes that the total is 13 letters. Preserved the final stated total without correction."
+      },
+      {
+        "response_id": "970cfbfb4b37af5b93a263a35091820258d3de68ca16248965a97cda820c8367",
+        "stated_answer": "6",
+        "reviewed": true,
+        "rationale": "After earlier counts, the response explicitly ends by saying the final count is 6 marbles. Preserved this final claim without correction."
+      },
+      {
+        "response_id": "8f2899e5d76328956a9e6c40962a8947c3309a9cb63c0d705d6e1ff4b2facb82",
+        "stated_answer": "120",
+        "reviewed": true,
+        "rationale": "The response explicitly starts and ends with 120 birds. Preserved that stated total without correcting its addition."
+      },
+      {
+        "response_id": "f6fca94be8b022b61eab631de689e0e83eff24e02d0c6e58f6f94cdc6594436a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The final answer is an expression involving an unspecified tax variable t; no numeric amount left is stated."
+      },
+      {
+        "response_id": "5eec56b84cabf3d429529a24345439548feb7ac52c2750aee4e2f2bdf83e2a3c",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 9 500 dollars over budget."
+      },
+      {
+        "response_id": "842b1a012b4e14de848b0364a2d9c722c11187848ae85294111c4b59ab0d78d3",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "The response repeatedly states Mary should bake 4 pans, including the final sentence."
+      },
+      {
+        "response_id": "4155c68f23a7b6f1d5a61b9d8e58affc825219a8dea1d738c89356a1b8e867a8",
+        "stated_answer": "147",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states a total of 147 buttons. Preserved without correcting the trade interpretation."
+      },
+      {
+        "response_id": "9a4f0e00023cc07972d8879e2921e5b7eef908ce426ad77cf5f68d25b7b297b8",
+        "stated_answer": "750",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states Jason needs 750 telephone calls."
+      },
+      {
+        "response_id": "7925a90a0cefde953d2dae85045f3c6803b260c1fa45dbd9558fa41e837b5c4a",
+        "stated_answer": "32",
+        "reviewed": true,
+        "rationale": "The response explicitly states 32 minutes as its answer and ends with that duration. Preserved without correcting the distance reasoning."
+      },
+      {
+        "response_id": "dc3b83b3a93037ba6d1afe9549fc3fcf3086fe258e737681720c3c22bfa78862",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 168 dollars for two weeks of tutoring."
+      },
+      {
+        "response_id": "593223ecca64afd7519ffc2a2a92a3ff6ea115c5442a33bf057b6568410c9f92",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Brian will walk 35 miles."
+      },
+      {
+        "response_id": "492e9a06b65b3b1c68d620f5135af4ccbf705751b30e7a9e27c35119e0b08184",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the store receives 157 dollars."
+      },
+      {
+        "response_id": "cbd6d9a7fd3f7b61da02320d30b9af75a3b4cd182cc1b5bb117ff94727e6b884",
+        "stated_answer": "6",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly identifies Sam's current age as 6; the accompanying 36 is labeled Ruby's age."
+      },
+      {
+        "response_id": "8e927fadc8c6a72bc94cba7f150d72bc40475e127461b609773663b4d4e73913",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the trader sold 50 bags."
+      },
+      {
+        "response_id": "7e4c579eb6595afa71388437e95a5b8ecea6245ab90c6fc3ffd8b1740e66b5e5",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "The response explicitly gives 4 weeks for Sandy, including its final sentence. Preserved without correcting its reasoning."
+      },
+      {
+        "response_id": "78d905be84709672e5f7770b226cbef8e6fac8880ad9b5be4210dcb3e0913ced",
+        "stated_answer": "720",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Greta has 720 dollars left."
+      },
+      {
+        "response_id": "4f53966c87bee203b4545690de79cc0cb33801a898e5ef6269a3ff1f76e60806",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Colin is currently 20 years old."
+      },
+      {
+        "response_id": "a591b07dd68b0fdb1223a5c3f6c4c193023ccd2cdd5b1cb2d1d6ae50654f97da",
+        "stated_answer": "560",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 560 miles per month."
+      },
+      {
+        "response_id": "059d088b5dd5ef9b812e51c9ab130d242c049579988eedbd4a29afd5ea7a8fba",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "The final answer is explicitly boxed as 12 minutes."
+      },
+      {
+        "response_id": "fc21c3f24621cb8857fa00d1061cf5a25defc0b753bdab46804a1eb757d09367",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the house exceeds the budget by 9 500 dollars."
+      },
+      {
+        "response_id": "44fef01965d3c7f0b793eedc30bb07dd6e17e6a92216b1b430e6ed8e54240215",
+        "stated_answer": "172",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states a combined total of 172 sofas and chairs."
+      },
+      {
+        "response_id": "79f2d2adff5103bf3b498e741dee378f5944917877c24f79bfeccc02878a822a",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the loser received 20 votes."
+      },
+      {
+        "response_id": "3efcda8e71968949196a2a500a4e4ed283ff4102ccd192c2e7cda7f45f078129",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 157 dollars received after all balls are sold."
+      },
+      {
+        "response_id": "04c100845b327bb33b084109b4606fb815ab06dd1cc6df98d66b60d00d19cb34",
+        "stated_answer": "750",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Jason needs 750 telephone calls."
+      },
+      {
+        "response_id": "1708ac1ddc51c66ef6c59b0328e60ac10e01af33bdf39b14a33b13f0a20d78c8",
+        "stated_answer": "24",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states Caroline is 24 years old."
+      },
+      {
+        "response_id": "3f29334a4d909870be2ce5d05042320e1bc8a756a39fe5620dd83cb095af4b4e",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states there are 9 cards with the letter D."
+      },
+      {
+        "response_id": "d3274f976cfc53767a0c88e4c0c74a922945cf66c1974543c0b93935e5ab4775",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Brian will walk 35 miles."
+      },
+      {
+        "response_id": "0a5495efeef91c2c4edb0bcbfb42f9e0d599daccb0794277796dcdd2e2d590c9",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Tom needs 5 hours to catch Bob."
+      },
+      {
+        "response_id": "d43b4ca063b30b7802ea13f45fbcb86d18d6074ee2b2a0070308dccfe70b4562",
+        "stated_answer": "80",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Blake runs 80 yards farther."
+      },
+      {
+        "response_id": "3604f5e47f082d2a2e36bb50b16a95721173e57ed0bc6c7b7f224ddba090eaa0",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states Joey is winning by 10 points. Preserved without correcting the arithmetic."
+      },
+      {
+        "response_id": "d34fcb4f7842ca560546598e3a5587efb141a0664c4b804afa12879a3849cac8",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the five people brought 14 old records."
+      },
+      {
+        "response_id": "3030460c9d196d6b2bb69ebe42ea171d0d863804f18f206e1b2ddee6f5db13d4",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 168 dollars for two weeks of tutoring."
+      },
+      {
+        "response_id": "93d94bd28a39ef50f07f881fbe5637284d4c9842de657056935a4782b8ee4d28",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the five people brought 14 old records."
+      },
+      {
+        "response_id": "e4f669654b55c913dc27b2fcf4dea899489ec42f61dffc2d77a774ad93bcef76",
+        "stated_answer": "300",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states the chef spent 300 dollars."
+      },
+      {
+        "response_id": "4f3aae7842ca52ab5ac5b4c109e1b448d85a02f9bc1d3c0d4cd78e321079e43a",
+        "stated_answer": "1000",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 1000 people had not voted by 16:00."
+      },
+      {
+        "response_id": "2e35375449c744f5d0a6048139f15fa24dd130f960a340f9be13c90b1b740bc9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The response rejects its intermediate negative fraction and concludes that there is no solution; it does not give an accepted numeric count for Stan."
+      },
+      {
+        "response_id": "08c6f9de18575696f2eb4648a4e77dc8d888f6a9938a422b41c42019787a63ed",
+        "stated_answer": "30",
+        "reviewed": true,
+        "rationale": "After considering conflicting intermediate counts, the final sentence explicitly returns to 30 cars as the correct answer. Preserved that claim without correction."
+      },
+      {
+        "response_id": "7c246b0eee76130cd527a5a0fc80198204d2f00166abecf7fec710bea99ea70c",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 9 500 dollars above the budget."
+      },
+      {
+        "response_id": "9269718bc782fb999fd5852bcd527b08ccf731d5868b04753ddaa22c928eb83c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves an expression with an unspecified n and ends with the literal placeholder [answer], not a numerical cost."
+      },
+      {
+        "response_id": "c61532c5c945bfea5bc33633828c8894b9ba71e960d3d79c1106ef7e3e824306",
+        "stated_answer": "1600",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Frederick can make 1600 popsicle sticks."
+      },
+      {
+        "response_id": "9fb64678468ff2e76bf8af177ae4fa28a6c3e986b3722cdaa0248181e1d359dc",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the five people brought in 14 old records."
+      },
+      {
+        "response_id": "cdb1ec2d3a476de4bf3baabb031a42d5b6175dc59abdb49604529dc59de9999b",
+        "stated_answer": "85/3",
+        "reviewed": true,
+        "rationale": "It explicitly states 85/3 hours and the equivalent mixed fraction 28 1/3 in its final answer; no code execution or correction was used."
+      },
+      {
+        "response_id": "f930e63a93e44f32a254acf03fba3be10785cc314ecead0ab52803277e161fc2",
+        "stated_answer": "500",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the shop makes 500 chimichangas across the three days."
+      },
+      {
+        "response_id": "0212def01134a48b5304f5f402c7df4efc3f33f3c19c782382675a30f346432a",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the trader sold 50 bags of wheat."
+      },
+      {
+        "response_id": "939965e1b53ebeb7347d8f13d5724f9e5c5c1ee7a30e8d0c3f823cb2cb766b2e",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "Final answer explicitly lists 57 small stickers and 20 large buttons; transcribes the stated button count without converting stickers or correcting reasoning."
+      },
+      {
+        "response_id": "ccf033349e4a96d89ddb2794f440ab072023ab4e0d0dfd2c68a167203bd8adcc",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "Explicit final budget difference of $9 500."
+      },
+      {
+        "response_id": "966475574a94f0794b633e6444f23f23c295bd1b3d3ed8533b1821ba259586fa",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "Explicit boxed twelve minutes before unevaluated verification code."
+      },
+      {
+        "response_id": "d49c12cec17b93cae5463adb5f1a4e57c74f874395fbbb1f75d6eebc1ed68a89",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final lunch count of 35 cars."
+      },
+      {
+        "response_id": "1c4523525fe0e0b8de3a3710e033ce76bfbb6ea772c0d74380965532ed500448",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "fd2a5392fbf90c7927a07ae0a3ba7acbcc1870b54fb0cf0f5e380604b9be1209",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "fb76f2c9e4d477cfe58720a5d6ccc3c6633baad6361b31d404e61e395df722f8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "74a10452ca0ea399cd201181d69b73a2c77c91421f7f45e9ae33484e5c8f548e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "79e7af020a1c1dcccd21e009a3b3eec263421be8f08e60d2ead8339ca57595e4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "c7917ba6294275a0b0d492bd83e25da09cfaa28e7e96ad588269e2fcc3830872",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "f95e8b3775eb448001145479be696e2c19e51e5966b38e09c3e5bd17a6bfe6e5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "03a15fe1325663984442e53463bcb11f5eb2464118974f700f9626c839237106",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "Explicit final answer of 14 old records."
+      },
+      {
+        "response_id": "ebe2911e83124eddc8e0ca9e654187d5416d7301a67c78fad27e7300711c78c7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "c6d7531c12098d6077cf6c186812aed41cf7f1ac2ed437f25c452a8000689623",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "2ce87420a835dae382e1b52ded690e95f3ed3859f693c2ab6041c9fdd2a449db",
+        "stated_answer": "112",
+        "reviewed": true,
+        "rationale": "Explicit final total of $112."
+      },
+      {
+        "response_id": "219dc6b156d568dbaa536a01ddbfa5d58961a7b7ef3b932cb907066c97de45a7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "0cad2168aff7a1282a2225c595cc4a944200cfa5e9522e42f9f8e23e6ceb474b",
+        "stated_answer": "300",
+        "reviewed": true,
+        "rationale": "Explicit final cost of $300."
+      },
+      {
+        "response_id": "76f3cd75acc74a5b92a76bf082c762d23d1080b805ad22386a343e66a1f2a20b",
+        "stated_answer": "2400",
+        "reviewed": true,
+        "rationale": "Explicit final cost of $2400."
+      },
+      {
+        "response_id": "007c536f237af860ffb249003635a8b34e35f78fc4d8e1436f05edce2ccdd01f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "24d2f6f99cf01eabf4c19c83252b1796b3a5b27291e2f4aa12585c86ce1be7b4",
+        "stated_answer": "291",
+        "reviewed": true,
+        "rationale": "Explicit answer of 291 bananas each day; arithmetic preserved."
+      },
+      {
+        "response_id": "ffa3ea5518a3fe8c4e3e621a4e4f3f56d7a3f1dc60b5d412a95ebd71398d74fb",
+        "stated_answer": "8",
+        "reviewed": true,
+        "rationale": "Explicit final difference of 8 bars."
+      },
+      {
+        "response_id": "b90d6bafc6efcb8940d971455d652992c9670375a70a6ad43c0e6f12d4058646",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "Explicit final answer of 4 weeks; reasoning preserved."
+      },
+      {
+        "response_id": "9344e40c9efc21ef4dc6663966217ecd9702363cdfe9dfc812ae52e55de38656",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "cf21f62c3fb09a7b25436ce1b58f6c3a6b8719da87e6b79cecab7e3749aa6bd5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only Let find find the answer; no value."
+      },
+      {
+        "response_id": "9a394a5131a7b10f12eba7d8eec7c091e40cfd4ab4c3e35b98c390133aaad396",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "0160e2f96367628ffe878d0330045ff5c1f63ad63d70e889a6c2a079c686ca89",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "Explicit final excess of $9 500."
+      },
+      {
+        "response_id": "cac67a890b787c8712196e04e597ba33518169613a25e5d20277c222586dfbbd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "b5531284f49df1c850bcaf7768d04ccb094afd625cf3b342254f585ce3479a2b",
+        "stated_answer": "1600",
+        "reviewed": true,
+        "rationale": "Explicit final total of 1600 sticks."
+      },
+      {
+        "response_id": "a16ac4fddeab76fc6a975b29939ea109748ee63ea22fe21018b8ef51af235092",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfilled [answer] placeholder."
+      },
+      {
+        "response_id": "3174925f5d4736df4fa484808cdb2e216331a2df7419111597dd500b51c8c50a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "a633e1d9d07ef111d13ba9dc51aaf72e7d71736b8956efc4585cd56837525766",
+        "stated_answer": "270",
+        "reviewed": true,
+        "rationale": "Explicit final total of 270 marbles."
+      },
+      {
+        "response_id": "a4cb2fd4f480d5704d1884dd0bbd136943aaa0a9acd245046c47d1a220123802",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "Explicit final count of 12 fruits left."
+      },
+      {
+        "response_id": "34f3dad3bae68deef167be7da9727d9c4b6daea42e7d56a63f3a40a937447b82",
+        "stated_answer": "215",
+        "reviewed": true,
+        "rationale": "Explicit final total of 215 minutes."
+      },
+      {
+        "response_id": "da90ed20c97dc49f2c2a07f0aaad572f352e36fef4ac94362167eae2089a9b2c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "b6ce570cb7568e940965bb06f41ccdfa1765fcd54b4d1a889b71937c88be2c6e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "3da47c00b3f2fa54a7e679fcbe5ea8e8286a3844a1a9130337b14548d24b3a68",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "d6f014c05481fb5b8f462780e1021348f105eaf26ae84e58629aa842bdb39d23",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "fe0f92cbd09643f5dcecda060d6fc68b0708f5780fb808b069dd09775744a27d",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "Explicit boxed 12 minutes before unevaluated Python code."
+      },
+      {
+        "response_id": "3d8383161a719736fc1ed11e86c4fd2706ec5ea408dead8ba034b41072aff593",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no numeric answer."
+      },
+      {
+        "response_id": "45468221bbd0cf39fbf1ac4acfc87dd7624d407950972024925cf089cb190a80",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final 10 pages left."
+      },
+      {
+        "response_id": "856d77d8f6cb8683f0335b850017696258901218f5353b31c738536b4611524b",
+        "stated_answer": "1000",
+        "reviewed": true,
+        "rationale": "Explicit final count of 1000 people."
+      },
+      {
+        "response_id": "3e2873a13a8842564c0a7154caefbd182552cb0ae3f29879c7036d31a5e3c6d5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "9fbf4b54ac7d811606115e03ca106ad5d28b56bdc2f6ea41cd487b593fc28da6",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final 10 pages left."
+      },
+      {
+        "response_id": "e67099748c80b7b550e343fd9efbcfd8edfd5c198e0b949ed46c72f3b94f90b9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only Let find find the answer; no value."
+      },
+      {
+        "response_id": "ec2c62999f4444b43cf403cd5c4a707687b975a9e5f341940eface2323e63801",
+        "stated_answer": "2400",
+        "reviewed": true,
+        "rationale": "Explicit final cost of $2400."
+      },
+      {
+        "response_id": "f6d280de21dba94465e95f77540b48ce243965e3ce2a1343c2bdc76d0ba42610",
+        "stated_answer": "78",
+        "reviewed": true,
+        "rationale": "Explicit final count of 78 letters; reasoning preserved."
+      },
+      {
+        "response_id": "6761e3aeb7c76e1603f08f063167f45c97a787dd8628b85c280afb7689d959b0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "8d5427b7fcceaf61481767131ebe5e7d5d2ba5e77b901d4004315c893ced35cc",
+        "stated_answer": "45",
+        "reviewed": true,
+        "rationale": "Explicit final total of $45.00."
+      },
+      {
+        "response_id": "9d4b97bfded8aa2a63ba883b15f1ad1465697d3484fcfcd01b1533426bf6a8b7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "56b42215f7f748ed8bcd5b66c5c62f3e0a3e88be671fee94a6960719e775d214",
+        "stated_answer": "6",
+        "reviewed": true,
+        "rationale": "Explicit final count of 6 balls; reasoning preserved."
+      },
+      {
+        "response_id": "52b8ba0f3fe971be41d41dec78fd7c81c5008d90ab6efe382731a5743726f801",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "Explicit final charge of $168."
+      },
+      {
+        "response_id": "f8db36ddeef1b8f8503e1c4b57964de9cbd1c7b4d12fca6f2df42d0c0f03e612",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "3aa7ab2722c4dbf08f2d1755fd1f71db756df8d366f45c285c1bad94b9504a78",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "46b63e41e7fc2c484ae9ed0c961b50fd64187f35821235f6bb73648c0ceef6a8",
+        "stated_answer": "22",
+        "reviewed": true,
+        "rationale": "Explicit answer of 22 flights to France."
+      },
+      {
+        "response_id": "f53d290c4c13162d005f4f25a4fa87c5c059c110ed9ff15ddbcc512ade20e9b4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "916b71821dda4c4b7c0f0aacf4ffba9aa50f335019435837833d97963453ce20",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "4a0103da165b34cb15e7e5c93087893045453c6a63fe01494858a2a47d1a864d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "d483e93162481df2c8482553caac23efdf1c9860a8034b011a493691c503bce5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats givens and what must be found; no computed third-monkey answer."
+      },
+      {
+        "response_id": "6ad9145d59c06288f4e7c9f2da2badfe902987bfd0eab8d1225921225ed2cc98",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final 10 pages left."
+      },
+      {
+        "response_id": "46726dc520c57c08c889cb85afdfaa9d698a5b0c01e1042139e7eb0a3957f3ba",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "926c56431bf29ed47a98a2c7695fd0624fcfa04490b776e7a049c9e2b8b76d8b",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "Explicit final revenue of $157."
+      },
+      {
+        "response_id": "8a8ba223cd1c610b862c5859ff6277cc09bb4c44f4bd732d34494e259877eaf2",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final distance of 35 miles."
+      },
+      {
+        "response_id": "68c2e38a7ff7bb6cd32a3078f53b0dd560ed8d2368c53deacabadf83d5b4bca5",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "Explicit final count of 50 bags."
+      },
+      {
+        "response_id": "c26d2242b43fa7408422271377bf7060eeb6745c4a2162ae6ead854f7e496ae0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only unevaluated formulas and a Total annual payment placeholder."
+      },
+      {
+        "response_id": "d7a795ad8fcc3fa0209cb3030dd6e7e46e8238d1ec2594d3e43f62646c77684f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "df32e16282f48e74b4620df91dc8bb8cbe9759a1a21d3ee5222ce3da0b464e95",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "76598c0cb0c8850776f7035d177d5ae7bd0befe0379733f3a9992cfde71c36b0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "29aac8a65ca68747665c0b30a7c1be403b83b986dd07fdc0f26ef57c201945ed",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final length of 10 inches."
+      },
+      {
+        "response_id": "ab2db507efc6ed20b8fd619fe55604b63d9a01dccad60e5a2b7e4d985e172f47",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "8b61f47ea0166ec1eb0f270c08e0eb682b124b60d66f3922e902d6c728c71cdc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "3b661e51aa01d00d5eded82be41972047194ad2901dc52f3b17095a7b37d686d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "5603c588e5068d324f0cd27f837fa1b2c425cf219aff14e575759b30628a9075",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats a proposed calculation without any numeric result."
+      },
+      {
+        "response_id": "1fb5f6f9aaeaaf441176260ad00a25b593de07bf12f792758cc9e47a9fc32695",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only proposes finding the cost; no answer."
+      },
+      {
+        "response_id": "6b9177dd62f0eb572387c90c19e2f53b8491f085b0b52e129fa075c79ef6f238",
+        "stated_answer": "22",
+        "reviewed": true,
+        "rationale": "Explicit final total of 22 days."
+      },
+      {
+        "response_id": "c8afb38ac6aeebcb47b5d63f2a130b6479cb12c0d8d15e1790edb53d390a3058",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "505f9b85626a8f44aff8f06934c89a1213bac7c5671f98ed2fb1433072a4f7d3",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "Explicit final 5 hours of free time."
+      },
+      {
+        "response_id": "cff8d76dc09f9091e9d5a0adf5fc3dc3cabbc9b68ed98c5af37c1a777f7da012",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "Explicit final travel time of 9 days."
+      },
+      {
+        "response_id": "bf81d21875ccc9b1dc75aae67a040d12d0ead1f31dd20c69fa634e6cdae7104a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "369f0d911157a6941ba6e1863536bfdf50752486d98f4cae5decaebe9e1d4afd",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "Explicit final lead of 5 points."
+      },
+      {
+        "response_id": "7e425e6e704f505d965afb1a75b5c275c29c1dcd7dd14fe476af67c8bfb0710c",
+        "stated_answer": "48",
+        "reviewed": true,
+        "rationale": "Explicit final total of 48 kilograms."
+      },
+      {
+        "response_id": "ae6fdc97d9180dbce2d24aa3c256a0b57b3384df4eb31c42bef9f93a9cbc9b26",
+        "stated_answer": "13",
+        "reviewed": true,
+        "rationale": "Explicit final total of 13 letters."
+      },
+      {
+        "response_id": "2d58a5116d15123431234319ce3713bb74f22fea8a117e63481afb7d98b15f2d",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "Explicit final 9 eggs per child."
+      },
+      {
+        "response_id": "257292bdcb210686d3437c9b6bd83ebed2b2766226572bade9c459b019ccd311",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "Explicit final average speed of 50 miles per hour."
+      },
+      {
+        "response_id": "67b4d9150eaf8e2612cccc065a8fc8e84c8a9c297075a241693e66f0315645f4",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "Explicit final count of 50 bags."
+      },
+      {
+        "response_id": "2c1f99901024612d5d2ab5b437b3f7038c89dda0104826beb89dc214bdba6968",
+        "stated_answer": "2",
+        "reviewed": true,
+        "rationale": "Explicit final price of $2 each."
+      },
+      {
+        "response_id": "6df666057dbe945f0af90dc693c2d0e45d9052ed13c8275405c8a6b13e1c3438",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final count of 35 cars."
+      },
+      {
+        "response_id": "c7fc4b665953cdde26abe830d7837a11c4bb5d92ba093afdb268914d76d6665e",
+        "stated_answer": "130",
+        "reviewed": true,
+        "rationale": "Explicit final total of 130 letters."
+      },
+      {
+        "response_id": "e5fb4a9d50fe8b317e2e8658e7eb2234c9e676d5a909052153073ed23ed69504",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "1f2f95a546d3d475bc5b6b55eaff5739d32fcf62b9b9b300f21b98b69fd756cf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "110253f2a048518e1e7c8c7d1badd9cd4d0b74f1cd377b7dcd931745e738bc7a",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "Explicit final time of 5 hours."
+      },
+      {
+        "response_id": "6017e91213d3df7c7a8fad89513ff60c6e7f721163f8bd61b94ec4af4f5a83ab",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats givens and proposed division; no cost per pump stated."
+      },
+      {
+        "response_id": "87797263751e8936cd40dd6373cc4b8bc42ede20d9ea45d5d2c26d08fbbeae18",
+        "stated_answer": "720",
+        "reviewed": true,
+        "rationale": "Explicit final amount of $720 left."
+      },
+      {
+        "response_id": "93d5415820f076b8e612906626c0d088385c94af2ba892a154db9ca25278814c",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "Explicit final time of 5 hours."
+      },
+      {
+        "response_id": "3c4c4097fbe26a560ce9dc107479dd4e7dc68c5d0d0c26eb2e88cef8c4ba20c1",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "Explicit final excess of $9 500."
+      },
+      {
+        "response_id": "c2fdaea495fb4cc8b2930ce555add39a91796d4da05c0b60b64093eb6d02a42f",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final age of 10 years."
+      },
+      {
+        "response_id": "520e535e5e5a333f1e29ab37de3cfcd5fe1a5d3b59487675559ca1ec540943c6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "3cb7368fa67e55e3a6f2d684dd2988988fa906ec04fd69de3db8a23433faa5f5",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "Explicit final revenue of $157."
+      },
+      {
+        "response_id": "6f6334c4b0c5ef52e51fc8c8aa1b2c6df038527ed6bcd9ed32ad814298fdcbd2",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "Explicit final boxed 12 minutes and printed 12.0; no code execution needed."
+      },
+      {
+        "response_id": "27b42357439f8a7d454d440015805312fc8d329f7cab09f3d30a424892fe684a",
+        "stated_answer": "48",
+        "reviewed": true,
+        "rationale": "Explicit final total of 48 kilograms."
+      },
+      {
+        "response_id": "e08bf220886eeacf6d635e076c826453f1a726e613a6f4920bebfb4a49e406e1",
+        "stated_answer": "665",
+        "reviewed": true,
+        "rationale": "Explicit final count of 665 good seashells."
+      },
+      {
+        "response_id": "a5f6229ffea49a2a4f18b5274e6de752f4989d7ac2664df37af2641aab4a0f5c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "e260346669a9912770b15c613b8f5ad8636eed5a51b8233cf58a7629db38f39a",
+        "stated_answer": "48",
+        "reviewed": true,
+        "rationale": "Explicit final average age of 48 years."
+      },
+      {
+        "response_id": "83e0fac760748c9dcb3a811541c4b87dca6a8fda6dc966c537a6269f56c9696b",
+        "stated_answer": "1000",
+        "reviewed": true,
+        "rationale": "Explicit final count of 1000 people."
+      },
+      {
+        "response_id": "dd9578f17b4889cb76fcc76eaf502b718cc746f4315978ca23df20f5e1a78eb5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "565e2fd52b5f9fcd76359cc2d635aeffd2271270ebdd803323d3c105b9db3608",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "Explicit final revenue of $157."
+      },
+      {
+        "response_id": "4fb9a1371896f2cbaabda27f7080482870623262b75292291e452cb72b38a5aa",
+        "stated_answer": "7",
+        "reviewed": true,
+        "rationale": "Explicit final 7 fish in each aquarium."
+      },
+      {
+        "response_id": "d58c7c9f055c062de951d1601cb2662af26ccf5116df8afdc8248cd89a4d49a2",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "Explicit final count of 14 bouncy balls."
+      },
+      {
+        "response_id": "f55e9d1cf8f1e8b893ba76de0eb4be0bbc08dcbfa368737e457bcfafa70b5215",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "ccfb9dd2098c463d256cd4617e9656489643b7a91ef6a9767f3085f7c1440a4a",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final distance of 35 miles."
+      },
+      {
+        "response_id": "ef4cb7105d2cdd4094eaa35db7a8971ab7a84395c3dc8a6fbfaec3b81e9b69af",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final distance of 35 miles."
+      },
+      {
+        "response_id": "b93ad2f5dd0f232353c4229f999dde83d6f3d894e1b83216b679a6ca4037b605",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "Explicit final average speed of 50 miles per hour."
+      },
+      {
+        "response_id": "485e28eab1b86b2e1e15421953468cba332b1e07017c5523b831aa585917c478",
+        "stated_answer": "70",
+        "reviewed": true,
+        "rationale": "Explicit final count of 70 pink gumballs."
+      },
+      {
+        "response_id": "1bd50dfd8972ad69af8a9daac02edc37276575e3f029a79a43843d0cadc33a98",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only proposes finding the first part; no answer."
+      },
+      {
+        "response_id": "170069566a5dcb6e0b51e5e00827b77b4f3509fb46b4802e48689a99df0f45ff",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "67ddaff9fed74af386fa1d3cbf9d4ef517dff592426408d5659d21d0a3b85bc7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only Let find find the answer; no value."
+      },
+      {
+        "response_id": "abf842d2661a0ec7cf1fb408c6e1f7627260a0bb45f7f5f7b8bb83e491c23954",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "0bd97ab54ca484d9cfe90c660d4b79cfd69b4a9f655c0b740ebd1d318de3bb49",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "b472b7c584385f0a2913d5809b3fb1654139bb07a4ddc19f26d37bdbd6f393e8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "e949a8e92444c2817ed17d0a97fa4cf8cc05f4a241ed57fe4a241d0c78cec32b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "5ec1ebd3405116569bc6d6d62255fee4c61cb6cc95a4b198bc573db1ea29b360",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "d2d4e40c676d51330a54e4a06adee4ad587d89ee988f27690f680776e7294e13",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "d33c2d459f0f65dbddc9bb2582384dde16cd9d29af19a78a67d0ee6789b4a253",
+        "stated_answer": "7",
+        "reviewed": true,
+        "rationale": "Explicit final 7 fish in each aquarium."
+      },
+      {
+        "response_id": "467a4d9285f96a34f550fa0597e80ff7d7c22c000aa2a062f9a641434d8d860f",
+        "stated_answer": "1000",
+        "reviewed": true,
+        "rationale": "Explicit final count of 1000 people."
+      },
+      {
+        "response_id": "12fd616da83c34babdf05a84c8aae5ab07dde1d09c7292985f01a1a099bea0a4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "4196ea5b3571183a4c05c1195ba2c74a48ea5fbb2afb7109a181776b768f28b3",
+        "stated_answer": "150",
+        "reviewed": true,
+        "rationale": "Explicit final count of 150 birds."
+      },
+      {
+        "response_id": "cb28c6a257adcdbc4ea205c338f02935eef04ff2f813ecc983b644073879b95c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only proposes finding the number of days; no answer."
+      },
+      {
+        "response_id": "7bbf3df885333243ef6a3717368854eefa7b0a0edfab88571b435f297cd43192",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "0e5e01839724bc87dd4db7d5f11e642e25b4799c2d6f97f4ca8f6a99376a3d98",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats Let/find; no value."
+      },
+      {
+        "response_id": "e431ceae04dd97caaab13286b4a7150cdc112c496fbc23601be33b74c81e15b6",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "Explicit final count of 14 bouncy balls."
+      },
+      {
+        "response_id": "06caf7282c5cebd91f58a3c9df1855b9307a741b3f38b5154d1f4c4519fcca5d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "9ed52aaea3967b2956205b91f5251a0506da4aeb7c8d1caeba9412d51e26cfba",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "1fb9cec5640f44f7f3bb67de3ebc9775e65efca5f9b6e15f4b2464147c5bbd26",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only gives a procedure; no numeric total stated."
+      },
+      {
+        "response_id": "1ace55f2148d62c776710035b33223294982b69b07585006ff894855f7c174d9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "13caa5aa426cccabc18089bcd536656731c966e8f0c7b44bed0c961f87e03a6e",
+        "stated_answer": "29",
+        "reviewed": true,
+        "rationale": "Explicit final total of 29 points; reasoning preserved."
+      },
+      {
+        "response_id": "b2aafb6921bd75b1b080759605bffc9aa6194475658f1bd0592ac1933d422b53",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfilled [answer] placeholder."
+      },
+      {
+        "response_id": "6b010db68e16f17e0eae6ed0a4c0852c400f4bcb4d5cbdc4ae6e5b9b9f50031a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "130ffe97e2cfb02333fa19481caaf674926a10f8fc928aa0992a955292279115",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "16f274c073901c74ecd23603a5a4e62f78bb58ef256b698946169b3e6aa87b93",
+        "stated_answer": "80",
+        "reviewed": true,
+        "rationale": "Explicit final difference of 80 yards."
+      },
+      {
+        "response_id": "d89c6deb013725768982e88686d097ec00aa930313f78ba6b2e06443de8bca64",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final 10 pages left."
+      },
+      {
+        "response_id": "0a211f3627e56c2cde7ba131b4abf59b15a76239d5eac84feae4ad5a02dc9779",
+        "stated_answer": "200",
+        "reviewed": true,
+        "rationale": "Explicit final cost of $200; reasoning preserved."
+      },
+      {
+        "response_id": "19c649275b996da9026de3c27b0400b7123deeb8014d8d614a7a0984a282d779",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "Explicit final charge of $168."
+      },
+      {
+        "response_id": "f9fba5d5d6b9aa4d91a69340f2cf842ef85eda0cc1242563159c472141256d62",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only proposes finding streaming cost; no answer."
+      },
+      {
+        "response_id": "4eb0bdc47f52e615ba7208d27eb333c0f0c722653966590b7ab63c85ad969ace",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "3139db1d4dcbc362ccba860bbe4b1900a44f5b039fb822b2b0f98e347d82ff4a",
+        "stated_answer": "400",
+        "reviewed": true,
+        "rationale": "Explicit final cost of $400; reasoning preserved."
+      },
+      {
+        "response_id": "395eb6bf2b2785d338af38a65926d03c741c5f76df87b11f198668e4af4c9562",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "Explicit final count of 16 friends."
+      },
+      {
+        "response_id": "3f02bca382432c2114b26f04e9cfe3f7830855fe657a4ce54f9e174f7dab76a8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "07bb2eede71e096b2dff30a7b30e2d1eb6de87426d63fa1c5f79520aa14617c2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "96acbfe2df5456180911e9c96ec3b4edab5a52aace35f2707fa83e6ba929bf1b",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "Explicit final count of 50 bags."
+      },
+      {
+        "response_id": "e729c782efee281feff3391812abc6819aadb88da8c5b1e9af90ed3711d1c639",
+        "stated_answer": "800",
+        "reviewed": true,
+        "rationale": "Explicit final amount of 800 ml."
+      },
+      {
+        "response_id": "a784089bec579f79108a56a69ea050c60ba7bbcf15d42ea453107da637ee81a7",
+        "stated_answer": "252",
+        "reviewed": true,
+        "rationale": "Explicit final count of 252 sunflowers; reasoning preserved."
+      },
+      {
+        "response_id": "a31cf9af5fc504b6732c89e1fe041eab073f9cf6f41512ea1f016645d7f3fe89",
+        "stated_answer": "133",
+        "reviewed": true,
+        "rationale": "Explicit final price of $133."
+      },
+      {
+        "response_id": "f4902b33c4a8ec29e728a4bc2f4cd74e7978a859f96fff12de1f41cd88ffa575",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only proposes a procedure; no numeric time stated."
+      },
+      {
+        "response_id": "fe7183e021a398e98276cc603863e22db399d8d36dd644fc8ca6940b51c5c42f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "9f16c71bd9e2f01511a97db846bab8172524a8b63477954b0f9fa14d5128ec37",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "45410393d40c796fea1d14e9cc81d320b5168ccd9dda683b6cd5575bec6839f0",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "Explicit final revenue of $157."
+      },
+      {
+        "response_id": "aa161feacd2e57ee5515568e89c222d159f03044a11eb86a9ec2c1ca7d43633c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "a5e387187bcfbaf85b73c2f8a194affe7bca7922d3646cbfda893c64908ad3a7",
+        "stated_answer": "65",
+        "reviewed": true,
+        "rationale": "Explicit final total of 65 letters; reasoning preserved."
+      },
+      {
+        "response_id": "fd5deecc3f00e85892f244a2519a1a7d64e8c492afc862c165a7cb2ee6d86e1c",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final count of 35 cars."
+      },
+      {
+        "response_id": "d3763c32770e75f96b8344c12cfd822cda920edf847f26ae8777a926ce20bdc7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "1d5d32f849b394014fa3a23104951a345b383a60ff901267053f680413ad4739",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "557279db780974b6c29232e7389a10a199f873f63bed143cf787f9a385216066",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only gives a procedure; no numeric hours stated."
+      },
+      {
+        "response_id": "57189e461cc0292a0c312fc72fa7609aadca5bc19e1b0c0525fe8e5c9f3cb4ca",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only Let find find the answer; no value."
+      },
+      {
+        "response_id": "8ba908e52612abfcd785278d27d9f94db0ae732f963ca719d25b7aa93582207f",
+        "stated_answer": "500",
+        "reviewed": true,
+        "rationale": "Explicit final count of 500 chimichangas."
+      },
+      {
+        "response_id": "5b5370db0cc44eece90f555e9d21de482d69ad5fc154f0dca3323883030e1eba",
+        "stated_answer": "1000",
+        "reviewed": true,
+        "rationale": "Explicit final count of 1000 people."
+      },
+      {
+        "response_id": "2390127930ba54f4f1fa7840ed74d067860b80b2c16f944a9c0a332b8fe5c3a2",
+        "stated_answer": "13",
+        "reviewed": true,
+        "rationale": "Explicit final total of 13 letters."
+      },
+      {
+        "response_id": "1a31e86011bd60f021301772f153d0bdbf322165a31697358ec4c0a3e3ea1bcc",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "Explicit final time of 16 weeks."
+      },
+      {
+        "response_id": "88c3bad6cdadd27866fd8f2d1163fe72980b6a2fa15a8bd5ef7943c4c5d86613",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "Explicit final count of 20 votes."
+      },
+      {
+        "response_id": "0a831206d0a5c758a518fa5a41f7ab689cd89c6f5ca4d27c58428635cf9a7b8e",
+        "stated_answer": "7",
+        "reviewed": true,
+        "rationale": "Explicit final 7 fish in each aquarium."
+      },
+      {
+        "response_id": "5b877a379ef5f5e19de4b6eb52f404906af2ab46f1815fb1f3af5116693b4e8f",
+        "stated_answer": "560",
+        "reviewed": true,
+        "rationale": "Explicit final distance of 560 miles."
+      },
+      {
+        "response_id": "069948f8e9d21844cfae5e218c11bd4c4a9da4125213203a33f73657ecdfd598",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "76d89daad6141e40ce806a226a76f2e0c4db859ff8b36e2b996263515f58b6ee",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "0a2f75d225ad211ba214c3a68f5d2f4df17ff269c76aa7081d4d8f538491e87f",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "Explicit final count of 14 old records."
+      },
+      {
+        "response_id": "6a31335400a3286e465b3e3e1c8171d220de0e97bb2b1dc4111e36ddf7cc148b",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "Explicit final age of 12 years; equation solving preserved."
+      },
+      {
+        "response_id": "7816db5c9cea055261afdcce5a5f2b307bc968b089d40e56210cddabe0688eda",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "256e2ba33786070a4c39b8dcf25b3283cd6fb835dcb5c2bea4b90d0c48b57789",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "Explicit final total of 9 toys; reasoning preserved."
+      },
+      {
+        "response_id": "83df109386502155bb51e1d178f0dd840492a354663e2ba643278b226a844e77",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "Explicit final revenue of $157."
+      },
+      {
+        "response_id": "bf952e2b0b1701e6ec3ed4a9f1be45ae3aaa4738f887358d86ab047dfd84bd8a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "20b38c88be7bb038e4ae2fbe781351be55d3d4c7cf888b28e6ab816a1bdd1f3a",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final 10 pages left."
+      },
+      {
+        "response_id": "e1879b55e1db1869575240a030184d1b47a3f3e261996e7dd81afd7253a39604",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "620cee359f59e2757bca27ddd2853613b837c5c6fe71fa0b833bb7632163b8d9",
+        "stated_answer": "270",
+        "reviewed": true,
+        "rationale": "Explicit final total of 270 marbles."
+      },
+      {
+        "response_id": "a452dc2571d6d78ae33f1ecf2289e1415022a5db8fb1490a4c44d2f5a07adab2",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "Explicit final revenue of $157."
+      },
+      {
+        "response_id": "f4fc637af08986468228197d114ecddcd43227ae9ff1c41c3806addfe779cb8d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "2f227030d2bb14ad2cbc97adef7cfb78fb2c65e6b8c2754fd32454b79f118631",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "4d6164f564901496bd55ac61b2f7a5bd436fe25dc8fa4cf6c09cad5b0f3b02dc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only gives a procedure; no numeric chocolate total stated."
+      },
+      {
+        "response_id": "0d5fa5b3a7cee39db21f28b5e0036fbc5d722814399574eb4eeb078727e7945a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "732a8ce8f45b04fc39c5ccb830343550806f4e12ccf6dd201ccb96b2729d41b5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "05290d2e096dcaedb38ea3dfdcd16ce8e32ba640e629130a0ab1627ee5edea55",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "332919122793b52c1a6f1bcf3d2b100b8e20756d4f2d59627d91a5ce67787afa",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "2b3401bd3f5aae6c59a6ce8cbeea732c9391e9d4c13a9d626bc684466d36fc59",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats Let/find; no value."
+      },
+      {
+        "response_id": "47ff327921a068a31a7dfb50e26dbb5b688396bdf0cbe282bcdf852fb1019bec",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "a799820ac4c276dc655f25630669719c9ea380ac945987118a11af92bedeee40",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "Explicit final difference of 14 pieces."
+      },
+      {
+        "response_id": "2a0c1a9c5bd4671422dc5e1b543bf6e25963529f7e7ac8d5ce0b856df9945ab5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats Let/find; no value."
+      },
+      {
+        "response_id": "81a76cff839f746b3bdb427d73bbf2090e9ff84f9f87036689ee164e69bf492c",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "Explicit final excess over budget of $9 500."
+      },
+      {
+        "response_id": "954a28a6000e51b408e8e5a982f7c0f16455200030c7fa653eb50790f198d952",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "76e0c1c85991eae8266ae5d1a382f00388f08b3438103e84cdb2adb292c7cd1a",
+        "stated_answer": "8",
+        "reviewed": true,
+        "rationale": "Explicit final difference of 8 bars."
+      },
+      {
+        "response_id": "40220b17dcb766475e27d2729af02ac5748226ff52edac3af082497404ca57fa",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The answer is ends without a value."
+      },
+      {
+        "response_id": "b028c27420e59488cf8039ad4d9a87f15d2b3cceea30773df3a896ae053f1889",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "cf54969dbe804d611e221095c054c02bb25c51d1de071d2c0b8ba2df48ec9456",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "f19a7aa6445b3e1ba46839730c4b628fd652bb873bb0198fcc3805e3a29a9522",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "Explicit final count of 14 old records."
+      },
+      {
+        "response_id": "b1d7e1559e6a9b25e5c8f372923a6be6fb909fdf459994339c8e8724eb356895",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "Explicit final lead of 5 points."
+      },
+      {
+        "response_id": "b2bd9af2e276f0be13e915abb58693a424dbfbb72caa4d0ccd8a6fe779deac22",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "c45c710d15c2e1f50d9cc1543ab955f80c2f404f1c2d9643a101b77160886ca6",
+        "stated_answer": "100",
+        "reviewed": true,
+        "rationale": "Explicit distance between homes of 100 miles."
+      },
+      {
+        "response_id": "a2f9127c8e9fe306142624443d26e1a1274a2702e96c41054c1a5d74c6168b3c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only Let find find the answer; no value."
+      },
+      {
+        "response_id": "d89aec3a499301de6e569f987eea5df95afbb984cc096818eff03d8daa70d1f8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "3b0d23fca29c107b236da4ae76fd9f910a6d54062d9eb30e55fa6bf9acb0df6c",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "Explicit final charge of $168."
+      },
+      {
+        "response_id": "2e88230fef7599d969342d27daac3228416790eb0ca76e88892a64a0d6c4eeab",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "7c88f98d1b77ae810593d60fbc806dccd57f88f1ad02687539ba5198b3512c9a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "a39f9d254816b1e43284b582404b22fb6650e8ee7c52b59bbdf7bf1bc586953f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "325a8125a832754e58c6bf2d97a700a7cea01d569a72013d34a1ff6d1418a1b7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only gives a procedure; no numeric remaining earnings."
+      },
+      {
+        "response_id": "5ac587273e9704c20b2bf954cba74d6e0ecf46c8b7ef06a1ff6bf1c310225c9f",
+        "stated_answer": "30",
+        "reviewed": true,
+        "rationale": "Explicit final count of 30 cars; answer preserved."
+      },
+      {
+        "response_id": "bad8ce1d848107ef0bf695261ae0ffcab101f47d097e478fde177e60c233b281",
+        "stated_answer": "270",
+        "reviewed": true,
+        "rationale": "Explicit final count of 270 marbles."
+      },
+      {
+        "response_id": "521d77ca8c05972897130c490cc0ffc996ebce94a843f098e2296dee0f400d07",
+        "stated_answer": "300",
+        "reviewed": true,
+        "rationale": "Explicit final cost of $300."
+      },
+      {
+        "response_id": "6d1dadd6e6475d7ac9646983aaa5a4629b4931fccd15ec869c43db909b8e6ae8",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "Explicit final age of 20 years."
+      },
+      {
+        "response_id": "2aaca21cd867a67e7663f9302072d3c32c42286a481a903be0b4f5124dbfa612",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "4412f4aaeb0cf38ba9760fdbbc0bcaa581fef85d2ca411fbf17f92f94bf885a0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfilled [answer] placeholder."
+      },
+      {
+        "response_id": "d804db8455b8a505da526a8ea37123b774d1f28fdfa6b1b59e9300df0769aef3",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "Explicit final count of 16 friends."
+      },
+      {
+        "response_id": "794e892dc718853566667cabb67c4d9b39f0e8f07fbf18f345c0ea05b0c4f2f2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "5b30f61911df5c15994662961fb3b8732b0eb3e6ab04c2c1c8e97f2f79f05ab4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "e787f1e25d43f75afc4b77157e2bfe4c512a7d1ce9fc2f9306a51369fe46012e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "5e0eeab92802241aa045753664cc3ed0b2fa15b01d0dd9aebda2052f82d4f80d",
+        "stated_answer": "3",
+        "reviewed": true,
+        "rationale": "Explicit final time of 3 days."
+      },
+      {
+        "response_id": "c58be28a118c9226c225b22cc5e7c3560e4b985f359a8e6e7aa5a1de8b13e51e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "1f8b069dcbf283902538fe58c54d42e9960a285b066ff3da578c5a5061e7559c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "e904ec09a4d2e13936f86f539c652e2542432ab564733ab12ff10ed20b685d03",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "bc608083badda0eaec7b1e9d357266c2aabd5d0a5a62e12c9fb0e784535207c7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only gives a procedure; no numeric average stated."
+      },
+      {
+        "response_id": "0d177837d01bc375ab40bf67a0fb0c07a7909fb7a9367be43f9d133d22e46aef",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicit final age of 10 years; equation solving preserved."
+      },
+      {
+        "response_id": "67ab2d7341109fdc185dd6785b9ff2f8e99571128785c55feb3dd57c0577f452",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "5789cb121e60c54e0980381dd3d1612e97c5dee2616327c40974afb75ebd140a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "1a92612c7ce38754b5a5e2cc304a73032de5acc2d2eae36b8795da6e7327e7d0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "d5dd34197d357d445f5f6d74d747ca50fbcf79f647832f1738e402f7bae7540b",
+        "stated_answer": "60",
+        "reviewed": true,
+        "rationale": "Explicit final enrollment of 60 students."
+      },
+      {
+        "response_id": "449c9badc334a95edf829ae92ebf216dd7565fcffab56e54bd5a867a4fb4f679",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats Let/find; no value."
+      },
+      {
+        "response_id": "3f76e6524f7286cd50e662f6192fe69ffd2a04c3377c430242d6941ae3b3f3ea",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "Explicit final count of 4 pans."
+      },
+      {
+        "response_id": "795c7ad2a44c62024e19d59261575bc445042e6a4fddec9308ee1be452807c20",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      },
+      {
+        "response_id": "7ade9e52c4874006fa512ddd902ffac66e56c71e7371fa60a6beb975e09bd788",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "Explicit final 9 eggs per child."
+      },
+      {
+        "response_id": "3e4afcbdbf2d8bfa68a24afae012d9af253a05ca76687c960cb7208599968e89",
+        "stated_answer": "107",
+        "reviewed": true,
+        "rationale": "Explicit final count of 107 Pokemon; equation solving preserved."
+      },
+      {
+        "response_id": "15b5554d738c0b769d63f7d0c8ba10c2b40a21a0d136dc1abcd7b174a65495e7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeats First/find; no value."
+      },
+      {
+        "response_id": "b48c3eda3e91643d02fbf7ef104511a98ff0bcc9454b4e3646173c161d3c6241",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Empty response."
+      }
+    ],
+    "limitations": "Reused development questions. No independent confirmation. Only unparsed responses reviewed; truncations receive no credit. Twelve contrasts adjusted separately for each metric.",
+    "contrasts": {
+      "primary": {
+        "zero": {
+          "gain": 0.140625,
+          "ci95": [
+            0.0390625,
+            0.234375
+          ],
+          "wins": 31,
+          "losses": 13,
+          "mcnemar_two_sided_p": 0.009559878856634896,
+          "holm_p": 0.06691915199644427
+        },
+        "icl_a": {
+          "gain": -0.140625,
+          "ci95": [
+            -0.2265625,
+            -0.0546875
+          ],
+          "wins": 8,
+          "losses": 26,
+          "mcnemar_two_sided_p": 0.0029350556433200836,
+          "holm_p": 0.02348044514656067
+        },
+        "icl_b": {
+          "gain": -0.1484375,
+          "ci95": [
+            -0.234375,
+            -0.0625
+          ],
+          "wins": 8,
+          "losses": 27,
+          "mcnemar_two_sided_p": 0.001878225477412343,
+          "holm_p": 0.016904029296711087
+        },
+        "first": {
+          "gain": -0.0078125,
+          "ci95": [
+            -0.09375,
+            0.078125
+          ],
+          "wins": 15,
+          "losses": 16,
+          "mcnemar_two_sided_p": 1.0,
+          "holm_p": 1.0
+        },
+        "cot": {
+          "gain": -0.0703125,
+          "ci95": [
+            -0.15625,
+            0.015625
+          ],
+          "wins": 13,
+          "losses": 22,
+          "mcnemar_two_sided_p": 0.17546524899080396,
+          "holm_p": 1.0
+        },
+        "prefill": {
+          "gain": -0.0703125,
+          "ci95": [
+            -0.1640625,
+            0.015625
+          ],
+          "wins": 13,
+          "losses": 22,
+          "mcnemar_two_sided_p": 0.17546524899080396,
+          "holm_p": 1.0
+        },
+        "regularized_prefill": {
+          "gain": -0.0546875,
+          "ci95": [
+            -0.140625,
+            0.03125
+          ],
+          "wins": 13,
+          "losses": 20,
+          "mcnemar_two_sided_p": 0.296206368599087,
+          "holm_p": 1.0
+        },
+        "mean": {
+          "gain": 0.2265625,
+          "ci95": [
+            0.125,
+            0.328125
+          ],
+          "wins": 41,
+          "losses": 12,
+          "mcnemar_two_sided_p": 8.171334999262925e-05,
+          "holm_p": 0.0008171334999262925
+        },
+        "scalar": {
+          "gain": 0.2578125,
+          "ci95": [
+            0.15605468750000018,
+            0.359375
+          ],
+          "wins": 44,
+          "losses": 11,
+          "mcnemar_two_sided_p": 8.699371704778969e-06,
+          "holm_p": 9.569308875256866e-05
+        },
+        "position_mean": {
+          "gain": 0.0234375,
+          "ci95": [
+            -0.0625,
+            0.109375
+          ],
+          "wins": 17,
+          "losses": 14,
+          "mcnemar_two_sided_p": 0.720100131817162,
+          "holm_p": 1.0
+        },
+        "position_scalar": {
+          "gain": 0.5234375,
+          "ci95": [
+            0.40625,
+            0.6328125
+          ],
+          "wins": 78,
+          "losses": 11,
+          "mcnemar_two_sided_p": 1.367383267102241e-13,
+          "holm_p": 1.6408599205226893e-12
+        },
+        "permuted": {
+          "gain": -0.0234375,
+          "ci95": [
+            -0.109375,
+            0.0625
+          ],
+          "wins": 14,
+          "losses": 17,
+          "mcnemar_two_sided_p": 0.720100131817162,
+          "holm_p": 1.0
+        }
+      },
+      "audited": {
+        "zero": {
+          "gain": 0.171875,
+          "ci95": [
+            0.1015625,
+            0.2421875
+          ],
+          "wins": 24,
+          "losses": 2,
+          "mcnemar_two_sided_p": 1.049041748046875e-05,
+          "holm_p": 9.441375732421875e-05
+        },
+        "icl_a": {
+          "gain": 0.0,
+          "ci95": [
+            -0.0625,
+            0.0546875
+          ],
+          "wins": 7,
+          "losses": 7,
+          "mcnemar_two_sided_p": 1.0,
+          "holm_p": 1.0
+        },
+        "icl_b": {
+          "gain": -0.0078125,
+          "ci95": [
+            -0.0703125,
+            0.0546875
+          ],
+          "wins": 8,
+          "losses": 9,
+          "mcnemar_two_sided_p": 1.0,
+          "holm_p": 1.0
+        },
+        "first": {
+          "gain": 0.0546875,
+          "ci95": [
+            0.0,
+            0.1171875
+          ],
+          "wins": 11,
+          "losses": 4,
+          "mcnemar_two_sided_p": 0.11846923828125,
+          "holm_p": 0.94775390625
+        },
+        "cot": {
+          "gain": 0.0390625,
+          "ci95": [
+            -0.0234375,
+            0.109375
+          ],
+          "wins": 12,
+          "losses": 7,
+          "mcnemar_two_sided_p": 0.359283447265625,
+          "holm_p": 1.0
+        },
+        "prefill": {
+          "gain": 0.015625,
+          "ci95": [
+            -0.0390625,
+            0.0703125
+          ],
+          "wins": 8,
+          "losses": 6,
+          "mcnemar_two_sided_p": 0.79052734375,
+          "holm_p": 1.0
+        },
+        "regularized_prefill": {
+          "gain": 0.03125,
+          "ci95": [
+            -0.0234375,
+            0.0859375
+          ],
+          "wins": 9,
+          "losses": 5,
+          "mcnemar_two_sided_p": 0.4239501953125,
+          "holm_p": 1.0
+        },
+        "mean": {
+          "gain": 0.203125,
+          "ci95": [
+            0.125,
+            0.2890625
+          ],
+          "wins": 30,
+          "losses": 4,
+          "mcnemar_two_sided_p": 6.16488978266716e-06,
+          "holm_p": 6.16488978266716e-05
+        },
+        "scalar": {
+          "gain": 0.2890625,
+          "ci95": [
+            0.203125,
+            0.375
+          ],
+          "wins": 40,
+          "losses": 3,
+          "mcnemar_two_sided_p": 3.0213413992896676e-09,
+          "holm_p": 3.3234755392186344e-08
+        },
+        "position_mean": {
+          "gain": 0.0546875,
+          "ci95": [
+            -0.0078125,
+            0.125
+          ],
+          "wins": 13,
+          "losses": 6,
+          "mcnemar_two_sided_p": 0.1670684814453125,
+          "holm_p": 1.0
+        },
+        "position_scalar": {
+          "gain": 0.578125,
+          "ci95": [
+            0.484375,
+            0.671875
+          ],
+          "wins": 77,
+          "losses": 3,
+          "mcnemar_two_sided_p": 1.4128410298528223e-19,
+          "holm_p": 1.6954092358233868e-18
+        },
+        "permuted": {
+          "gain": 0.0,
+          "ci95": [
+            -0.0546875,
+            0.0546875
+          ],
+          "wins": 7,
+          "losses": 7,
+          "mcnemar_two_sided_p": 1.0,
+          "holm_p": 1.0
+        }
+      }
+    }
+  },
+  "annotation_commit": "0fc80f7df3a5916bbc5024a4a8f1b6b1500c0911",
+  "reserved_rows": 0
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T06:50:35.241206+00:00",
+  "report_file_sha256": "fd5fc5859a58a036845a00edd44957742d012e20a3a0c1d874477a64cf747074",
+  "recount_code_sha256": "06d950254234349e415ad478459c9075f7b1538f4cb8d705f7ba0c59bbd63234",
+  "rows": 1664,
+  "conditions": 13,
+  "paired_contrasts": 24,
+  "counts_wins_losses_exact_p_and_holm_recounted": true,
+  "bootstrap_intervals": "Produced by the frozen reporter; not independently recomputed here.",
+  "inherited_icl_gate": "Asserted preserved; not independently re-estimated here.",
+  "new_candidate_gates_recounted": true,
+  "reserved_rows": 0,
+  "eligible": false
+}

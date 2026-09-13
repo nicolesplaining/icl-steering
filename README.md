@@ -40,12 +40,14 @@ passes the activation diagnostic: mean continuation error is 0.639 versus
 early in the answer. This warrants an accuracy experiment, not a positive
 steering claim; no reserved answers have been generated.
 
-The [continuation accuracy run](research/gsm8k-continuation-protocol.md)
-is underway with its [full fit frozen](results/gsm8k-continuation-v1-fit-declaration.json).
-It compares the regularized map with the same map at the prompt only and
-with pooled and position-specific mean/scalar controls. Steering ends after
-prefix length 128; the answer budget remains 1,024 tokens. All new outputs
-will receive the declared review before scores are opened.
+The [continuation accuracy run](research/gsm8k-continuation-results.md)
+scores 115/128 after blinded review, versus 93/128 zero-shot, with no
+truncations. It matches ICL-A, but the shuffled-target map also scores
+115/128. The candidate therefore fails its control gate. Its four-answer
+advantage over the same map at the prompt only is not established as
+reliable. Explicit-parser accuracy is 96/128. All 232 new unparsed responses
+were individually reviewed and committed before scoring; the independent
+recount passed. The 256 reserved questions remain untouched.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
