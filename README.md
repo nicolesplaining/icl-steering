@@ -27,6 +27,11 @@ candidate remains ineligible; no confirmation questions were generated.
 An [early state diagnostic](research/ltv-decoding-state-shift.md) finds that
 decoding activations move away from the prompt extraction span; this is
 not an accuracy result.
+The [identical-prefix check](research/ltv-prefix-alignment-results.md)
+confirms poor prediction of the actual ICL shift during decoding. At all
+four tested continuation positions, predicting zero shift has lower squared
+error. The [prompt-only interpretation](research/ltv-first-token-interpretation.md)
+shows that its effect enters later decoding through the first generated token.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

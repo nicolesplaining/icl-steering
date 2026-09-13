@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "manifest_sha256": "fd3e81b7646e8829de92b260ff1d7c9b450ec4ed006d730c3c0f2b2eb3199ade",
+  "report_file_sha256": "3f510ba29d85d7cd755259b24bd4dcdc03a2001fb06eb3c3cfb43f43cc8c9ebd",
+  "collection_file_sha256": "85f553bf88c9c09782c6b2c84b4a043dc9d0cbdb6b47d34bab8dcd30873f9334",
+  "declaration_commit": "dea717b",
+  "process": {
+    "status": "awaiting_alignment_report",
+    "supervisor_pid": 26176,
+    "supervisor_start_ticks": "2891445",
+    "gpu": 0,
+    "updated_at": "2026-09-13T05:13:23.049685+00:00",
+    "pid": 26179,
+    "returncode": 0
+  },
+  "completed_batches": 32,
+  "n_questions": 128,
+  "prompt_captures_bit_exact_to_original": true,
+  "prediction_and_metric_replay": true,
+  "separate_saved_report_replay_exit_code": 0,
+  "n_development_questions": 0,
+  "n_reserved_questions": 0
+}
