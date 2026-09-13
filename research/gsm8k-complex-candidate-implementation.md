@@ -4,7 +4,7 @@ September 13, 2026. The fixed candidate runner is implemented and tested
 before the real ICL screen's accuracy is opened. It cannot prepare a steering
 run from an unfinished or failed screen. A passing screen must also have a
 matching independent recount and frozen annotations. The real candidate
-preparation and generation have not been run.
+preparation and generation had not yet run at that implementation checkpoint.
 
 The runner reuses all three declared map archives byte for byte and checks
 that the candidate and same-map prompt-only control have identical matrices.
@@ -28,10 +28,33 @@ The runtime audit binds its result to the exact generation-row digest and
 checks actual LM-head inputs, saved shifts, applied states, cutoff accounting,
 and the candidate/prompt-only initial states and first tokens. Its independent
 predictions come from reconstruction of the original extraction fits rather
-than the new routing function. Real traces still require their own completed
-audit if this conditional experiment runs.
+than the new routing function.
 
 The [protocol and gates](gsm8k-complex-candidate-protocol.md) remain unchanged.
 A passing screen does not automatically launch steering, and a development
 pass does not authorize reserved generation. Input and implementation
 declarations are required before their respective generation stages.
+
+## Completed generation and runtime audit
+
+Generation subsequently finished at 11:03:03 UTC on September 13, with exit
+code zero. All 12 new conditions have 256 responses, giving 3,072 new and
+4,352 total responses including the five inherited baselines. The worker and
+supervisor exited and released GPU 0. No reserved questions were generated.
+
+The [complete runtime replay](../results/gsm8k-complex-candidate-v1-runtime.json)
+passed at 11:06:31 UTC. It checked all 768 new batches, replayed 330,376 saved
+state vectors, and verified 82,594 LM-head calls. Candidate and same-map
+prompt-only initial states, shifts, applied states, and first generated tokens
+matched on all 256 questions. The audit report matches the frozen manifest,
+fit, checker source, and complete generation rows. This verifies execution of
+the declared intervention, not its accuracy or scientific benefit.
+
+The [review lock](../results/gsm8k-complex-candidate-v1-review-lock.json) was
+committed before reading the new answers. Its packet contains 318 unique
+unparsed responses, including 39 unchanged inherited annotations and 279 new
+responses requiring individual review. The review lock's row digest uses
+condition/problem-ID sorted order, as does the packet; the runtime report's
+row digest uses the runner's collection order. Both were checked against the
+same complete generation file. At this update, 100 new responses have been
+reviewed, 179 remain, and no candidate accuracy scores have been opened.
