@@ -169,8 +169,12 @@ generation or promotion of the shuffled control.
   executed and no missing numeric answer was calculated during review.
 - The separate [recount](../results/gsm8k-continuation-v1-recount.json)
   verified all 13 condition counts, 24 paired contrasts, wins, losses, exact
-  p-values, Holm adjustments, and new gates. Bootstrap intervals were
-  produced by the frozen reporter and were not independently recomputed.
+  p-values, Holm adjustments, and new gates. A subsequent independent
+  [bootstrap check](../results/gsm8k-continuation-v1-bootstrap-check.json)
+  reproduced all 24 intervals using count-weighted draws, Python sums and
+  sorting, and explicit percentile interpolation. It uses the same declared
+  PCG64 generator and does not import the production reporter. These checks
+  verify calculation, not generalization beyond the development sample.
 - The [machine-readable result](../results/gsm8k-continuation-v1-results.json)
   retains the failed selection and every comparison. Raw responses, fitted
   maps, state tensors and model weights remain outside Git.

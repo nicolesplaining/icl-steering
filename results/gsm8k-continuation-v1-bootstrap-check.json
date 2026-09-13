@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T07:15:09.886964+00:00",
+  "script_sha256": "395812c6060b32ecb8c8e3d4eabbbba114b4e9241b5b7e4dc942ad698bee7f3e",
+  "run": "gsm8k-continuation-v1",
+  "report_file_sha256": "fd5fc5859a58a036845a00edd44957742d012e20a3a0c1d874477a64cf747074",
+  "generation_file_sha256": "a7fbbe9401f2b999f0057647acdeedc924593a381fb41cdf2052f72b76f83aad",
+  "annotations_file_sha256": "fbe1fcfb40651d8a7912cccce9a2a13d47b1cd6fb359184a9429b33202c88a47",
+  "annotations_commit": "0fc80f7df3a5916bbc5024a4a8f1b6b1500c0911",
+  "intervals_checked": 24,
+  "samples": 10000,
+  "seed": 907,
+  "reserved_rows": 0,
+  "method": "Same declared PCG64 draws; independent count-weighted resampling, Python sums and sorting, explicit linear percentile interpolation. No production reporter imports.",
+  "ci95": {
+    "primary:zero": [
+      0.0390625,
+      0.234375
+    ],
+    "primary:icl_a": [
+      -0.2265625,
+      -0.0546875
+    ],
+    "primary:icl_b": [
+      -0.234375,
+      -0.0625
+    ],
+    "primary:first": [
+      -0.09375,
+      0.078125
+    ],
+    "primary:cot": [
+      -0.15625,
+      0.015625
+    ],
+    "primary:prefill": [
+      -0.1640625,
+      0.015625
+    ],
+    "primary:regularized_prefill": [
+      -0.140625,
+      0.03125
+    ],
+    "primary:mean": [
+      0.125,
+      0.328125
+    ],
+    "primary:scalar": [
+      0.1560546875,
+      0.359375
+    ],
+    "primary:position_mean": [
+      -0.0625,
+      0.109375
+    ],
+    "primary:position_scalar": [
+      0.40625,
+      0.6328125
+    ],
+    "primary:permuted": [
+      -0.109375,
+      0.0625
+    ],
+    "audited:zero": [
+      0.1015625,
+      0.2421875
+    ],
+    "audited:icl_a": [
+      -0.0625,
+      0.0546875
+    ],
+    "audited:icl_b": [
+      -0.0703125,
+      0.0546875
+    ],
+    "audited:first": [
+      0.0,
+      0.1171875
+    ],
+    "audited:cot": [
+      -0.0234375,
+      0.109375
+    ],
+    "audited:prefill": [
+      -0.0390625,
+      0.0703125
+    ],
+    "audited:regularized_prefill": [
+      -0.0234375,
+      0.0859375
+    ],
+    "audited:mean": [
+      0.125,
+      0.2890625
+    ],
+    "audited:scalar": [
+      0.203125,
+      0.375
+    ],
+    "audited:position_mean": [
+      -0.0078125,
+      0.125
+    ],
+    "audited:position_scalar": [
+      0.484375,
+      0.671875
+    ],
+    "audited:permuted": [
+      -0.0546875,
+      0.0546875
+    ]
+  }
+}
