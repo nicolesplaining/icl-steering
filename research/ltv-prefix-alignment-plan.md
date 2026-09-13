@@ -63,11 +63,25 @@ Nicole Ma as the sole commit author and committer.
 The [numerical helpers](../analysis/ltv_prefix_metrics.py) preserve paired
 token IDs and compute the declared aggregate metrics. The
 [collector](../analysis/ltv_prefix_collect.py) requires a completed, reviewed
-parent failure and a declaration before loading the model. Eight CPU tests
+parent failure and a declaration before loading the model. Eleven CPU tests
 pass using synthetic arrays and a small random Qwen2 model. They cover EOS,
 early endings and full 128-token prefixes, original-state reproduction,
 left-padding positions, saved-array tampering, context limits, undefined
 quantities, and comparisons on the same retained questions.
 
-Independent replay and report assembly still need implementation before
-collecting real-model data. No diagnostic data has been collected.
+The [reporter](../analysis/ltv_prefix_report.py) reconstructs the frozen fits,
+checks all five predictors against those reconstructions, and recounts
+metrics per question with separate dot-product and quantile calculations.
+Its tests include a complete synthetic 128-question collection, corrupted
+weights, changed report values, missing batches, and repeated preparation
+without changing frozen files or retaining query reference answers.
+
+After the parent failure has been reviewed and reported, prepare
+`runs/gsm8k-ltv-prefix-v1` with `analysis.ltv_prefix_collect prepare`.
+Commit a declaration binding its manifest hash and the published parent
+report commit before invoking `collect`. After collection, run
+`analysis.ltv_prefix_report report` and then `replay`, each with that run
+directory as `--output`. The saved `alignment-report.json` contains aggregate
+measurements and provenance; raw tokens and state arrays stay ignored.
+Collection, metric, and replay source hashes are all frozen in the manifest.
+No diagnostic data has been collected.
