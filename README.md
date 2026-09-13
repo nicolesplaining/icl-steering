@@ -18,3 +18,7 @@ to interpret the gain.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
+
+The [related-work audit](research/conditional-steering-related-work.md)
+identifies Linear Task Vectors as direct precedent for the question-specific
+map and records differences between its paper, released code, and our setup.
