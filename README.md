@@ -69,6 +69,9 @@ The conditional [candidate plan](research/gsm8k-complex-candidate-protocol.md)
 retains all 17 prior conditions and requires superiority over the stronger
 shuffled control and same-map prompt-only control. Its gates are fixed before
 the screen's accuracy is opened; no steering stage starts unless the screen passes.
+The [conditional implementation](research/gsm8k-complex-candidate-implementation.md)
+has passed saved-map reconstruction and synthetic execution tests. Real steering
+generation remains pending the reviewed screen result.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T08:37:52.753071+00:00",
+  "script_sha256": "159ec4011c09931011cc148f1c969fd5c0184d67111055b024b06fa90c2c67be",
+  "mapping_code_sha256": "7e63698896deb70418bf78196d2890513db6c98ccd4a6f78a28290533a428a1d",
+  "source_maps_sha256": {
+    "pairing": "ee9c4fa68737abe5671c54fa740f41fc6a2f8a0aec1e5c7668b4b641593a9137",
+    "continuation": "512875b4246793687eb5227d7c774bb26220ab3ac7cfff33f7971b46bd3633d7",
+    "original": "85a10858a81a53b94bb814e8a4705f38d34f4a036b4b1fa0303784e0a41342b3"
+  },
+  "source_extraction_sha256": {
+    "pairing": "5ddf53c34ac2f692e850e3abcf4758627772769050106cd0abcbb50386c1df7c",
+    "continuation": "5ddf53c34ac2f692e850e3abcf4758627772769050106cd0abcbb50386c1df7c",
+    "original": "3748605b07ac8618fa08c2db7d4c75e874da4c7e80516cc78a31a88f895919ed"
+  },
+  "reconstruction_code_sha256": {
+    "ltv_pairing_audit.py": "d92688ea21ee749fb7ebb4643478d8511a9b6fb637eb5fb899d54e82fc16a91f",
+    "ltv_continuation_audit.py": "5151fef882d44f0bd9810927594aac041d9c777582ebba106abe0f3c717b9825"
+  },
+  "conditions": 12,
+  "condition_positions_checked": 82,
+  "states_per_check": 4,
+  "width": 3584,
+  "old_prompt_solver_residual": 3.6652087156906343e-14,
+  "candidate_and_same_map_prefill_predictions_equal": true,
+  "positions": {
+    "steered": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "regularized_prefill": [
+      0
+    ],
+    "shared_low": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "permuted_low": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "permuted": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "shared_high": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "real_high": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "prefill": [
+      0
+    ],
+    "mean": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "scalar": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "position_mean": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "position_scalar": [
+      0,
+      1,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ]
+  },
+  "new_fits_saved": false,
+  "new_model_generations": 0,
+  "scope": "Independent algebraic reconstruction and condition routing only. Does not validate new generation traces or establish accuracy."
+}
