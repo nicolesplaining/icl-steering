@@ -1,0 +1,92 @@
+{
+  "created_at": "2026-09-13T07:55:48.663213+00:00",
+  "dataset": "openai/gsm8k",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "dataset_sha256": {
+    "test": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "train": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d"
+  },
+  "first_rows_excluded_per_split": 128,
+  "generated_unique_ids": 544,
+  "input_file_count": 781,
+  "input_inventory_sha256": "64a1a4356eba1f10646ee79b44b62aa99f4451a79e438d2961c18932110188df",
+  "no_sampling_or_generation": true,
+  "normalization": "casefold and whitespace collapse; deduplicate across both splits",
+  "observed_question_texts": 1935,
+  "observed_unique_ids": 1440,
+  "reservations": {
+    "gsm8k-conditional-v1": {
+      "generated_overlap": 0,
+      "n": 512
+    },
+    "gsm8k-test-development-v1": {
+      "generated_overlap": 0,
+      "n": 256
+    }
+  },
+  "run_directories": [
+    "gsm8k-comparison-v2",
+    "gsm8k-conditional-geometry-v1",
+    "gsm8k-conditional-v1",
+    "gsm8k-continuation-v1",
+    "gsm8k-fixed-candidate-v1",
+    "gsm8k-fixed-controls-v1",
+    "gsm8k-ltv-crossfit-v1",
+    "gsm8k-ltv-prefix-v1",
+    "gsm8k-ltv-regularization-v1",
+    "gsm8k-ltv-v1",
+    "gsm8k-pairing-v1",
+    "gsm8k-prefix-controls-v1",
+    "gsm8k-prefix-test-v1",
+    "gsm8k-steering-v2",
+    "gsm8k-test-development-v1",
+    "gsm8k-v2-selected-validation-audit",
+    "legacy-gsm8k",
+    "one-shot-replication-audit",
+    "qwen3-pilot-v1",
+    "qwen3-pilot-v2"
+  ],
+  "scope": "All JSON and JSONL artifacts under the audited runs directory; no claim about unrecorded external use",
+  "source_sha256": "b8cfc08bc3f372da0c191ab1b8f1c6daec3d40bb6035b114d7ddcc9432e44c16",
+  "splits": {
+    "test": {
+      "calculation_annotation_histogram": {
+        "0": 1,
+        "2": 13,
+        "3": 9,
+        "4": 11,
+        "5": 2,
+        "6": 2,
+        "7": 1
+      },
+      "excluded": {
+        "previous_or_reserved_or_prefix": 1280
+      },
+      "fresh": 39,
+      "fresh_at_least_four_annotations": 16,
+      "identities_and_counts_sha256": "aa3b5f6635eed4f781490e6acd2d66a0be0d50459e81133aab800a8939e76be6",
+      "total": 1319
+    },
+    "train": {
+      "calculation_annotation_histogram": {
+        "0": 87,
+        "1": 372,
+        "2": 2052,
+        "3": 2027,
+        "4": 1351,
+        "5": 746,
+        "6": 265,
+        "7": 115,
+        "8": 39,
+        "9": 3
+      },
+      "excluded": {
+        "previous_or_reserved_or_prefix": 416
+      },
+      "fresh": 7057,
+      "fresh_at_least_four_annotations": 2519,
+      "identities_and_counts_sha256": "8e227dadff6893edaa7b7af819a9ccb5e1f31ed8c9736a67be4c56aae9792d8c",
+      "total": 7473
+    }
+  }
+}
