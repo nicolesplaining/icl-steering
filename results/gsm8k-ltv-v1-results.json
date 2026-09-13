@@ -1,0 +1,3945 @@
+{
+  "status": "completed_development_failure",
+  "selection": {
+    "eligible": false,
+    "checks": {
+      "icl_screen": true,
+      "zero_gain": false,
+      "beats_controls": false,
+      "matches_text_and_prefill": false,
+      "truncation": false
+    },
+    "chosen": {
+      "kind": "ltv",
+      "site": "final_norm",
+      "layer": null,
+      "alpha": 1.0,
+      "positions": "all"
+    },
+    "manifest_sha256": "39f17a23bbab29ef6abd0ecb765fd406baf64b4ac849d9a33340a9d8e626a228",
+    "fit_sha256": "7661f5898ed3c25dce9b0254ad69c9a60253e604cd117622d93e55823c9b00f1",
+    "rows_sha256": "a3073c86bf6b5b483324326c1f0ec49974708afb9d6126b4fbfc086c9adadafa",
+    "annotations_sha256": "9f7b00b1ee20220241aba38c0379103016669f9ec835909a0ab8555d06430f7e"
+  },
+  "audit": {
+    "status": "supplementary_answer_audit",
+    "split": "validation",
+    "source_sha256": "c5056db49e22c6a04cdf0b09af71ef3a54c36c55eafc70de7bbf2992e9b16731",
+    "packet_sha256": "18895fd634445e487418459059f7070bfd37939c61110fac9746382ae71f760b",
+    "annotations_sha256": "9f7b00b1ee20220241aba38c0379103016669f9ec835909a0ab8555d06430f7e",
+    "audit_code_sha256": "294d3b60f83a7eedb8e1d99c93d1214b4629b23d76acb0cbd64f4a5aef182cb6",
+    "summary": {
+      "cot": {
+        "n": 128,
+        "primary_completed_correct": 105,
+        "audited_completed_correct": 110,
+        "unparsed": 7,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1328125,
+            "ci95": [
+              0.0546875,
+              0.2109375
+            ],
+            "wins": 22,
+            "losses": 5
+          }
+        }
+      },
+      "first": {
+        "n": 128,
+        "primary_completed_correct": 97,
+        "audited_completed_correct": 108,
+        "unparsed": 11,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1171875,
+            "ci95": [
+              0.0390625,
+              0.1953125
+            ],
+            "wins": 22,
+            "losses": 7
+          }
+        }
+      },
+      "icl_a": {
+        "n": 128,
+        "primary_completed_correct": 114,
+        "audited_completed_correct": 115,
+        "unparsed": 1,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.171875,
+            "ci95": [
+              0.1015625,
+              0.25
+            ],
+            "wins": 25,
+            "losses": 3
+          },
+          "first": {
+            "gain": 0.0546875,
+            "ci95": [
+              0.0,
+              0.1171875
+            ],
+            "wins": 11,
+            "losses": 4
+          },
+          "cot": {
+            "gain": 0.0390625,
+            "ci95": [
+              -0.015625,
+              0.1015625
+            ],
+            "wins": 10,
+            "losses": 5
+          }
+        }
+      },
+      "icl_b": {
+        "n": 128,
+        "primary_completed_correct": 115,
+        "audited_completed_correct": 116,
+        "unparsed": 2,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.1796875,
+            "ci95": [
+              0.109375,
+              0.2578125
+            ],
+            "wins": 25,
+            "losses": 2
+          },
+          "first": {
+            "gain": 0.0625,
+            "ci95": [
+              0.0078125,
+              0.125
+            ],
+            "wins": 12,
+            "losses": 4
+          },
+          "cot": {
+            "gain": 0.046875,
+            "ci95": [
+              0.0,
+              0.1015625
+            ],
+            "wins": 9,
+            "losses": 3
+          }
+        }
+      },
+      "mean": {
+        "n": 128,
+        "primary_completed_correct": 23,
+        "audited_completed_correct": 34,
+        "unparsed": 102,
+        "truncated": 86,
+        "paired": {
+          "zero": {
+            "gain": -0.4609375,
+            "ci95": [
+              -0.5625,
+              -0.359375
+            ],
+            "wins": 6,
+            "losses": 65
+          }
+        }
+      },
+      "permuted": {
+        "n": 128,
+        "primary_completed_correct": 13,
+        "audited_completed_correct": 16,
+        "unparsed": 112,
+        "truncated": 108,
+        "paired": {
+          "zero": {
+            "gain": -0.6015625,
+            "ci95": [
+              -0.6953125,
+              -0.5
+            ],
+            "wins": 5,
+            "losses": 82
+          }
+        }
+      },
+      "prefill": {
+        "n": 128,
+        "primary_completed_correct": 105,
+        "audited_completed_correct": 113,
+        "unparsed": 11,
+        "truncated": 0,
+        "paired": {
+          "zero": {
+            "gain": 0.15625,
+            "ci95": [
+              0.0703125,
+              0.2421875
+            ],
+            "wins": 26,
+            "losses": 6
+          }
+        }
+      },
+      "scalar": {
+        "n": 128,
+        "primary_completed_correct": 0,
+        "audited_completed_correct": 0,
+        "unparsed": 128,
+        "truncated": 128,
+        "paired": {
+          "zero": {
+            "gain": -0.7265625,
+            "ci95": [
+              -0.796875,
+              -0.6484375
+            ],
+            "wins": 0,
+            "losses": 93
+          }
+        }
+      },
+      "scalar_norm": {
+        "n": 128,
+        "primary_completed_correct": 0,
+        "audited_completed_correct": 0,
+        "unparsed": 128,
+        "truncated": 128,
+        "paired": {
+          "zero": {
+            "gain": -0.7265625,
+            "ci95": [
+              -0.796875,
+              -0.6484375
+            ],
+            "wins": 0,
+            "losses": 93
+          }
+        }
+      },
+      "steered": {
+        "n": 128,
+        "primary_completed_correct": 23,
+        "audited_completed_correct": 25,
+        "unparsed": 103,
+        "truncated": 102,
+        "paired": {
+          "zero": {
+            "gain": -0.53125,
+            "ci95": [
+              -0.6328125,
+              -0.421875
+            ],
+            "wins": 6,
+            "losses": 74
+          },
+          "first": {
+            "gain": -0.6484375,
+            "ci95": [
+              -0.7421875,
+              -0.5546875
+            ],
+            "wins": 3,
+            "losses": 86
+          },
+          "cot": {
+            "gain": -0.6640625,
+            "ci95": [
+              -0.7578125,
+              -0.5703125
+            ],
+            "wins": 4,
+            "losses": 89
+          }
+        }
+      },
+      "zero": {
+        "n": 128,
+        "primary_completed_correct": 78,
+        "audited_completed_correct": 93,
+        "unparsed": 23,
+        "truncated": 3,
+        "paired": {}
+      }
+    },
+    "annotations": [
+      {
+        "response_id": "0b9cb0ebd905d2c0667e89e1131d86e5c024c9ce03100429b0dd5cb9e7e9f3db",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 35 cars remained during lunch break."
+      },
+      {
+        "response_id": "0041c07b207379b3a448e22f9a3b87a733492d1e32aea80f84b4b21a4a782c81",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 9 500 dollars over budget."
+      },
+      {
+        "response_id": "32d863c5c0a51de254529777b0d30cb4adcdb070fc4b7f99fe429b5abbb3d26e",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 168 dollars for two weeks of tutoring."
+      },
+      {
+        "response_id": "d041bcbefd200dcb55fb19912aca68d478f086d1dcd18fee550faeb6c131d65d",
+        "stated_answer": "1600",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 1600 popsicle sticks."
+      },
+      {
+        "response_id": "146ce5ffe8e93d4d81f56cef59ec33fada44929309976e4ed6b622ada92711e1",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "The response ends with a boxed 12 minutes."
+      },
+      {
+        "response_id": "f81decf30ea2ad1c470807bb3dc22c362bbcc560825728108d702a8e9f019fea",
+        "stated_answer": "147",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 147 buttons. Transcribed without repairing its trades or arithmetic."
+      },
+      {
+        "response_id": "2035e7094dd87564fcb431434b7685c7e8dbe12b32f99c21f8eb1e4bc1ce6bd0",
+        "stated_answer": "13",
+        "reviewed": true,
+        "rationale": "After its initial 39-letter claim, the explanation explicitly concludes that the total is 13 letters. Preserved the final stated total without correction."
+      },
+      {
+        "response_id": "970cfbfb4b37af5b93a263a35091820258d3de68ca16248965a97cda820c8367",
+        "stated_answer": "6",
+        "reviewed": true,
+        "rationale": "After earlier counts, the response explicitly ends by saying the final count is 6 marbles. Preserved this final claim without correction."
+      },
+      {
+        "response_id": "8f2899e5d76328956a9e6c40962a8947c3309a9cb63c0d705d6e1ff4b2facb82",
+        "stated_answer": "120",
+        "reviewed": true,
+        "rationale": "The response explicitly starts and ends with 120 birds. Preserved that stated total without correcting its addition."
+      },
+      {
+        "response_id": "f6fca94be8b022b61eab631de689e0e83eff24e02d0c6e58f6f94cdc6594436a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The final answer is an expression involving an unspecified tax variable t; no numeric amount left is stated."
+      },
+      {
+        "response_id": "5eec56b84cabf3d429529a24345439548feb7ac52c2750aee4e2f2bdf83e2a3c",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 9 500 dollars over budget."
+      },
+      {
+        "response_id": "842b1a012b4e14de848b0364a2d9c722c11187848ae85294111c4b59ab0d78d3",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "The response repeatedly states Mary should bake 4 pans, including the final sentence."
+      },
+      {
+        "response_id": "4155c68f23a7b6f1d5a61b9d8e58affc825219a8dea1d738c89356a1b8e867a8",
+        "stated_answer": "147",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states a total of 147 buttons. Preserved without correcting the trade interpretation."
+      },
+      {
+        "response_id": "9a4f0e00023cc07972d8879e2921e5b7eef908ce426ad77cf5f68d25b7b297b8",
+        "stated_answer": "750",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states Jason needs 750 telephone calls."
+      },
+      {
+        "response_id": "7925a90a0cefde953d2dae85045f3c6803b260c1fa45dbd9558fa41e837b5c4a",
+        "stated_answer": "32",
+        "reviewed": true,
+        "rationale": "The response explicitly states 32 minutes as its answer and ends with that duration. Preserved without correcting the distance reasoning."
+      },
+      {
+        "response_id": "dc3b83b3a93037ba6d1afe9549fc3fcf3086fe258e737681720c3c22bfa78862",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 168 dollars for two weeks of tutoring."
+      },
+      {
+        "response_id": "593223ecca64afd7519ffc2a2a92a3ff6ea115c5442a33bf057b6568410c9f92",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Brian will walk 35 miles."
+      },
+      {
+        "response_id": "492e9a06b65b3b1c68d620f5135af4ccbf705751b30e7a9e27c35119e0b08184",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the store receives 157 dollars."
+      },
+      {
+        "response_id": "cbd6d9a7fd3f7b61da02320d30b9af75a3b4cd182cc1b5bb117ff94727e6b884",
+        "stated_answer": "6",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly identifies Sam's current age as 6; the accompanying 36 is labeled Ruby's age."
+      },
+      {
+        "response_id": "8e927fadc8c6a72bc94cba7f150d72bc40475e127461b609773663b4d4e73913",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the trader sold 50 bags."
+      },
+      {
+        "response_id": "7e4c579eb6595afa71388437e95a5b8ecea6245ab90c6fc3ffd8b1740e66b5e5",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "The response explicitly gives 4 weeks for Sandy, including its final sentence. Preserved without correcting its reasoning."
+      },
+      {
+        "response_id": "78d905be84709672e5f7770b226cbef8e6fac8880ad9b5be4210dcb3e0913ced",
+        "stated_answer": "720",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Greta has 720 dollars left."
+      },
+      {
+        "response_id": "4f53966c87bee203b4545690de79cc0cb33801a898e5ef6269a3ff1f76e60806",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Colin is currently 20 years old."
+      },
+      {
+        "response_id": "a591b07dd68b0fdb1223a5c3f6c4c193023ccd2cdd5b1cb2d1d6ae50654f97da",
+        "stated_answer": "560",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 560 miles per month."
+      },
+      {
+        "response_id": "059d088b5dd5ef9b812e51c9ab130d242c049579988eedbd4a29afd5ea7a8fba",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "The final answer is explicitly boxed as 12 minutes."
+      },
+      {
+        "response_id": "fc21c3f24621cb8857fa00d1061cf5a25defc0b753bdab46804a1eb757d09367",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the house exceeds the budget by 9 500 dollars."
+      },
+      {
+        "response_id": "44fef01965d3c7f0b793eedc30bb07dd6e17e6a92216b1b430e6ed8e54240215",
+        "stated_answer": "172",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states a combined total of 172 sofas and chairs."
+      },
+      {
+        "response_id": "79f2d2adff5103bf3b498e741dee378f5944917877c24f79bfeccc02878a822a",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the loser received 20 votes."
+      },
+      {
+        "response_id": "3efcda8e71968949196a2a500a4e4ed283ff4102ccd192c2e7cda7f45f078129",
+        "stated_answer": "157",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 157 dollars received after all balls are sold."
+      },
+      {
+        "response_id": "04c100845b327bb33b084109b4606fb815ab06dd1cc6df98d66b60d00d19cb34",
+        "stated_answer": "750",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Jason needs 750 telephone calls."
+      },
+      {
+        "response_id": "1708ac1ddc51c66ef6c59b0328e60ac10e01af33bdf39b14a33b13f0a20d78c8",
+        "stated_answer": "24",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states Caroline is 24 years old."
+      },
+      {
+        "response_id": "3f29334a4d909870be2ce5d05042320e1bc8a756a39fe5620dd83cb095af4b4e",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states there are 9 cards with the letter D."
+      },
+      {
+        "response_id": "d3274f976cfc53767a0c88e4c0c74a922945cf66c1974543c0b93935e5ab4775",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Brian will walk 35 miles."
+      },
+      {
+        "response_id": "0a5495efeef91c2c4edb0bcbfb42f9e0d599daccb0794277796dcdd2e2d590c9",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Tom needs 5 hours to catch Bob."
+      },
+      {
+        "response_id": "d43b4ca063b30b7802ea13f45fbcb86d18d6074ee2b2a0070308dccfe70b4562",
+        "stated_answer": "80",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states Blake runs 80 yards farther."
+      },
+      {
+        "response_id": "3604f5e47f082d2a2e36bb50b16a95721173e57ed0bc6c7b7f224ddba090eaa0",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states Joey is winning by 10 points. Preserved without correcting the arithmetic."
+      },
+      {
+        "response_id": "d34fcb4f7842ca560546598e3a5587efb141a0664c4b804afa12879a3849cac8",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the five people brought 14 old records."
+      },
+      {
+        "response_id": "3030460c9d196d6b2bb69ebe42ea171d0d863804f18f206e1b2ddee6f5db13d4",
+        "stated_answer": "168",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 168 dollars for two weeks of tutoring."
+      },
+      {
+        "response_id": "93d94bd28a39ef50f07f881fbe5637284d4c9842de657056935a4782b8ee4d28",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states the five people brought 14 old records."
+      },
+      {
+        "response_id": "e4f669654b55c913dc27b2fcf4dea899489ec42f61dffc2d77a774ad93bcef76",
+        "stated_answer": "300",
+        "reviewed": true,
+        "rationale": "The single sentence explicitly states the chef spent 300 dollars."
+      },
+      {
+        "response_id": "4f3aae7842ca52ab5ac5b4c109e1b448d85a02f9bc1d3c0d4cd78e321079e43a",
+        "stated_answer": "1000",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly states 1000 people had not voted by 16:00."
+      },
+      {
+        "response_id": "2e35375449c744f5d0a6048139f15fa24dd130f960a340f9be13c90b1b740bc9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The response rejects its intermediate negative fraction and concludes that there is no solution; it does not give an accepted numeric count for Stan."
+      },
+      {
+        "response_id": "08c6f9de18575696f2eb4648a4e77dc8d888f6a9938a422b41c42019787a63ed",
+        "stated_answer": "30",
+        "reviewed": true,
+        "rationale": "After considering conflicting intermediate counts, the final sentence explicitly returns to 30 cars as the correct answer. Preserved that claim without correction."
+      },
+      {
+        "response_id": "7c246b0eee76130cd527a5a0fc80198204d2f00166abecf7fec710bea99ea70c",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "The final sentence explicitly gives 9 500 dollars above the budget."
+      },
+      {
+        "response_id": "6fc426a6d7064d0a3659f6c787f4da8d1e41b1f67daa296d5375b3b4bc26df44",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It describes intermediate counts, withdraws its initial lunch calculation, then repeats 'initially' without a settled lunch count."
+      },
+      {
+        "response_id": "c7a62f7f4f1828475cb63c420b04e7c1c9cc0a228a6b6b398d37ca17779ccb0f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The entire response repeats 'First Let' without giving an answer."
+      },
+      {
+        "response_id": "9e2b8792bb7b440eda920d251797b08631120bd3cefcc721f3958454e4416b38",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats conflicting individual balloon allocations and never states a total for the girls."
+      },
+      {
+        "response_id": "6e7310462d1ee1f69c9b32a464b2634b76a1eb48aa40fd13d7520b7df3773667",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats individual hourly rates of 60 and 45 without stating the requested combined twelve-hour amount."
+      },
+      {
+        "response_id": "ebb11c8d4e9aae9f720c6210864edbdc06265601ddc0881d10927b9058e2a540",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats fragments of First and Let without a numerical answer."
+      },
+      {
+        "response_id": "2abc36c8242abfa9eba4853a7170494ddd65468c9d891bdca35c2dc6a6cb1f01",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The response consists entirely of repeated Let and gives no answer."
+      },
+      {
+        "response_id": "58ff554f9655b53b9e2f71cbf518ec00b3a24f657f457e972b14925fa33164b2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The response consists entirely of repeated First and gives no answer."
+      },
+      {
+        "response_id": "e0b0adc6ba025926dc481f453ca3974d7d81b27d640fef9ef083dcd69bac325c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "An unfinished introduction is followed by repeated we; no monthly amount is stated."
+      },
+      {
+        "response_id": "8de8e65c66c928e9ee9d04c15c92f12e5b480d919be09a39d3ddcb8036d392e8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats fragments of First and Let without stating money remaining."
+      },
+      {
+        "response_id": "11ddb006d2eed0f76bfa73b6b93cec8043b23ee00f723e4dfb95b4261fa878d6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces a flower calculation and then repeats initially, without giving a count."
+      },
+      {
+        "response_id": "dd447c600b31b35296db52138765615687e27e6760c2bfced3fc4fa2ce30a594",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It describes an initial division step and then repeats we, without stating money left."
+      },
+      {
+        "response_id": "c2731264f489504574caa53da9c1a50db90492873d3075478d0719dce3b05a29",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2d978056138e28e9bd65efc8d540113713bed570e4556b00899ba863d0d82c73",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "bc8da4dcb4051b8f81bbe6cd4985fd75995f8489f93383348d4b5254491755a8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "da5c67ce56ba5e4121e4b86e99ab0bcb5f8a709795702a82f7475bf756907fcb",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3ed2d8bc9e9df62fb6069dadc30c89241442a56e21eedd30c16ef3cd65354f21",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b3fcdcdfa9ad38673e6309034ac5272758f2c2f052e252c70a28ca39c437cd17",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "4ad5e4cccf1acb9e84900eb54f8660848460026094f7e571ee46cce6846f7e4c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "7a36b49d4d43197d0016ac60274871531806f9392748735c1f43b0895c04d3fd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5e828c00e62bfa9c17a6b13301002525f9a8e073ad71958e9da95be6ee158524",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "04e52bbfbfaaffbf58a3caa41b79ed0a4bea88cd0a3cb2bcfa1fce086d279489",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "df0c0fa9db5a697dcac75c473b66632dd8fa9b688595563fabfc1f9ce290f92b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "fe7216dca9ccd6753e17561333d5e94086135b76b4e3358fe4340ee3632a8b9d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2d0cd1fc3cf808c0ec1a812b2e3ec3c54fd739a04d01482db80cbedb6271967c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9c9b129a062c69f2e7ac02103e1382c1e93a3c073287ca5860f7afccf49391f4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3e8568ed61cb5c33f9b8223c183c0ce109b22900cc556cb65ac0156d56007fda",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2b6ddf11e03e98a75ac5c6b37f9685d5f6b19275e710092e2f9d3163c79e10fc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "25c0245967fb9d36b81e6e3efad85ebbf07864fa5aaa8534098e5e1cb8b813ff",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "4b8bb4b1e641f3ab5e4ce56d92bc16588e78cc59c7d13b0bc81760caa90b7ea2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2c163ffecfe410af4728f790499ffe46915b1dc5e2310db57e81bb9f13841b4b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "0249d862a1019e3cc098eaf4061e4c21da5eed089d81e460cbaf568a4bbe2e14",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "42ec21d55f9b7fab1be152130bf0814b13e15bffe973e6a785ba4426744039a0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "a2cf7deda6e89dfd0f8240b2d3c9f6f345953ddf38c61bccbe17ac5f91a6f4cf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "c914b8186e4260688d0048accb952615d0dc6644cce6259e93196d4bcc203882",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "28921d32b7cf47b2e18e181db751a12f69ba4b58e74dfcad1c9fe258323ec3bc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ff19a4e735a5d5720c958d8e674ea00d851b16a0e9fae598461338c55aa53588",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "a61f0a2870650f1c5e3bd1809b73dd13d9ae8b6a743de96438c2dd22999fc2ec",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9a16c40069b6400fc510b287b8ec7437814512f9f1a8e4fa98193b8714def659",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "23ffc72b4022d3e2f5164b6301ac033fc5195ef3ccf1e815c5742ce38f79eb8d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "51ab3cd4eedaf040a83365d6bec3977fddc3413f281be01bd6af73c03236d63b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "49fd5e3bd4574cd71840dc5ce5b530d9044072f52c4977558326ef8c60062b88",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b7a52a199351785031d99cf1fac2dfa75a198cea54cdac81aeb5db5d8bbbdacc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2dcc902f75d00c5acae81e00a3cbfda59ae0749ecbeb3fabbe68b5281bd75afa",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5caf3760a383779cbca46f6568224be52db662f7f1084ac120cc20db12415a73",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "aa8999f47a2ddea96f551308f8e5365f51212422b43536fd4d602750753dd90a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ca0c1e0a2ff35fc34c3bbbd38da6b05797b26359539a0ff6d7354c7b88e7ae9d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6add733b437926878afe064c171a6beeda1221e0bf7a8e0725a4c827cb63979e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9d298453723daf9d52fa26b42c1fa2fb464140a59b9e7118cc8da77a088702e7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "dd57b59386e660de475b477c6b9cdce8781caa394ad535fc26459d5b77db01cc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "e0cc986d7a51bd3daae457c7502491d7c535f73e5e33a3b9f4c902d98d2d68e0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ff2be0aa4e40295267d7a092fece194fc2e7466f9451ba9cba264fd048f1287a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "502dcd0a225e9688ca030e94247a69d60087654cfadeba8b8d98c7272fe46126",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "c7474d2a394ee6eb340244a6d19af6a18c7678dba04cedd22720ae3e80076b8e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "82adb82ecb925386afcc44add19ae223fddf1735e55dba473f846ab72a4840af",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5b6f63be9e642a201a8f1f9b578e7a3b556c47b1e4be14d2aa7a339eeaa56f7c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9ab34af7e7d7b9205b890f58f5f42f13ff6ea1bb9b9c1b977a4a6599b9cdc53c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "190d8118cd3c2666fda4f67edaafb6f055b490d394992e317d80fa03e4f66ba3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "989e119a4c718e0092f965aac44dd267f061112c09c9fa28876a6d6d669dab99",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "e6128ca1ec9eb20159fd6990cd06cbd063da88781bd3b1618a37e06dd0d40597",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "93fc870fcd4c000e026a9ecb283fc7ee5a59f1a99013e6cd08e65c93fe3d465f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3786b07d8f1c470b14f8fadcdbebc4f0941c2d047a5840c69d5f44b30bec9f45",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6c42b7e28ee95c7acb9d51d5f7e2a58d344d30e3cdd9f2cc650efe01ddfdbf02",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "921be82381176a47d1eaece0b57f4275be1eb9875ac4857ae57dba8716742951",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "48eb7357551d515f4110207efbe1bf28b7487b54ed8991468990fd3d01970678",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 1: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "e2c4880bf13118c67be93aaa323abf8ad4400332845462301aea11e1e6d63860",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 4: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d306c0df63bb1fe067a8373376ba54e762d511f4287cef0c149ebcb2257e8478",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "60d8f1f0db28dec2669901daa00ed429fe623dcb350f9e88091c1363a7af76da",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "a096a54e8c300446e5f931ad570fe3b1d54d383ee0d67334747b0ac37a0c0066",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "530d433db99426bbec98bb871568005b0a26650d9d7354809679755761ef7fc1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "dd62fc8bac2c2152e7131f1cdb6a87f0d8876c0bfb99c3b7bbb4de44a21a841b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "bc42917b5545ba0c4a3408aa6d233aaf582a08d1174eeb28230e9e8c4f87b2c3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "48ace922a5be7cf0f1f877c8ee56cc54c00199f52e0a13952c9bea50a192db81",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "af596afb43ac248321c6d3fbd71381f15802f9a321d76c8977224453f9a7a774",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6d51c283cf24fb349cea3b4b8ec4e5b27897f45a59268ed5a9414a70bd59e8c9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6fc57e83d790270fc7f30b4d44cf61f89c94de949d38480f1e8ddde5d85279e7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5392d2e2e9ff98727728ff75adbceb6862d29732dfb105b63cdb03924337ddff",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d0acd4f19b9abdab56b9a19153d29557c34b52596a8e8f92b5f7908b3b67be83",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "f745f3ebc9a2bdb63c1bed88fc9efbb164914e36c1152106b810820a2be33331",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "053c9239e6bd576b0c6b88e4273b48baa8ba0231ecef2fb54ba0f464536c0b19",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b6caf84bf34e336da044c54ed5543a0f7bad449f0738843ac1d850cf529412e6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "18418ccf5289dcdac46060a580d0280e3c68f576e5ca08e2d75cb500ce33f885",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 6: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "7f7a357b67cc2fe939335153c37cc39c4b33f41b8ddd42fe356645c7dff609b2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3cb28c92cc9944083b63da2a3675a586c1286867df3c8549fb17c782e874df35",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "dd68d27ac90640592839622c43c64249a44522662c9f2b7976ea312875a8878a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "81e7a2b2aba4366962dfdc99a5aee338fd36d989676b36541ef7bc3a5e49ed7d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d3d998f446bd296f0db66b9c9c78204b267c473d727fc81ef8a9ccd47533db4a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "43a043780d777ca2f7e51c1873302be15eb507abea7cc2422bf52b582ded059f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "47a1009589ac24b9e48d4662f5e7badeeff3638e628cd8ce1cff7c521b020b93",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "e0951edc682e232acf707f70094ff17f6079403edc77d9090e354abbfd5ce5e6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "877804596a2a7d3fa96502b9747a0fc949b200395d14c0fd4695abcf1c34aa65",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "766ad2556bd328c7c8d274ac6ee241ffe979af8e08051613a88e382ad0a6cd61",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "7a5d9ca7bb844bc1e4b8a62847a7882133ebecaf21a3b02f85ba33ac7949ba5a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "8c501407c82dd74dffac13de410eabc91855392ad50cc5467d8d9964ed27c1ed",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d252ef0cd967fde3d57233fec56d0055e9c4f25e25e8275d5c0dd04e87fe67c3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1664b3d6f956223ae960b62efac553388c1b82ccb0394b3f598726968f563681",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9216ed706bf31b83c943f769cd6d5f48fd5d826764443262c0c87a9d71e8373a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2da310d448b99419a12dba24daa3943fbae886359d02cef3f9c54bc2d506e2e5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1a39c9342e96897226220e1cc0b2cee049432ae3500e9bb2e463faa0c413670b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "53a9253c702c7324fdd04e95e7bc15c91edb661f193ee989db79cf4fdf222ba9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6be59dfef09c75966837792799e468b2a67c27bc6d1d0b80e51f29ea5f7515f7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "13cdf241e9fc9ea6628b3fa9b87318177dce0eb510050c8ff037ac90def56a1b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "035e44054b7da00560aeafb418ebdec4f53f0bd184c00adfa381068509808c18",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1ffd45ce970e7d1a020f69a2fdc6d752e60b532a80be12cf11307858feb8650f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9a3a3fa6c4dbbd187011789776011654f3dfdc3e8920d108df81ef2b7ca6d137",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "89f305a48f63ed985619012625c84dc8c8e3c0de957706b06bc053a921aaeb09",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "094b8c9bd063388e8b4d7c021695fcab90ad7076c21e10251962ea443a7f88df",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "7436423a37e8bbf33a53aaa15d7849d6285a9dfcdd0c9978e0dcefac0d310cd0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d71cc1bd1d8a137f2360ed9af9e58422d06e063e817fe702e98f1c6b7b1c69f9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3e2704e19c511bba9b78da13c68d031bd8219d9d6b058ddd3556ea10d78cddfd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "26d317615d51e15b5192e57e123367494103365362d4928c5c2cf241198c6ea6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ba406c7ac389aec9d3d875e64f9dc143eb5677100016a92b7608f75982d1f1c9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "24e70dac01e72b304f34fe060047fb450d2a1d8df6337a39b015f4f03946946f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "96ad393bca1625fda2ab8176a15f619b2309805447f4e9b6f78eda8452bc215d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "67620b591f071716b7d6e8b602390c73ce15869a9967216d4298cd1717f9d339",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "832562bb92d68b7f2bc6d57cc085588de0edf9dfdc7d2701ab6bae88aed88465",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "f81c4c1a23047e8347c8e23236676368951d087296dd63f31e91d5d62c1bd9c4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "07018366055ce4979dd1c9f3bc8a38b4cfbcbd9628219b78a1f392241bb3d7ca",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ab01c43fca606b00c236ee327c1795862d3ef94ab58c3170400e3e36c460f3e8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "f8c7834607331822e319e7120bd82b38f3d0df6cd4315dddbfa352d0b83e3df5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "2ab60768a24df53ace74543d94c60f2ad568839bc21b8947285547b3d44a44a8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b0bc65cdf786422fde4329d53936178588a2e3ac547767209292b4cfe9799306",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "e1f28bce8d7d01c9f73385f5d889983365578fc10d535d122072f6146e6af066",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "61a08efb2950ae8490da910b5db3e81970114bd0c793c32d13923d17bc310198",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b90dd3dcfee988139b2263fd867ed5cd1a57b90ad8d29d1d5cd4cdda16508d55",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3ad8653ffb71718e59d0e7f9ca02e7975989c6a6c7a16c3f7230ce714ebef30d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3f609873582fa1e38d73ba5a23e3557c83708e236e095d3662e13cf67e5684fb",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "32cf4afab5e71772df8713354f97700c17dcae5721627d7ea1fd72db898799ae",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d30ba624dddb3e1f8ecdda94ace95f42b1c8d774af0f12f2509ca8e93fcedcb3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "151ac1dba480e29af45c72cdeadd74fb686606d2e6aeee9058e06049903c10a9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "8b1b40c11dc2332f2772eea0742dad6321fa38e7b307cb45c3abde9d2eb9b001",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b899ab6e755175a65641000f401002c371725483e97da4eeb5a8f0594081101b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ca2c9a4a93aa46da104e261c15a7b0b9bbef2154707f1aedb1415ab86228c3a1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "bec27823958cc61c2625daad119abe7e79bf43c8488872fdb6fbd9ff03787f99",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "95d257e122d1f2db563c732c2f81332a2ab366df65baf78fd0614c34ab24346b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1e5f06197928d4d3dd1f601af6fecbee5746f788400f93f69ca935beb14e5f27",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "f04c9338850d654cb81cbcba093506a7bbfe24a1ff81cd34a4ec12ee3db8af94",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "0aef327b173c3425fb8889e2b4cce01add5c5600ffa767c8f0c13695eecc8fea",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "4b4d028d218e9127ed62903a1b93fda8aaa6e033c81c91d285885fe64231a777",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b53a1484fb21ed652dea303602f7b16f97d579205b9a5d381a8be0899fb86cfb",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ae94c962bdfb9045ddfc9246f66bcb777b3e52a26d589576d53e4fa5d8001259",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "06bb536581101a88201475e0a122c0f4f60d4179341b2645ea5da1ab8e5674a4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b2d4269ec0c4925f3c16fc13c351b036b81881f963dc547e4751bd250d875001",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "16458b45ece315a6b43a5e02295446bc02a8f477d2f463dfa04ce9c479c4739d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "cca6da249062d9bc2add8c942affabd20120d1495a1efdd91e298f47505f9cb3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "fb78e7d75e3920e5bd67f4144eb088b18b6892e131ba123509cd12a7e7425226",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "0c707540b7b184d377b9d5820993684f8d95842b79e9e56030abd7b9d3e7bffd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ef335ccf741b79e6b155d6f9b14985e758a8b520c0916475fd34663dd4709ed1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "e1889b62d71dd9a922d5861f3f064ee8e394a09444d0c1da89e49dd759c660a0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "4ba9e3bceecad2091c54426b1f2505922ab116a1755bc8ef70a2d102061d4c83",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "f7305bfb8608469f4829debfa49c1720fdd4e3c182cac4b01883e414737a57cc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "98de7612b8941cb975168d6312cdc729e8fdd3b09c866ec1873aa1a29c32fafd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "d8ba4defa2685a1c1cabeae177ebd11e4e020572236d3348dfca8e59dacaa8e5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "79d75a6fbcdf9acad22bcff383b82d2d8ba1702dfa238c118223636316d07cad",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5ec96be1902d0f48a5ab03142d76477d472aca9760fd8fdb265830a8062b87e0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "61a7bf8f5ced8f938e37e16b3facd3c6a1bc59a07dc8d2d206851f2e9374427e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1cf10c4e93f4e584d95f34dc3139681ed07284bb315bc5aa7acd535116aad8bf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "44a9efdc5be1a1e53c10387d07be3d976189c497e7dfb2374ea806a22659dccb",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 7: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3df54941ed34ee0f6cad34438a47def30aec7e85fbabc5eeb0e4b32e61efc2e8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "009e15c97c2caefc98970c8b3b59aef479b9626f2b17906e466c58215bd4abae",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "9fd83cb3b5e8f905aac9a0de5550785bcf285cdf1cbaafa2cb655c8003f2cd55",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1c7ca63bfd7df297551e848bf16711d03ed2926aa91cbb3811e82bc7bf198e13",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6073baf60a28e192cd3b44ed165bfc37341a1d897f30bcef8f087ad7aaf84b84",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "f792ac12c1e52926503d813b088d61d302c99cb10d6a371b8862d30595577451",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "4b8fccc11b7d11801d202f572f29475d6095e9e16eacf47615f33cc0533f874a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "87fbbd28e8d35a2f26ca05ce604a264dcbaae488d515991bff82e17039534c53",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "31e97ff1ff69029c1269ff6490f17418bcb6d5bccf332c1c1eeccaaa766b5033",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "da2394a9d09c72413245595b1608eb9b8bd25899c4c3885c5d0badd17d58df44",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "91a4d2c1e9bdd6fb50ed946b9db8cf6bd68b290d1202ef47f9afa4bcaa6b940c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "135103a6a7dc5d9e5cd98cb0e33e58e6d1533fda553780dee6cda4b93d7c270c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "a31c7e6cf7ae72a30a9328d72309562f2c2f1e7e026333eaa4e068a4e79c2004",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "99897bce74d090212793da2d65db74f6ab3cdea96cf5f2ddc33f4dc15b5f8cb7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5a2ec4d540368296397707349a20eeabbeb1dbd37eb7cbc14a95aba1b894cd3c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "275f7c6769931f8b31aa4e4e984f89142a1520866e48a57fe943ddc3c5b76f2c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "aec9f6cc0b5af6901b045ca281f63b1220249e53b00efa0701d9580187f82581",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "3f12d0d4c176762b437071c7a799871a9c36b9d64e999373f597a36aaead0fe0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "ea31e4db07ada3ea04dbf69a438f0bae632a99559a8896d600eb3d74d9482337",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "cc6b5e5ede3e128eb0d0bf982ed97f0324c100a23ba500b372d58c7b92fc4f66",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "a3637f4351bc19598faac5dfa00bcef1aa08ece3172a45b78a66304ee311e265",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "8c633a643098525fcfe7ca37d32e5cc9f5295e69e15994900102d8efc0c72cc8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "cdb908be660249a443ee4bf4032f8016777f119ae786043a8206fb9f8bc52753",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "4ef23a7ff130ee8aed6f7deb10e8f970a1165c44928c899d3049d7bc441dcc4e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "04e690dd6009fdb41cbeeb0704cd64798cb09a05c6824822a5cd0180f4a530c3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "147f0ea5c932da8b35d2c20dedc48443999ea9a09bbee228001d8099aaabb7da",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "98723380b47a6339350fd485b86f8995aaf08f21e87451a60bd7712727aea8e7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "b622daff27b1b4b85d03f3f382a6d7dc04076b01b0d0aff670c1bbc1df663e30",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "db71693f68cc0a3db4b58a670e54559d5492bb607cfe7f1d07492b08b3f918ad",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "52dbaef8b12d2f5ba5828fd6ee5e496dc4cae904884583fc7c779378e2ab70c6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "58425448d63087df5018708180355bdc26ab890524850e8121cf0696459aeaae",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "1ab67ed236045f176c97d812b67ebd167b33944e167006c92e244d69b943afa7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "5d7896f644b68e7038f19e39b1896709246fb81a847bafec998e214cf69110a8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "6dbf3c51c6eee0df034f5d725e2e393a4453dbb4cedc228c521a052b1dc15cfc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "232d17884cac434d17d0a490fbd5a2864d85bd154d7ed71ec6576d83f429bd10",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Exact response-text match to manually reviewed packet item 9: only repeated First/Let fragments, with no stated numerical answer."
+      },
+      {
+        "response_id": "73417a24ac3a42b197ccb1f37178de795bd977cd2c250ce5433079ad9a2d93f3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states retirement and car allocations, then repeats initially without stating money left."
+      },
+      {
+        "response_id": "59874e8665f1c39d481b1d8d154c18c6d99eb4ff5b8a735d5f76ca301e1293fa",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives a claimed total stripe count but never states the requested average."
+      },
+      {
+        "response_id": "373fe466f7180083b7e1425f22a9d26ee583ed398bc326f665c40e3ad899e981",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The first step dissolves into repeated initially/originally fragments without a student count."
+      },
+      {
+        "response_id": "9269718bc782fb999fd5852bcd527b08ccf731d5868b04753ddaa22c928eb83c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves an expression with an unspecified n and ends with the literal placeholder [answer], not a numerical cost."
+      },
+      {
+        "response_id": "a6c8d217f7dce791efd5c782bd9e25b44670bc8eb8830d4e3319670f04e2c7e5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats definitions of individual rowing distances without stating their combined distance."
+      },
+      {
+        "response_id": "bf9e956b8566b508b2ec1560b2e86a8400ff97f4196f9549765a98373fb6606b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates heating temperatures and then repeats We without giving an elapsed time."
+      },
+      {
+        "response_id": "15accb9ccbeeaf34c171fa21a3754466fd91e67ffd7921f4e361b9a3e4de2db3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces a progress calculation and then repeats fragments without stating pages left."
+      },
+      {
+        "response_id": "c2c452a9a9c7dbdc97133994db18ff8aeb9e8fc530d3714614de28a924fc2723",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces eggplant revenue and stops mid-sentence without stating a corn price."
+      },
+      {
+        "response_id": "11f64788cadc97f5d3673b11d181197ca3345684f06be5a6a8fd8869492bef9c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It cycles through expressions involving an unresolved x and never gives a numerical number of France flights."
+      },
+      {
+        "response_id": "00012a47fa568155bbf268c7c55ff9e8154bc125c86aea43e6bda08ab17014e5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates initial participants and balloon allocations, then repeats we without a total."
+      },
+      {
+        "response_id": "bd73ea1f122e67b6b340fbf76d43dbece5b3c56f39b41d249898848619df7c68",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It describes mixture assumptions and constants but stops before determining the unknown temperature."
+      },
+      {
+        "response_id": "a43b88317622830955a0ebb1305a5785313ee69bba7e6b416d92ad8f3178c672",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "An opening fragment is followed by repeated we, without an original fry count."
+      },
+      {
+        "response_id": "b61f08537e57a78b7eddb2eb1f425e9e00a70baff3506eb3231bb1baa2fc84fe",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states fees and a total house price, then leaves the requested budget-shortfall amount unfinished and repeats Let."
+      },
+      {
+        "response_id": "85ac3b8b1e587a4fa2d5e8c0b6303aecc5926352ff780789705ab0bd5a6b6840",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves C and other vote variables unresolved, followed by repetitions, without candidate C's numerical count."
+      },
+      {
+        "response_id": "c8d7539410bc0af6052a0e7472edf5861f2583faff187a5aa590636a57aff246",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states an initial guest total and then repeats we without determining the party cost."
+      },
+      {
+        "response_id": "2f49d7bef7d32b1d712a684cbb3befea1a2398ea8a96a7b265052dcaeb293de1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats a malformed speed/time fraction without stating the complete walking time."
+      },
+      {
+        "response_id": "758a0e590ce5025ccbb3d652199ff20762aa6536c40368b5de8f1cffadbfa119",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states the initial female count and then repeats initially without a year-end population."
+      },
+      {
+        "response_id": "f8ddc9aeaf87b5d28f395235972a869f33e7e9ac9dbb6751711ef41157e13b0a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states the overall shell count and announces subtraction of cracked shells, but never states the good-shell count."
+      },
+      {
+        "response_id": "3e81d8d13aa0002449eeb22d1c240a9cbcacc8436a64de4da61239fe693b191b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats claims about purchased bananas without stating the third monkey's daily consumption."
+      },
+      {
+        "response_id": "aa4aedb5f9959c8da8932508d48c0771697707b12bdfdaf1c961341913a72901",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives the initial food spending, then repeats initial/original fragments without stating money left."
+      },
+      {
+        "response_id": "d0074bc7ebb6449ee753ec45d3cf500f6043b09ff8826a7dc343f90b9a52b550",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeatedly states the reduced hourly rate, without calculating total daily earnings."
+      },
+      {
+        "response_id": "0c3538c68d352abbc3df6f4631885388373e2d8a0d59ab27c14a0fd27223bd44",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives feeder counts and birds per feeder, then repeats labels without stating total daily birds."
+      },
+      {
+        "response_id": "8511774fdfd18050ac2142ceae899ea3741bca0613aa1699c0d77e39818b90ce",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an introduction about variables and we, without a profit amount."
+      },
+      {
+        "response_id": "9bc7175335db0e314ad93dd9c12be91544156095bcefde6c21788298ff258a30",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces the unknown temperature and then repeats initially fragments without solving it."
+      },
+      {
+        "response_id": "c4d83efcc921beeb891bc6e52347b577a8a75675cd645cdac10f200bf0dbad40",
+        "stated_answer": "215",
+        "reviewed": true,
+        "rationale": "It explicitly states the combined movie duration as 90 + 125 = 215 minutes before repeating an unretracted total-time formula."
+      },
+      {
+        "response_id": "c5984bf6f05776bc6cbb790b468df48d6ea1ca69c0902eab696c046e3792ac02",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives speeds for the two individual segments, then repeats the total-distance heading without an overall average speed."
+      },
+      {
+        "response_id": "7eee0ca73d7c6034b30c1fe1412e50779f82070695b9d7152b715a27133dfca9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats lemonade descriptions without stating a lemon count."
+      },
+      {
+        "response_id": "4f91aff90c8bcd779dbceac2cff10ba046e08525e17b5446708cc56022cd40c6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces an original-price calculation, then repeats originally without a sale price."
+      },
+      {
+        "response_id": "ac37a9d00d56b8bd83aad03bf5eca1c537215e30e80285a13ca2fc9838b19a0e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an unevaluated good-shell expression and Let, without stating a numerical result."
+      },
+      {
+        "response_id": "92fbe412b40b241f1d2ec40ea77d42dab1cff2e91fd9d8effd5ccac76559ab4c",
+        "stated_answer": "252",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Faraday sold 252 sunflowers after three days; transcribed without correcting its calculation."
+      },
+      {
+        "response_id": "789fe064b501ab2f5d69d3dc6b6c1913a3b8fb9bbdbbc20d07c5cb3ef148b386",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces Sarah's initial profit and then repeats initially without stating money left."
+      },
+      {
+        "response_id": "2ca83ee28715ba621ba9df30bd8b4a431ebbb2502a6faec6a9b89236ef4da669",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It discusses how to calculate trip distance and then repeats we without a monthly distance."
+      },
+      {
+        "response_id": "6d7786b8d4126bc8b24d3c105f152b471dca94e9733ddad6ef5e0c6688ec2bb6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeatedly describes multiplying reading rate and time, without a two-week page total."
+      },
+      {
+        "response_id": "d0c824ce979ae14d1838fa82f5300ff556ee2e0b1f28fec71de025d2c5293546",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats total-minimum-payment wording and total, without stating an annual payment."
+      },
+      {
+        "response_id": "2bf321eb63d374b551f3c0cb31446470974cccb6c21531ac5424a3e210fab871",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It consists of repeated First/Let fragments without a catch-up time."
+      },
+      {
+        "response_id": "1385eaa3731780d53ca9c6e339cbae87b20ea9cde5680314b643e0fc209bb4bd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "An opening assumption about Carmen is followed by repeated initially, without a cost."
+      },
+      {
+        "response_id": "ff3d0ce1862db78d6cb8ec87fabb68b2a8409dc3b2e1ae06901192d0807262cd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats introductory we/know fragments without a bag count."
+      },
+      {
+        "response_id": "1c81542742b377a4939b9146df9b00db8ff30dec3c397a85eb5c1c58ff934412",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats the initial shampoo price and originally, without a per-pump price."
+      },
+      {
+        "response_id": "44d0a8d53f97575f5023d1b901fe58c846c6933ce34c1b5d0fb9a033f65fa991",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces an initial animal-count calculation and then repeats initially without a final count."
+      },
+      {
+        "response_id": "bc6f356a1583fd69fc99471c40fcf9389543fadd25a4663b2f287c8947cf76db",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "The response contains only repeated Let/First fragments, with no numerical answer."
+      },
+      {
+        "response_id": "9220454f0d2f39329796d20cb962d17a98972f2989575ace8c40cf825bb9bb7a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats The Variables fragments without stating a cost difference."
+      },
+      {
+        "response_id": "1ac1dc7e51f44e5d0e249f7a8482fecc8d79694f436dc365583991d918e8cf2b",
+        "stated_answer": "31",
+        "reviewed": true,
+        "rationale": "It explicitly calculates and states a twelfth-month payment of 31 before repeated malformed box braces; the number is not withdrawn."
+      },
+      {
+        "response_id": "a0fd04e928ce48b8bef860242848ec69838a52aca3c5efe4592c4eb0687b7296",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an unfinished we introduction without a box count."
+      },
+      {
+        "response_id": "b2d83a2c6b38133d806365821ad6d52c1c7b77c58cd1330aa184f9ebcbc62e27",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states each offer's total cost but leaves the requested difference unfinished before repeating First."
+      },
+      {
+        "response_id": "9067d638f474ac225bbf3ecdda1b4d50dfe9709cb030b823a5282c177d06a6cf",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "It explicitly gives total day duration minus occupied time as 24 - 19 = 5 hours, then repeats the same unretracted free-time formula."
+      },
+      {
+        "response_id": "03b9957a07830c8ef25414e801e6d9baf4e6bee11695c04d95db7ce2ed7c337d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates beach distance and time, then repeats we without a total walking time."
+      },
+      {
+        "response_id": "2ad0587348b43b4c24aa8eca975fdf5a9382f40d471dd4b0ca17968d65749941",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Every proposed age of -30 is explicitly called incorrect and withdrawn; it ends in another unfinished re-evaluation."
+      },
+      {
+        "response_id": "5a1e5139a746ff433de1dafe346230b1aef070941dcfc4f2ac15995b9aaf7396",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states initial balls and weekly additions, then repeats initially without a final on-stage count."
+      },
+      {
+        "response_id": "c36ed188bd4405eb5729df9db5f93b717d40bca18236b25aa2c9e0457b151f39",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It discusses the shop name and repeats Benito without a three-day production count."
+      },
+      {
+        "response_id": "fc0a09661741efa112e4a026223d5e8c16b4fb9e1092340a78b4d1843f2fbd6e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces beanstalk growth and then repeats we without a day count."
+      },
+      {
+        "response_id": "928275a006c0df087b1f2320fd129bcaccfdff6e9eaba6b37a6d5b8b762c7cd8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats production rates and plans to begin, without a total number of days."
+      },
+      {
+        "response_id": "a65cebe4a9843e43e29ced732d5455f7f3949bcb47530cade0de09cda819cb6c",
+        "stated_answer": "750",
+        "reviewed": true,
+        "rationale": "It explicitly calculates the required telephone calls as 30 times 25 = 750, then repeats initially without withdrawing that number."
+      },
+      {
+        "response_id": "a50e227361191c682467b06c8ebe0f1c36aad31a0219919d2ba50985a1e6bdde",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats Ginger's daily rate and a first-week heading, without the candy difference."
+      },
+      {
+        "response_id": "97eb1f2101a2e6872a0d5c3c0dc45a8e7e8191a8edbaaf0caaabc2d27e9613f2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates toy categories but leaves the ball count x unresolved."
+      },
+      {
+        "response_id": "22493818e439513b337e6fa335bd08e817c7ec631e139d30f35131600242b71a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats Monday's count and plans for Tuesday, without a three-day total."
+      },
+      {
+        "response_id": "afc476b746616db1812e8c587244b6ee8df633ab0863b76cc5eba0d60e41d8a1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It begins describing penny value and repeats initially without a total dollar amount."
+      },
+      {
+        "response_id": "936e548a3729afc56b2e69e7827fe6adc528e50d1d592b4af339bf0fc6f86a96",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Sandy will lose the specified weight in 4 weeks; the stated result is preserved without correction."
+      },
+      {
+        "response_id": "aec980320baf41f08d4db5e125faa1f6d0279c61117a330c7304c7a87fd638e7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats introductory speed wording and we without a catch-up time."
+      },
+      {
+        "response_id": "4ef9d9d60b70b58fe90fdcc1103922f8a98aafc97c4628b084fc93d295796ea6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces Blake's distance calculation, then repeats First without a winning margin."
+      },
+      {
+        "response_id": "014937c514d49972d87de6e518484d18c38d999d9e34eb43ef1394ee6c7470bf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats the initial box and marble information without stating the new total."
+      },
+      {
+        "response_id": "1d0f5271c534caead19f6f0686fc7f4be851766c5b348c67e0b14d5cc63a5cc0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats First Zebra fragments without an average stripe count."
+      },
+      {
+        "response_id": "c61532c5c945bfea5bc33633828c8894b9ba71e960d3d79c1106ef7e3e824306",
+        "stated_answer": "1600",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Frederick can make 1600 popsicle sticks."
+      },
+      {
+        "response_id": "22a2f11b6fb7f0ba1b6ef682a616973edf947eaca5ecbba7cf5006691c6bdc19",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces a unit soda-price calculation and then repeats Let without a combined purchase price."
+      },
+      {
+        "response_id": "60e1672bccc5f9c69e012d552dcf7a0e2587bc7862879492dcf13c89725ce5c3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states four individual furniture counts, but the combined total is left unevaluated before repeated labels."
+      },
+      {
+        "response_id": "a1733e46aff0c95dca10584ef233dfd77aa943ac4549143803792ac390bf3f0b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats that Charlotte wants groceries without stating an order total."
+      },
+      {
+        "response_id": "4c15f26fe2618cf3f14a1ea34f47dc2c269745195e53848454a4f7b756dc9d00",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It cycles through selling-price formulas without a numerical per-watermelon price."
+      },
+      {
+        "response_id": "9d47eb90cbe00760e1d9ca30fe9b4346ba98ff555a76960155813f9b338e53c6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states an expression and the blue-ball count but never evaluates the pink-ball count."
+      },
+      {
+        "response_id": "528a7bd0e2c2de6c16766d00fc2c9ead58d2e2bb5d66a0d6e402802ed9defe53",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats a heading about total magazine issues without stating a count."
+      },
+      {
+        "response_id": "fb35541a25f919841f75ac2b99fb48d3581c99f54306435e068c1fab7ac365e0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It lists and repeats animal types without a numerical population."
+      },
+      {
+        "response_id": "ee429fbc55c30929e8ef885257bf7e390a2a0276819d36331bcb6212adec19e3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates running instructions and repeats a starting-line description without a distance margin."
+      },
+      {
+        "response_id": "7f764cf51949e2ef8e19b56626d342be76a0d7487020c97956f1fe425660ff99",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It lists scene rates and requirements, then stops in repetition before stating total days."
+      },
+      {
+        "response_id": "ba44de3d2083de6ff8f46774d19200c7bd6226783ab920549ea261272e52c464",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves per-box expressions and total-bar variables unresolved without a numerical difference."
+      },
+      {
+        "response_id": "f63a464b6c1a90651e4245305c9035d1aea012f079727c76b86f82a6703a0777",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It contains only repeated Let/First fragments, without a numerical answer."
+      },
+      {
+        "response_id": "b2af0a6247ce4bdf10ed63d2cad515b55e6c4c84cb7d83d0f2f4818ea30b3a17",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces retirement saving and then repeats we without money left."
+      },
+      {
+        "response_id": "3838ae53790c762bc2f032388f5d5856ba76582d1b7a8baad5b948adb6e37b02",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates daily production and then repeats we without a three-day count."
+      },
+      {
+        "response_id": "9ffc2f53dc63fba02f3a57e110dd0947d1a9a49c87adfcd023eae86381b7ece7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It starts a weight-loss comparison and then repeats inopoly fragments without a time."
+      },
+      {
+        "response_id": "c44345ebd6016792da52e34daa506cc25c765f28dfa7d2bbca709098bcdad305",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives a penny subtotal and an unfinished repetitive nickel expression, without a total bank balance."
+      },
+      {
+        "response_id": "50b90cf3cff0b18b3054ff6469d1e408351a2236644485a820a552fe40d93af0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives intermediate voting counts but leaves the 16:00 nonvoter count unevaluated before repetition."
+      },
+      {
+        "response_id": "9fb64678468ff2e76bf8af177ae4fa28a6c3e986b3722cdaa0248181e1d359dc",
+        "stated_answer": "14",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the five people brought in 14 old records."
+      },
+      {
+        "response_id": "df4e2574f860f8bede23bda54ec941bcfff96575d5b6536a13a2639d7b031959",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats Maria initially without a balloon count."
+      },
+      {
+        "response_id": "fe095bdef7c761d846870ef28c60df343d9ec763f108eaa488879e6817cd8e24",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates initial marbles and begins the dropping step, then repeats initially without a final count."
+      },
+      {
+        "response_id": "8cce40cd0d957e9596e563bd16fef1aa859996a7f61a2086b8e3585a41365b39",
+        "stated_answer": "7",
+        "reviewed": true,
+        "rationale": "It explicitly states that Josh juggles with 7 balls at the talent show and labels them stage-juggled balls; this stated number is preserved without adding missing steps."
+      },
+      {
+        "response_id": "1775a6bfb0e3f609508cc03cb54f49afafbb08d3d2bd3698a09e5d4c4f9ed545",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It defines an unresolved time T and repeats a distance comparison without a numerical time."
+      },
+      {
+        "response_id": "d4eabf6b598b14126a9cb597386dc98f1950b02fda725382302ff08a5d073165",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an introduction about making lemon juice, without a lemon count."
+      },
+      {
+        "response_id": "74bcc3ce41ef111197d233799df0a909f17dbdb39bcf747cc080d27b49753e09",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats assumptions about clients and weekly payment without a profit amount."
+      },
+      {
+        "response_id": "7185d3b340f42d1ca12529d359a99759763c193979ab15e98c4bc24759d7951f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states a fixed fee and an additional fee, but leaves the total party cost unfinished before repeating First."
+      },
+      {
+        "response_id": "4258ea1c1648a67ad436e11e48f0afe25c1137cac266322a63a1161a019622b3",
+        "stated_answer": "15",
+        "reviewed": true,
+        "rationale": "It explicitly states Amount left = $15 before repeating the answer heading, without retracting the amount."
+      },
+      {
+        "response_id": "b29cb58bbaeee0aa583213f1f8c48d2cb5e33b7e5a4e1648245c5896ee17b896",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces an initial popsicle-stick calculation and repeats initially without a project cost."
+      },
+      {
+        "response_id": "3d2a90e0d949beec8081c346342b09e07d7c731c393cea678783908abb5394c3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an unfinished description of decorating cupcakes without a pan count."
+      },
+      {
+        "response_id": "144077ac2f1edf452740cf4e27e14ea14d30ef27a0273bb72dde16c9e4820781",
+        "stated_answer": "270",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Maddison has 270 marbles now."
+      },
+      {
+        "response_id": "373d98f0d40c48a8169c0415390efce04693acd0856acc9c9eece3392538f92e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It contains only introductory we/know repetitions, without sales revenue."
+      },
+      {
+        "response_id": "ffc32c2e5858bc2a0348805a0ddb01bb736ec4bdd95e8347be97af878d42c144",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces an initial investment and repeats initially without a bag count."
+      },
+      {
+        "response_id": "a577a6e7454b1d7415f231201f7f14e5d8fa67fdad838cb173cffd1730c19e38",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats wording about Paul's driving details without a spending amount."
+      },
+      {
+        "response_id": "cdb1ec2d3a476de4bf3baabb031a42d5b6175dc59abdb49604529dc59de9999b",
+        "stated_answer": "85/3",
+        "reviewed": true,
+        "rationale": "It explicitly states 85/3 hours and the equivalent mixed fraction 28 1/3 in its final answer; no code execution or correction was used."
+      },
+      {
+        "response_id": "e5d71ad2f7e677da1b4cdac37dfbf14c165662cc9f98aa2d6acb92d445b2921b",
+        "stated_answer": "800",
+        "reviewed": true,
+        "rationale": "It explicitly states that Hannah needs 800 ml, then repeats The answer is without withdrawing that amount."
+      },
+      {
+        "response_id": "01f62a74e580e78c830bdca25e15c4fcacd8560946e169a0462d9b0a01a8aa8c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces candidate A and repeats assumptions without candidate C's vote count."
+      },
+      {
+        "response_id": "d1c6130040db7cbe2367617f0dba288d75b2ba4cd0ea5bf5818add0c6c57f211",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats we/know fragments without an employee count."
+      },
+      {
+        "response_id": "34308469213ffb5df72f1fbe70e08e89bd4ad3db393fc2ff5f200b0da7c15e4f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves the combined bus/car days as an unevaluated D + C expression before repetition."
+      },
+      {
+        "response_id": "2eba1a77fad32e9a864aea7b7f18c1319295021c4f63c869352a1cdfd51cd29e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It lists initial lemonade requirements and then repeats initially without a lemon count."
+      },
+      {
+        "response_id": "f930e63a93e44f32a254acf03fba3be10785cc314ecead0ab52803277e161fc2",
+        "stated_answer": "500",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the shop makes 500 chimichangas across the three days."
+      },
+      {
+        "response_id": "692fc77b92a981976c019aba98306b4a926f48ea22c706407831cdf88092feb3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats introductory dehumidifier-rate wording without total water removed."
+      },
+      {
+        "response_id": "2e321bd08af490029a13ac96e3b11ace699bf760193dde71b376f5cee4cb2f0f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an unfinished house-value/loan introduction without money left."
+      },
+      {
+        "response_id": "a1fd7ce169e29df0493a5ac7dd2e4ecdc1b7f8e60dcd97a10700d931e37f0dbf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeatedly enumerates all eggs under First child, but never states an equal per-child numerical allocation."
+      },
+      {
+        "response_id": "495e48c62c06782be51c0fc4db77363993ecb3a769ae50060e35e601eb294dc9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states Blake's distance and begins Kelly's calculation, then repeats initially without a winning margin."
+      },
+      {
+        "response_id": "a04604f2db700f6b0ed961c8061bb5f4a31f98e4444a0558463f3ed6ad7141d0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeatedly defines future-day height symbols without giving the time to exceed the window."
+      },
+      {
+        "response_id": "869e96c5e7ea8159bad3b894a89d9322c589f769cfa0179d0112bdc5d7a6d13f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It consists only of repeated Let/First fragments, with no numerical answer."
+      },
+      {
+        "response_id": "baea0ae9c0dc1cbe9be9395e1721bd5c08f9a703eed7d32254c833547e99d639",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "An unfinished introduction about Angela is followed by repeated we, without a cost."
+      },
+      {
+        "response_id": "5c63110e031cc5e0a8a7e054c941919a0b91c35294031926caeeef8d09a7acc4",
+        "stated_answer": "24",
+        "reviewed": true,
+        "rationale": "It defines J as Jean's age and repeatedly states J = 24 without withdrawing it."
+      },
+      {
+        "response_id": "2ee828d3959ae74d1b835f6b1f68f52ac6c8a50f8eaebeb892111ef1e8b22028",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats a definition of Adelwolfe's catches without stating Stan's count."
+      },
+      {
+        "response_id": "3f1c5ae68297ba6b48ca06b23ddbe0c82266afa548003874ca71443d99632455",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It lists unfinished headings for gifted, kept, and sold oranges, then repeats First without a sold count."
+      },
+      {
+        "response_id": "accb54ee571a1c64e8ab5d26534f5de9852ee99fd604ba258ae6b9b83327f4a6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It describes an enrollment-increase calculation but stops in repetition without a new enrollment count."
+      },
+      {
+        "response_id": "4056dfbaeff5a64d5ae6dc2760e6d57d5d25b72bc8fedcd8763f81bb2883d5f1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces pace variables and repeats them without Vanessa's elapsed time."
+      },
+      {
+        "response_id": "6e3051be024f989c45c94e88fb87976ab992f0e8f225abe3674937f2859c626c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces an initial pizza-allocation calculation and repeats initially without slices left."
+      },
+      {
+        "response_id": "1bfb491758d54eb2259b218d288931ca54c14006ff0a80b978d4cba5b34ee26b",
+        "stated_answer": "5",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Joey is winning by 5 points."
+      },
+      {
+        "response_id": "4b6dee13ff8b37793736dc04233e09f777cc028ff8d6210a40ff2383109f35da",
+        "stated_answer": "13",
+        "reviewed": true,
+        "rationale": "It explicitly states the total letters in both names as 6 + 7 = 13; later naming text does not retract that count."
+      },
+      {
+        "response_id": "3ff34ac6825d76a97c968e7b98a803eeb4fea78171eca3e0570c07de6c6e867f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats unresolved old/new-record equations without stating a numerical total of old records."
+      },
+      {
+        "response_id": "a3ffbc85f7ef8853149e889b9e425ec2898ada95fef40071d785c0bdb9fe8775",
+        "stated_answer": "2400",
+        "reviewed": true,
+        "rationale": "It explicitly states Total cost = $2400 before repetition, without withdrawing the amount."
+      },
+      {
+        "response_id": "7961a95608459ab20eb3edbd498cb461a76a0e8c9ee8e7bfa9103a9bb8b5ac60",
+        "stated_answer": "21",
+        "reviewed": true,
+        "rationale": "It explicitly gives 45 - 24 = 21 as the third monkey's daily allowance before the wording becomes repetitive."
+      },
+      {
+        "response_id": "42b6bb0f9b484d73f90e6abc2f83cefa5aba014b924d8620c03541e8fd5cc6de",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats that the candy was eaten daily over two weeks without stating the candy difference."
+      },
+      {
+        "response_id": "de038144dd797aac72e87a65c6ea3661eb000f1daec3fa0c17dd7559c307bbaa",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It contains only repeated First/Let fragments without a numerical project cost."
+      },
+      {
+        "response_id": "a71de32be419b4a780012f4ef98191af17195fd142077c46cf4d3c4b92cb8fdd",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It starts a book-cost calculation, then repeats initially without required work hours."
+      },
+      {
+        "response_id": "71510cf447c8a08f52177c085de1e193f4d8c2b29e4be2b71d140c3dc4e38ef0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats age-comparison wording without a numerical age."
+      },
+      {
+        "response_id": "aef797016f7816e1b02d4a05371360efb9bb84ef1bddbb7f3cb3a63f92ec85f3",
+        "stated_answer": "300",
+        "reviewed": true,
+        "rationale": "It explicitly subtracts sister payments to obtain $300 remaining before repeating the answer heading."
+      },
+      {
+        "response_id": "8b35f41d8d7df223e2fab41fc84cb29a0f5442a26c5b96266aca36b38972c000",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats introductory we/know wording without a budget difference."
+      },
+      {
+        "response_id": "6217024ae0bdd1dd9e90bd0a0cc413bf220543fdebe929c1634c5889fa37294e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats First Day/First Hour headings without a tutoring charge."
+      },
+      {
+        "response_id": "290d86729795b4ceb5d9f966f15980f8110c21ffde947044055e319de58871ba",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states a unit soda price but never gives the requested combined purchase cost."
+      },
+      {
+        "response_id": "4aeda3b3f46833d0f9ae2484f94abed09f479bf1d919cbf556128132a92ef06b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates drinking frequency, then repeats We without a bottle count."
+      },
+      {
+        "response_id": "0301fb5bcce63011139a79795891b2f7878f2d1a875f3e6a82dbade5454df398",
+        "stated_answer": "720",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Greta has $720 left to spend."
+      },
+      {
+        "response_id": "6306e4d50c2fa1af657167013f500c3a5648fde5ff4e79e7ae082cf3dd4c57bf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats a malformed rate expression without a combined chocolate amount."
+      },
+      {
+        "response_id": "fed912200000e8de6304ae52e3acbadef16bf7442572991238b199d7b633369a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It describes an initial repayment and balance, then repeats initially without the twelfth-month payment."
+      },
+      {
+        "response_id": "39b7ce1ca59818de6013c37127627c1305a1fe2fe0e31319b5f4fa825b792088",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states individual weekday counts but repeatedly leaves their sum unevaluated."
+      },
+      {
+        "response_id": "04a9da9676002410858724a52563be56c4d272f8390d84e6703a85170ff33a06",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces the initial balls and weekly additions, then repeats we without an on-stage count."
+      },
+      {
+        "response_id": "f996ea523bd6652f096749b09b61e242f812d81c8e37689d42e93a5ff8a2c768",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats that Jackie pumps shampoo into her hair without a pump price."
+      },
+      {
+        "response_id": "0680414db36590af384217dcdc0130410464aa0610bf8af6f6b2134db430be18",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats how/we/know fragments without a class count."
+      },
+      {
+        "response_id": "4af262d39c34c1c2a7f27310a00753cec4c02e9abf0b143ff9f1818c94ecf08d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates rowing information and repeats we without a combined distance."
+      },
+      {
+        "response_id": "505796402c5f39aadc983c2804180d1426a47cf949af1debc6924a1f97f8c31e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives early fry-removal amounts but leaves the original count F unresolved before repetition."
+      },
+      {
+        "response_id": "7321fcc4052808535d51fa529acf1f8099c6f65a3e8a4a9c484df603ae152867",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states Joey's weekly weight loss, then repeats initially without Sandy's required weeks."
+      },
+      {
+        "response_id": "5e90025d905e860a0c60e71131022aa358761f8a26dee5e9d6d41de05df58b17",
+        "stated_answer": "215",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the two movies take 215 minutes."
+      },
+      {
+        "response_id": "bc1240830c6241e8ba7ac0ba309eec90b120bf0d0bbb8b1345b390b19eb65bd7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states an initial sticker-trade quantity and repeats Let's clarify without a final button count."
+      },
+      {
+        "response_id": "cffa5ee600f0bfe30b49c0fa541e445f7f2368af3c8945ed92f3a80497e3b56f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It consists of repeated Let/First fragments without a numerical answer."
+      },
+      {
+        "response_id": "928e68c3acbbb5265222d1a39438efa14e19106d9ec22b0154334496d22f304a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves Ben's age expression unfinished and never states Caroline's age."
+      },
+      {
+        "response_id": "55e90505f8668cc7113fd342f866be24ebec798a05fe85934c22cca85653de6a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It defines an unknown catch-up time and repeats initially without solving it."
+      },
+      {
+        "response_id": "0ad5f5a0eb18b7d0620617f1e08c8f134d203b296d538475b8b89a0ae4c06fa8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states a discount amount but never states the price after the discount."
+      },
+      {
+        "response_id": "5802c689cede80dd1846357553c6a7912004480a3c110308c68fd374ed9cba73",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces the original-flour calculation and then repeats initially/originally without an amount."
+      },
+      {
+        "response_id": "9c3f58dde55195cef48edd61ffa570e2ed0e21ddde771cad0bfdbec1338ef402",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces flour per bag and repeats we without a three-bag amount."
+      },
+      {
+        "response_id": "52994227e5ccd6bae20e33c4d1370451b9c681b1c5d11260e85259c7795fc9dc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states Sofie's distance but leaves Brian's distance unresolved before repetition."
+      },
+      {
+        "response_id": "bb59bd7e232a3db39face447c69c728cd7a31a202c4bc248720a17d4260aa5de",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It restates fruit quantities and repeats we without the remaining count."
+      },
+      {
+        "response_id": "c02d390189f28aedcc38887de0dec365a677a2feb98d8f40d6d75060537d176d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats sudoku-duration information without a water-bottle count."
+      },
+      {
+        "response_id": "9a34d83cf8ac11cc5e9aeb5d05f4fc99a431113786c81d64ba6c1c5eb96279b4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives the pre-departure total of 70 and explicitly says it still needs division, but never states the lunch count."
+      },
+      {
+        "response_id": "0212def01134a48b5304f5f402c7df4efc3f33f3c19c782382675a30f346432a",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that the trader sold 50 bags of wheat."
+      },
+      {
+        "response_id": "f12138afc67189c47d386e13e50b43e2b6d2e1c0f3a40029a82afce95eb14e57",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats a weight-variable definition without a spending amount."
+      },
+      {
+        "response_id": "2f8d6ecd81e015b36da5e77289cad9c13c42da5ba04c89449a9197d3bcc9b307",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats we/know fragments without money left."
+      },
+      {
+        "response_id": "52c820fdd2a9e804be335bc425b9a68bb380c04657ed50d4bf7483e4f6347b2b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states intermediate letter counts but stops in repetition before the complete rewritten total."
+      },
+      {
+        "response_id": "2c594b53a4f8d0ab84b9ca43f61aee3501f760147196017e330a5bef6a2f1f8b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states only the initial heating duration before repetition, without total elapsed time."
+      },
+      {
+        "response_id": "e7311e2006447d5deacee1067a6ff077f5201ff875eb15ff97cfaf4a99045ec0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats a heading for Ben's age without stating Caroline's age."
+      },
+      {
+        "response_id": "70bdecc961df7c3173731fba2c02917e8009d818c8433ebfa12fccde7aaa4dd1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats we/note fragments without a distance."
+      },
+      {
+        "response_id": "0bb3457ced1fac1726a684861b9118c517d400426f07e876d8395abfba062118",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states onion weight but leaves total cost unevaluated before repetition."
+      },
+      {
+        "response_id": "0f3dada4a5b4830ac1a8ab8fe303f45dd5f47bdbead097ea05e1847f7cdef4ad",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats John initially without a monetary amount."
+      },
+      {
+        "response_id": "ea4846f23fe0257cc3dae149e2a8f7d6f689a7bbe8bf88a0476b7972784f2feb",
+        "stated_answer": "64",
+        "reviewed": true,
+        "rationale": "It explicitly concludes that Vanessa took 64 minutes."
+      },
+      {
+        "response_id": "e30c0cb96cb09ffd21df4c1337dbf77d4a3a98be21c8f3c85600b4e99eb74d17",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives coin denominations and repeatedly defines variables without a total balance."
+      },
+      {
+        "response_id": "d9dc764357dbecacd7228a00a0fc8c41aca158307df64134eab62a20191b915f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces Sophie's initial toys and repeats initially without a ball count."
+      },
+      {
+        "response_id": "8fe0864263c83f2d25507571d7fae03e330a5324c266e3c538cbfd63c7f0b2f3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It starts a spending calculation and repeats initially without money left."
+      },
+      {
+        "response_id": "4e2e824c93e2ae00491f4a3700751a96376ace1320532da5bfc6494cc2ede7b5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats introductory learning-time wording without an hour total."
+      },
+      {
+        "response_id": "b675296682724065e839da2c69a770842423d9ab073f9e3686fb33c8b83e4811",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "It explicitly gives James' friends as 4 times 4 = 16 before repetition, without withdrawing the count."
+      },
+      {
+        "response_id": "fa8934d0a5b498a4a0764832199428171fe59d7e852a641ffd3efabf43de5a07",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces an original-price calculation and then repeats initially without an order amount."
+      },
+      {
+        "response_id": "ff259aadd81c8ac111337bd3d2a826dd1b4e81b49663974e41394f4ffacbd581",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeatedly introduces the shirt-discount calculation without evaluating the purchase or money left."
+      },
+      {
+        "response_id": "9ad4662c818e2bcdb1cb1c53aad7a70df9de53cfe2f01a3a3b578b57723ec686",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats that people lined up to vote without stating the remaining number."
+      },
+      {
+        "response_id": "48427ab689ca811c1e892a9322370c770ecc168c46fa3249913909bfe9aa36ec",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states Bethany's and Trey's rates but never gives the requested Bethany/Quinn difference."
+      },
+      {
+        "response_id": "265d505f5b5f4b61d2ac8d4afa1ca52621209497b4b374bd73c5ef4e9919aa49",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It announces a shell-count calculation and repeats initially without the good-shell count."
+      },
+      {
+        "response_id": "adcf4a4b037de8d704d2b271261df6def7c3b3225d52a690ff7e4e023c918da7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It starts a unit-cost comparison and repeats initially/originally without a maximum stick count."
+      },
+      {
+        "response_id": "a8e5eb2c73ed13fac3011186336d329d6cf04cf0cf2d1d07eca87c5c0939be30",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces Mark's goals and repeats we without a three-player total."
+      },
+      {
+        "response_id": "2e26296e926ba20e4232e9a9647c2756a580ae66a979d1ea671f73a303d9eab3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats variable-designation wording without a speaking duration."
+      },
+      {
+        "response_id": "dad0f6aa667bebbb42738c3f89dc626f3d47d806a59301bd2a2212a9716d8ec0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats an introductory approach statement without a bird count."
+      },
+      {
+        "response_id": "bf8c2051d48d3beafceea804b83e142acd2eae568d28baea74305a42ad40736a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It contains only repeated Let/First fragments, with no numerical answer."
+      },
+      {
+        "response_id": "9c861666ecdb7477ecf4a2471a92e314a7ebab71c6b7d2c2c2c431897d2ab08c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives conflicting per-nephew calculations and then rejects the fractional allocation and begins an unfinished reconsideration, leaving no settled answer."
+      },
+      {
+        "response_id": "60a1f39393142540db8fa311c6b491c989bdb3e3561bd9acde31daf516fffbee",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces the pump-price calculation and repeats we without stating that price."
+      },
+      {
+        "response_id": "644b11b3e6227a572b9b16db923b7514cb54227589524d9b5cdb36707993f978",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states an initial A-card count, then repeats initially/originally without a D-card count."
+      },
+      {
+        "response_id": "e4fc2cdbf81cc72e2319e02e9ff483a903774cbea8bc2033a639bbba5793f638",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "It explicitly states a combined 9-day route."
+      },
+      {
+        "response_id": "98155d5791bac89dde0449ed20a354b5596b57d7889770ae8563c4ec7ba5e30d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives individual practice durations and code for an unevaluated sum, but the printed output is Timeout Error and no numerical weekly total is stated."
+      },
+      {
+        "response_id": "2879e6db10504125286e57ed44a57468b6c6d1b3f8b8705dd52d82fa8f336122",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It starts describing the original cable cost and repeats originally without savings."
+      },
+      {
+        "response_id": "395a1e1354fbe3f4cb7c3aa848d9c106ec99f579836ed6b6e96671be36f0e27b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeatedly introduces planned gameplay calculations without remaining hours."
+      },
+      {
+        "response_id": "5f894ef2c6e7d6e75f9531151cefdb6c99969347d6cb67d2c61b5c36f38544af",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states only the initial speaking rate before repetition, not the requested duration."
+      },
+      {
+        "response_id": "384e031abca53a2f3f815f5fe82c06d7c4c16fd892d4ab2f938f8fef170f269f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It gives an intermediate slice count, then stops in repetition before the remaining plate count."
+      },
+      {
+        "response_id": "3805784a3d28bd3585813996be37c6a1f74c545eb8fa5bf7f46f381c9677af07",
+        "stated_answer": "110",
+        "reviewed": true,
+        "rationale": "It explicitly states the combined rowing distance as 110 miles before repeating the answer heading."
+      },
+      {
+        "response_id": "81515ce8f04a5a145d278f25a78e34e5457d22f183178fbc8bb7ab7594a52b12",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It leaves the discounted price as y times .95 without evaluating a monetary amount."
+      },
+      {
+        "response_id": "c74c52b50c890f530a4e7c4dd35b07098a2f2be4a20e08af8d2bc70e442bf6fa",
+        "stated_answer": "11",
+        "reviewed": true,
+        "rationale": "It defines F as first-set balls and repeatedly states F = 11 without withdrawing it; calculation errors are not corrected."
+      },
+      {
+        "response_id": "4fd2873b3eab8c8a96c2d774eca8e694eb165bc003c12b648dd5ad843aa6347c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It contains introductory we/note repetitions without a day count."
+      },
+      {
+        "response_id": "377e4def002ac7c32e9623e4375093f127a2fa396d1f4b7b941c36b06a30aa72",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It repeats dealership/customer descriptions without a telephone-call count."
+      },
+      {
+        "response_id": "3add543d5f424a1eb7f0a6b516a72550b5378e15bec3d0b7d284aefca2694632",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It states an initial female count and says another multiplication is needed, but never gives the year-end population."
+      },
+      {
+        "response_id": "e3557bf21666073a8cc832346ce1d12fff6af2d2a3c5beb1b730b0ff38534c39",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "It introduces speaking-rate variables and repeats we without an elapsed time."
+      },
+      {
+        "response_id": "ec22b6c41e5be4351c3f14d3b36dd8ce2e8c034c100e91203972f77da96e135d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only Aaron's time is stated; no final time for Vanessa."
+      },
+      {
+        "response_id": "67c5a7318709932e2ddb591fc2e677b42ee1db236c61cd2aa78174e761890eac",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Daily expense setup followed by repetition, without total spending."
+      },
+      {
+        "response_id": "f68d2a3f1de2fbeef9f35b7bab938ef492395f1e8f64d8fda885145870122fd0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only the first southbound distance is calculated."
+      },
+      {
+        "response_id": "a125503ce6bf8af604a37f3740826290d6c64a76a359dc21f6417a6226788895",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete bouquet setup and repeated fragments."
+      },
+      {
+        "response_id": "f18f42215359a00c690489c954c454ccc2f0907eacbbea9ed73437aa7cb8b5e8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated introductory words."
+      },
+      {
+        "response_id": "d14795bc437cff400324ad31b32920e4cf5cde0d0d12495810dbd7c698403cf8",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Setup followed by repetition without remaining voters."
+      },
+      {
+        "response_id": "f9d4ab241d75df04cc08d80835cd1d6f20db12c69bc9a9b1bed48025a6803768",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Individual furniture counts but no combined total."
+      },
+      {
+        "response_id": "8ad61e47ba7b93678c54b439726e4ee71353a5a1ad44a83eb24ffec4e5e4cfef",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated variable definitions without total pages."
+      },
+      {
+        "response_id": "1ec68bf890e9384f19edf190366df44e1110bc54d06994804a9e6c6c14a287bb",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Explicitly rejects the negative-age equations and never supplies a replacement answer."
+      },
+      {
+        "response_id": "d64cfc61d71059655eaed5e5d0257cd77cc1956f20c2dacfcc02515ad1ca38ea",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Lists activities but never states free time."
+      },
+      {
+        "response_id": "87588d16e5908de83c0e38cca48be2f0be879dc4365d68afa87ffe736dc93a4f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States onion weight only, not spending."
+      },
+      {
+        "response_id": "700eefde7f83fb2067c0f7d3042a98d35d268f1b235dd9b695581e7a7c2db623",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated setup without remaining hours."
+      },
+      {
+        "response_id": "5341ce82bd1826c07b94f41c937be909172df8ff510985a9e33fc71a3cd1fa6b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States both ages but never evaluates their average."
+      },
+      {
+        "response_id": "f9927b3bd05b3f7c7ca00de27d8e7480155788e7bcec7da363ad843927f3cd42",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicitly concludes ten pages left."
+      },
+      {
+        "response_id": "7f4c6918db5b41e475c8e33ab708875a55a6e97c0f1fc5f1b81670f7175959fe",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only the snail difference is stated, not fish per aquarium."
+      },
+      {
+        "response_id": "bfb66b0b146ac496441932067f8dda8576dbc1e8dadf443c43b48dd7c153d9de",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated sale formula without final money left."
+      },
+      {
+        "response_id": "2a0531a1d1f19ef80eef5d1d8fd3a4df05d851bcf590f1b7878c7e807e6283b5",
+        "stated_answer": "750",
+        "reviewed": true,
+        "rationale": "States the final required count as 750 to produce 30 visits and 15 purchases, calling these trips; preserved despite the unit wording."
+      },
+      {
+        "response_id": "25a116361a1bdc0e616ccf697deeda01ca4cc18ed0b16bcb4d4e45f4df3a6121",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished height table with no day count."
+      },
+      {
+        "response_id": "fd2b6e55e9a368e0c4c538c29d1d3897ff6f4f280470615321d25f80225b799a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Setup and repetition without button count."
+      },
+      {
+        "response_id": "5f2f81dea65ff8869b589a628356edfd7a4727805f8fca4a908e1e248eca1224",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Introductory repetition with no toy count."
+      },
+      {
+        "response_id": "4ce6dacceec3be78376212cda029bdd8383b56f5e4f39073a2e28197bbe44cb6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished enrollment setup and repetition."
+      },
+      {
+        "response_id": "4f7e083b5ef0be50541480953f1d4e304f50f330ba37733846d31f4a55fda1fe",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated subtraction setup without remaining penguins."
+      },
+      {
+        "response_id": "2c7aee21dfddf54bc545b70b6ca9c31a6adbed249f4b0555f5d548fb63ac4e86",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Trip formula only, no monthly distance."
+      },
+      {
+        "response_id": "69758c06ad5d998eeace0a62a5e9e2ce29ec2653a8142db95ef1d2ce53e3a662",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Introductory repetition without toy count."
+      },
+      {
+        "response_id": "f765b4c0a82004eafe59a6cc1d6f8354588c19c8e49009612079637bae96263f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated zebra setup without average."
+      },
+      {
+        "response_id": "31a0593a473291e660169595eb16fe0f5ef27440c76e93ee1b49d1447ccbc8c3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats requirements but never states boxes needed."
+      },
+      {
+        "response_id": "9753049c40865e8f36abd977b985fbe431879439e9edcf79ad14895a6dd70072",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "Explicit total trip duration of nine days before repetition."
+      },
+      {
+        "response_id": "e6e3c30d33c5a1c056fdbd0db05b7acf3e5cb3a1dac7f3da793d1613b692a143",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished rate setup with repetition."
+      },
+      {
+        "response_id": "229f974ec3a6c07ca2fc203ab469be0e98b72eecec913ea7dc450116c2b13e2c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Gives daily sales including Sunday's eight pairs but never the weekend total."
+      },
+      {
+        "response_id": "a4c366a932a65af7dda1ff186878edc79e166bf2a4fc83592eafae0e8d50bdf3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated planting setup without bloomed count."
+      },
+      {
+        "response_id": "50b846f24464d5280ed716a1e1a25b4cc581ae24cdde43fdef693450ef2c02ed",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated Let First fragments."
+      },
+      {
+        "response_id": "4c847699d24e10780c99f93f30de60242d640b87d731be50c13506736968afa5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Lists practice durations without a weekly total."
+      },
+      {
+        "response_id": "7146675a173e47532e36fd8f48ac63fbb2c34354d7e30e2f1f0e6ef2a43ba803",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States tile count but leaves cost unevaluated."
+      },
+      {
+        "response_id": "939965e1b53ebeb7347d8f13d5724f9e5c5c1ee7a30e8d0c3f823cb2cb766b2e",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "Final answer explicitly lists 57 small stickers and 20 large buttons; transcribes the stated button count without converting stickers or correcting reasoning."
+      },
+      {
+        "response_id": "c8b485a965a8473403bf8d28ae2b91f54c4edb3438ad1ac5f455c543cd9e9b02",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated comparison setup without per-box difference."
+      },
+      {
+        "response_id": "4dea80ac10bd1d6819bad4b87f5251cd03bd5f296ea7ab16d1db4246a0b9f564",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only starting loan and repeated setup."
+      },
+      {
+        "response_id": "d3293ae17f21d11e3e5ad0fa3d6b2047fe237a31b28f5fffc12deb1f4f402fd4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated First Let fragments."
+      },
+      {
+        "response_id": "0890ad12f9b11d16d8dedb937ee0e4c445d219526a953f7a046fcf64cfa46fc2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats purchase setup without project cost."
+      },
+      {
+        "response_id": "c154ef4c87028db6b8013e5e9396da766156427ba6ebafca0d2732e25b5e24e2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats purchase prices without monthly payment."
+      },
+      {
+        "response_id": "0515461838423e2e1ef1d2b9005f92f9d39f6f9c22c52a1524517879c1cf5668",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicitly states Brian will walk 35 miles over the interval."
+      },
+      {
+        "response_id": "8d718eff3cdef2c2c444d8030bcea39f034c5b14cd26d1ccbfa397f2574420a3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Introductory repetition only."
+      },
+      {
+        "response_id": "403789f59f7de2e60fe3ecc4c20e89ccebcb71b2a3c4fbe5c89f67a043ae6e3f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated distance setup without result."
+      },
+      {
+        "response_id": "28c3b718e729a6f8097fa035107adc163baa190b5abbeb463f631900794b865a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States calories from each activity but no water amount."
+      },
+      {
+        "response_id": "c6f8f187f04f03dd6d74eabaf5476e360e49b4873bc79227a9760e0dd67b7d18",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Lists activities then repeats sleep descriptions without free-time answer."
+      },
+      {
+        "response_id": "950ff6f944e165006053fc0504d47d18ef4e0f1cbb5408dadf61bd17214d0c65",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated starting-animal setup without final animal total."
+      },
+      {
+        "response_id": "3629831186c5908aec6294efa551eb1ffe4ee092481054e60bb5e07798f756de",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Introductory repetition without student count."
+      },
+      {
+        "response_id": "7b9081570ac7f39a39230261a3fafb00ea003ed639d463d6c50bbc2d430710d3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated introductory words."
+      },
+      {
+        "response_id": "60ecbe0bee45c42f4843b8ef409e677d493483ad792b65dc3c804246fb718566",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated symbolic setup without hours."
+      },
+      {
+        "response_id": "ccf033349e4a96d89ddb2794f440ab072023ab4e0d0dfd2c68a167203bd8adcc",
+        "stated_answer": "9500",
+        "reviewed": true,
+        "rationale": "Explicit final budget difference of $9 500."
+      },
+      {
+        "response_id": "312f4f6969db95cc2cb00406eeb64296104e8f8a9d8ce132d911c08fe9ed2eed",
+        "stated_answer": "10",
+        "reviewed": true,
+        "rationale": "Explicitly states $10 left over before repetition."
+      },
+      {
+        "response_id": "f4a36c604ff80d1aad6cc5e7efba3bba937a98728c55a8899214196f933be683",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "32a0e2b88d9a50e5c4eee63b42e561aaa9e142e426621e3ab123123753dce7b3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished egg setup with repetition."
+      },
+      {
+        "response_id": "3308a3bd7dd3f2e76bcb341019e9e89491b7cc2f6814c6184488360e17c35e14",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Explicitly postpones returns, so 56 is an intermediate gross total without the final adjusted answer."
+      },
+      {
+        "response_id": "e123ff4d0ccbd7c0c3bc5ea77d17c3666a36879de12da7be289ff68a2ca8f6fc",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished soda-cost setup."
+      },
+      {
+        "response_id": "e2b5007ac1296e5979b72b4b1f6fae270813e73e6cb7c52aeaa5146416fe433b",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished fruit setup and repetition."
+      },
+      {
+        "response_id": "390e4ca321c79ca86cf2fb15514c3665792bd921b44e15a220442adfb68a60c6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Variable setup only."
+      },
+      {
+        "response_id": "f2fc6f6b9f9de827a4c7d1ab9288a932683222f094b2c40f797b9b1f678707f3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated record equations without numerical result."
+      },
+      {
+        "response_id": "7b50c8ba8d0ed46dc246aa6019deedc7a41c2ff3c73c36b7fc5ece22f5168e06",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Equations for boxes but no stated difference."
+      },
+      {
+        "response_id": "6fd3639c13005081b7edc6731c4c5b6af4314d2dd244d6bfac9cbf4057a8e6e3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete daily-sales reasoning without final total."
+      },
+      {
+        "response_id": "133248cfc3683ec03fbf30438f18ee5f1496ed628d3ab41e321122c04d4f1861",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated box-purchase setup without cost."
+      },
+      {
+        "response_id": "446ebb99f5d572351027c3a9c36bea332bae6515b4c1825d45494d9c6c778d27",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated age-variable definitions without numerical answer."
+      },
+      {
+        "response_id": "b0becf0560aa8ce553d214ec33fd48b911f748dc85f413ddce5158d6648987b9",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "4c2e5dadbc1c9522d74ec5054f6d7472565800696f835df2317266fe094ac055",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished brokerage calculation, no budget difference."
+      },
+      {
+        "response_id": "d3bcb75364b10b651e15664e36b8e9ed121f301a22132091fbaa0a20ca7257a2",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated Let First fragments."
+      },
+      {
+        "response_id": "66f46f9b031ad40999e99f2e854c58d22fc0b6c80ce99105de394e10f205e4a3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Introductory repetition only."
+      },
+      {
+        "response_id": "b42fcf66467c197ad893a401e595c8ef83adb7cdbae582b2d8897c8996cf8437",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated incomplete variable introduction."
+      },
+      {
+        "response_id": "8b33ed26a26a31bd6c5225ec922f261dd575f1d56a610d9f092714b2060e2793",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated parked wording without lunch count."
+      },
+      {
+        "response_id": "9953178ae5f0539531e139d7cd3421f8de6599b69dca96fe0f6f7e118f428370",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished orange setup without amount sold."
+      },
+      {
+        "response_id": "0d17c2441f514cb57814677a956efa9d171bc8d0e7f3ae10e8565b2d28fc67d7",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated plan to write code without numerical answer."
+      },
+      {
+        "response_id": "5f159296fd16d335fa7f8c06395ec33e1dc7cf259f7f8f54ada1e47cae68a7e3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Computes first-week minutes only, no two-week page total."
+      },
+      {
+        "response_id": "966475574a94f0794b633e6444f23f23c295bd1b3d3ed8533b1821ba259586fa",
+        "stated_answer": "12",
+        "reviewed": true,
+        "rationale": "Explicit boxed twelve minutes before unevaluated verification code."
+      },
+      {
+        "response_id": "793b0a7338476592cfc1e5da1c77a5d443e42bcf440bdff8eacbcadb8e6ee715",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Contradictory daily-minute setup, no weekly hours."
+      },
+      {
+        "response_id": "480b56c5b518b12e1632047dbdd7181a89e53ca1f904c57ffc6b043003faae71",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated Friday setup without total chimichangas."
+      },
+      {
+        "response_id": "c403ee8cc88d49993797a963664316d903181c6c3c267c8bc0ae93ac378b5817",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated Let First fragments."
+      },
+      {
+        "response_id": "f21db549a56ca9bd346dd208e1aa9700cb2f60e261474038ad2da6f7d870bbbf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Individual revenues only, no total revenue."
+      },
+      {
+        "response_id": "7ec5ac8a97a53bc40cc0c584bda1feae708cb28a08b2197dc57d2f0482ed26f5",
+        "stated_answer": "-640",
+        "reviewed": true,
+        "rationale": "Repeatedly revises Suzanne's remaining earnings by subtracting 20; the last complete stated value is -640. Preserved without correcting the repeated subtraction."
+      },
+      {
+        "response_id": "b69d832856ba06a68f0211f85e52409fd6b6d2c1d8bdbcbc058c81beeedcfe3f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished walking setup without Brian's distance."
+      },
+      {
+        "response_id": "13f99bdcd9587a901315ffe5358a668632cd60f782b30b23a2bd85fb9d7c4784",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated bid setup without final price."
+      },
+      {
+        "response_id": "686b3a61fb9f4ff6e0f40548d6ee31130bc10a3fb72b5942bfd319e30fefec23",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "Explicit final sixteen cookies each."
+      },
+      {
+        "response_id": "1863fd0888902bbf9496160dbd1f345fee2e351116b9763a3d31350b2f250210",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated discount setup without payment."
+      },
+      {
+        "response_id": "afbe11a255fc47fd5f9302db6069897a6bf2732a78dabbdd71e7b74f34ca239d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only initial marbles and unfinished loss setup."
+      },
+      {
+        "response_id": "24f9d4e1a692c939ccab1ea2f96212893331ff19956585d313c602a8bc521664",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated Let First words."
+      },
+      {
+        "response_id": "1e1433185211c47a30da475331e7d09fe233d0a41f764519ae428db9307b4c61",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete yarn setup and repetition."
+      },
+      {
+        "response_id": "167d7a811b8e34e4ddf4e2e5b6c83f669afedc3fdc1747658451a90e99d8d823",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States correct-question counts but leaves total points unevaluated."
+      },
+      {
+        "response_id": "1c33a4e9912221c480e588ccc266909739f5d37e574ea173173709c6974c721c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete sticker table followed by repetition."
+      },
+      {
+        "response_id": "6be2da615fb6db4b110bff6a9db446c3dbd3b54e41da05dd5808f602ed2f0e19",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "a3cdab6a13fbd313ed17c06211dd50124f6bee97ab6973ee112866d11041380f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished writing setup without pages left."
+      },
+      {
+        "response_id": "4d947b6d9ecbd2c7e389249522f140754a7cb2155470a4a7384c1179262b7b60",
+        "stated_answer": "6",
+        "reviewed": true,
+        "rationale": "Explicitly concludes and verifies Sam is six."
+      },
+      {
+        "response_id": "d9533b64dd09cee1b5d64d55cd93d650e0260ac763d73e34c1af62d0c0e07de6",
+        "stated_answer": "29",
+        "reviewed": true,
+        "rationale": "Explicit total of 29 liters in prose before generated verification code reports timeout; no withdrawal of the numerical total."
+      },
+      {
+        "response_id": "08f83e374babd6e3fc9565f21589b9e4103556040dda2496cc974d6c4f740450",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States eggplant earnings but no corn unit price."
+      },
+      {
+        "response_id": "07cf385d036e9dee9ae4f8210c3c3737cce2a0c13512b8566d2040034517977e",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "States 96 / 6 = 16 each after accounting for the husband; subsequent incomplete But initially does not state a replacement or explicit rejection."
+      },
+      {
+        "response_id": "1bb5318b39308951b48ebac5535c3864dd06671eca8e61e6ed9f66d9e64dee5c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only initial box count and repetition."
+      },
+      {
+        "response_id": "4907be6fbebe3adf7fb69c06aba7cfdb2ef14c3a39f05f659c455d9039705d7a",
+        "stated_answer": "273",
+        "reviewed": true,
+        "rationale": "Explicit final combined yarn use of 273 yards."
+      },
+      {
+        "response_id": "32e76d9708346993b4ba67da21bf647094be6f6835a40fb61c17a8a4dd771b95",
+        "stated_answer": "50",
+        "reviewed": true,
+        "rationale": "Explicit average speed of 50 mph before repetition."
+      },
+      {
+        "response_id": "44eb53dd240252e0a37fbb15dcb077de4b6063423f866f9e75d504e6a6401438",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "39d77139d7b7ebc9731c2b0522e18bc6d4e5fe349d584ec28916f61c7f69ab38",
+        "stated_answer": "70",
+        "reviewed": true,
+        "rationale": "Explicit final total of 70 items."
+      },
+      {
+        "response_id": "42eb59c99792154bdd08148b84213689c8806fdf59f3170289b77bd3a43cb155",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "07c983aee4b3846f707addd9bfb371c7dd48b1eba774d188a9682ee16482b2d4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated daily-charge setup without two-week cost."
+      },
+      {
+        "response_id": "ebd2ea739a8e6df563cd5c725785b8927f821fdbc322024154f2e840dde8eedf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Compares unit costs but never states maximum sticks."
+      },
+      {
+        "response_id": "233ea5376f8be8a84bbb78405eabf0b5f2392e7522498f23acb52418354cd1aa",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only aerobics calories, no water amount."
+      },
+      {
+        "response_id": "ff5cf7599087681376506c79e703f05afe4afbac7925a97b908a6b5ac103fb03",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete candy setup and repetition."
+      },
+      {
+        "response_id": "9bfb8e333f9b1da868e74b55a3daf4783842cd84a5c31608f0aba7e649ba19a5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated flight equations without number to France."
+      },
+      {
+        "response_id": "499651bd7633f13f4580ae33521bd5f6277311619260146ad24427154441f272",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated unit-conversion setup without Bobby's shoe length."
+      },
+      {
+        "response_id": "e0988848a0e50da66fa59fe673e21293aec40774c54b695a510377dfcb2242d4",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated item setup without installation cost."
+      },
+      {
+        "response_id": "93e909f52a42e53c18cc9110f78209d38b1c36f8c2123c4cb779f811abec4fa0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States undiscounted cost but no money left."
+      },
+      {
+        "response_id": "73cfd430660fd19589501f6537a9e8794a93937b9ada555e27de45f15042438e",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete letter setup and repetition."
+      },
+      {
+        "response_id": "211c4f3067677d1066d7a927a9475f6338328d924b91de367c2aa170d78da225",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States 48 sprinkles and pan capacity but no pan count."
+      },
+      {
+        "response_id": "87a5e6d1425246796f92d5b27a2c356899f9837e80cf4317c77156836f29353d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated Let First words."
+      },
+      {
+        "response_id": "8e66770ff540ec64a3b980bd77e6df15997e1017dc82903516606ee7cd7ae2d9",
+        "stated_answer": "20",
+        "reviewed": true,
+        "rationale": "Repeatedly states R = 20 for red blocks."
+      },
+      {
+        "response_id": "cd64f53cba470131ea99a3986dd68de27b9411e8e0eb18552c87a5e2324cd295",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished cake reasoning without remaining slices."
+      },
+      {
+        "response_id": "4a5a754288086cec7fa5e55237c379dc42070782c8af4a1c6c5ac522be461663",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated vote equations with no numerical loser count."
+      },
+      {
+        "response_id": "1af8d28f784209edbc6e0fe7bf3193b4a50263cf016d82ce56a24810a15229c6",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory plane/Let First fragments."
+      },
+      {
+        "response_id": "ce4855bcd9619b3041e940a06072f9aa81cf97a626dd1ced79d846535a34abbb",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated variable definitions without average speed."
+      },
+      {
+        "response_id": "1718aad931685bc7784cd052fe53ac9711a7f7b6e13702a1497f8f44367eb35a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete eggplant setup and repetition."
+      },
+      {
+        "response_id": "f29b8b03185eea5e36e519c538701951c003d0f5a0ee3266b4fdac67fdf41271",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unevaluated book-cost setup without hours."
+      },
+      {
+        "response_id": "d5a4ea547e214e6f2bb1b9a5e50a2dd4accad389c1ce954b0f83cf78980be09d",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeats selling balls without revenue."
+      },
+      {
+        "response_id": "a6fd99c4bdc976d4f61f3dc6c982dc58becfbeeb5eab5d3545a27c291723df7a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated budget-variable introduction without remaining money."
+      },
+      {
+        "response_id": "23947a678b010cb401a5147ae538cf2da1e389fb429c8d681a59adb0b55fef05",
+        "stated_answer": "66",
+        "reviewed": true,
+        "rationale": "Generated output and prose explicitly state 66 yearly issues."
+      },
+      {
+        "response_id": "08e9311a7e3355e7dd902f6f233663afabbafff74394e421359ac7a554a2ff21",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only repeated First/Let fragments."
+      },
+      {
+        "response_id": "52ee5ba4c4fc03838f9c67c921abf35459d087f6d53c5dd838bfe40a2189dc8f",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete class-time setup and repetition."
+      },
+      {
+        "response_id": "a12b2c4c15fe3c2005bcbcb1476e682167588f2bc99357eedb1f55b04a27eb38",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete guest setup and repetition."
+      },
+      {
+        "response_id": "5045a7ba2ad3a03d438d6ef9b1995be914d52d4b9441b905646550fa19d250ac",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Proportional vote variables only, no numerical loser count."
+      },
+      {
+        "response_id": "f49aa5aaa6fd1132df1fc150ed737aa286cddde07e4632dd935864edd715423c",
+        "stated_answer": "9",
+        "reviewed": true,
+        "rationale": "Explicit D = 9 cards before repetition."
+      },
+      {
+        "response_id": "7006896355eef0991654bf166e43a0c4187830b2e7b5000256037ae7c5412324",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Symbolic one-quarter relation without evaluated vote count."
+      },
+      {
+        "response_id": "f4b124e220c4deb09e45e2e3e422cf465dc82b5023b2087e73a31eef428fef13",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated travel-time setup without monthly distance."
+      },
+      {
+        "response_id": "649e4567afedb2bd8ab3da05dac01425fef6bd321290acc376e7fd1087b0d01c",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated temperature variable without numerical value."
+      },
+      {
+        "response_id": "5a415a79ff225f95afd70f56fd588b532ddec47477294a0666723cec9c06c728",
+        "stated_answer": "440",
+        "reviewed": true,
+        "rationale": "Explicit total earnings of 440 before repetition."
+      },
+      {
+        "response_id": "b649675910cd39fbd5900322b6030f63be04190b7b945f1c028459677b9d1c62",
+        "stated_answer": "112",
+        "reviewed": true,
+        "rationale": "Explicit fourteen-day total of $112; later component calculations do not replace it."
+      },
+      {
+        "response_id": "526b2f34a8d7dc0380182eb000a8f65fbb71b9223d7567e83d181220365ef1e5",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "2d9db5ad478fa866fd0eb1867308c57426d90ea2ef3498fcc5b7c7f8d432d93b",
+        "stated_answer": "273",
+        "reviewed": true,
+        "rationale": "Repeated final combined yarn total of 273 yards."
+      },
+      {
+        "response_id": "48a424c6f8482caa1082b5aa0ed74e6173440775cd89d1817b45e6446a003821",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only introductory repetition."
+      },
+      {
+        "response_id": "5aedc7ee523af70b21a2aca6417019eea0fadb3f7a2ba263cf037742813df201",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Incomplete variable equations and repetition without Stan count."
+      },
+      {
+        "response_id": "e61a0c659e4080cbbe807122672fbee4ff9c1a0b7cb0ea919e4e9745cad09f75",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Unfinished tennis-set setup."
+      },
+      {
+        "response_id": "bd486d2e6c88948d4d7f78609ae2580f69524e8dcb17e9ff6ad9a788083ce87a",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated bid-variable setup without numerical price."
+      },
+      {
+        "response_id": "f5837f8b6f9bfb1c405ea5e7954687a941896952ea2ed7e0ea3c433792b0b704",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated heating setup without elapsed time."
+      },
+      {
+        "response_id": "389118f0dbfe585d4c7c5d19f3b472420c545f5605a6d037a1769ceb8c52842d",
+        "stated_answer": "130",
+        "reviewed": true,
+        "rationale": "Explicit final total of 130 letters."
+      },
+      {
+        "response_id": "e8fab63e6137ac5b51304461cb8d155cb257377e226f5f360b4c4b19b97e56d1",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated profit formula without unit selling price."
+      },
+      {
+        "response_id": "11fae9b409cb192d20949171e590a27f0c49dfef20f841944708b030cb524145",
+        "stated_answer": "4",
+        "reviewed": true,
+        "rationale": "Explicit final four eggs per child; preserves incorrect arithmetic."
+      },
+      {
+        "response_id": "594070316b08761e8d8a1c051c2bcd4bd1a71d20307c139ee72c61619c71a483",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated charge phrases without numerical total."
+      },
+      {
+        "response_id": "455bab62c2500d7a91ca847931f12ac5f5462b7702590d949640989bd32571b3",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated subscription setup without yearly issues."
+      },
+      {
+        "response_id": "d49c12cec17b93cae5463adb5f1a4e57c74f874395fbbb1f75d6eebc1ed68a89",
+        "stated_answer": "35",
+        "reviewed": true,
+        "rationale": "Explicit final lunch count of 35 cars."
+      },
+      {
+        "response_id": "4f5e2ff4e00fef4e876ad2c161d9583f5052df94a4117b55e06e92ec2d33be92",
+        "stated_answer": "16",
+        "reviewed": true,
+        "rationale": "Explicit final 16 friends for James."
+      },
+      {
+        "response_id": "d3a94cf35cfabf1f1a3d3447bdf0715842b3d927006829aae6545abb280d19a0",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "States 48 cupcakes but never pans needed."
+      },
+      {
+        "response_id": "79e59866987eca3c4486232e4fb943523e26e2dcacda9eeff66e27e46d58a360",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Initial feeder counts and repetition without birds."
+      },
+      {
+        "response_id": "7ba2f93b41be96c36ec106ae1947dd1490fced1dde9542eb388a016fdc7721bf",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Only half of Indras' name is evaluated; no combined count."
+      },
+      {
+        "response_id": "41a9ffbd85d141d88f0a3601a0c4e82c4e8ed0944f016aa5b42e2fe31bb07057",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated bags variable without numerical count."
+      },
+      {
+        "response_id": "b19262e58c821f4b7fb73eea48ebe4e050b0355681b5b1f6382f0db353ce1f14",
+        "stated_answer": null,
+        "reviewed": true,
+        "rationale": "Repeated streaming-cost setup without savings."
+      }
+    ],
+    "limitations": "Reused development questions. No independent confirmation. Only unparsed responses reviewed; truncations receive no credit. Ten contrasts adjusted separately for each metric.",
+    "contrasts": {
+      "primary": {
+        "zero": {
+          "gain": -0.4296875,
+          "ci95": [
+            -0.5234375,
+            -0.328125
+          ],
+          "wins": 5,
+          "losses": 60,
+          "mcnemar_two_sided_p": 4.869560700851427e-13,
+          "holm_p": 2.4347803504257137e-12
+        },
+        "icl_a": {
+          "gain": -0.7109375,
+          "ci95": [
+            -0.7890625,
+            -0.6328125
+          ],
+          "wins": 0,
+          "losses": 91,
+          "mcnemar_two_sided_p": 8.077935669463161e-28,
+          "holm_p": 8.077935669463161e-27
+        },
+        "icl_b": {
+          "gain": -0.71875,
+          "ci95": [
+            -0.796875,
+            -0.6328125
+          ],
+          "wins": 1,
+          "losses": 93,
+          "mcnemar_two_sided_p": 9.592548607487504e-27,
+          "holm_p": 8.633293746738753e-26
+        },
+        "first": {
+          "gain": -0.578125,
+          "ci95": [
+            -0.671875,
+            -0.484375
+          ],
+          "wins": 3,
+          "losses": 77,
+          "mcnemar_two_sided_p": 1.4128410298528223e-19,
+          "holm_p": 8.477046179116934e-19
+        },
+        "cot": {
+          "gain": -0.640625,
+          "ci95": [
+            -0.734375,
+            -0.546875
+          ],
+          "wins": 3,
+          "losses": 85,
+          "mcnemar_two_sided_p": 7.344652981131973e-22,
+          "holm_p": 5.141257086792381e-21
+        },
+        "mean": {
+          "gain": 0.0,
+          "ci95": [
+            -0.078125,
+            0.078125
+          ],
+          "wins": 13,
+          "losses": 13,
+          "mcnemar_two_sided_p": 1.0,
+          "holm_p": 1.0
+        },
+        "scalar": {
+          "gain": 0.1796875,
+          "ci95": [
+            0.1171875,
+            0.25
+          ],
+          "wins": 23,
+          "losses": 0,
+          "mcnemar_two_sided_p": 2.384185791015625e-07,
+          "holm_p": 9.5367431640625e-07
+        },
+        "scalar_norm": {
+          "gain": 0.1796875,
+          "ci95": [
+            0.1171875,
+            0.25
+          ],
+          "wins": 23,
+          "losses": 0,
+          "mcnemar_two_sided_p": 2.384185791015625e-07,
+          "holm_p": 9.5367431640625e-07
+        },
+        "permuted": {
+          "gain": 0.078125,
+          "ci95": [
+            -0.0078125,
+            0.1640625
+          ],
+          "wins": 21,
+          "losses": 11,
+          "mcnemar_two_sided_p": 0.11018416518345475,
+          "holm_p": 0.2203683303669095
+        },
+        "prefill": {
+          "gain": -0.640625,
+          "ci95": [
+            -0.7265625,
+            -0.5546875
+          ],
+          "wins": 1,
+          "losses": 83,
+          "mcnemar_two_sided_p": 8.788794008375919e-24,
+          "holm_p": 7.031035206700735e-23
+        }
+      },
+      "audited": {
+        "zero": {
+          "gain": -0.53125,
+          "ci95": [
+            -0.6328125,
+            -0.421875
+          ],
+          "wins": 6,
+          "losses": 74,
+          "mcnemar_two_sided_p": 5.396645380673323e-16,
+          "holm_p": 2.6983226903366617e-15
+        },
+        "icl_a": {
+          "gain": -0.703125,
+          "ci95": [
+            -0.78125,
+            -0.6171875
+          ],
+          "wins": 1,
+          "losses": 91,
+          "mcnemar_two_sided_p": 3.75624008630037e-26,
+          "holm_p": 3.75624008630037e-25
+        },
+        "icl_b": {
+          "gain": -0.7109375,
+          "ci95": [
+            -0.796875,
+            -0.625
+          ],
+          "wins": 2,
+          "losses": 93,
+          "mcnemar_two_sided_p": 2.3027165367763423e-25,
+          "holm_p": 2.072444883098708e-24
+        },
+        "first": {
+          "gain": -0.6484375,
+          "ci95": [
+            -0.7421875,
+            -0.5546875
+          ],
+          "wins": 3,
+          "losses": 86,
+          "mcnemar_two_sided_p": 3.7988915866351353e-22,
+          "holm_p": 2.6592241106445947e-21
+        },
+        "cot": {
+          "gain": -0.6640625,
+          "ci95": [
+            -0.7578125,
+            -0.5703125
+          ],
+          "wins": 4,
+          "losses": 89,
+          "mcnemar_two_sided_p": 6.167247409177618e-22,
+          "holm_p": 3.700348445506571e-21
+        },
+        "mean": {
+          "gain": -0.0703125,
+          "ci95": [
+            -0.15625,
+            0.015625
+          ],
+          "wins": 11,
+          "losses": 20,
+          "mcnemar_two_sided_p": 0.14961278438568115,
+          "holm_p": 0.2992255687713623
+        },
+        "scalar": {
+          "gain": 0.1953125,
+          "ci95": [
+            0.125,
+            0.265625
+          ],
+          "wins": 25,
+          "losses": 0,
+          "mcnemar_two_sided_p": 5.960464477539063e-08,
+          "holm_p": 2.384185791015625e-07
+        },
+        "scalar_norm": {
+          "gain": 0.1953125,
+          "ci95": [
+            0.125,
+            0.265625
+          ],
+          "wins": 25,
+          "losses": 0,
+          "mcnemar_two_sided_p": 5.960464477539063e-08,
+          "holm_p": 2.384185791015625e-07
+        },
+        "permuted": {
+          "gain": 0.0703125,
+          "ci95": [
+            -0.015625,
+            0.15625
+          ],
+          "wins": 21,
+          "losses": 12,
+          "mcnemar_two_sided_p": 0.16275565745308995,
+          "holm_p": 0.2992255687713623
+        },
+        "prefill": {
+          "gain": -0.6875,
+          "ci95": [
+            -0.7734375,
+            -0.6015625
+          ],
+          "wins": 2,
+          "losses": 90,
+          "mcnemar_two_sided_p": 1.7282743364816433e-24,
+          "holm_p": 1.3826194691853146e-23
+        }
+      }
+    }
+  },
+  "annotation_commit": "1cca5c5ed5f423efd6b064b7b89c94876d123761",
+  "reserved_rows": 0
+}

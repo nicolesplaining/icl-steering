@@ -18,11 +18,12 @@ case for the full map: a scalar control supplied with ridge's per-question
 norms scores 106/128. The raw-mean advantage survives adjustment, but the
 controls do not establish a need for ridge's learned directions.
 
-A [new development run](research/gsm8k-ltv-protocol.md) recomputes the shift
-at each decoding step at the final normalized activation. Its
-[fit is frozen](results/gsm8k-ltv-v1-fit-declaration.json), with a standalone
-scalar control and a fixed validation gate. Results are pending; no
-confirmation questions have been generated.
+The [final-state LTV run](research/gsm8k-ltv-results.md) failed: applying the
+map at every decoding step scores 25/128, with 102 truncated answers.
+Prompt-only application scores 113/128 with no truncations, but it was a
+control on reused development questions. It needs matched prompt-only
+controls and independent confirmation before a positive claim. The declared
+candidate remains ineligible; no confirmation questions were generated.
 An [early state diagnostic](research/ltv-decoding-state-shift.md) finds that
 decoding activations move away from the prompt extraction span; this is
 not an accuracy result.
