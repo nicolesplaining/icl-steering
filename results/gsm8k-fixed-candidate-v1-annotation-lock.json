@@ -1,0 +1,17 @@
+{
+  "status": "merged_blinded_annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T01:51:36.758455+00:00",
+  "annotations_file_sha256": "2fbeebc90f16a109e1ae5aac3ffbb770a49c3d450ecec415fc0c95ff74c3cf11",
+  "annotations_digest": "fda1cdb91522001bf676d08cd21981e0acc2cbfc4eee3ca3ea5633ad4d8024b5",
+  "packet_sha256": "40247432356eca684a968d18f5ebe0a148129a67be7d065d58b0fa59be4d8fb5",
+  "generation_file_sha256": "3429b6dea410f97b344529078d5b24973c49009365f3acda1e41868634a1eb7a",
+  "manifest_sha256": "9bf2cc00c87d7985d80d7d9d7281350b1b42fdbfa5d7671b007eeb546d324b42",
+  "reviewed": 56,
+  "inherited_unchanged": 44,
+  "new_reviewed": 12,
+  "new_score_inspected": false,
+  "selection_exists": false,
+  "reserved_rows": 0,
+  "reviewer": "assistant",
+  "rubric": "Preserve all inherited annotations. Transcribe new stated numbers only; preserve errors; do not calculate missing answers or execute code. Absent or unresolved answers stay null. Parsed grades remain fixed; truncated responses receive no credit."
+}
