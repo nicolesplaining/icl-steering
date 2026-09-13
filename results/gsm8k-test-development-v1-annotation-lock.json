@@ -1,0 +1,15 @@
+{
+  "status": "complete_blinded_annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T01:38:41.230083+00:00",
+  "annotations_file_sha256": "a172b2a8569f44f301570e98f6c7280a2c3a2b2d7fa8d1958960489670eac9be",
+  "annotations_digest": "95335e7b57ae3ef53552588658e098570390efd025ba99ec3abd0cd93f061dad",
+  "packet_sha256": "1bee46020c8a8422da232159f3b3fa961511b4e76d00531cda73a0d7c46c6ac6",
+  "generation_file_sha256": "1998a598942ef0d3375d3768273959351a1f838542b0c4e799ce7aa59dd0ef39",
+  "manifest_sha256": "3704dbf9bcece7e6475d942aeb3221d698c3539c26270a29d5134a4f2b22e29d",
+  "reviewed": 44,
+  "score_inspected": false,
+  "selection_exists": false,
+  "reserved_rows": 0,
+  "reviewer": "assistant",
+  "rubric": "Transcribe stated numbers only. Preserve wrong answers. Do not calculate missing answers or execute code. Leave absent or unresolved answers null. Parsed grades remain fixed; truncated responses receive no credit."
+}
