@@ -16,6 +16,15 @@ questions. Its best ridge shift scored 90/96 and failed the declared gain
 threshold. No confirmation test was run. The earlier test-split ICL benefit
 therefore does not justify assuming the same benefit on every validation set.
 
+The train/test score difference does not by itself establish contamination.
+[Qwen's release report](https://qwenlm.github.io/blog/qwen2.5-math/#decontamination)
+describes normalized 13-gram matching and an additional longest-common-subsequence
+criterion for filtering potentially contaminated training data, including
+checks against GSM8K and MATH. We do not have corpus-level evidence identifying
+which of our particular questions the model encountered. The fixed follow-up
+checks ICL on the test distribution directly rather than assuming a cause for
+the score difference.
+
 ## Evidence
 
 | Study | Relevant result | What it establishes |
