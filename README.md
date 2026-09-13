@@ -23,6 +23,9 @@ at each decoding step at the final normalized activation. Its
 [fit is frozen](results/gsm8k-ltv-v1-fit-declaration.json), with a standalone
 scalar control and a fixed validation gate. Results are pending; no
 confirmation questions have been generated.
+An [early state diagnostic](research/ltv-decoding-state-shift.md) finds that
+decoding activations move away from the prompt extraction span; this is
+not an accuracy result.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

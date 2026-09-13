@@ -1,0 +1,340 @@
+{
+  "status": "exploratory_state_shift_snapshot",
+  "created_at": "2026-09-13T03:15:50.660746+00:00",
+  "script_sha256": "4bbfaaa2023fff65cb6aee61ac033d8777316a5eef38f607325f17ed976fd6fc",
+  "manifest_sha256": "39f17a23bbab29ef6abd0ecb765fd406baf64b4ac849d9a33340a9d8e626a228",
+  "fit_sha256": "7661f5898ed3c25dce9b0254ad69c9a60253e604cd117622d93e55823c9b00f1",
+  "cohort": "First 32 development questions in their fixed original order, steered condition only.",
+  "steps": [
+    0,
+    1,
+    8,
+    32,
+    128
+  ],
+  "training_span_rank": 128,
+  "hidden_width": 3584,
+  "source_files": {
+    "steered-000.json": {
+      "records_sha256": "56b84cfefe551f27562f3d10f15f9c510f3ab0434526976cf8a8244ecf7b50de",
+      "trace_sha256": "44eb9dcfbd3fa60c598a38b30d3b62ba89d2587282946808b552cbbb05a96782"
+    },
+    "steered-004.json": {
+      "records_sha256": "ba32508fa9e2baab2ba3f9ca28bca94eaab44c3a65300f3c3e2adefc7e70f36d",
+      "trace_sha256": "c2c533a96a1f622f6c6d04a778a7c844d0455679f889381917abe6a91199882b"
+    },
+    "steered-008.json": {
+      "records_sha256": "ae6ab42d62a187bafaec38220ed88e0359f2f632fc5494af2e1f754a1bf8f9da",
+      "trace_sha256": "5a71f01c7210d9d283b99388a4f6adc34cdb316b6f48a460b8601bafd61deab6"
+    },
+    "steered-012.json": {
+      "records_sha256": "671f156aa38d65c81f7019e67258acca52e1b67c68617821df8654125202c5e0",
+      "trace_sha256": "f96fcdce85666e99b7e0b320104a735ef8d363be5d1745071767df7b4c809683"
+    },
+    "steered-016.json": {
+      "records_sha256": "2050a63e808ec681085c1f667bf4de5d7ff6f233c0eb8263f3c11e990f91710d",
+      "trace_sha256": "fa7b82b1c2b54805e7841730d48c8153466b20172cafb3322e4508a8b415cb23"
+    },
+    "steered-020.json": {
+      "records_sha256": "acf3c15291357efaf0f71620fc6a0f51676be90cb52f90c82183eefe09e569f9",
+      "trace_sha256": "670880707c7dde02216a7feec9e908b94670b04a9afba1ddd91a93263313088e"
+    },
+    "steered-024.json": {
+      "records_sha256": "c6c3be631eabad7449c8a303890900e22015826f5335bb9c7edaaf1da5ca4715",
+      "trace_sha256": "37146178785e13a7073a11aa1185ff3e7f6e5b22885388a2c5495b8f26f3ff77"
+    },
+    "steered-028.json": {
+      "records_sha256": "0ce79d07ba1b01c7b5689cf33f90b690d60738c4236996e72539099faf2db235",
+      "trace_sha256": "2ca4532ebe6ca9d2a0ca43c56b22ad227bd6d76d926e4c7276bb9e8f5e1f47d7"
+    }
+  },
+  "geometry": {
+    "0": {
+      "n": 32,
+      "states": {
+        "state_norm": {
+          "median": 221.72665716077466,
+          "p10": 186.71274174537317,
+          "p90": 234.46188753200892
+        },
+        "shift_norm": {
+          "median": 125.6347690561556,
+          "p10": 102.41675275759776,
+          "p90": 143.88738442172425
+        },
+        "shift_to_state_norm": {
+          "median": 0.5529596079950613,
+          "p10": 0.46929422163595774,
+          "p90": 0.6991797385086715
+        },
+        "shift_state_cosine": {
+          "median": -0.11720470163726122,
+          "p10": -0.21669797634052562,
+          "p90": -0.03276008756593939
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.03631833632919326,
+          "p10": 0.02191999116382336,
+          "p90": 0.06278991401642349
+        }
+      },
+      "paired_change_from_own_prefill": {
+        "state_norm": {
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0
+        },
+        "shift_norm": {
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0
+        },
+        "shift_to_state_norm": {
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0
+        },
+        "shift_state_cosine": {
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.0,
+          "p10": 0.0,
+          "p90": 0.0
+        }
+      }
+    },
+    "1": {
+      "n": 32,
+      "states": {
+        "state_norm": {
+          "median": 270.55687665777384,
+          "p10": 258.78339152561665,
+          "p90": 280.36570721380167
+        },
+        "shift_norm": {
+          "median": 153.83176047788788,
+          "p10": 113.1125845750619,
+          "p90": 182.46361409713748
+        },
+        "shift_to_state_norm": {
+          "median": 0.5608495284150661,
+          "p10": 0.41994511495998743,
+          "p90": 0.6638324519504115
+        },
+        "shift_state_cosine": {
+          "median": -0.8183823719706285,
+          "p10": -0.8490271454129619,
+          "p90": -0.679029502345437
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.16027677743436122,
+          "p10": 0.13155198661928158,
+          "p90": 0.18416629640197543
+        }
+      },
+      "paired_change_from_own_prefill": {
+        "state_norm": {
+          "median": 50.631356303751275,
+          "p10": 39.569199169887355,
+          "p90": 85.92366273808665
+        },
+        "shift_norm": {
+          "median": 23.338089716864488,
+          "p10": -28.884067845545044,
+          "p90": 79.9251492545339
+        },
+        "shift_to_state_norm": {
+          "median": -0.00268536457916585,
+          "p10": -0.2767740489122419,
+          "p90": 0.1636003964590338
+        },
+        "shift_state_cosine": {
+          "median": -0.6694551723766606,
+          "p10": -0.801479124938468,
+          "p90": -0.552460423878674
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.11724985971759141,
+          "p10": 0.09413992564149638,
+          "p90": 0.14596086470538103
+        }
+      }
+    },
+    "8": {
+      "n": 32,
+      "states": {
+        "state_norm": {
+          "median": 241.70507455465176,
+          "p10": 183.40871489192656,
+          "p90": 273.15615969937
+        },
+        "shift_norm": {
+          "median": 133.4453459775255,
+          "p10": 63.42734377674795,
+          "p90": 153.10065063414274
+        },
+        "shift_to_state_norm": {
+          "median": 0.5526747355939216,
+          "p10": 0.3465384406486535,
+          "p90": 0.6446503080749331
+        },
+        "shift_state_cosine": {
+          "median": -0.6951401762724188,
+          "p10": -0.8318071818967664,
+          "p90": -0.30868018425589216
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.20702178488171716,
+          "p10": 0.1449477676622696,
+          "p90": 0.8057615700906335
+        }
+      },
+      "paired_change_from_own_prefill": {
+        "state_norm": {
+          "median": 22.54407098305242,
+          "p10": -47.265277902208624,
+          "p90": 53.98987067020121
+        },
+        "shift_norm": {
+          "median": 13.294059120472802,
+          "p10": -76.73978064947114,
+          "p90": 48.240912991271095
+        },
+        "shift_to_state_norm": {
+          "median": 0.009712151712074457,
+          "p10": -0.3219276936057561,
+          "p90": 0.14191863834892215
+        },
+        "shift_state_cosine": {
+          "median": -0.558893191919435,
+          "p10": -0.7388310273289249,
+          "p90": -0.19350884940014032
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.17658620657303317,
+          "p10": 0.10205635069233154,
+          "p90": 0.7592524762738826
+        }
+      }
+    },
+    "32": {
+      "n": 32,
+      "states": {
+        "state_norm": {
+          "median": 223.19967994501872,
+          "p10": 171.70903942763465,
+          "p90": 263.46909272467747
+        },
+        "shift_norm": {
+          "median": 105.20515482196015,
+          "p10": 76.29628591089795,
+          "p90": 158.46112499535548
+        },
+        "shift_to_state_norm": {
+          "median": 0.5160182580530431,
+          "p10": 0.3976872325261148,
+          "p90": 0.6006358122125514
+        },
+        "shift_state_cosine": {
+          "median": -0.6120830956893237,
+          "p10": -0.8043976133888995,
+          "p90": -0.45384968052775737
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.2357950968736097,
+          "p10": 0.1414562796594555,
+          "p90": 0.4746488452870925
+        }
+      },
+      "paired_change_from_own_prefill": {
+        "state_norm": {
+          "median": 2.940124878386527,
+          "p10": -49.87004637438644,
+          "p90": 46.921796963952026
+        },
+        "shift_norm": {
+          "median": -15.537685725267274,
+          "p10": -59.63103120181436,
+          "p90": 41.587430429299054
+        },
+        "shift_to_state_norm": {
+          "median": -0.03975863946282049,
+          "p10": -0.25200775395467284,
+          "p90": 0.07554744651631581
+        },
+        "shift_state_cosine": {
+          "median": -0.49056862628847553,
+          "p10": -0.7129041948085252,
+          "p90": -0.3061171753352372
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.18258930998933892,
+          "p10": 0.1170381105704092,
+          "p90": 0.42511274186730613
+        }
+      }
+    },
+    "128": {
+      "n": 30,
+      "states": {
+        "state_norm": {
+          "median": 225.64895304163727,
+          "p10": 192.7900731581787,
+          "p90": 249.7286103215018
+        },
+        "shift_norm": {
+          "median": 102.82446023158424,
+          "p10": 77.56266225558903,
+          "p90": 128.60467017868655
+        },
+        "shift_to_state_norm": {
+          "median": 0.46515847551253575,
+          "p10": 0.4198686141857076,
+          "p90": 0.5667706751876536
+        },
+        "shift_state_cosine": {
+          "median": -0.5979919253512427,
+          "p10": -0.7016250592125547,
+          "p90": -0.45637296734329097
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.2199783981029391,
+          "p10": 0.14865360735856134,
+          "p90": 0.4354806448088475
+        }
+      },
+      "paired_change_from_own_prefill": {
+        "state_norm": {
+          "median": 14.460389251825404,
+          "p10": -32.08428004975478,
+          "p90": 44.61177340635338
+        },
+        "shift_norm": {
+          "median": -18.176651783362217,
+          "p10": -59.890943124283105,
+          "p90": 13.48597481680096
+        },
+        "shift_to_state_norm": {
+          "median": -0.10334825218051114,
+          "p10": -0.2744043894810423,
+          "p90": 0.024146007733663922
+        },
+        "shift_state_cosine": {
+          "median": -0.5120343939738963,
+          "p10": -0.658180013788522,
+          "p90": -0.2709057772641838
+        },
+        "outside_extraction_span_energy": {
+          "median": 0.18012830684174813,
+          "p10": 0.11740994525807444,
+          "p90": 0.36372554768420295
+        }
+      }
+    }
+  },
+  "scores_not_read": true,
+  "limitations": "Descriptive snapshot, not an accuracy result or a selection rule. States follow prefixes generated under steering, so this cannot separate ordinary decoding distribution shift from effects of the steered prefix. Later steps omit questions that have ended; changes compare each retained state with its own prefill. A large span residual or shift norm does not itself establish harmful behavior."
+}
