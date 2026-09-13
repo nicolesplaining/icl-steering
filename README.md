@@ -57,6 +57,15 @@ Stronger regularization improves the shuffled control by ten answers.
 All new annotations were committed before scoring; full trace, recount and
 bootstrap checks passed. No candidate was selected or reserved answer generated.
 
+A [fresh training screen](research/gsm8k-complex-screen-protocol.md) is running
+on 256 questions with at least four reference calculation annotations.
+The [local/server inventory](research/gsm8k-fresh-pool-audit.md) excludes
+every recorded prior question and both earlier reservations. Five unchanged
+baseline conditions will test whether ICL helps on this population before
+any new steering evaluation. The [sample declaration](results/gsm8k-complex-screen-v1-declaration.json)
+also fixes a separate 512-question reservation. Accuracy remains unopened
+until all outputs and blinded annotations are complete.
+
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
 
