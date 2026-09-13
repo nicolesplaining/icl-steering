@@ -1,0 +1,29 @@
+{
+  "status": "declared_before_full_fit_and_generation",
+  "declared_at": "2026-09-13T06:02:53.612898+00:00",
+  "source_commit": "e6d8d174de96e984812aac9d9266fae4fc3fbe78",
+  "diagnostic_report_commit": "9e9c360",
+  "manifest_sha256": "bb7ad537a63e54121f0e8dad36d2da97cf9ab67a2ad6436a86b07cd10496b340",
+  "code_sha256": "80777e8f4bcc3c05a46b285d19d31f4077de1525aec8ca2275af31075dd29083",
+  "n_extract": 128,
+  "n_extraction_states": 620,
+  "n_development": 128,
+  "n_reserved": 256,
+  "new_conditions": [
+    "steered",
+    "regularized_prefill",
+    "mean",
+    "scalar",
+    "position_mean",
+    "position_scalar",
+    "permuted"
+  ],
+  "primary_scale": 0.1,
+  "permuted_scale": 1.0,
+  "permutation_seed": 2390,
+  "max_intervention_prefix": 128,
+  "max_new_tokens": 1024,
+  "tests_passed": 6,
+  "gpu": 0,
+  "confirmation_supported": false
+}

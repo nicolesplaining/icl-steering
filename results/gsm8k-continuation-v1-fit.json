@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-09-13T06:03:57.600345+00:00",
+  "manifest_sha256": "bb7ad537a63e54121f0e8dad36d2da97cf9ab67a2ad6436a86b07cd10496b340",
+  "files_sha256": {
+    "extraction.npz": "5ddf53c34ac2f692e850e3abcf4758627772769050106cd0abcbb50386c1df7c",
+    "maps.npz": "512875b4246793687eb5227d7c774bb26220ab3ac7cfff33f7971b46bd3633d7"
+  },
+  "n_extract": 128,
+  "n_states": 620,
+  "width": 3584,
+  "position_counts": [
+    128,
+    128,
+    128,
+    128,
+    108
+  ],
+  "real_penalty": 5022.707815106958,
+  "permuted_penalty": 50227.078151069574,
+  "real_solver_residual": 4.71274621802213e-14,
+  "permuted_solver_residual": 8.853045550094549e-15
+}

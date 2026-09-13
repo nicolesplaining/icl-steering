@@ -40,6 +40,13 @@ passes the activation diagnostic: mean continuation error is 0.639 versus
 early in the answer. This warrants an accuracy experiment, not a positive
 steering claim; no reserved answers have been generated.
 
+The [continuation accuracy run](research/gsm8k-continuation-protocol.md)
+is underway with its [full fit frozen](results/gsm8k-continuation-v1-fit-declaration.json).
+It compares the regularized map with the same map at the prompt only and
+with pooled and position-specific mean/scalar controls. Steering ends after
+prefix length 128; the answer budget remains 1,024 tokens. All new outputs
+will receive the declared review before scores are opened.
+
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
 
