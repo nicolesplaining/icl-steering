@@ -1,0 +1,20 @@
+{
+  "status": "complete_blinded_annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T05:04:18.989198+00:00",
+  "packet_commit": "ac8eead8c65a697f88f8fd0582ef2dd52347b875",
+  "packet_sha256": "18895fd634445e487418459059f7070bfd37939c61110fac9746382ae71f760b",
+  "annotations_file_sha256": "d4f4ce0a0ac5b3d512993c30599a1b776c479a9954850ed5b490349d630d1fa8",
+  "exact_matches_file_sha256": "7e4fffc9468ececc0d816cfba0dce3d341138b0cbc94462eadac4bae4187ffff",
+  "manifest_sha256": "39f17a23bbab29ef6abd0ecb765fd406baf64b4ac849d9a33340a9d8e626a228",
+  "generation_file_sha256": "73ae7bdb083b9837376fcd368b9878326e3967c53439826b3ab811fae2348292",
+  "reviewed": 573,
+  "inherited_unchanged": 44,
+  "new": 529,
+  "new_exact_response_matches": 181,
+  "new_individually_reviewed": 348,
+  "reviewer": "assistant",
+  "scores_opened": false,
+  "reserved_rows": 0,
+  "method": "Blinded question and response review. Lossless repetition display verified against every original response. 181 answers copied only on exact full-response equality to five manually reviewed answerless First/Let responses; match provenance published. All other new responses individually reviewed. No gold answers or condition labels used.",
+  "rubric": "Preserve inherited annotations. Transcribe stated numbers only; preserve errors; do not calculate missing answers or execute code. Absent or unresolved answers stay null. Parsed grades remain fixed; truncated responses receive no credit."
+}

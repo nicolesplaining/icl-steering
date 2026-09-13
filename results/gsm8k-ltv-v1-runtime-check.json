@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T04:42:43.743701+00:00",
+  "script_sha256": "e845085d9bbfbf44dd16e379ad104935ed9051c567f08706d1eb7bd034bbe13c",
+  "manifest_sha256": "39f17a23bbab29ef6abd0ecb765fd406baf64b4ac849d9a33340a9d8e626a228",
+  "fit_sha256": "7661f5898ed3c25dce9b0254ad69c9a60253e604cd117622d93e55823c9b00f1",
+  "completed_batches": 192,
+  "new_generation_rows": 768,
+  "saved_state_vectors_replayed": 652444,
+  "head_calls_verified": 163111,
+  "complete": true,
+  "reserved_rows": 0,
+  "scores_not_displayed": true,
+  "note": "Vector count includes inactive rows padded within a running batch."
+}

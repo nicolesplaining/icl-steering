@@ -1,0 +1,23 @@
+{
+  "status": "declared_before_prefix_collection",
+  "declared_at": "2026-09-13T05:10:10.656541+00:00",
+  "source_commit": "9586a6dd71b9a196023c517723a4d223660196b1",
+  "parent_report_commit": "9586a6dd71b9a196023c517723a4d223660196b1",
+  "manifest_sha256": "fd3e81b7646e8829de92b260ff1d7c9b450ec4ed006d730c3c0f2b2eb3199ade",
+  "code_sha256": "e1474be2d9dec965307ba8583c10674ae949725042b4ed7bfc6a9a2d14e44dc3",
+  "n_extract": 128,
+  "positions": [
+    0,
+    1,
+    8,
+    32,
+    128
+  ],
+  "prefix_source": "unsteered_zero_shot_greedy_EOS_only_128_tokens",
+  "answer_supervision": false,
+  "new_fit": false,
+  "accuracy_evaluation": false,
+  "gpu": 0,
+  "tests_passed": 11,
+  "interpretation": "Same extraction questions and fixed unsteered prefixes; prompt state is in-sample. Measures activation alignment, not a held-out accuracy result."
+}
