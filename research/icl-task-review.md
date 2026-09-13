@@ -10,6 +10,12 @@ claim remains superseded because of parsing and prompt confounds, as recorded
 in the [audit](gsm8k-audit.md). Model, demonstrations, baseline instructions,
 and decoding all matter.
 
+The subsequent [conditional steering validation](gsm8k-conditional-results.md)
+scored 89/96 zero-shot, 89/96 ICL-A, and 87/96 ICL-B on fresh training-split
+questions. Its best ridge shift scored 90/96 and failed the declared gain
+threshold. No confirmation test was run. The earlier test-split ICL benefit
+therefore does not justify assuming the same benefit on every validation set.
+
 ## Evidence
 
 | Study | Relevant result | What it establishes |
@@ -40,9 +46,10 @@ official demonstrations. The single example is a wind-pressure proportionality
 problem. This is evidence for a specific demonstration, not for arbitrary
 one-shot prompts. The authors also discuss large formatting effects, so this
 is a possible follow-up to audit, not a verified positive result for our
-project. The current GSM8K follow-up tests a
+project. The GSM8K follow-up tested a
 [query-dependent linear shift](gsm8k-conditional-protocol.md) on fresh
-questions. Its protocol and input hashes were
+questions and [failed validation](gsm8k-conditional-results.md). Its protocol
+and input hashes were
 [saved before evaluation](../results/gsm8k-conditional-v1-declaration.json).
 
 I checked the released evaluation code at commit

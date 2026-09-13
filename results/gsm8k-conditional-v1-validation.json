@@ -1,0 +1,519 @@
+{
+  "status": "validation_failed_no_test",
+  "selection_metric": "audited_completed_correct",
+  "selection": {
+    "eligible": false,
+    "chosen": {
+      "layer": 13,
+      "alpha": 0.5,
+      "positions": "prefill",
+      "condition": "ridge_l13_a0.5_prefill",
+      "audited_correct": 90
+    },
+    "checks": {
+      "icl_a_gain": false,
+      "icl_b_gain": false,
+      "zero_gain": false,
+      "beats_matched_mean": true,
+      "matches_strong_prompt_or_legacy": true,
+      "truncation": true
+    },
+    "candidates": [
+      {
+        "layer": 7,
+        "alpha": 0.5,
+        "positions": "prefill",
+        "condition": "ridge_l7_a0.5_prefill",
+        "audited_correct": 89
+      },
+      {
+        "layer": 7,
+        "alpha": 0.5,
+        "positions": "all",
+        "condition": "ridge_l7_a0.5_all",
+        "audited_correct": 87
+      },
+      {
+        "layer": 7,
+        "alpha": 1.0,
+        "positions": "prefill",
+        "condition": "ridge_l7_a1_prefill",
+        "audited_correct": 88
+      },
+      {
+        "layer": 7,
+        "alpha": 1.0,
+        "positions": "all",
+        "condition": "ridge_l7_a1_all",
+        "audited_correct": 82
+      },
+      {
+        "layer": 13,
+        "alpha": 0.5,
+        "positions": "prefill",
+        "condition": "ridge_l13_a0.5_prefill",
+        "audited_correct": 90
+      },
+      {
+        "layer": 13,
+        "alpha": 0.5,
+        "positions": "all",
+        "condition": "ridge_l13_a0.5_all",
+        "audited_correct": 85
+      },
+      {
+        "layer": 13,
+        "alpha": 1.0,
+        "positions": "prefill",
+        "condition": "ridge_l13_a1_prefill",
+        "audited_correct": 89
+      },
+      {
+        "layer": 13,
+        "alpha": 1.0,
+        "positions": "all",
+        "condition": "ridge_l13_a1_all",
+        "audited_correct": 35
+      }
+    ],
+    "manifest_sha256": "35a8a18fb47647f48b4fa97289a3bb5e79a0c8330241d6e7008b5db8ec74a18d",
+    "validation_rows_sha256": "91c7f93cfb2acc531688987feac453086c0e48cbc9c6e09eb219e484a02274e7",
+    "packet_sha256": "20c4618a3871271c7691adcbd1660247962f07e193d5042350c29bc68c512e38",
+    "annotations_sha256": "5e95911f35268c6e95fb0aee71e1813fda831c6646560ca64bf93617d91e0d60",
+    "maps_sha256": "56da4ff7d8766e4bf253fb191806f587089eb5fe87eb04d38f23888b50789078",
+    "validation_audit_sha256": "74eb88b81eb322355d62f3717bdc93e06c4350084bcb7117b259e8233b45017c",
+    "validation_queries_sha256": "40e896b186fcac7c2b5a1ce45b608dfd436781464419be6e34db88facc24730a"
+  },
+  "summary": {
+    "cot": {
+      "n": 96,
+      "primary_completed_correct": 84,
+      "audited_completed_correct": 87,
+      "unparsed": 6,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.07291666666666667,
+            0.03125
+          ],
+          "wins": 2,
+          "losses": 4
+        }
+      }
+    },
+    "first": {
+      "n": 96,
+      "primary_completed_correct": 81,
+      "audited_completed_correct": 88,
+      "unparsed": 8,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": -0.010416666666666666,
+          "ci95": [
+            -0.052083333333333336,
+            0.03125
+          ],
+          "wins": 2,
+          "losses": 3
+        }
+      }
+    },
+    "icl_a": {
+      "n": 96,
+      "primary_completed_correct": 88,
+      "audited_completed_correct": 89,
+      "unparsed": 2,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.0,
+          "ci95": [
+            -0.03125,
+            0.03125
+          ],
+          "wins": 1,
+          "losses": 1
+        },
+        "first": {
+          "gain": 0.010416666666666666,
+          "ci95": [
+            -0.03125,
+            0.052083333333333336
+          ],
+          "wins": 3,
+          "losses": 2
+        },
+        "cot": {
+          "gain": 0.020833333333333332,
+          "ci95": [
+            -0.03125,
+            0.07291666666666667
+          ],
+          "wins": 4,
+          "losses": 2
+        }
+      }
+    },
+    "icl_b": {
+      "n": 96,
+      "primary_completed_correct": 87,
+      "audited_completed_correct": 87,
+      "unparsed": 1,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.07291666666666667,
+            0.03125
+          ],
+          "wins": 2,
+          "losses": 4
+        },
+        "first": {
+          "gain": -0.010416666666666666,
+          "ci95": [
+            -0.052083333333333336,
+            0.03125
+          ],
+          "wins": 2,
+          "losses": 3
+        },
+        "cot": {
+          "gain": 0.0,
+          "ci95": [
+            -0.0625,
+            0.0625
+          ],
+          "wins": 4,
+          "losses": 4
+        }
+      }
+    },
+    "legacy_mean": {
+      "n": 96,
+      "primary_completed_correct": 82,
+      "audited_completed_correct": 87,
+      "unparsed": 7,
+      "truncated": 2,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.052083333333333336,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 2
+        }
+      }
+    },
+    "mean_l13_a0.5_all": {
+      "n": 96,
+      "primary_completed_correct": 83,
+      "audited_completed_correct": 87,
+      "unparsed": 5,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.0625,
+            0.020833333333333332
+          ],
+          "wins": 1,
+          "losses": 3
+        }
+      }
+    },
+    "mean_l13_a0.5_prefill": {
+      "n": 96,
+      "primary_completed_correct": 84,
+      "audited_completed_correct": 88,
+      "unparsed": 5,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.010416666666666666,
+          "ci95": [
+            -0.052083333333333336,
+            0.03125
+          ],
+          "wins": 2,
+          "losses": 3
+        }
+      }
+    },
+    "mean_l13_a1_all": {
+      "n": 96,
+      "primary_completed_correct": 52,
+      "audited_completed_correct": 53,
+      "unparsed": 30,
+      "truncated": 31,
+      "paired": {
+        "zero": {
+          "gain": -0.375,
+          "ci95": [
+            -0.4791666666666667,
+            -0.2708333333333333
+          ],
+          "wins": 1,
+          "losses": 37
+        }
+      }
+    },
+    "mean_l13_a1_prefill": {
+      "n": 96,
+      "primary_completed_correct": 84,
+      "audited_completed_correct": 88,
+      "unparsed": 5,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": -0.010416666666666666,
+          "ci95": [
+            -0.052083333333333336,
+            0.03125
+          ],
+          "wins": 2,
+          "losses": 3
+        }
+      }
+    },
+    "mean_l7_a0.5_all": {
+      "n": 96,
+      "primary_completed_correct": 82,
+      "audited_completed_correct": 87,
+      "unparsed": 7,
+      "truncated": 2,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.052083333333333336,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 2
+        }
+      }
+    },
+    "mean_l7_a0.5_prefill": {
+      "n": 96,
+      "primary_completed_correct": 80,
+      "audited_completed_correct": 87,
+      "unparsed": 9,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.052083333333333336,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 2
+        }
+      }
+    },
+    "mean_l7_a1_all": {
+      "n": 96,
+      "primary_completed_correct": 80,
+      "audited_completed_correct": 85,
+      "unparsed": 7,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": -0.041666666666666664,
+          "ci95": [
+            -0.08333333333333333,
+            -0.010416666666666666
+          ],
+          "wins": 0,
+          "losses": 4
+        }
+      }
+    },
+    "mean_l7_a1_prefill": {
+      "n": 96,
+      "primary_completed_correct": 83,
+      "audited_completed_correct": 87,
+      "unparsed": 5,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.052083333333333336,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 2
+        }
+      }
+    },
+    "ridge_l13_a0.5_all": {
+      "n": 96,
+      "primary_completed_correct": 80,
+      "audited_completed_correct": 85,
+      "unparsed": 6,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": -0.041666666666666664,
+          "ci95": [
+            -0.10416666666666667,
+            0.010416666666666666
+          ],
+          "wins": 2,
+          "losses": 6
+        }
+      }
+    },
+    "ridge_l13_a0.5_prefill": {
+      "n": 96,
+      "primary_completed_correct": 85,
+      "audited_completed_correct": 90,
+      "unparsed": 5,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.010416666666666666,
+          "ci95": [
+            -0.03125,
+            0.05234374999999621
+          ],
+          "wins": 3,
+          "losses": 2
+        }
+      }
+    },
+    "ridge_l13_a1_all": {
+      "n": 96,
+      "primary_completed_correct": 34,
+      "audited_completed_correct": 35,
+      "unparsed": 52,
+      "truncated": 50,
+      "paired": {
+        "zero": {
+          "gain": -0.5625,
+          "ci95": [
+            -0.65625,
+            -0.4583333333333333
+          ],
+          "wins": 0,
+          "losses": 54
+        }
+      }
+    },
+    "ridge_l13_a1_prefill": {
+      "n": 96,
+      "primary_completed_correct": 82,
+      "audited_completed_correct": 89,
+      "unparsed": 7,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.0,
+          "ci95": [
+            -0.052083333333333336,
+            0.052083333333333336
+          ],
+          "wins": 3,
+          "losses": 3
+        }
+      }
+    },
+    "ridge_l7_a0.5_all": {
+      "n": 96,
+      "primary_completed_correct": 83,
+      "audited_completed_correct": 87,
+      "unparsed": 6,
+      "truncated": 2,
+      "paired": {
+        "zero": {
+          "gain": -0.020833333333333332,
+          "ci95": [
+            -0.052083333333333336,
+            0.0
+          ],
+          "wins": 0,
+          "losses": 2
+        }
+      }
+    },
+    "ridge_l7_a0.5_prefill": {
+      "n": 96,
+      "primary_completed_correct": 82,
+      "audited_completed_correct": 89,
+      "unparsed": 9,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": 0.0,
+          "ci95": [
+            -0.03125,
+            0.03125
+          ],
+          "wins": 1,
+          "losses": 1
+        }
+      }
+    },
+    "ridge_l7_a1_all": {
+      "n": 96,
+      "primary_completed_correct": 77,
+      "audited_completed_correct": 82,
+      "unparsed": 6,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": -0.07291666666666667,
+          "ci95": [
+            -0.125,
+            -0.03125
+          ],
+          "wins": 0,
+          "losses": 7
+        }
+      }
+    },
+    "ridge_l7_a1_prefill": {
+      "n": 96,
+      "primary_completed_correct": 82,
+      "audited_completed_correct": 88,
+      "unparsed": 8,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": -0.010416666666666666,
+          "ci95": [
+            -0.041666666666666664,
+            0.020833333333333332
+          ],
+          "wins": 1,
+          "losses": 2
+        }
+      }
+    },
+    "zero": {
+      "n": 96,
+      "primary_completed_correct": 81,
+      "audited_completed_correct": 89,
+      "unparsed": 9,
+      "truncated": 0,
+      "paired": {}
+    }
+  },
+  "reviewed_unique_responses": 157,
+  "annotations_file": "gsm8k-conditional-v1-validation-annotations.json",
+  "annotations_commit": "53fe890",
+  "review_lock_commit": "b52d7c1",
+  "raw_audit_file_sha256": "74eb88b81eb322355d62f3717bdc93e06c4350084bcb7117b259e8233b45017c",
+  "test_rows": 0,
+  "test_guard_verified": true,
+  "limitations": "Only unparsed responses were reviewed, by one assistant reviewer blinded to condition and reference answer. Parsed grades remain unchanged; truncated generations receive no credit. This is not a full semantic audit. The audited metric was declared for selection in this experiment, superseding the inherited audit helper narrative that refers to supplementary-only scoring in v2. Validation comparisons follow selection among eight candidates and are exploratory, unadjusted, and not held-out confirmation."
+}
