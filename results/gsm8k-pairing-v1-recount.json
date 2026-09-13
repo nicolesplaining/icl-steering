@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T07:31:55.745400+00:00",
+  "report_file_sha256": "b0717a789b66a0d135586e8f68f48947b9eb990b89a8483f8096d51746751ad8",
+  "recount_code_sha256": "f6f2f371a96f646ce619f41d9c68838785310b2b8f828e8d329243877ab756b2",
+  "rows": 2176,
+  "conditions": 17,
+  "paired_contrasts": 14,
+  "counts_wins_losses_exact_p_and_holm_recounted": true,
+  "bootstrap_intervals": "Produced by the frozen reporter; not independently recomputed here.",
+  "reserved_rows": 0,
+  "candidate_selected": null,
+  "confirmation_supported": false
+}

@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T07:33:48.905254+00:00",
+  "script_sha256": "395812c6060b32ecb8c8e3d4eabbbba114b4e9241b5b7e4dc942ad698bee7f3e",
+  "run": "gsm8k-pairing-v1",
+  "report_file_sha256": "b0717a789b66a0d135586e8f68f48947b9eb990b89a8483f8096d51746751ad8",
+  "generation_file_sha256": "4d1b671e839bc9bdacf9d395ee028d58397b0d1b4d11a01a8674760a51931d01",
+  "annotations_file_sha256": "d36148c68769e186158777765dc2d225c695755801571b0e7f0fa3667221466d",
+  "annotations_commit": "402977718a21eafaf8a1458b097e8d35d4666384",
+  "intervals_checked": 14,
+  "samples": 10000,
+  "seed": 907,
+  "reserved_rows": 0,
+  "method": "Same declared PCG64 draws; independent count-weighted resampling, Python sums and sorting, explicit linear percentile interpolation. No production reporter imports.",
+  "ci95": {
+    "primary:steered__minus__shared_low": [
+      -0.046875,
+      0.140625
+    ],
+    "primary:steered__minus__permuted_low": [
+      -0.09375,
+      0.09375
+    ],
+    "primary:real_high__minus__shared_high": [
+      0.015625,
+      0.15625
+    ],
+    "primary:real_high__minus__permuted": [
+      -0.046875,
+      0.078125
+    ],
+    "primary:steered__minus__real_high": [
+      -0.1171875,
+      0.0390625
+    ],
+    "primary:permuted_low__minus__permuted": [
+      -0.09375,
+      0.046875
+    ],
+    "primary:shared_low__minus__shared_high": [
+      -0.0546875,
+      0.0546875
+    ],
+    "audited:steered__minus__shared_low": [
+      0.0078125,
+      0.1484375
+    ],
+    "audited:steered__minus__permuted_low": [
+      0.015625,
+      0.1484375
+    ],
+    "audited:real_high__minus__shared_high": [
+      -0.0234375,
+      0.0703125
+    ],
+    "audited:real_high__minus__permuted": [
+      -0.0625,
+      0.03125
+    ],
+    "audited:steered__minus__real_high": [
+      -0.0390625,
+      0.0703125
+    ],
+    "audited:permuted_low__minus__permuted": [
+      -0.1328125,
+      -0.03125
+    ],
+    "audited:shared_low__minus__shared_high": [
+      -0.0859375,
+      0.0078125
+    ]
+  }
+}
