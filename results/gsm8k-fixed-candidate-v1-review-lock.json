@@ -1,0 +1,38 @@
+{
+  "status": "fixed_candidate_packet_frozen_before_new_annotation",
+  "frozen_at": "2026-09-13T01:50:18.822903+00:00",
+  "manifest_sha256": "9bf2cc00c87d7985d80d7d9d7281350b1b42fdbfa5d7671b007eeb546d324b42",
+  "declaration_sha256": "56f7b4a72825478a3f5e0768fc3658ddc096fbd3bd462088a2e33e8e42bce080",
+  "generation_file_sha256": "3429b6dea410f97b344529078d5b24973c49009365f3acda1e41868634a1eb7a",
+  "packet_file_sha256": "9664c356dfaa5a0f6969ec27fd459f1bb4157b22cf7bb69b2a1236e533fd5c4d",
+  "packet_sha256": "40247432356eca684a968d18f5ebe0a148129a67be7d065d58b0fa59be4d8fb5",
+  "packet_source_sha256": "b83ca245378072fa7ca9620edea0b3e84bfdb676968122969551349efa885e99",
+  "generation_rows": 896,
+  "n_development": 128,
+  "conditions": [
+    "zero",
+    "icl_a",
+    "icl_b",
+    "first",
+    "cot",
+    "steered",
+    "mean"
+  ],
+  "unique_unparsed_responses": 56,
+  "inherited_annotations": 44,
+  "inherited_file_sha256": "b6bae8b8d7d18ce2c15216d0c897889fe9a5d2d5e683b8ee8f02c8fdd08f4a84",
+  "new_annotations_completed": 0,
+  "reserved_rows": 0,
+  "supervisor": {
+    "status": "awaiting_blinded_review",
+    "supervisor_pid": 15774,
+    "supervisor_start_ticks": "1646434",
+    "gpu": 0,
+    "updated_at": "2026-09-13T01:49:43.697803+00:00",
+    "pid": 15777,
+    "returncode": 0
+  },
+  "screen_annotation_commit": "f07f9d5",
+  "rubric": "Preserve all inherited annotations. Transcribe new stated numbers only; preserve errors; do not calculate missing answers or execute code. Absent or unresolved answers stay null. Parsed grades remain fixed; truncated responses receive no credit.",
+  "selection_metric": "Audited completed accuracy under the predeclared fixed-candidate gates. No new score inspection before the full merged annotations are committed."
+}

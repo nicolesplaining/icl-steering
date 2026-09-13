@@ -15,6 +15,24 @@ scored 89/96 zero-shot, 89/96 ICL-A, and 87/96 ICL-B on fresh training-split
 questions. Its best ridge shift scored 90/96 and failed the declared gain
 threshold. No confirmation test was run. The earlier test-split ICL benefit
 therefore does not justify assuming the same benefit on every validation set.
+The one fixed [test-distribution screen](gsm8k-test-development-results.md)
+subsequently scored 93/128 zero-shot and 115/128 and 116/128 with ICL after
+review. Both ICL gains passed the declared screen gates. Step-by-step scored
+110/128, so the predeclared fixed steering candidate faces a strong text control.
+That [candidate subsequently scored 107/128](gsm8k-fixed-candidate-results.md),
+versus 96/128 for its raw mean. Its exploratory intervals over zero-shot and
+the mean exclude zero, but it misses the text-cue gate. The reserved
+confirmation questions remain unused; magnitude and shuffled-target controls
+are still needed to interpret this development signal.
+
+The train/test score difference does not by itself establish contamination.
+[Qwen's release report](https://qwenlm.github.io/blog/qwen2.5-math/#decontamination)
+describes normalized 13-gram matching and an additional longest-common-subsequence
+criterion for filtering potentially contaminated training data, including
+checks against GSM8K and MATH. We do not have corpus-level evidence identifying
+which of our particular questions the model encountered. The fixed follow-up
+checks ICL on the test distribution directly rather than assuming a cause for
+the score difference.
 
 ## Evidence
 

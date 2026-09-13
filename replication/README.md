@@ -278,3 +278,32 @@ CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
   -m analysis.gsm8k_fixed_candidate select --output runs/gsm8k-fixed-candidate-v1 \
   --annotations runs/gsm8k-fixed-candidate-v1/validation-review-annotations.json
 ```
+
+The candidate [missed its text-cue gate](../research/gsm8k-fixed-candidate-results.md).
+The [supplementary control diagnostic](../research/gsm8k-fixed-controls-protocol.md)
+uses the same completed development sample to investigate its gain over the
+raw mean. It does not alter eligibility or generate reserved questions.
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_fixed_controls prepare --output runs/gsm8k-fixed-controls-v1
+```
+
+Commit the protocol, implementation, and prepared declaration before generation.
+Save the manifest hash in the run's `declaration.json`, then run on GPU 0:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_fixed_controls run --output runs/gsm8k-fixed-controls-v1
+```
+
+Review the full packet while preserving `inherited-annotations.json`. Commit
+the merged annotations and create `review-freeze.json` with the same fields
+as the fixed-candidate review. Report all fifteen contrasts, with unadjusted
+bootstrap intervals and Holm-adjusted exact McNemar p-values:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_fixed_controls report --output runs/gsm8k-fixed-controls-v1 \
+  --annotations runs/gsm8k-fixed-controls-v1/validation-review-annotations.json
+```

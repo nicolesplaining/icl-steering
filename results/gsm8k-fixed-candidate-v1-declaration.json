@@ -1,0 +1,91 @@
+{
+  "status": "declared_before_fixed_candidate_generation",
+  "declared_at": "2026-09-13T01:42:59.966337+00:00",
+  "source_commit": "cc68aee",
+  "screen_results_commit": "18a5127",
+  "manifest_sha256": "9bf2cc00c87d7985d80d7d9d7281350b1b42fdbfa5d7671b007eeb546d324b42",
+  "manifest": {
+    "config": {
+      "model": "Qwen/Qwen2.5-Math-7B",
+      "revision": "b101308fe89651ea5ce025f25317fea6fc07e96e",
+      "dataset": "openai/gsm8k",
+      "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+      "batch_size": 4,
+      "max_model_len": 4096,
+      "max_new_tokens": 1024,
+      "max_truncation_rate": 0.05,
+      "min_icl_gain": 0.05,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 907,
+      "seed": 1701,
+      "n_screen": 128,
+      "n_reserved": 256,
+      "layers": [
+        7,
+        13
+      ],
+      "random_seeds": [
+        31,
+        59,
+        83
+      ]
+    },
+    "chosen": {
+      "layer": 13,
+      "alpha": 0.5,
+      "positions": "prefill"
+    },
+    "code_sha256": "ef8e3798f38d5122b8bbb6e3a7409b7c369b0479023cb7b417d922e6f9df1b48",
+    "inputs_sha256": {
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/manifest.json": "3704dbf9bcece7e6475d942aeb3221d698c3539c26270a29d5134a4f2b22e29d",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/prepared.json": "ba6d9216c6d9b6647b0236a5196be32bb67d52a12528717ed81fc6885cd2fa74",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/generations.jsonl": "1998a598942ef0d3375d3768273959351a1f838542b0c4e799ce7aa59dd0ef39",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/screen-selection.json": "870a934c007330c367edaf418e5f6f3b5996b45e21896b1c47f48c3b02fafa74",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/screen-audit.json": "70a6022f29052b7d03b15737580bdd34eb9b2e3167b32fa35111ae790522e586",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/screen-annotations.json": "a172b2a8569f44f301570e98f6c7280a2c3a2b2d7fa8d1958960489670eac9be",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-test-development-v1/review-freeze.json": "5d2651889822e1c4e6087f339ad0a04c9e1aeb829a5b3e00d2ce3f332820d43e",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-conditional-v1/manifest.json": "35a8a18fb47647f48b4fa97289a3bb5e79a0c8330241d6e7008b5db8ec74a18d",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-conditional-v1/maps.npz": "56da4ff7d8766e4bf253fb191806f587089eb5fe87eb04d38f23888b50789078",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-conditional-v1/fit.json": "1879ac7569b05e1a735a87e63d76ab8bc7e09407434ae1f57061b4e284ec02b0",
+      "/lambda/nfs/icl/icl-steering/runs/gsm8k-conditional-v1/selection.json": "4319b5678eb1d06cd968a5042b4652964aa1ed53062bba8769dbef2d6625b6e8"
+    },
+    "files_sha256": {
+      "prepared.json": "ba6d9216c6d9b6647b0236a5196be32bb67d52a12528717ed81fc6885cd2fa74",
+      "maps.npz": "56da4ff7d8766e4bf253fb191806f587089eb5fe87eb04d38f23888b50789078",
+      "baseline-rows.json": "eeee8106940fa888ca976abe851416d00d0e3b8255787758422adb3b52b4c328",
+      "screen-annotations.json": "a172b2a8569f44f301570e98f6c7280a2c3a2b2d7fa8d1958960489670eac9be"
+    },
+    "created_at": "2026-09-13T01:39:44.446381+00:00",
+    "test_generation_supported": false
+  },
+  "chosen": {
+    "layer": 13,
+    "alpha": 0.5,
+    "positions": "prefill"
+  },
+  "n_development": 128,
+  "n_reserved_confirmation": 256,
+  "existing_rows": 640,
+  "existing_conditions": [
+    "zero",
+    "icl_a",
+    "icl_b",
+    "first",
+    "cot"
+  ],
+  "new_generations_planned": 256,
+  "new_conditions": [
+    "steered",
+    "mean"
+  ],
+  "reserved_rows": 0,
+  "checks": {
+    "screen_audit_replayed_and_all_gates_passed": true,
+    "baseline_file_identical": true,
+    "maps_identical_to_original_extraction_fit": true,
+    "prepared_questions_identical_to_screen": true,
+    "no_steering_or_reserved_generations_before_declaration": true
+  },
+  "cpu_tests": "Seven fixed-candidate tests passed; inherited screen, conditional and audit tests passed previously.",
+  "gpu": 0
+}
