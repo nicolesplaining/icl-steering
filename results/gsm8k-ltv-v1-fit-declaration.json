@@ -1,0 +1,12 @@
+{
+  "status": "fit_frozen_before_development_generation",
+  "declared_at": "2026-09-13T03:04:39.711076+00:00",
+  "manifest_sha256": "39f17a23bbab29ef6abd0ecb765fd406baf64b4ac849d9a33340a9d8e626a228",
+  "fit_sha256": "7661f5898ed3c25dce9b0254ad69c9a60253e604cd117622d93e55823c9b00f1",
+  "fit_check_sha256": "567ad8ffed62650dcb3df331de9d36a624c551cac8e5ec8a27e6ebef7e3e0d0a",
+  "source_commit": "b0e3c80",
+  "declaration_commit": "2001809",
+  "new_generation_rows": 0,
+  "reserved_rows": 0,
+  "gpu": 0
+}
