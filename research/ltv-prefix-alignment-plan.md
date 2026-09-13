@@ -59,3 +59,10 @@ declared intervention experiment and held-out confirmation.
 Run sequentially on physical GPU 0 after it is free. Keep token IDs and
 activation arrays ignored. Publish aggregate measurements and failures with
 Nicole Ma as the sole commit author and committer.
+
+The [numerical helpers](../analysis/ltv_prefix_metrics.py) preserve paired
+token IDs and compute the declared aggregate metrics. Four CPU tests pass
+for EOS and early endings, known aligned/opposed/zero predictions, undefined
+quantities, and comparisons on the same retained questions. These tests use
+synthetic arrays. The GPU collector and its provenance checks still need to
+be implemented before this diagnostic can run.
