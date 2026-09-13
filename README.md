@@ -1,5 +1,10 @@
 # ICL steering
 
+No steering method has yet passed independent confirmation. The current
+experiment tests the frozen continuation map and its controls on a fresh
+population where the matched ICL screen passed. Generation and evaluation
+are still in progress.
+
 [GSM8K results](research/gsm8k-v2-results.md): full ICL improves audited
 accuracy, but the selected mean activation direction falls short.
 
@@ -68,11 +73,17 @@ also fixes a separate 512-question reservation. All 39 annotations were committe
 before scoring, and the independent count and interval replay passed.
 The conditional [candidate plan](research/gsm8k-complex-candidate-protocol.md)
 retains all 17 prior conditions and requires superiority over the stronger
-shuffled control and same-map prompt-only control. Its gates are fixed before
-the screen's accuracy is opened; no steering stage starts unless the screen passes.
+shuffled control and same-map prompt-only control. Its gates were fixed before
+the screen's accuracy was opened.
 The [conditional implementation](research/gsm8k-complex-candidate-implementation.md)
-has passed saved-map reconstruction and synthetic execution tests. The reviewed
-screen now qualifies this fixed candidate for development evaluation.
+passed saved-map reconstruction and synthetic execution tests. The
+[declared candidate run](results/gsm8k-complex-candidate-v1-declaration.json)
+is generating sequentially on GPU 0. A
+[two-condition runtime audit](research/gsm8k-complex-candidate-recount.md)
+verified all 512 candidate and same-map prompt-only responses, including
+33,280 saved state vectors and exact first-token agreement on all 256 questions.
+The remaining controls, full runtime audit, blinded review, and score recount
+must finish before the development result can be interpreted.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).
