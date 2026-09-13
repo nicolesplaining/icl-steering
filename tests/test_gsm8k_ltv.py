@@ -107,8 +107,10 @@ def test_batch_persistence_blind_packet_and_resume(tmp_path, monkeypatch):
                 **ltv.base.grade_answer('The answer is 1.', '1', False)})
     (tmp_path/'baseline-rows.json').write_text(json.dumps(baseline))
     rng = np.random.default_rng(13)
-    x, d = rng.normal(size=(12, 8)), rng.normal(size=(12, 8))
-    real, permuted = ltv.mapping.fit(x, d), ltv.mapping.fit(x, d[::-1])
+    x = rng.normal(size=(12, 8)); icl = x + rng.normal(size=(12, 8)); d = icl-x
+    np.savez(tmp_path/'extraction.npz', zero=x, icl_a=icl)
+    real = ltv.mapping.fit(x, d)
+    permuted = ltv.mapping.fit(x, d[np.random.default_rng(1901).permutation(len(x))])
     monkeypatch.setattr(ltv, 'load_maps', lambda _: (real, permuted))
     norm, head = torch.nn.Identity(), torch.nn.Identity()
     calls = []
@@ -132,6 +134,10 @@ def test_batch_persistence_blind_packet_and_resume(tmp_path, monkeypatch):
     original = (tmp_path/'generations.jsonl').read_bytes()
     ltv.validate(tmp_path)
     assert len(calls) == 192 and (tmp_path/'generations.jsonl').read_bytes() == original
+    from analysis import ltv_trace_audit
+    checked = ltv_trace_audit.check(tmp_path, complete=True)
+    assert checked['new_generation_rows'] == 768
+    assert checked['saved_state_vectors_replayed'] == 1408
     with pytest.raises(ValueError, match='Trace changed'):
         (tmp_path/'traces/steered-000.npz').write_bytes(b'changed')
         ltv.collect(tmp_path)
