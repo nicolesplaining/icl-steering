@@ -61,8 +61,13 @@ activation arrays ignored. Publish aggregate measurements and failures with
 Nicole Ma as the sole commit author and committer.
 
 The [numerical helpers](../analysis/ltv_prefix_metrics.py) preserve paired
-token IDs and compute the declared aggregate metrics. Four CPU tests pass
-for EOS and early endings, known aligned/opposed/zero predictions, undefined
-quantities, and comparisons on the same retained questions. These tests use
-synthetic arrays. The GPU collector and its provenance checks still need to
-be implemented before this diagnostic can run.
+token IDs and compute the declared aggregate metrics. The
+[collector](../analysis/ltv_prefix_collect.py) requires a completed, reviewed
+parent failure and a declaration before loading the model. Eight CPU tests
+pass using synthetic arrays and a small random Qwen2 model. They cover EOS,
+early endings and full 128-token prefixes, original-state reproduction,
+left-padding positions, saved-array tampering, context limits, undefined
+quantities, and comparisons on the same retained questions.
+
+Independent replay and report assembly still need implementation before
+collecting real-model data. No diagnostic data has been collected.
