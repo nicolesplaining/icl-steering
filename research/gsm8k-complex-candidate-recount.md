@@ -6,6 +6,16 @@ opened. The first real batch passed replay of 516 saved state vectors and
 129 LM-head calls. That limited check does not replace the required complete
 trajectory audit.
 
+The subsequent [two-condition runtime audit](../results/gsm8k-complex-candidate-v1-pair-runtime.json)
+passed all 512 candidate and same-map prompt-only responses in 128 batches.
+It replayed 33,280 saved state vectors and verified 8,320 LM-head calls.
+For all 256 questions, the initial normalized states, intervention vectors,
+applied states, prompt lengths, and first generated tokens matched exactly.
+The CPU audit used a separate snapshot of immutable batches while GPU 0
+continued the remaining controls. The recorded `complete: false` correctly
+indicates that this covers two conditions, not the entire experiment.
+No accuracy was opened.
+
 [The separate recount](../analysis/complex_candidate_score_recount.py)
 checks all 4,352 development rows across 17 conditions. It reconstructs the
 blind review packet, verifies exact inheritance of the 1,280 baseline rows
