@@ -93,8 +93,10 @@ The [new screen protocol](research/gsm8k-published-screen-protocol.md) fixes
 three conditions and the complex bank as its sole later steering target.
 The [reconciled inventory](research/gsm8k-published-inventory.md) leaves 6,282
 unused training questions while preserving all three prior reservations.
-Runner implementation and a declaration of the exact partitions are required
-before inference; no new screen outputs have been generated.
+The [tested runner](research/gsm8k-published-screen-implementation.md) and
+[exact partition declaration](results/gsm8k-published-screen-v1-declaration.json)
+are frozen before inference. The screen uses 512 development questions;
+256 extraction and 512 reserved questions receive no inference in this stage.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

@@ -30,6 +30,16 @@ resume, corrupt split rejection, frozen-review scoring, tied-screen failure,
 and hand-computed exact-test/Holm checks. The actual Transformers stopping
 callback was exercised on two scripted sequences that finish differently.
 
-These tests establish runner behavior on synthetic data. Real preparation,
-generation, frozen answer review, and independent score recount remain
-necessary for an experimental result.
+Real preparation completed without inference. An independent
+[preflight](../analysis/published_screen_preflight.py) replayed the exclusions
+from pinned dataset bytes, the seed-3402 shuffle, all 1,280 selected identities,
+gold answers, and all 3,840 exact prompts without importing preparation code.
+The [declaration](../results/gsm8k-published-screen-v1-declaration.json) records
+the selected IDs, manifest, and preparation hashes. Local committed code matches
+the remote manifest's source closure. Prompt lengths were also recounted with
+the pinned tokenizer: zero 21–203, original 758–940, complex 2,652–2,834 tokens.
+The longest prompt plus 1,024 generated tokens uses 3,858 of the 4,096 budget.
+
+Generation, frozen answer review, and independent score recount remain
+necessary for an experimental result. Neither preparation nor a screen pass
+establishes a steering benefit.
