@@ -89,8 +89,12 @@ candidate advanced to reserved evaluation.
 The [published demonstration-bank inspection](research/gsm8k-published-complex-prompts.md)
 identifies a concrete follow-up using the released original and complex
 examples. Both fit the existing context and answer budgets without shortening.
-That adaptation still requires fresh partitions, new extraction, and a
-declaration before any model inference.
+The [new screen protocol](research/gsm8k-published-screen-protocol.md) fixes
+three conditions and the complex bank as its sole later steering target.
+The [reconciled inventory](research/gsm8k-published-inventory.md) leaves 6,282
+unused training questions while preserving all three prior reservations.
+Runner implementation and a declaration of the exact partitions are required
+before inference; no new screen outputs have been generated.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

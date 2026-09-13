@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-09-13T11:26:31.213264+00:00",
+  "dataset": "openai/gsm8k",
+  "dataset_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "dataset_sha256": {
+    "test": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "train": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d"
+  },
+  "exclusion_source_sha256": "30c4e8fb9a25c7e2b612794a67ba474ead5b77b556ce5901f838a83de3ef227c",
+  "generated_unique_ids": 800,
+  "inputs_sha256": {
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-local-v1/fresh-pool.json": "d425e2646393fd223a663d477b487bd4bfec7e75a1ef8d430b6191ee6a3b1f72",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-local-v1/observations.json": "5fc762cb22a2f832de99fd53518ee3769cf5d3c6fb89e3d3eafeaacc50bac0b2",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-local-v1/reservations.json": "14ef2690256214b3087b3e842b65e05f2cba95dc05387b68c926deb4f69c2085",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-local-v1/summary.json": "352ff9dd408e4be6639e3102b0cbc694a6de754ac8faee4d2a41717ba6fbaf7d",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-server-v1/fresh-pool.json": "d425e2646393fd223a663d477b487bd4bfec7e75a1ef8d430b6191ee6a3b1f72",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-server-v1/observations.json": "5e366d0705c3cae053c1b0a42b73842db9338a174d2af38b0a6e8b285819ee1e",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-server-v1/reservations.json": "14ef2690256214b3087b3e842b65e05f2cba95dc05387b68c926deb4f69c2085",
+    "/Users/nicolema/Documents/ChatGPT/ICL/icl-steering/runs/gsm8k-published-inventory-server-v1/summary.json": "cfc43436b2cfc3e0406cca5f924ea24e7af3506ea5602bb515e11c00bff7cd94"
+  },
+  "kind": "laptop_server_union",
+  "no_sampling_or_generation": true,
+  "observations_sha256": "1ad06a01c67081030d2f33cb5f1665d864c92e2b675a7d6b0b07cbf81f18634a",
+  "observed_question_texts": 2718,
+  "observed_unique_ids": 2208,
+  "published_prompt_sha256": {
+    "complex": "d20a8061b484da2d93d10152727c5c137f7bec76f5f4f9e1c94f17cf33051aee",
+    "original": "db8c84b10707a16cc2f61e192e1e55452393510470a3d5790db86188a42ae4e0"
+  },
+  "reservations": {
+    "gsm8k-complex-screen-v1": {
+      "generated_overlap": 0,
+      "n": 512
+    },
+    "gsm8k-conditional-v1": {
+      "generated_overlap": 0,
+      "n": 512
+    },
+    "gsm8k-test-development-v1": {
+      "generated_overlap": 0,
+      "n": 256
+    }
+  },
+  "reservations_sha256": "663c2ecb3a880753ae8297dd314a6f853c81058d590c48453a6a0606b0d374d8",
+  "scope": "Union of independently snapshotted laptop/server records with published-bank exclusions and three unchanged reservations. No sample selected or model called.",
+  "source_observation_counts": [
+    {
+      "generated_ids": 800,
+      "ids": 2208,
+      "question_texts": 2718
+    },
+    {
+      "generated_ids": 800,
+      "ids": 2208,
+      "question_texts": 2470
+    }
+  ],
+  "source_sha256": "a42652ac68d7a45d7cc4e07fe946b97f843bf6994fcec4b0af33ca363bd38933",
+  "splits": {
+    "test": {
+      "calculation_annotation_histogram": {
+        "0": 1,
+        "2": 13,
+        "3": 9,
+        "4": 11,
+        "5": 2,
+        "6": 2,
+        "7": 1
+      },
+      "excluded": {
+        "previous_or_reserved_or_prefix": 1280
+      },
+      "fresh": 39,
+      "fresh_at_least_four_annotations": 16,
+      "identities_and_counts_sha256": "aa3b5f6635eed4f781490e6acd2d66a0be0d50459e81133aab800a8939e76be6",
+      "total": 1319
+    },
+    "train": {
+      "calculation_annotation_histogram": {
+        "0": 87,
+        "1": 372,
+        "2": 2052,
+        "3": 2027,
+        "4": 932,
+        "5": 507,
+        "6": 198,
+        "7": 84,
+        "8": 23
+      },
+      "excluded": {
+        "previous_or_reserved_or_prefix": 1191
+      },
+      "fresh": 6282,
+      "fresh_at_least_four_annotations": 1744,
+      "identities_and_counts_sha256": "d5f08b05fd8b08a92c19074652a616aeb5049cc76d6475bcb64187549f1bed38",
+      "total": 7473
+    }
+  },
+  "upstream_commit": "378f7a88fb4c6a3fdb294f0dcf8a702420f76724"
+}
