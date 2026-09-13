@@ -1,0 +1,18 @@
+{
+  "status": "merged_blinded_annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T02:36:12.452000+00:00",
+  "annotations_file_sha256": "20e5436d7b844b2deaf0c80b93d07e337c6e55a15802818122f08c62615c3fa6",
+  "annotations_digest": "1b07fd4603ed428f4886be719ca479ef3a94da68a947624bee0e79344ff8d65a",
+  "packet_sha256": "61d92596083b401ceeb0e7838458cc2d4a8db2071ca0a3b8877e7f146fca33a9",
+  "generation_file_sha256": "465b991570dbd2a03866dbbe0aa47fb0cef814dc8d107f1811e10e4a61ba8ab5",
+  "manifest_sha256": "8b49fb66d606e5086a383847b1e9fcbe06e41a490b32c8d71f9e89712d253602",
+  "reviewed": 126,
+  "inherited_unchanged": 56,
+  "new_reviewed": 70,
+  "new_score_inspected": false,
+  "diagnostic_report_exists": false,
+  "reserved_rows": 0,
+  "reviewer": "assistant",
+  "rubric": "Preserve all inherited annotations. Transcribe new stated numbers only; preserve errors; do not calculate missing answers or execute code. Absent or unresolved answers stay null. Parsed grades remain fixed; truncated responses receive no credit.",
+  "interpretation": "Supplementary development controls. No eligibility change, tuning, or confirmation. No new score inspection before the full merged annotations are committed."
+}

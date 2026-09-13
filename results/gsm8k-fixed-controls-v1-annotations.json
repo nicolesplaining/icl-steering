@@ -1,0 +1,761 @@
+{
+  "packet_sha256": "61d92596083b401ceeb0e7838458cc2d4a8db2071ca0a3b8877e7f146fca33a9",
+  "answers": [
+    {
+      "response_id": "0b9cb0ebd905d2c0667e89e1131d86e5c024c9ce03100429b0dd5cb9e7e9f3db",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 35 cars remained during lunch break."
+    },
+    {
+      "response_id": "0041c07b207379b3a448e22f9a3b87a733492d1e32aea80f84b4b21a4a782c81",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 9 500 dollars over budget."
+    },
+    {
+      "response_id": "32d863c5c0a51de254529777b0d30cb4adcdb070fc4b7f99fe429b5abbb3d26e",
+      "stated_answer": "168",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 168 dollars for two weeks of tutoring."
+    },
+    {
+      "response_id": "d041bcbefd200dcb55fb19912aca68d478f086d1dcd18fee550faeb6c131d65d",
+      "stated_answer": "1600",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 1600 popsicle sticks."
+    },
+    {
+      "response_id": "146ce5ffe8e93d4d81f56cef59ec33fada44929309976e4ed6b622ada92711e1",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The response ends with a boxed 12 minutes."
+    },
+    {
+      "response_id": "f81decf30ea2ad1c470807bb3dc22c362bbcc560825728108d702a8e9f019fea",
+      "stated_answer": "147",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 147 buttons. Transcribed without repairing its trades or arithmetic."
+    },
+    {
+      "response_id": "2035e7094dd87564fcb431434b7685c7e8dbe12b32f99c21f8eb1e4bc1ce6bd0",
+      "stated_answer": "13",
+      "reviewed": true,
+      "rationale": "After its initial 39-letter claim, the explanation explicitly concludes that the total is 13 letters. Preserved the final stated total without correction."
+    },
+    {
+      "response_id": "970cfbfb4b37af5b93a263a35091820258d3de68ca16248965a97cda820c8367",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "After earlier counts, the response explicitly ends by saying the final count is 6 marbles. Preserved this final claim without correction."
+    },
+    {
+      "response_id": "8f2899e5d76328956a9e6c40962a8947c3309a9cb63c0d705d6e1ff4b2facb82",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The response explicitly starts and ends with 120 birds. Preserved that stated total without correcting its addition."
+    },
+    {
+      "response_id": "f6fca94be8b022b61eab631de689e0e83eff24e02d0c6e58f6f94cdc6594436a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final answer is an expression involving an unspecified tax variable t; no numeric amount left is stated."
+    },
+    {
+      "response_id": "5eec56b84cabf3d429529a24345439548feb7ac52c2750aee4e2f2bdf83e2a3c",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 9 500 dollars over budget."
+    },
+    {
+      "response_id": "842b1a012b4e14de848b0364a2d9c722c11187848ae85294111c4b59ab0d78d3",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The response repeatedly states Mary should bake 4 pans, including the final sentence."
+    },
+    {
+      "response_id": "4155c68f23a7b6f1d5a61b9d8e58affc825219a8dea1d738c89356a1b8e867a8",
+      "stated_answer": "147",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total of 147 buttons. Preserved without correcting the trade interpretation."
+    },
+    {
+      "response_id": "9a4f0e00023cc07972d8879e2921e5b7eef908ce426ad77cf5f68d25b7b297b8",
+      "stated_answer": "750",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states Jason needs 750 telephone calls."
+    },
+    {
+      "response_id": "7925a90a0cefde953d2dae85045f3c6803b260c1fa45dbd9558fa41e837b5c4a",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The response explicitly states 32 minutes as its answer and ends with that duration. Preserved without correcting the distance reasoning."
+    },
+    {
+      "response_id": "dc3b83b3a93037ba6d1afe9549fc3fcf3086fe258e737681720c3c22bfa78862",
+      "stated_answer": "168",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 168 dollars for two weeks of tutoring."
+    },
+    {
+      "response_id": "593223ecca64afd7519ffc2a2a92a3ff6ea115c5442a33bf057b6568410c9f92",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Brian will walk 35 miles."
+    },
+    {
+      "response_id": "492e9a06b65b3b1c68d620f5135af4ccbf705751b30e7a9e27c35119e0b08184",
+      "stated_answer": "157",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the store receives 157 dollars."
+    },
+    {
+      "response_id": "cbd6d9a7fd3f7b61da02320d30b9af75a3b4cd182cc1b5bb117ff94727e6b884",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly identifies Sam's current age as 6; the accompanying 36 is labeled Ruby's age."
+    },
+    {
+      "response_id": "8e927fadc8c6a72bc94cba7f150d72bc40475e127461b609773663b4d4e73913",
+      "stated_answer": "50",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the trader sold 50 bags."
+    },
+    {
+      "response_id": "7e4c579eb6595afa71388437e95a5b8ecea6245ab90c6fc3ffd8b1740e66b5e5",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The response explicitly gives 4 weeks for Sandy, including its final sentence. Preserved without correcting its reasoning."
+    },
+    {
+      "response_id": "78d905be84709672e5f7770b226cbef8e6fac8880ad9b5be4210dcb3e0913ced",
+      "stated_answer": "720",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Greta has 720 dollars left."
+    },
+    {
+      "response_id": "4f53966c87bee203b4545690de79cc0cb33801a898e5ef6269a3ff1f76e60806",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Colin is currently 20 years old."
+    },
+    {
+      "response_id": "a591b07dd68b0fdb1223a5c3f6c4c193023ccd2cdd5b1cb2d1d6ae50654f97da",
+      "stated_answer": "560",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 560 miles per month."
+    },
+    {
+      "response_id": "059d088b5dd5ef9b812e51c9ab130d242c049579988eedbd4a29afd5ea7a8fba",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The final answer is explicitly boxed as 12 minutes."
+    },
+    {
+      "response_id": "fc21c3f24621cb8857fa00d1061cf5a25defc0b753bdab46804a1eb757d09367",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the house exceeds the budget by 9 500 dollars."
+    },
+    {
+      "response_id": "44fef01965d3c7f0b793eedc30bb07dd6e17e6a92216b1b430e6ed8e54240215",
+      "stated_answer": "172",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a combined total of 172 sofas and chairs."
+    },
+    {
+      "response_id": "79f2d2adff5103bf3b498e741dee378f5944917877c24f79bfeccc02878a822a",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the loser received 20 votes."
+    },
+    {
+      "response_id": "3efcda8e71968949196a2a500a4e4ed283ff4102ccd192c2e7cda7f45f078129",
+      "stated_answer": "157",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 157 dollars received after all balls are sold."
+    },
+    {
+      "response_id": "04c100845b327bb33b084109b4606fb815ab06dd1cc6df98d66b60d00d19cb34",
+      "stated_answer": "750",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Jason needs 750 telephone calls."
+    },
+    {
+      "response_id": "1708ac1ddc51c66ef6c59b0328e60ac10e01af33bdf39b14a33b13f0a20d78c8",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states Caroline is 24 years old."
+    },
+    {
+      "response_id": "3f29334a4d909870be2ce5d05042320e1bc8a756a39fe5620dd83cb095af4b4e",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states there are 9 cards with the letter D."
+    },
+    {
+      "response_id": "d3274f976cfc53767a0c88e4c0c74a922945cf66c1974543c0b93935e5ab4775",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Brian will walk 35 miles."
+    },
+    {
+      "response_id": "0a5495efeef91c2c4edb0bcbfb42f9e0d599daccb0794277796dcdd2e2d590c9",
+      "stated_answer": "5",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Tom needs 5 hours to catch Bob."
+    },
+    {
+      "response_id": "d43b4ca063b30b7802ea13f45fbcb86d18d6074ee2b2a0070308dccfe70b4562",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Blake runs 80 yards farther."
+    },
+    {
+      "response_id": "3604f5e47f082d2a2e36bb50b16a95721173e57ed0bc6c7b7f224ddba090eaa0",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states Joey is winning by 10 points. Preserved without correcting the arithmetic."
+    },
+    {
+      "response_id": "d34fcb4f7842ca560546598e3a5587efb141a0664c4b804afa12879a3849cac8",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the five people brought 14 old records."
+    },
+    {
+      "response_id": "3030460c9d196d6b2bb69ebe42ea171d0d863804f18f206e1b2ddee6f5db13d4",
+      "stated_answer": "168",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 168 dollars for two weeks of tutoring."
+    },
+    {
+      "response_id": "93d94bd28a39ef50f07f881fbe5637284d4c9842de657056935a4782b8ee4d28",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the five people brought 14 old records."
+    },
+    {
+      "response_id": "e4f669654b55c913dc27b2fcf4dea899489ec42f61dffc2d77a774ad93bcef76",
+      "stated_answer": "300",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states the chef spent 300 dollars."
+    },
+    {
+      "response_id": "4f3aae7842ca52ab5ac5b4c109e1b448d85a02f9bc1d3c0d4cd78e321079e43a",
+      "stated_answer": "1000",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 1000 people had not voted by 16:00."
+    },
+    {
+      "response_id": "2e35375449c744f5d0a6048139f15fa24dd130f960a340f9be13c90b1b740bc9",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response rejects its intermediate negative fraction and concludes that there is no solution; it does not give an accepted numeric count for Stan."
+    },
+    {
+      "response_id": "08c6f9de18575696f2eb4648a4e77dc8d888f6a9938a422b41c42019787a63ed",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "After considering conflicting intermediate counts, the final sentence explicitly returns to 30 cars as the correct answer. Preserved that claim without correction."
+    },
+    {
+      "response_id": "7c246b0eee76130cd527a5a0fc80198204d2f00166abecf7fec710bea99ea70c",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 9 500 dollars above the budget."
+    },
+    {
+      "response_id": "0363a1bda344b0a06609707c1fe6d6b2b5804fccbf5e2716e2eb4842625a5217",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states 15 letters in total. Preserved without correcting the calculation."
+    },
+    {
+      "response_id": "2aaa703f79b183f0c7975fb1ecf5e825ab11c5b0942c7981b9825a241386f4ea",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the five people brought 14 old records."
+    },
+    {
+      "response_id": "3e3cee251fa4c4b704f7a634a37f4ec78afdd34be60e8bbbc0fbd1a0474c0134",
+      "stated_answer": "45",
+      "reviewed": true,
+      "rationale": "The response explicitly retracts its initial 100-dollar claim and repeatedly concludes that the total is 45 dollars."
+    },
+    {
+      "response_id": "5fc9e2c101207feac9244f8db2c8f5c571b4637b5cf907f9def21faf25d71109",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly identifies 9 500 dollars as the amount above the budget; 409 500 is separately labeled the full house price."
+    },
+    {
+      "response_id": "ed0bc20cad622ddfa1eede601fddac3d4f2309b0d7dd5253f914d9abf2c61671",
+      "stated_answer": "172",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a combined total of 172 sofas and chairs."
+    },
+    {
+      "response_id": "85b8669f6edb6750634a510027b8edc9965a09af244db35a60c86e74b4d68a9f",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "The single sentence explicitly states Mrs. Harrington sold 120 oranges."
+    },
+    {
+      "response_id": "a39aa8f2591316f8f0a5a7b91d56c1a060bca3de75d50d606aab0e2049381156",
+      "stated_answer": "85/3",
+      "reviewed": true,
+      "rationale": "The response explicitly gives 85/3 hours and equates it with its final boxed mixed number 28 1/3. Preserved without correcting the weekly-time reasoning."
+    },
+    {
+      "response_id": "2477d71f21653d312cbbdd2b37201846bc947813650e2d24712adacf3657f57b",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Sandy needs 4 weeks. Preserved without correcting the stated relationship."
+    },
+    {
+      "response_id": "1fc8c9cd581b302d97795a09d20d10a222be2ff967f4757b8107b372dfb7ba8f",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The response explicitly gives 32 minutes and ends with that duration. Preserved without correcting the distance reasoning."
+    },
+    {
+      "response_id": "6612c919f7c79fb2f439c840ca2e946bebf6c024ed96d71ff71a304d8a80eed4",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the five people brought 14 old records."
+    },
+    {
+      "response_id": "3d485a716c7bfc4bd2208f7fc17d66bb90f805e14be8e0f7167c51bddca1a284",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The response starts and concludes with 4 days, despite its inconsistent day-by-day explanation. Preserved the explicit final answer."
+    },
+    {
+      "response_id": "1d0ace0d16cbdd8d2740f77830e0316d80efdeeec3a7fd42eacdca24c78ef017",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The response starts and concludes with 4 days, despite its inconsistent day-by-day explanation. Preserved the explicit final answer."
+    },
+    {
+      "response_id": "ee5ad6d54d39b44165bf4f3ef8dd67c8c62384d15e3eb8e1209e6c916f9114ff",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "Explicitly concludes that the house exceeds the budget by 9 500."
+    },
+    {
+      "response_id": "28bfd86ac4950f2eb79d5a9ac47dae079fb2d07015de2ddbf541dc124194808b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeated trading calculations end mid-expression without a settled total button count."
+    },
+    {
+      "response_id": "7bb6b3219b76c6c74080088067193dbf2cf4f9db537d2a416d983a4a2d2e28ad",
+      "stated_answer": "300",
+      "reviewed": true,
+      "rationale": "Explicit opening and closing statements give a cost of 300."
+    },
+    {
+      "response_id": "fdda60ed570d385d53cea93b01d87748fb60661e173a4b23689e76734bb7e294",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Concludes that there is no solution and gives no final numeric count for Stan."
+    },
+    {
+      "response_id": "f8ce6f021aacbd3161edc1aa70870130a10ed908aeb8e94cdba183acbf0785c0",
+      "stated_answer": "-10500",
+      "reviewed": true,
+      "rationale": "Explicitly states the requested price-minus-budget difference as negative 10 500; preserve its arithmetic error."
+    },
+    {
+      "response_id": "95d98d2266cc04c10785cf0529952d34991612392243a882c5e11985cfd316d6",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Offers conflicting counts and ultimately withdraws a definitive answer as ambiguous."
+    },
+    {
+      "response_id": "5bcab7625a2dd516cc7c0b8bf1f71e725b4215f807c4da76ea001fba443916cb",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 100 bags; preserve the stated result despite the preceding equation."
+    },
+    {
+      "response_id": "ddf9b9ce7f9469fb3c6427e7d76e86ec9f6dc5fdc5fd02c9f27ac05bb4915ae5",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "States that the house is 9 500 over budget before unrelated repeated dialogue; does not revise that answer."
+    },
+    {
+      "response_id": "d578c4bf2e60d6a78098154f83452ca9a51c6c59bdca2b8e52b701be0f45185d",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Concludes that the people brought 14 old records."
+    },
+    {
+      "response_id": "2844407c50a4937840cc46e2bf2aa11f522b4047193d7b23438962338a8f6b5a",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "Opening and closing statements both give 15 toys; preserve the arithmetic error."
+    },
+    {
+      "response_id": "92e51f2ff59d6e4a48beeb968d666ea2d613ef98e6a39a9a049abbe784b7e7f0",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "Final interpretation explicitly chooses 15 per nephew despite the intermediate 16."
+    },
+    {
+      "response_id": "1a1e6346cf5319fc850fe06e2f443f99dc562970bc711c0ccbcff25e7f5f82d2",
+      "stated_answer": "150",
+      "reviewed": true,
+      "rationale": "Final sentence explicitly gives 150 birds, superseding the opening 120."
+    },
+    {
+      "response_id": "b95e5f2ecc2d92640c5bcbd38628adc8d88368981e1c01fa80c04455c2783f55",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "Explicitly states 35 miles for Brian."
+    },
+    {
+      "response_id": "810ae3056ec7f6c7a940f4ebdfe975beb128bbf67bcf7814e76c6fff950c8609",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Final sentence states 14 old records."
+    },
+    {
+      "response_id": "9ec2ec03059627d2dcbe7df9680c7b7158b1a30c2f7a15dd63128c103be6ea58",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Colin is currently 10; preserve that result despite the inconsistent equations and trailing placeholder."
+    },
+    {
+      "response_id": "948622b497c589f41e802f3a194df7c1dcb1d61660dbca0b1e47ad65c4ee3f2c",
+      "stated_answer": "8",
+      "reviewed": true,
+      "rationale": "Both answer statements give Vanessa 8 minutes; preserve the stated error."
+    },
+    {
+      "response_id": "da8daf3de4e2fee1dc72d3c22333aba05f2895973d0b4528a5a99f20b23dc964",
+      "stated_answer": "8",
+      "reviewed": true,
+      "rationale": "States 8 minutes for Vanessa at the beginning and end; preserve its error."
+    },
+    {
+      "response_id": "5d561e963bd672ba9ef589eb3c914e37132ef1e58a465f230690471a3631ee8d",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "Explicit final answer is 24 balloons, superseding the opening 21."
+    },
+    {
+      "response_id": "85d06a883a994aa805f472e71399117b8e002d66aac605578f2ffc6afbe0ffc7",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "States the total as 10 both initially and finally; preserve the incorrect addition."
+    },
+    {
+      "response_id": "38063b0a5b04d278eaf94c83c098d2594ea82650bdd02fe083d1c3814fce7667",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly questions its computed total against invented options and ends mid-calculation without settling an answer."
+    },
+    {
+      "response_id": "e5d9be451e66de15e6d84c32ab30413a39303cacaf84710adbd417c25cbf38ce",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Concludes that Colin is currently 10 years old; preserve the stated result."
+    },
+    {
+      "response_id": "9a6a6857468186fcce8f8a5c394a4281347d5cb2f9c1bd9d418a6fdd1d9cc630",
+      "stated_answer": "1100",
+      "reviewed": true,
+      "rationale": "Explicitly gives total amount spent as 1100 before a placeholder; preserve its mistaken interpretation of the bids."
+    },
+    {
+      "response_id": "f9bf0718004b7bd38686ded838732a63a6db58f89ad0df5efa38dc8c20bb9648",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Concludes 14 old records."
+    },
+    {
+      "response_id": "4bccfcc079d765323d58c3d4d594fc944c03911b8c8b3b924b80345ba3432363",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Concludes Sandy needs 4 weeks; preserve its mistaken interpretation."
+    },
+    {
+      "response_id": "7a56ffe974872c19db645e8ca5a0788e5a48e96b2ade6e21aa6797401d84a8b6",
+      "stated_answer": "1600",
+      "reviewed": true,
+      "rationale": "Explicitly states a total of 1600 popsicle sticks."
+    },
+    {
+      "response_id": "b9006b18c6b8968caad2d25f0fa8ebbc72c5d2f0df20eb702d9c286dce4a59be",
+      "stated_answer": "50",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 50 bags."
+    },
+    {
+      "response_id": "977f2068fe950716e0b388c22e5bb8784e2f1146617ef22a5a50974646005116",
+      "stated_answer": "270",
+      "reviewed": true,
+      "rationale": "Direct answer states 270 marbles."
+    },
+    {
+      "response_id": "192839a53974a53bf7d5e3cb7fcb855a5fa590be3a12091e63e4f279167312a8",
+      "stated_answer": "50",
+      "reviewed": true,
+      "rationale": "Concludes candidate C received 50 votes."
+    },
+    {
+      "response_id": "453afee8d1cea0fc15dcdda09cec8a93bd21d30e25659d04d849d00700abb95e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Leaves conflicting conditional totals of 45 and 100 without resolving which is the answer."
+    },
+    {
+      "response_id": "d9b7d52527b3b8134545ea48d1ab6f713bc9de85f26771ea2bdadf78530011ab",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "States James has 16 friends."
+    },
+    {
+      "response_id": "817c7ebc9e77d4f425ba206784c7085c00b3f2617c4a7b7318bd1af90b8f264c",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "States enrollment is 60 students."
+    },
+    {
+      "response_id": "c7da99f2c79c9565de377f6fa6d1fe35094ab2a60116d53433a8d05335cf640d",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Concludes Mary should bake 4 pans."
+    },
+    {
+      "response_id": "adb1da76c6f066c185793653723ba33773de5b9640d62f36763d08d977a8d94e",
+      "stated_answer": "48",
+      "reviewed": true,
+      "rationale": "States 48 kilograms total."
+    },
+    {
+      "response_id": "18afce5c758ca2018d96d38ae204807b8a2a55d7c416d518af7a4f84133e00a6",
+      "stated_answer": "65",
+      "reviewed": true,
+      "rationale": "Concludes 65 letters; preserve its interpretation of rewriting."
+    },
+    {
+      "response_id": "9b13c14d5c82ffaf611dd01f849716530e5625ccf3f3c168864738bea473418e",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "Direct answer states 100 letters."
+    },
+    {
+      "response_id": "5c7f26e41e3402bad36104efecd320aaf7e2f08dad726baa57f2ee8855ca6ded",
+      "stated_answer": "39",
+      "reviewed": true,
+      "rationale": "Opening and closing statements give 39 letters; preserve its reasoning error."
+    },
+    {
+      "response_id": "e6e517bc14f2b93675e04f15b2bb792eb9b95fc9c68917253320495306c0ecd5",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly assigns 20 votes to the loser."
+    },
+    {
+      "response_id": "98ebc724fe45362f2038d44c9605c3f70f30489082325c796ac95c7f7cd278ac",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "States 120 oranges sold."
+    },
+    {
+      "response_id": "5793f7796b3495894a492dd26ea375d1d2f3af7127afbfaa059cf53e64151493",
+      "stated_answer": "157",
+      "reviewed": true,
+      "rationale": "Gives total revenue and final answer as 157."
+    },
+    {
+      "response_id": "926fdbd2a0dcd88435cf3743ce258fb5ecf82e330f0ee90a01c03cb262400cc4",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Concludes Sandy needs 4 weeks; preserve the stated reasoning error."
+    },
+    {
+      "response_id": "4c1f9c8a31fcd1811d930cf5ddcf501469ac631b110a73b1afb32b1715584cd7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Ends by saying no valid answer can be provided after conflicting counts, withdrawing its earlier answers."
+    },
+    {
+      "response_id": "9e541414b3f456b782f46a41baf42312f37404aa2423097e66a5bac593270d36",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "States 25 before an unrelated copied instruction; no revision of that answer follows."
+    },
+    {
+      "response_id": "412b670e6f017d1604aa064723aaba6d42a6de029908bed31eceec6abb70ddb9",
+      "stated_answer": "104",
+      "reviewed": true,
+      "rationale": "States an order cost of 104 before unrelated dialogue; no revision of the order answer follows."
+    },
+    {
+      "response_id": "c0affa7129b28b4326f2bcf28a510eb90c9e2700ede85716a4b0c008b713b2ef",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Concludes Sandy needs 4 weeks; preserve its mistaken interpretation."
+    },
+    {
+      "response_id": "dbd3d68075db94646cc495097ff54b7f8319094f96e08b576d65574edc79c466",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Concludes 14 old records in total."
+    },
+    {
+      "response_id": "af2f5f46071d08c0e599bad9570b50a8a9d61d8367dc5070830579c155b4dc80",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Both the opening and conclusion state 4 marbles; preserve the arithmetic error."
+    },
+    {
+      "response_id": "c9668bfa65d81909c95a696a4e70580b1fda1dae63b8c23a8e24777845b9360e",
+      "stated_answer": "339",
+      "reviewed": true,
+      "rationale": "The explicitly evaluated final cost is 339; preserve the extra-item counting error."
+    },
+    {
+      "response_id": "9f21ac211f204bb97e620642ee568b554f0eee499489f7188eab3d3fe003ee7d",
+      "stated_answer": "172",
+      "reviewed": true,
+      "rationale": "Final sentence explicitly states a combined total of 172."
+    },
+    {
+      "response_id": "e3e9ebbd82f9c21c585e90f7a5e61df5b82badea456d6caa88397fbd0b4eddee",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 14 old records."
+    },
+    {
+      "response_id": "7ed37821dfc625a77ca8ace1241ad55aca34fe89d87ad97a22d3086deb162960",
+      "stated_answer": "240",
+      "reviewed": true,
+      "rationale": "States the final equivalent total as 240 buttons before the placeholder; preserve its incorrect trading calculation."
+    },
+    {
+      "response_id": "a1a4b52ec8c0fcb1ff77cbc551f5a29563f3de25aed249c49f9f55cbe5d74f2e",
+      "stated_answer": "120",
+      "reviewed": true,
+      "rationale": "Opening and closing statements both give 120 birds; preserve the incorrect addition."
+    },
+    {
+      "response_id": "92dc92eb8971912287918fc9e819d6a7ea64078e50c4674f52a1830fd68fbd6f",
+      "stated_answer": "147",
+      "reviewed": true,
+      "rationale": "Explicitly gives the after-trades total as 147 small buttons before the placeholder."
+    },
+    {
+      "response_id": "3cadb5ca32c4a57d698486e3f363a6500be76af6b83e2ed2ef308bd4867ab685",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 14 old records."
+    },
+    {
+      "response_id": "9a3ee01cb45c0a30ec551cf4655b54138e2177e9a450a36778861e23df004f46",
+      "stated_answer": "207",
+      "reviewed": true,
+      "rationale": "Explicitly gives the final equivalent total as 207 buttons; preserve its incorrect conversion and counts."
+    },
+    {
+      "response_id": "9a2110e8c1a359fde8838bd8d5c5fd06d1344d81593f5e826c3b805fed91ed30",
+      "stated_answer": "104",
+      "reviewed": true,
+      "rationale": "States an order cost of 104 before unrelated dialogue, without revising that answer."
+    },
+    {
+      "response_id": "c2fdaea495fb4cc8b2930ce555add39a91796d4da05c0b60b64093eb6d02a42f",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Concludes Colin is currently 10 years old."
+    },
+    {
+      "response_id": "766d4525487404bacb9e2c41c6e473190088202f66ef72d0ceef96e5bab7f63c",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Mary should bake 4 pans."
+    },
+    {
+      "response_id": "3da99462604062846453176056ec46df7777f9dce2e4ff131ccaf39276859969",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The prose, printed output text, and final box all state 12 minutes; no code execution is needed."
+    },
+    {
+      "response_id": "385bbf28006a2236c086e657ebc2e6ccca6e10f1f3ccec8c09d985322c8b2a82",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "Revises the opening count to actually having 6 marbles; its later 7 is conditional on a rewritten question."
+    },
+    {
+      "response_id": "a6d9c25d60464382db0059a8425e83559ad1fb43dd7e022c56ea931ff32730a1",
+      "stated_answer": "104",
+      "reviewed": true,
+      "rationale": "States an order cost of 104 before unrelated dialogue without revising the order answer."
+    },
+    {
+      "response_id": "ea16588edab1d3a4be7e720088c957ba9926e70cf04ab52528806e5c7e2be2b6",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Explicit final answer returns to 12 cards, superseding the intermediate 9; preserve the incorrect arithmetic."
+    },
+    {
+      "response_id": "16738b88dd6295a659ee1452580b62029d5b8d837c86a35b1280e64a04c913fa",
+      "stated_answer": "9500",
+      "reviewed": true,
+      "rationale": "Final answer explicitly states the house is 9 500 over budget."
+    },
+    {
+      "response_id": "f23ea8026fb3617d8ca22371549d9785d76b3198b7664998185623dd64d3f8b9",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "Concludes Brian will walk 35 miles."
+    },
+    {
+      "response_id": "34ed517ff6113d7f7629d75ddc2ef1305a4e6d96f937f4ad3e9113d5b7803759",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly corrects its opening 15 to a final total of 25 toys."
+    },
+    {
+      "response_id": "2ae0334fb941a89d45db1d7eb00b3f7cbd357d74925a64e97bf285e6d910e72e",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "Concludes each child receives 9 eggs."
+    },
+    {
+      "response_id": "fe787d617b4f294ee4097808fc3dc29ba210fb1bfe1799b5ba8ebff1f1b045e3",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "Final reinterpretation chooses 70 cars, superseding its opening 30 and intermediate 35; preserve the error."
+    },
+    {
+      "response_id": "29d86da5cb1b983b93091839c3720de80215f3826f3bb47d40f695c9faa5b6d4",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "Final answer states 30 sunflowers after three days."
+    },
+    {
+      "response_id": "ec4ad0d39941ee272bbe4da796cfad5241dc660a384b5cf7979567871cdf0886",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "Final sentence explicitly chooses 15 toys despite the intermediate 29."
+    },
+    {
+      "response_id": "61f0c8abf38a0f9ec105a127b4de6e80c3bbf0b45259c9111d8a6e8553c34dcd",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Concludes Sandy needs 4 weeks; preserve the mistaken interpretation."
+    },
+    {
+      "response_id": "a5e387187bcfbaf85b73c2f8a194affe7bca7922d3646cbfda893c64908ad3a7",
+      "stated_answer": "65",
+      "reviewed": true,
+      "rationale": "Final sentence states 65 letters; preserve the mistaken rewriting count."
+    }
+  ]
+}
