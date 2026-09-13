@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T06:04:03.512139+00:00",
+  "script_sha256": "5151fef882d44f0bd9810927594aac041d9c777582ebba106abe0f3c717b9825",
+  "manifest_sha256": "bb7ad537a63e54121f0e8dad36d2da97cf9ab67a2ad6436a86b07cd10496b340",
+  "fit_sha256": "b17461c1c9693fe4d0af2296ba2e3547fb210916c29e3161569bb78b5a98fff1",
+  "completed_batches": 0,
+  "new_generation_rows": 0,
+  "saved_state_vectors_replayed": 0,
+  "head_calls_verified": 0,
+  "complete": false,
+  "reserved_rows": 0,
+  "scores_not_displayed": true
+}
