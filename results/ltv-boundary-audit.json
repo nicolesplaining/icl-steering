@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T02:20:53.262999+00:00",
+  "script_sha256": "49fdfeb163eb371a32293e1cbfd6007e88487e939ecb2ba0ab81954b0628ee30",
+  "torch": "2.7.0",
+  "transformers": "4.51.3",
+  "device": "cpu",
+  "seed": 921,
+  "model": "random tiny Qwen2, not pretrained",
+  "final_state_equals_normalized_block_output": true,
+  "final_state_equals_raw_block_output": false,
+  "raw_to_final_max_abs_difference": 2.2488338947296143,
+  "prefill_and_cached_decode_sequence_lengths": [
+    3,
+    1
+  ],
+  "seq_len_greater_than_one_hook_runs_on_cached_decode": false,
+  "same_delta_before_and_after_norm_max_abs_difference": 2.3499419689178467,
+  "limitations": "Architecture check in our installed version only. No upstream code execution, pretrained model, GSM8K questions, or accuracy evaluation. This does not diagnose the authors recorded experimental runtime."
+}
