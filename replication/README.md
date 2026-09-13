@@ -215,3 +215,38 @@ Use two CPU threads for NumPy fitting and tests on the shared node. Keep
 `HF_HOME=/lambda/nfs/icl/huggingface`, `USE_TF=0`, and
 `TOKENIZERS_PARALLELISM=false` in the runtime environment. The original v2
 source files and its selection remain unchanged.
+
+## Fixed test-distribution screen
+
+Conditional v1 [failed validation](../research/gsm8k-conditional-results.md),
+so its test is prohibited. The separate
+[development protocol](../research/gsm8k-test-development-protocol.md) checks
+ICL on one fixed sample from the remaining official test distribution. These
+questions are development data; the failed run's reservation is excluded.
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_test_development prepare --output runs/gsm8k-test-development-v1
+```
+
+Commit the protocol, implementation, and declaration before inference. Save
+`declaration.json` in the run directory with its `manifest_sha256` and source
+commit. With GPU 0 available, run the five baseline conditions:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_test_development screen --output runs/gsm8k-test-development-v1
+```
+
+Review the full blinded packet and commit complete annotations before scoring.
+The run's `review-freeze.json` must contain `annotations_file_sha256`,
+`packet_sha256` using the canonical audit digest, and `annotations_commit`.
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_test_development score --output runs/gsm8k-test-development-v1 \
+  --annotations runs/gsm8k-test-development-v1/validation-review-annotations.json
+```
+
+This runner has no steering or confirmation entry point. A failed screen
+ends this fixed-bank setup; it does not trigger another seed or sample.

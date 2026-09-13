@@ -1,6 +1,20 @@
 # Which math tasks are worth replicating?
 
-Reviewed September 5, 2026; audited September 6. GSM8K with Qwen2.5-Math-7B remains a literature-backed candidate. Our initial claim of reproducing a large ICL gain was premature: answer parsing and prompt differences confound it. See the [audit](gsm8k-audit.md). A task name alone does not guarantee an ICL gain: model, demonstrations, baseline instructions, and decoding all matter.
+Reviewed September 5, 2026; updated September 13 after the completed matched
+GSM8K experiment. Qwen2.5-Math-7B now has a verified ICL benefit in our setup:
+the two demonstration banks score 231/256 and 227/256 after answer review,
+versus 197/256 zero-shot. The selected constant activation shift scores
+205/256, with a paired interval for its gain that includes zero. See the
+[completed results](gsm8k-v2-results.md). Our earlier, larger reproduction
+claim remains superseded because of parsing and prompt confounds, as recorded
+in the [audit](gsm8k-audit.md). Model, demonstrations, baseline instructions,
+and decoding all matter.
+
+The subsequent [conditional steering validation](gsm8k-conditional-results.md)
+scored 89/96 zero-shot, 89/96 ICL-A, and 87/96 ICL-B on fresh training-split
+questions. Its best ridge shift scored 90/96 and failed the declared gain
+threshold. No confirmation test was run. The earlier test-split ICL benefit
+therefore does not justify assuming the same benefit on every validation set.
 
 ## Evidence
 
@@ -32,7 +46,11 @@ official demonstrations. The single example is a wind-pressure proportionality
 problem. This is evidence for a specific demonstration, not for arbitrary
 one-shot prompts. The authors also discuss large formatting effects, so this
 is a possible follow-up to audit, not a verified positive result for our
-project. The current GSM8K steering run remains the active experiment.
+project. The GSM8K follow-up tested a
+[query-dependent linear shift](gsm8k-conditional-protocol.md) on fresh
+questions and [failed validation](gsm8k-conditional-results.md). Its protocol
+and input hashes were
+[saved before evaluation](../results/gsm8k-conditional-v1-declaration.json).
 
 I checked the released evaluation code at commit
 `3140fa3b72daa3034746270eec445167dd698c41`. The exact pi1 question and solution

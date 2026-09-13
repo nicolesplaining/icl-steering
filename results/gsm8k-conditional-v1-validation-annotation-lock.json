@@ -1,0 +1,19 @@
+{
+  "status": "complete_blinded_annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T01:12:32.023126+00:00",
+  "annotations": "results/gsm8k-conditional-v1-validation-annotations.json",
+  "annotations_file_sha256": "9312991b7fa176beff4c3e188cc81b380f606ae27b9c448090901230fdba0979",
+  "annotations_digest": "5e95911f35268c6e95fb0aee71e1813fda831c6646560ca64bf93617d91e0d60",
+  "reviewed": 157,
+  "packet_digest": "20c4618a3871271c7691adcbd1660247962f07e193d5042350c29bc68c512e38",
+  "generation_file_sha256": "0913535cf22d6f9384d5efd8c9a24d2f18ce1b4ae2281325b0ad3f2cd94c8a09",
+  "manifest_sha256": "35a8a18fb47647f48b4fa97289a3bb5e79a0c8330241d6e7008b5db8ec74a18d",
+  "review_lock_sha256": "dd311772e61d61809d13e7afd1286018b747678f1d5eb24ffae4781c2656f199",
+  "selection_exists": false,
+  "validation_audit_exists": false,
+  "test_rows": 0,
+  "reviewer": "assistant",
+  "rubric": "Transcribe stated numbers only. Preserve wrong answers. Do not compute missing answers or execute code. Leave unresolved or absent answers null. Parsed grades stay fixed; truncated generations receive no credit.",
+  "selection_metric": "Audited completed accuracy, as specified before validation. No selection or score inspection before the entire annotation set is saved.",
+  "remote_pre_freeze_check": "Remote had the identical complete generation file, no selection, no validation audit, and no test rows immediately before this freeze."
+}

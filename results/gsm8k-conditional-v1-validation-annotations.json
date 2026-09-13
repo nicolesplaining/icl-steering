@@ -1,0 +1,947 @@
+{
+  "packet_sha256": "20c4618a3871271c7691adcbd1660247962f07e193d5042350c29bc68c512e38",
+  "answers": [
+    {
+      "response_id": "ba63c187c4dca4e7a42892c2ea6041957bb74c38a4746772be3806754408ab4e",
+      "stated_answer": "450",
+      "reviewed": true,
+      "rationale": "The generated output lists 450 in the total_eggs position of the printed tuple and then repeats it. Transcribed that stated value without executing or correcting the code."
+    },
+    {
+      "response_id": "ffb124a4ac7f3ae5f7173e29394c4deb03a18782220f008fc95a68c968a069ee",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "Directly states that Cynthia has 24 water balloons; preserved the stated number."
+    },
+    {
+      "response_id": "0d57532aa5b6aebcb96150db9965a763a5e640ca625a7040cca5d754f1c97e59",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "The calculation and repeated comments explicitly say Cynthia has 12 water balloons."
+    },
+    {
+      "response_id": "c305537beded33b10d10ba0e0d479a32a7be4f64a5575ec343446827fa408d64",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats an unevaluated procedure and code comments without stating how many stamps Tonya has left."
+    },
+    {
+      "response_id": "48af6e6a5eb70fe2da5d8789e3db1573b7521b844c2b3b180c88762291eeb05d",
+      "stated_answer": "15/7",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 15/7 hours per day."
+    },
+    {
+      "response_id": "e86b53d8767e11ff53548588c2f7993e992e88b0b1d0eac93c9c099d73b9d818",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final calculation explicitly states that the number of nickels is 6, despite the following answer placeholder."
+    },
+    {
+      "response_id": "808ffa462b43c7b7488747edc395d0b7fc224ac2592301a9532ddafdd90351c8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly alternates between 46 and 100 as the final amount and begins another recheck; no resolved answer is established."
+    },
+    {
+      "response_id": "3221088f53c835b81c75bdc31493acbe123bfa969c518ae4b268403aadac5f26",
+      "stated_answer": "24000",
+      "reviewed": true,
+      "rationale": "The final corrected calculation explicitly gives a total price of 24000 before an unfinished verification block."
+    },
+    {
+      "response_id": "ec78b1481371464b978151b45ba342b85d03c835f0caab8f9f32bde34e43242e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives unevaluated repeated code for the Friday total; no numeric Friday count is stated."
+    },
+    {
+      "response_id": "65e1a556ee22ee56b90ba88670dfd43178e83b2d5e555b1b51771be377bb645d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Loops over conflicting banana-price reasoning and never states the requested total purchase price."
+    },
+    {
+      "response_id": "6d1a7c1ffa9569cb5f52e0825f04455a9da8de84217dd48c9c1218c017964469",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The prose and final box explicitly state 10 months."
+    },
+    {
+      "response_id": "91152b31a00249c55b5fb28aad54a3ee285cd4a861f82c51faef04a2e96b5cac",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats numbered calculation instructions without stating the required remaining feet of fabric."
+    },
+    {
+      "response_id": "3782aa6bbceb1846c2608f0901bd9d87760976fb546a50bd07ad3bbe64431d62",
+      "stated_answer": "55",
+      "reviewed": true,
+      "rationale": "Explicitly states the combined cleaning and assignment time as 55 minutes; preserved this value despite the subsequent unrelated deadline discussion."
+    },
+    {
+      "response_id": "cdd1bfee612b346c7aaa139abdbfcd266b4a2e4e2391250f6bb4d3b4ace0fcf1",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final box and generated output explicitly state that 30 percent of germs remain."
+    },
+    {
+      "response_id": "bb0629bd1f95ae201bd384eb00b7422f8078cf1de0cec1b1e3ee055552fe043c",
+      "stated_answer": "1400",
+      "reviewed": true,
+      "rationale": "Repeated generated print outputs explicitly state total_caps as 1400; preserved the value without executing the code."
+    },
+    {
+      "response_id": "00d5cc218dd21d40bdc04bedf3e216280fc0dc35449aa4e25e6289af49e37a23",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Leaves the total as an instruction to calculate it, without a numeric amount paid."
+    },
+    {
+      "response_id": "404c177748b930ba95014680360486b5b1338cd8c5a33873c7afb107d2a0d7bd",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats variable assignments for additional fabric without evaluating or stating the needed feet."
+    },
+    {
+      "response_id": "24c843de862a58b3c86b8d5542d38cb4f3eddaf8cb0a213d73dcb6a109909483",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence directly states Lisa must work 32 hours."
+    },
+    {
+      "response_id": "0c472ae5e8423b54f88fbb35b8b3402c1cf1a22fbe884d1420c8bef4ae1fe65a",
+      "stated_answer": "28",
+      "reviewed": true,
+      "rationale": "Repeatedly states the combined shell total as 28 in prose and generated output; preserved the stated value."
+    },
+    {
+      "response_id": "865afa641d8c5a04bf20018f18217f240f0db55c3ce7249bcf95eefdd396265f",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final box explicitly states 30 percent of germs remain."
+    },
+    {
+      "response_id": "d6484fded21448f1d302e407e5f63e7728e4c5e817eab71835a249ac208f5d4b",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final box and printed output explicitly give 30 percent remaining."
+    },
+    {
+      "response_id": "da1bf4c042d1bee5fcf0e1db5a3f150c3bad0954ea28259589bca7f8f3798676",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives an unevaluated expression and repeated code for total minutes without stating the evaluated total."
+    },
+    {
+      "response_id": "90dfe60382993b5af3cfc72020056112b50b3d933722aa53fbe2ac456ef029b7",
+      "stated_answer": "800",
+      "reviewed": true,
+      "rationale": "Repeated generated print outputs explicitly give total_distance as 800; transcribed without executing code."
+    },
+    {
+      "response_id": "55aa15b51088575125a33648cabfda32a50c9330202aba340260a94cdacb509e",
+      "stated_answer": "1400",
+      "reviewed": true,
+      "rationale": "Repeated prose and generated output state the four-week cap total as 1400; preserved it without correction."
+    },
+    {
+      "response_id": "8051345bb166efe30d895464940e23e218aa917116ced2bfe2c59e3420cac133",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives the combined age in three years as 36."
+    },
+    {
+      "response_id": "fbd4351f04ee08520513c5991327d7568a9cd4f402dbd4a4a444aac66f3c5712",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "Consistently repeats that 16 doughnuts remain."
+    },
+    {
+      "response_id": "9774472fa40d75332b0b777be90ae2da41e3cde9d971da5a6c5660a6b76a2abd",
+      "stated_answer": "16624",
+      "reviewed": true,
+      "rationale": "Repeatedly states the final piggy-bank amount as 16624 in prose and output; preserved the stated amount."
+    },
+    {
+      "response_id": "aa2f951c1e98509a5f69551aca3fdccad46f66a5961e101bd9734316f1377341",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats unevaluated code and never states a numeric Friday running time."
+    },
+    {
+      "response_id": "888ead17fe727bbdf9fb420d02103480a6b5d26654074a0365bdd3bfc7eaa19f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives unevaluated expressions and repeated code for total cloves; no numeric total is stated."
+    },
+    {
+      "response_id": "0eaa03a0fcda73b52506cac9ff39db0fd513c6c10435b49f10435929030d99fd",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "Repeatedly states that the collie takes 32 seconds to cover the distance and catch the ball."
+    },
+    {
+      "response_id": "8a695086912ca7abb7c23a22a90b65e1cc3acc0b47ef1e3317893a86148dd41b",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Lisa needs 32 hours."
+    },
+    {
+      "response_id": "5525a0f166136913af8b1a7fcbfb756a523c7aff6b6922a6e59cba196f1fd025",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly alternates between final amounts of 46 and 100 and begins another recheck; the contradiction is unresolved."
+    },
+    {
+      "response_id": "8f5da885de34c37b20399bd28db76365ae81d515810739bbb482bdeaa59bbfe7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives 360/6 and repeated unevaluated code but never states the evaluated number of days."
+    },
+    {
+      "response_id": "388de78d4672ed5553eb3a15a609b7d6c0ab3deddefa01df5058b32ac13cd65b",
+      "stated_answer": "200",
+      "reviewed": true,
+      "rationale": "Explicitly states 200 hours per month in the calculation and final bracketed answer."
+    },
+    {
+      "response_id": "3b5895f2670d97890f1403ca725748c5f41498dd47a054771cc52b827f42360a",
+      "stated_answer": "55",
+      "reviewed": true,
+      "rationale": "Repeated generated print outputs explicitly give the total cleaning time as 55; no code execution was used."
+    },
+    {
+      "response_id": "ad774dc8413867111eba3778c53a1dd3574543cc42b17a1b5aadb5120e38c314",
+      "stated_answer": "40",
+      "reviewed": true,
+      "rationale": "The final box explicitly states 40 percent of germs remain; preserved the stated number."
+    },
+    {
+      "response_id": "b0ec57b0854b2204e4ac1b58e62c54bb44eebb577d3787f1f846cec50a602cce",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Repeatedly states W = 10 and says William won 10 rounds."
+    },
+    {
+      "response_id": "6a0517f089476c08cd33c0c854a5b527d246fef3067db00bc244c4112b9384e2",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Explicitly states William won 10 rounds before the repeated verification code."
+    },
+    {
+      "response_id": "b5eacd9dbb0d90159c8b41d0e05d60ad910fdfaa2543ba17df02c4b1675b7a62",
+      "stated_answer": "817",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly says Zilla deposits 817 dollars."
+    },
+    {
+      "response_id": "6a909c84021c73f334e2acea036716264ce7b5ea37566d3f3347af7c887ff3bc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "States separate creature subtotals but never evaluates or states the requested combined clove total."
+    },
+    {
+      "response_id": "ef5e456adbb37e772307997ad0979cd7c057ad73f9ae53fa95c5c314ea6c452e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Invents an ongoing sequence of race positions without giving a resolved answer for the requested remaining distance."
+    },
+    {
+      "response_id": "fb89c33e09b390b8309ee4a50f741f1462d0399ce3a8ab6e483fcd8b0115d74f",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "Repeatedly states that the difference is 30 jumps per minute."
+    },
+    {
+      "response_id": "9710e0e5456eafb1d7b361eb49131e295f5409e4c57ec1896e06a8fee323dbc7",
+      "stated_answer": "6000",
+      "reviewed": true,
+      "rationale": "Repeatedly labels 6000 as the total purchase price; preserved the stated arithmetic result."
+    },
+    {
+      "response_id": "04a031f00f39c8c240ddf61beb9a369ee0a067a6df4046a5d03c6267b861c10b",
+      "stated_answer": "185",
+      "reviewed": true,
+      "rationale": "The final sentence and preceding sum explicitly state 185 total minutes."
+    },
+    {
+      "response_id": "4aff41e1bfceec3817c902f660c051960cef04c95e2e42387a5d1b3aa08b9b7a",
+      "stated_answer": "46",
+      "reviewed": true,
+      "rationale": "The final correction explicitly rejects the generated output of 60 and states the savings should be 46, before another unfinished code block."
+    },
+    {
+      "response_id": "96241139c50090f6628c0aaacb37fb727177aae90a7f1c958c2f907d3ff8f0a1",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "Repeatedly states that Justin bought 2 striped jerseys."
+    },
+    {
+      "response_id": "09b9b978f216ee0a84d0e47ae98f14e0b00a170a41419624f7403eccf18fd514",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeated code identifies extrema without stating their values or the requested numeric difference."
+    },
+    {
+      "response_id": "9a246af848b6347cd4c60acb890a93fb6358715c1106474e4c81bc7b3dba22cf",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final box explicitly gives 30 percent of germs remaining."
+    },
+    {
+      "response_id": "f5d81125daec1f8513ce31abe449ceca515e25f3ad6ec916063e611a0236a303",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives repeated unevaluated code for the jump-rate difference without stating a numeric difference."
+    },
+    {
+      "response_id": "89e84f90f2dc0bed08fa463488bb975b56db361c88c66d4b4faa733ce2776153",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats the overlap count of 5 but never states the requested percentage of germs left."
+    },
+    {
+      "response_id": "5a21d0a97c056617c1cbad27a3815393f7e2ff16645463bb8a4930467718c5e9",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The prose explicitly converts the Friday running time to 30 minutes before the repeated code."
+    },
+    {
+      "response_id": "ae799a4f0fdb3c865e46a1652ebd4a82ef2236bad6da9c7598ec99310a51d96b",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "The final quoted sentence explicitly states a combined age of 36."
+    },
+    {
+      "response_id": "b6dd5ef272eeb53da05681678c20ab4b1ed9e842fd41400bcec968a27afe0425",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "Explicitly states that the collie takes 32 seconds before the repeated verification code."
+    },
+    {
+      "response_id": "04cc54201d0b69cca9429e28b6e456ec4a500e807dbb6cca51a84cffbfa1ced1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives an unevaluated sum of expenditures and repeated code; no total lunch cost is stated."
+    },
+    {
+      "response_id": "828171ff130643ce930d4e5d0853445db3f3173ba5dd56ea0782a42f0efba170",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Lisa needs 32 hours."
+    },
+    {
+      "response_id": "90041325e63141b09aedf8b133ab3bc72bd1b283d2fbdeb0afd08a627da4eed6",
+      "stated_answer": "45",
+      "reviewed": true,
+      "rationale": "Directly states that Harry's morning routine takes 45 minutes."
+    },
+    {
+      "response_id": "1e23f126a6ff579a9d571a397d460fb3728abbb7fb0206d986554a4bb92c0b74",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "Explicitly evaluates the remaining doughnuts as 16 despite the final answer placeholder."
+    },
+    {
+      "response_id": "c742d8b0ce05e866cf7117fdda63e5e5b5c02608f7e049ffaea4ff43bad98aa6",
+      "stated_answer": "135",
+      "reviewed": true,
+      "rationale": "Repeated prose and generated output state the total lunch cost as 135 dollars; preserved the stated amount."
+    },
+    {
+      "response_id": "7f0040cb5243922a9eb837b56da606943f9a25ccd75d3f2d174ac51947dd500c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Never evaluates the combined people count; the response ends with repeated unevaluated summation code."
+    },
+    {
+      "response_id": "0ec029787ef408fb92b1e666d5ead264f87c97d8286803c2d1920a9d2e3df7f3",
+      "stated_answer": "190",
+      "reviewed": true,
+      "rationale": "The final quoted answer explicitly states 190 dollars, after revising the earlier amounts."
+    },
+    {
+      "response_id": "e95ae1c1e36fa9cbcdb53584f4420f0732bf22c27a47fffc71266486032039a3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly labels 60 minutes as a per-coat time and says the overall time requires a sum, but never states a resolved overall total."
+    },
+    {
+      "response_id": "1848c0a63ec63c5fbc61e3a380c583e15b53c21f4034d3b0fd872d5a614c9b7a",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The final box and prose explicitly state 10 months."
+    },
+    {
+      "response_id": "1a52a066b257a2f7d662ab1fcfae20dc0f134a5226409637e9777739466b5de4",
+      "stated_answer": "8",
+      "reviewed": true,
+      "rationale": "Repeatedly states that each friend received 8 puffs in prose and generated output; preserved the stated number."
+    },
+    {
+      "response_id": "066053e28266a56cac646a04f31e83623d40f0edba16081568d07f5ccf969522",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives the combined future age as 36."
+    },
+    {
+      "response_id": "d779274429abb15da6db8d2893dd01d09c600a9407007d86877a609dbf3430a5",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Repeatedly states the difference between Dana's and Marcus's pencils as 25."
+    },
+    {
+      "response_id": "8f740395bd597d955c77ac0da3ab54787e35a3314984e37a104467f0fce3ca65",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "States current ages but leaves the future combined age as an unevaluated expression and repeated code."
+    },
+    {
+      "response_id": "773c7f36b7badf0fb13f192cd370a6f49ae26a5b61590941d04918b327ffad4e",
+      "stated_answer": "190",
+      "reviewed": true,
+      "rationale": "Repeated prose and generated output explicitly state a total payment of 190 dollars."
+    },
+    {
+      "response_id": "decaa58cfe7a58c3741dc85a0296b60c6f78a2e9cf12dc8e6f57ec243c21c2b5",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly says the collie takes 32 seconds."
+    },
+    {
+      "response_id": "fe0e2ab8653d86474314c5682ab44635e1ee5fa95f26c766e4cd6934940025d5",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final quoted sentence explicitly states Lisa needs 32 hours."
+    },
+    {
+      "response_id": "b927510196a9ffa30acdd3966c2f3b2a4df3ba2cba0f47e6cf8b9f8154d9b013",
+      "stated_answer": "817",
+      "reviewed": true,
+      "rationale": "The calculation and final sentence explicitly state a monthly savings deposit of 817 dollars."
+    },
+    {
+      "response_id": "2b4e532ed09c866a35f63b7856b876353912c44dc77edcf67784c1a9be946c0d",
+      "stated_answer": "42",
+      "reviewed": true,
+      "rationale": "Repeated generated print outputs explicitly give total_clothing as 42; preserved this stated value without execution."
+    },
+    {
+      "response_id": "89cde4a5a08f147a9a0fa432a79372584cdcae21c3e127f66047ab3e54dcefd0",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats relations among the jelly types without stating the number of strawberry jars."
+    },
+    {
+      "response_id": "18d465b6020c07eb762a5a88e502e73ac0bdb979670acd424c993f8d5c871ab1",
+      "stated_answer": "4000",
+      "reviewed": true,
+      "rationale": "Explicitly states that 4000 bollards remain to be installed before the repeated code."
+    },
+    {
+      "response_id": "560dc758e654539e7f2617b873a3f0100e0efcafb560123e703c19eb7cec3c24",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The prose explicitly states Terry's current age is 30 before the repeated code."
+    },
+    {
+      "response_id": "62000f82a8d3f17ef23eb4d36c9664328ac882bfebf0a4341b97936d69462d84",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats unevaluated maximum and minimum calculations without stating the requested numeric difference."
+    },
+    {
+      "response_id": "ebd80e79937f6ff1fc1670685cd912de8cf3e7f5e35045ea6fdbb4e6a9736958",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final quoted answer explicitly states 30 minutes of Friday running."
+    },
+    {
+      "response_id": "85abc5c70d375de9ba1776e9e289f727a3acb76c4799f7cede475f15f464fad9",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Lisa needs 32 hours."
+    },
+    {
+      "response_id": "7c49bcd2575996706e694d4c2652e280cc0de1b25ce518aa74062efc866faafc",
+      "stated_answer": "190",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives the four-month payment as 190 dollars."
+    },
+    {
+      "response_id": "1bb4ebba1e97e1b3bbfa27478bdff9f7b390ed7a8206875becdf672ae0ba1106",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The final box explicitly states 10 months."
+    },
+    {
+      "response_id": "ee7d46b10c9df05870e6483b1cc77c4bbc7b9f01b2414ba39b160ee75da6b8a3",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "After the initial generated output of 29, repeatedly states the final total as 32."
+    },
+    {
+      "response_id": "a314fca20c84b93d8f8c3b04dcace4e8ef9271faead065262b88862aa7ec30f3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives separate-hive expressions and repeated code but never states the evaluated total honey production."
+    },
+    {
+      "response_id": "64c4cb67885c26206b1375aab148ee114475322805deff4fcceb8e28e8844ebf",
+      "stated_answer": "295",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 295 combined degrees."
+    },
+    {
+      "response_id": "05c3d846e4d4d0419c71f7022f68d00ebf5b1d971309447affab2a5adf92aaf1",
+      "stated_answer": "42",
+      "reviewed": true,
+      "rationale": "The prose explicitly states John scores 42 total points before the repeated code."
+    },
+    {
+      "response_id": "e16ed2253ff8df36ddccedcebed3ebc44caf19e60ed3ba07322a5d4e16531035",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Never states an evaluated excess-calorie amount; only unevaluated expressions and code are present."
+    },
+    {
+      "response_id": "d9907a93ff0e7fd01e91d5a2c5d7218ee0dbd4e354f410edfe70611f3e27b842",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Leaves the savings amount unevaluated in repeated code, without stating a numeric deposit."
+    },
+    {
+      "response_id": "07b836f346bd8a281013ef827c697961bc389ba90f3b6437e0a6e84197c546f7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "States weekly mileage but never evaluates or states the total annual payment."
+    },
+    {
+      "response_id": "6a5e06e2ab214194c2a596b7706c4ca55d1cfbe8b933739c0d0990a052fa6e22",
+      "stated_answer": "46",
+      "reviewed": true,
+      "rationale": "The final manual correction explicitly states savings should be 46, after rejecting the generated output of 60."
+    },
+    {
+      "response_id": "77144facf8f9a6f2e4828c3eaefa10327b072091d11e02189a484bf70506134e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats unevaluated jelly relationships without stating a numeric strawberry-jar count."
+    },
+    {
+      "response_id": "1c5b0fd2c0103d1239bde88de9b940137c0c1ae821f81672813235b78d0124a4",
+      "stated_answer": "270",
+      "reviewed": true,
+      "rationale": "Repeated generated print outputs explicitly give total_skips as 270; transcribed without running code."
+    },
+    {
+      "response_id": "e825ae8feafeea5425095e78bc5db6745a64acd7e76d2988b8a87136a7be46db",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "Directly states that 16 doughnuts remain."
+    },
+    {
+      "response_id": "1a84e80f564bdd9514dbf0e235e73d2bf11f36099cbd9b4e147e859783ac3757",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives weekly mileage and unevaluated annual-cost code but never states an annual payment amount."
+    },
+    {
+      "response_id": "b24c56bfb141537808c3226f2539f15b807c3ff1f5e6bfb20150f6090e802328",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly gives an unevaluated discounted-price expression without stating the total cost for five services."
+    },
+    {
+      "response_id": "67dcc7404c669be79fc9807ba79729eb11f23b227d23dc5a65e6cf725826d9b5",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 30 more jumps per minute."
+    },
+    {
+      "response_id": "d4c850e94dd53cc9612ad1919e2ed0e7083cd8fe6de451645718c1a4e32b35ef",
+      "stated_answer": "817",
+      "reviewed": true,
+      "rationale": "The final calculation and sentence explicitly state a savings deposit of 817 dollars."
+    },
+    {
+      "response_id": "9f0ac4cd4e6e2c68d04baf204713138158b98cf9cf1eee3011ec540d4a168151",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states the hotel hands out 60 towels."
+    },
+    {
+      "response_id": "55362a2db9760bb0120fae5c159c535ed2555cecdc01c99b489bd63310b7744f",
+      "stated_answer": "180",
+      "reviewed": true,
+      "rationale": "Explicitly states that Harry's book has 180 pages."
+    },
+    {
+      "response_id": "0b2c5cab8cad9a1b4994358a00fb738e74720202e1ca765d1fa47c64c8dc70ee",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "The generated output lists 20 in the seventh tuple position, corresponding to tricia_age, and then repeats; transcribed without executing or correcting the code."
+    },
+    {
+      "response_id": "6cca296489b0abd481986645523d270dbc0cee0db9e4c307faa118f7a7610d82",
+      "stated_answer": "49",
+      "reviewed": true,
+      "rationale": "Repeated generated print outputs explicitly state total_days as 49; no code execution was used."
+    },
+    {
+      "response_id": "04fe017eb1fdc392b64195636258b99b52f65edf20a396f222877775fdbc489c",
+      "stated_answer": "4230",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 4230 feet remain; preserved the response's number."
+    },
+    {
+      "response_id": "2dc2f8399b81ad7dd7b0a56ab44ae968ca0da38946418c53bf494f3b5a747ed7",
+      "stated_answer": "6000",
+      "reviewed": true,
+      "rationale": "Explicitly states that there are 6000 roosters in prose and comments."
+    },
+    {
+      "response_id": "cff83e350723d4b99302e9d6a9880ed7eba29ea5f2049027f35f01ebdd1f7f16",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Leaves savings as unevaluated repeated code without a numeric amount."
+    },
+    {
+      "response_id": "53f1918d00c474e55596ae8cb18c6c3e9f80392575d0b44dc4103e91d05cd6ac",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "States separate times of 45 and 10 minutes but never evaluates or states their combined total."
+    },
+    {
+      "response_id": "99430502eec7429e542ca9e5f9cd7abb042e1071683624bc266f4dd4e61c2711",
+      "stated_answer": "200",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states 200 hours per month."
+    },
+    {
+      "response_id": "20c4b0ad1f18171fa57aa766f14fa83c08fc66aaf381a2aa2431f4beb2b00108",
+      "stated_answer": "55",
+      "reviewed": true,
+      "rationale": "The prose and generated output explicitly state a combined time of 55 minutes."
+    },
+    {
+      "response_id": "bb796e5a0378dac9f78a3e4c67ddd256bea1e6350b869eafe90449ae7c197eef",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Never states an evaluated total decorating time; the response repeats unevaluated code."
+    },
+    {
+      "response_id": "0850fa7974a8ab24c3865d208cb42618f9f8040711ae0ae876297420dc305130",
+      "stated_answer": "52",
+      "reviewed": true,
+      "rationale": "The final numeric calculation revises the initial 45-minute claim to a total of 52 minutes, followed by a deadline discussion."
+    },
+    {
+      "response_id": "800306ce114ba9e93cf5c3532486bf1e16381be553bfb6fe82af07c57323671d",
+      "stated_answer": "24",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly returns to 24 water balloons after the intermediate value of 12; preserved the final claim."
+    },
+    {
+      "response_id": "8c3c4c8b12f521afa298686637fce1340e4bc0f40ed744f908b11312df1a0d88",
+      "stated_answer": "16",
+      "reviewed": true,
+      "rationale": "The final line explicitly equates the answer placeholder to 16."
+    },
+    {
+      "response_id": "47d0958cf214a060f6f3b2c2f60105c48635a49f005507cddeeef5d1583b878e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly alternates between final amounts of 46 and 100 and ends during another recheck, without resolving the contradiction."
+    },
+    {
+      "response_id": "71d302f571688003e1e6b6fd6561089efddf0507ea89b90199910604108bc9fe",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Leaves the days count as unevaluated code and conflicting verbal descriptions; no numeric day total is stated."
+    },
+    {
+      "response_id": "f4cc2292c21e43e845304d1ab751e289c74bfe67f2ab7567686728406cfefcf8",
+      "stated_answer": "45",
+      "reviewed": true,
+      "rationale": "The response explicitly calculates and prints 45 minutes for the morning routine."
+    },
+    {
+      "response_id": "9a54330d24e6330509bf3968b74c383028e57e87ad06b428b66c0d98592c7896",
+      "stated_answer": "295",
+      "reviewed": true,
+      "rationale": "The final sentence states that Summer and Jolly together have 295 degrees."
+    },
+    {
+      "response_id": "db85a9a8ea1d9548dbc181a95dfdf3e71c89b45cce827007e4a87b08ba4a5549",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats equations for pigs, cows, and goats without stating a numeric number of goats."
+    },
+    {
+      "response_id": "c661a0b80655a3700519611fb3662eb27284e65807415a3918c3b08fdec016f7",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 60 days for the paint mixer."
+    },
+    {
+      "response_id": "9b90af8ec3f65d2e0ed86a8cfb6fea55fdfc799a75f2199f54c7572bf5ae34d0",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats fruit-price equations without stating the requested total purchase price."
+    },
+    {
+      "response_id": "9d63d94302b83e8b727514a8b9bd8b94eb64ddab538790dfb280f42bb04dd287",
+      "stated_answer": "49",
+      "reviewed": true,
+      "rationale": "The response explicitly revises its required-time total from 52 to 49 minutes. The later deadline discussion does not replace that duration claim."
+    },
+    {
+      "response_id": "ab0f74c500b239e020d4b250ca393f0c2158a9a94a3228df4f6563ae29af0e54",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats the flower cost setup without solving for or stating a numeric number of lilies."
+    },
+    {
+      "response_id": "937e99a680f69299a122dfd6363fd78f0d6be06b4a79e37cec44d3e072d32cd7",
+      "stated_answer": "52",
+      "reviewed": true,
+      "rationale": "The response explicitly states cleaning takes 42 minutes and the assignment 10 minutes, totaling 52 minutes; it later gives a start time."
+    },
+    {
+      "response_id": "345a80d88dc3a50e6f0fd4682e40baa5216e88ef263d7e9ecb64e574e417c724",
+      "stated_answer": "5",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives Tricia's age as 5."
+    },
+    {
+      "response_id": "2a4ce654d9e68fcb587fb48a4325576a69eec46131b090a335db29cac39848ff",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "The generated output repeatedly states 70 as total donuts, with no replacement numeric total. Transcribed without correcting its arithmetic."
+    },
+    {
+      "response_id": "7e01325922e239d6881d5397e7ff205e22b44f88fb4550a2bb7b226d41776ff4",
+      "stated_answer": "190",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly says the customer paid 190 dollars in all."
+    },
+    {
+      "response_id": "94c01bc31a327a28c7bb8f3a38f83879489bddbc7e143302833dc1d09e1437ea",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats code and generated syntax errors without stating a numeric total quilt cost."
+    },
+    {
+      "response_id": "2d3d6dd6b9417757e8d6572cbbc5c720f5c88bd8634726d3f5a2987f12c601cd",
+      "stated_answer": "90",
+      "reviewed": true,
+      "rationale": "The response repeatedly states the return trip takes 90 minutes and ends with generated output 90."
+    },
+    {
+      "response_id": "ee99f1110ff36597a9432040072940621dac07b446758161aa6065dd44b3719e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats flower cost equations without stating a numeric count of lilies."
+    },
+    {
+      "response_id": "26df6e5db789781f04b5b60aea78917b591610ce05b35d695da7513117bb0098",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats variable assignments without stating a numeric Friday push-up count. Code was not executed."
+    },
+    {
+      "response_id": "c6ba084652dc6a4f60cd8465f7b263c52743783196a8e1329cb7331aac8da4bc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats a plan and symbolic movie-count equations without stating the requested numeric five-year total."
+    },
+    {
+      "response_id": "c83d263520b0f3d2199cf2ed36543d9287fc6af9591e376357484920409231a4",
+      "stated_answer": "5",
+      "reviewed": true,
+      "rationale": "The prose explicitly states 5 days repeatedly before repeating code. Transcribed without correcting its calculation."
+    },
+    {
+      "response_id": "55f78b5603f53ac0f96849216104e1123cf0b3f49ee73a7a469fceabe1a86a83",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states Lisa must work 32 hours."
+    },
+    {
+      "response_id": "6c6bd7107643c2b2fc055d68b5ed9ecafd689a31480474f2a5a2850cc965db00",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The response ends with a boxed 30 percent of germs remaining."
+    },
+    {
+      "response_id": "216af6aa5808960c28c33fc90adb76979df48149592616c96c6f962955df6e45",
+      "stated_answer": "24000",
+      "reviewed": true,
+      "rationale": "After rejecting its generated negative result, the response explicitly recalculates the total as 24000. Its subsequent code fragment gives no replacement numeric total."
+    },
+    {
+      "response_id": "f03d64cd95ba7a122f661baea52d67f94331748b0674715d0b4628c0cb81c339",
+      "stated_answer": "23248",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 23248 dollars in the piggy bank."
+    },
+    {
+      "response_id": "c355ae217073dde1c694c63f00ec4435a948e3d0b4c28cc284716c6cc73141ad",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response states each hive's honey amount but never gives the combined numeric total; subsequent code repeats unexecuted assignments."
+    },
+    {
+      "response_id": "f7ed32b52058619b17ff48a08c5277fc4fb0a5a1c8c94d7d5a4655c8ef8c24ba",
+      "stated_answer": "2.14",
+      "reviewed": true,
+      "rationale": "The latest prose conclusion explicitly states approximately 2.14 hours per student per day; subsequent text repeats the setup without replacing that answer."
+    },
+    {
+      "response_id": "6418c7a1196c8e81c0935bf009edf7180242d6b446c40fd83e63106ad5cc8c96",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 60 days to make 360 drums."
+    },
+    {
+      "response_id": "d01811698ed041a66988a1c4165eb0955d54dac0536f4d4715bfcc1e3afe2dc7",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states their total age in three years will be 36."
+    },
+    {
+      "response_id": "65683809c13aa3977c15f78522f04f495108f038eade9bdec574cbd934c43cd8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats symbolic vinegar calculations and code but never states the numeric percentage remaining after two years."
+    },
+    {
+      "response_id": "ac6199fcb2b0ee8039e9642ebfbcd2a3d7e982e6c01c18b9a40ebeb08a674078",
+      "stated_answer": "190",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total of 190 dollars for four months."
+    },
+    {
+      "response_id": "d820e5564b919a83620d7fd27bfa51aff396de553f8307065ee4728f4f004a04",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats pencil-count variable assignments without stating the requested numeric difference."
+    },
+    {
+      "response_id": "305587d368edac72c598578ad82b2e182d41882023576b966120fbb4174e9e26",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeatedly states separate water and machine costs but never states their combined numeric total."
+    },
+    {
+      "response_id": "19dacff51845583c155141b548b6dc2a8e180b1176928c761223b116983af9ac",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly boxes 30 percent of germs remaining."
+    },
+    {
+      "response_id": "d40aff8aa86f54dd0357a82d77b870ac39395a0380a9e6b9e235404955226df9",
+      "stated_answer": "32",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly boxes a total system weight of 32 pounds."
+    },
+    {
+      "response_id": "a6086b9b4336b6bd4ecb36c9ce9976d734ef3be16eb5196bc055eec9260ce2ab",
+      "stated_answer": "19748",
+      "reviewed": true,
+      "rationale": "The response repeatedly states a final amount of 19748 dollars, including its final sentence. Transcribed without repairing the calculation."
+    },
+    {
+      "response_id": "0a9a85a1dbed23b877e37e05b5a1a40548a5ebff3489f539fd827f4c0bce82e3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response gives 24000, then generated output -12000, rejects the interpretation again, and stops during reconsideration without resolving the conflicting totals."
+    },
+    {
+      "response_id": "68b40e18d7425e4d126635e457d0098a7f7732b0c8759dbf13645a29beba09ea",
+      "stated_answer": "200",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 200 hours per month."
+    },
+    {
+      "response_id": "6370c1a18264f6d1944428bfa76705a0394c455cd5ed17de5e16bc606c68a728",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly boxes 30 percent of germs remaining."
+    },
+    {
+      "response_id": "45a6b22f4054eccc86dcf04ed144cf9e05cbdceb027fa923d6bf831bba29051a",
+      "stated_answer": "200",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly boxes 200 kilograms sold over two weeks."
+    },
+    {
+      "response_id": "1733ca388160b1ba18860f986de877d9f3598135006deba5a24ab4a47dca0715",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives 60 days to make 360 drums."
+    },
+    {
+      "response_id": "bc63067e2059899d45150721a60f3fdc8201b78076b20ff71b4799bc82a3752d",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly gives a combined age of 36 in three years."
+    },
+    {
+      "response_id": "559b120cce48c98446bec0b6b05c3d8f897ad3a86db156ec335b7e68a9c43f40",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response states the class total and repeats formulas and code, without stating a numeric daily average per student."
+    },
+    {
+      "response_id": "467a97c4d8b7c3e7eae5acefc53140e882995e6906f28ca5d9b10924d4a8f374",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats code calculating excess calories but never states a numeric excess. Code was not executed."
+    },
+    {
+      "response_id": "443398aabad1f921452196135419d44485e2c3f7258d2724eaf73106f98f72ad",
+      "stated_answer": "2.14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states an average of 2.14 hours per day."
+    },
+    {
+      "response_id": "bbcd12345741b3c589a25bd557bc20199a46d9f0b389ef5e69466fb224386af3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats stamp-count code without stating a numeric number of stamps left for Tonya."
+    },
+    {
+      "response_id": "795bfdc53408d40a71d51e52d3249004ee0b3e955f4b90cdd54c8874f1a983b2",
+      "stated_answer": "2.14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states an average of 2.14 hours per day."
+    },
+    {
+      "response_id": "7de327ce72b82ed2e1049fd9beffa8a161f1df4a4dcf991441afaf731844cfc1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The response repeats symbolic savings calculations without stating a numeric saving duration. The initial code value 2 is overwritten by an unevaluated formula and does not constitute a final answer."
+    },
+    {
+      "response_id": "3b8d16e933bc4c47166cfa758714d1ea6da8db39f1b7b9283f8ed5486259e42c",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "The prose explicitly states and boxes 10 months before providing unexecuted confirmation code."
+    },
+    {
+      "response_id": "0e33d28c5bdf478a8aa337d95907c5dd6afd0787551ef44cc4d36bec74c3ab94",
+      "stated_answer": "2.14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 2.14 hours per day per student."
+    },
+    {
+      "response_id": "9e2cfba397f9c200b6ea99f1775a6516cf097fc08d7ba3707cb58c2ca2613fde",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 60 days to make 360 drums."
+    }
+  ]
+}
