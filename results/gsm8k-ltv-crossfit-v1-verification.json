@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "manifest_sha256": "8d0b6553da643bda4ad62154b1886a5c6786df96a7f5480360e9fbf7ef2cce38",
+  "source_sha256": "1f530bf7a480b14e5eea768a39d8b8cdeb8632e6548b500debf8b98d263b7508",
+  "report_file_sha256": "03db3a40f4d0a560e5f5694c8a294cba3cc2386c6926c38347680e8259309faa",
+  "predictions_file_sha256": "e1bf215bfcca9f4984a93cc8466081425813b1c7c32b253f36bd7e8d2fade540",
+  "declaration_commit": "cad38a0",
+  "tests_passed": 4,
+  "separate_report_and_prediction_replay_exit_code": 0,
+  "n_questions": 128,
+  "available_rows": 620,
+  "n_development": 0,
+  "n_reserved": 0,
+  "cpu_only": true
+}

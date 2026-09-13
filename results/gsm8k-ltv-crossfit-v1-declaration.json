@@ -1,0 +1,37 @@
+{
+  "status": "declared_before_crossfit_evaluation",
+  "declared_at": "2026-09-13T05:26:35.519143+00:00",
+  "source_commit": "0f6d9d354c738d777e0daae17081e4133f7f361e",
+  "parent_report_commit": "8bc7989",
+  "manifest_sha256": "8d0b6553da643bda4ad62154b1886a5c6786df96a7f5480360e9fbf7ef2cce38",
+  "source_sha256": "1f530bf7a480b14e5eea768a39d8b8cdeb8632e6548b500debf8b98d263b7508",
+  "fold_assignment_sha256": "b2cfa8e6a96c8f5aef3595cda47a1257edd4bedd2eb5c5e14110b79913fa4533",
+  "fold_seed": 2713,
+  "n_questions": 128,
+  "folds": 4,
+  "evaluation_questions_per_fold": 32,
+  "penalty": 5,
+  "positions": [
+    0,
+    1,
+    8,
+    32,
+    128
+  ],
+  "predictors": [
+    "ridge",
+    "zero",
+    "prompt_ridge",
+    "mean",
+    "scalar",
+    "position_mean",
+    "position_scalar",
+    "permuted"
+  ],
+  "tests_passed": 4,
+  "cpu_only": true,
+  "n_development": 0,
+  "n_reserved": 0,
+  "answer_supervision": false,
+  "note": "Diagnostic gate only. This does not establish math accuracy or authorize use of reserved questions."
+}
