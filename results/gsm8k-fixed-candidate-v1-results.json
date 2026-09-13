@@ -1,0 +1,256 @@
+{
+  "status": "positive_development_signal_failed_text_gate_no_confirmation",
+  "selection": {
+    "eligible": false,
+    "chosen": {
+      "layer": 13,
+      "alpha": 0.5,
+      "positions": "prefill"
+    },
+    "checks": {
+      "zero_gain": true,
+      "beats_mean": true,
+      "matches_text_cues": false,
+      "truncation": true
+    },
+    "manifest_sha256": "9bf2cc00c87d7985d80d7d9d7281350b1b42fdbfa5d7671b007eeb546d324b42",
+    "validation_rows_sha256": "d2cc33e5cb0265281d925b0c6aa9717827982f2833f2146e7e4c75a5b17e20b4",
+    "annotations_sha256": "fda1cdb91522001bf676d08cd21981e0acc2cbfc4eee3ca3ea5633ad4d8024b5",
+    "validation_audit_sha256": "3580cf5995e6f43345ffe7307c3d39d4de370a4702955eb750b3453cef3caf5f"
+  },
+  "summary": {
+    "cot": {
+      "n": 128,
+      "primary_completed_correct": 105,
+      "audited_completed_correct": 110,
+      "unparsed": 7,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.1328125,
+          "ci95": [
+            0.0546875,
+            0.2109375
+          ],
+          "wins": 22,
+          "losses": 5
+        }
+      }
+    },
+    "first": {
+      "n": 128,
+      "primary_completed_correct": 97,
+      "audited_completed_correct": 108,
+      "unparsed": 11,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.1171875,
+          "ci95": [
+            0.0390625,
+            0.1953125
+          ],
+          "wins": 22,
+          "losses": 7
+        }
+      }
+    },
+    "icl_a": {
+      "n": 128,
+      "primary_completed_correct": 114,
+      "audited_completed_correct": 115,
+      "unparsed": 1,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.171875,
+          "ci95": [
+            0.1015625,
+            0.25
+          ],
+          "wins": 25,
+          "losses": 3
+        },
+        "first": {
+          "gain": 0.0546875,
+          "ci95": [
+            0.0,
+            0.1171875
+          ],
+          "wins": 11,
+          "losses": 4
+        },
+        "cot": {
+          "gain": 0.0390625,
+          "ci95": [
+            -0.015625,
+            0.1015625
+          ],
+          "wins": 10,
+          "losses": 5
+        }
+      }
+    },
+    "icl_b": {
+      "n": 128,
+      "primary_completed_correct": 115,
+      "audited_completed_correct": 116,
+      "unparsed": 2,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.1796875,
+          "ci95": [
+            0.109375,
+            0.2578125
+          ],
+          "wins": 25,
+          "losses": 2
+        },
+        "first": {
+          "gain": 0.0625,
+          "ci95": [
+            0.0078125,
+            0.125
+          ],
+          "wins": 12,
+          "losses": 4
+        },
+        "cot": {
+          "gain": 0.046875,
+          "ci95": [
+            0.0,
+            0.1015625
+          ],
+          "wins": 9,
+          "losses": 3
+        }
+      }
+    },
+    "mean": {
+      "n": 128,
+      "primary_completed_correct": 84,
+      "audited_completed_correct": 96,
+      "unparsed": 17,
+      "truncated": 4,
+      "paired": {
+        "zero": {
+          "gain": 0.0234375,
+          "ci95": [
+            -0.0234375,
+            0.078125
+          ],
+          "wins": 7,
+          "losses": 4
+        }
+      }
+    },
+    "steered": {
+      "n": 128,
+      "primary_completed_correct": 97,
+      "audited_completed_correct": 107,
+      "unparsed": 13,
+      "truncated": 3,
+      "paired": {
+        "zero": {
+          "gain": 0.109375,
+          "ci95": [
+            0.0390625,
+            0.1796875
+          ],
+          "wins": 18,
+          "losses": 4
+        },
+        "first": {
+          "gain": -0.0078125,
+          "ci95": [
+            -0.078125,
+            0.0625
+          ],
+          "wins": 10,
+          "losses": 11
+        },
+        "cot": {
+          "gain": -0.0234375,
+          "ci95": [
+            -0.09375,
+            0.046875
+          ],
+          "wins": 8,
+          "losses": 11
+        }
+      }
+    },
+    "zero": {
+      "n": 128,
+      "primary_completed_correct": 78,
+      "audited_completed_correct": 93,
+      "unparsed": 23,
+      "truncated": 3,
+      "paired": {}
+    }
+  },
+  "steered_vs": {
+    "zero": {
+      "gain": 0.109375,
+      "ci95": [
+        0.0390625,
+        0.1796875
+      ],
+      "wins": 18,
+      "losses": 4
+    },
+    "icl_a": {
+      "gain": -0.0625,
+      "ci95": [
+        -0.125,
+        0.0
+      ],
+      "wins": 4,
+      "losses": 12
+    },
+    "icl_b": {
+      "gain": -0.0703125,
+      "ci95": [
+        -0.1328125,
+        -0.0078125
+      ],
+      "wins": 4,
+      "losses": 13
+    },
+    "first": {
+      "gain": -0.0078125,
+      "ci95": [
+        -0.078125,
+        0.0625
+      ],
+      "wins": 10,
+      "losses": 11
+    },
+    "cot": {
+      "gain": -0.0234375,
+      "ci95": [
+        -0.09375,
+        0.046875
+      ],
+      "wins": 8,
+      "losses": 11
+    },
+    "mean": {
+      "gain": 0.0859375,
+      "ci95": [
+        0.0390625,
+        0.140625
+      ],
+      "wins": 12,
+      "losses": 1
+    }
+  },
+  "review_commit": "3309945",
+  "review_packet_commit": "2cee26f",
+  "inherited_annotations_unchanged": 44,
+  "new_annotations_reviewed": 12,
+  "steering_vectors_replayed": 256,
+  "reserved_rows": 0,
+  "limitations": "Exploratory development results after an ICL screen. The candidate was fixed before these data were scored, but the development sample is not an independent confirmation set. Only unparsed answers were reviewed; parsed grades remain fixed, and truncated responses receive no credit. Intervals use 10000 paired bootstrap resamples and seed 907, without multiplicity adjustment. The text-cue gate failed and no confirmation was run. Norm-matched and shuffled-target controls remain untested on these questions."
+}

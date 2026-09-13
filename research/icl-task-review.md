@@ -19,6 +19,11 @@ The one fixed [test-distribution screen](gsm8k-test-development-results.md)
 subsequently scored 93/128 zero-shot and 115/128 and 116/128 with ICL after
 review. Both ICL gains passed the declared screen gates. Step-by-step scored
 110/128, so the predeclared fixed steering candidate faces a strong text control.
+That [candidate subsequently scored 107/128](gsm8k-fixed-candidate-results.md),
+versus 96/128 for its raw mean. Its exploratory intervals over zero-shot and
+the mean exclude zero, but it misses the text-cue gate. The reserved
+confirmation questions remain unused; magnitude and shuffled-target controls
+are still needed to interpret this development signal.
 
 The train/test score difference does not by itself establish contamination.
 [Qwen's release report](https://qwenlm.github.io/blog/qwen2.5-math/#decontamination)
