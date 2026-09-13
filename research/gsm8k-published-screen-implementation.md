@@ -30,6 +30,39 @@ resume, corrupt split rejection, frozen-review scoring, tied-screen failure,
 and hand-computed exact-test/Holm checks. The actual Transformers stopping
 callback was exercised on two scripted sequences that finish differently.
 
-These tests establish runner behavior on synthetic data. Real preparation,
-generation, frozen answer review, and independent score recount remain
-necessary for an experimental result.
+Real preparation completed without inference. An independent
+[preflight](../analysis/published_screen_preflight.py) replayed the exclusions
+from pinned dataset bytes, the seed-3402 shuffle, all 1,280 selected identities,
+gold answers, and all 3,840 exact prompts without importing preparation code.
+The [declaration](../results/gsm8k-published-screen-v1-declaration.json) records
+the selected IDs, manifest, and preparation hashes. Local committed code matches
+the remote manifest's source closure. Prompt lengths were also recounted with
+the pinned tokenizer: zero 21–203, original 758–940, complex 2,652–2,834 tokens.
+The longest prompt plus 1,024 generated tokens uses 3,858 of the 4,096 budget.
+
+Generation, frozen answer review, and independent score recount remain
+necessary for an experimental result. Neither preparation nor a screen pass
+establishes a steering benefit.
+
+The real screen started on September 13 at 11:50 UTC, after partition
+declaration commit `74f18038267916825261ed09a2fb64e3877746d9` reached GitHub.
+The first batches passed the runner's prompt, token, termination, and grade
+consistency checks. Runtime records show Torch 2.7.0, Transformers 4.51.3,
+frozen BF16 weights, and physical GPU 0. Scores have not been opened.
+
+The [independent recount](../analysis/published_screen_recount.py) is implemented
+before the real screen's review or scoring. It checks all 384 batches against
+the 1,536-row export, exact question identities, the shuffled review packet,
+annotation joins, primary and audited counts, all six paired comparisons,
+exact McNemar tails, separate Holm families, and every eligibility criterion.
+It uses the declared PCG64 draws with count-weighted resampling and explicit
+percentile interpolation, without importing production scorers. It relies on
+the stored parses and does not independently rerun parsing or model inference.
+
+Two local CPU tests passed in 1.774 seconds. The integration test generated a
+full synthetic three-condition screen with asymmetric wins and losses,
+unparsed responses, and truncation, then independently recounted its production
+report. Deliberately changed counts, wins, intervals, adjusted p-values, and
+eligibility checks were rejected after report hashes were updated. Reserved-ID
+substitution and an absent annotation commit were also rejected. This verifies
+the recount implementation, not the experimental outcome.
