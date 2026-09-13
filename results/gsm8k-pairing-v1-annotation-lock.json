@@ -1,0 +1,17 @@
+{
+  "status": "complete_blinded_annotations_frozen_before_scoring",
+  "frozen_at": "2026-09-13T07:29:34.878780+00:00",
+  "packet_commit": "8638ff4dc31172a416e363588287b1b093d9b92e",
+  "packet_sha256": "c39d6be32b242fba7d22c9e36e65cce51cfa33328508ae492191aa05512b61fa",
+  "annotations_file_sha256": "d36148c68769e186158777765dc2d225c695755801571b0e7f0fa3667221466d",
+  "manifest_sha256": "b27e8bd60b6e133ddaffe542b321bfcfd714a13f33b9317e398f0ae3b9c95951",
+  "generation_file_sha256": "4d1b671e839bc9bdacf9d395ee028d58397b0d1b4d11a01a8674760a51931d01",
+  "reviewed": 335,
+  "inherited_unchanged": 286,
+  "new": 49,
+  "reviewer": "assistant",
+  "scores_opened": false,
+  "reserved_rows": 0,
+  "method": "Blinded question and response review. Every new response individually reviewed. Lossless repetition display verified against every original response. No gold answers or condition labels used.",
+  "rubric": "Preserve inherited annotations. Transcribe stated numbers only; preserve errors; do not calculate missing answers or execute code. Absent or unresolved answers stay null. Parsed grades remain fixed; truncated responses receive no credit."
+}
