@@ -57,21 +57,22 @@ Stronger regularization improves the shuffled control by ten answers.
 All new annotations were committed before scoring; full trace, recount and
 bootstrap checks passed. No candidate was selected or reserved answer generated.
 
-A [fresh training screen](research/gsm8k-complex-screen-protocol.md) is running
-on 256 questions with at least four reference calculation annotations.
+A [fresh training screen](research/gsm8k-complex-screen-results.md) passes
+on 256 questions with at least four reference calculation annotations:
+ICL-A scores 230/256 and ICL-B 229/256 after review, versus 216/256 zero-shot.
 The [local/server inventory](research/gsm8k-fresh-pool-audit.md) excludes
 every recorded prior question and both earlier reservations. Five unchanged
-baseline conditions will test whether ICL helps on this population before
-any new steering evaluation. The [sample declaration](results/gsm8k-complex-screen-v1-declaration.json)
-also fixes a separate 512-question reservation. Accuracy remains unopened
-until all outputs and blinded annotations are complete.
+baseline conditions establish a modest ICL gain on this population before
+new steering evaluation. The [sample declaration](results/gsm8k-complex-screen-v1-declaration.json)
+also fixes a separate 512-question reservation. All 39 annotations were committed
+before scoring, and the independent count and interval replay passed.
 The conditional [candidate plan](research/gsm8k-complex-candidate-protocol.md)
 retains all 17 prior conditions and requires superiority over the stronger
 shuffled control and same-map prompt-only control. Its gates are fixed before
 the screen's accuracy is opened; no steering stage starts unless the screen passes.
 The [conditional implementation](research/gsm8k-complex-candidate-implementation.md)
-has passed saved-map reconstruction and synthetic execution tests. Real steering
-generation remains pending the reviewed screen result.
+has passed saved-map reconstruction and synthetic execution tests. The reviewed
+screen now qualifies this fixed candidate for development evaluation.
 
 See the [experiment instructions](replication/README.md) and
 [literature review](research/icl-task-review.md).

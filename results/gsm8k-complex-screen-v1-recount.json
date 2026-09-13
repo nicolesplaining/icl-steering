@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T08:54:34.096031+00:00",
+  "script_sha256": "fe2db4c2c9c2632f8a890bc008bf65e74e16a04032d6245012b42f4a955c9dcf",
+  "interval_checker_sha256": "395812c6060b32ecb8c8e3d4eabbbba114b4e9241b5b7e4dc942ad698bee7f3e",
+  "manifest_sha256": "ff4116b15e3e371930b6ed242b733ddb3815d5d2177b2b9cd5ae3472ec9b5503",
+  "report_file_sha256": "66fbd0befb8ebfcad9b9200ae9fa571f093ae96bc409c40878cbd82df150e610",
+  "generation_file_sha256": "fe1aae08e2e15a7248d601429f8bde59f9102dae087d310eeff8c8d555cee63e",
+  "annotations_file_sha256": "cc22e8b726059541c18c4c64d16877f7b54187a61ac5cc76bf7a18ded0551e7c",
+  "annotations_commit": "1fb9f115907cb6ef5e752d0ddecd53be22b32232",
+  "rows": 1280,
+  "conditions": 5,
+  "reserved_rows": 0,
+  "counts": {
+    "icl_b": {
+      "primary": 227,
+      "audited": 229,
+      "unparsed": 4,
+      "truncated": 0
+    },
+    "first": {
+      "primary": 221,
+      "audited": 226,
+      "unparsed": 6,
+      "truncated": 0
+    },
+    "zero": {
+      "primary": 210,
+      "audited": 216,
+      "unparsed": 10,
+      "truncated": 0
+    },
+    "cot": {
+      "primary": 218,
+      "audited": 227,
+      "unparsed": 13,
+      "truncated": 0
+    },
+    "icl_a": {
+      "primary": 227,
+      "audited": 230,
+      "unparsed": 6,
+      "truncated": 1
+    }
+  },
+  "paired_intervals_checked": 8,
+  "ci95": {
+    "icl_b__minus__cot": [
+      -0.02734375,
+      0.04296875
+    ],
+    "icl_b__minus__first": [
+      -0.02734375,
+      0.05078125
+    ],
+    "icl_b__minus__zero": [
+      0.0078125,
+      0.09375
+    ],
+    "first__minus__zero": [
+      -0.0078125,
+      0.0859375
+    ],
+    "cot__minus__zero": [
+      0.0,
+      0.0859375
+    ],
+    "icl_a__minus__cot": [
+      -0.0234375,
+      0.046875
+    ],
+    "icl_a__minus__first": [
+      -0.01953125,
+      0.0546875
+    ],
+    "icl_a__minus__zero": [
+      0.015625,
+      0.09375
+    ]
+  },
+  "checks": {
+    "icl_a_gain": true,
+    "icl_a_interval": true,
+    "icl_b_gain": true,
+    "icl_b_interval": true,
+    "truncation": true
+  },
+  "eligible": true,
+  "method": "No production scorer imports. Rebuild blind packet, compare exact rational answers, recount paired outcomes, replay bootstrap with count-weighted draws and explicit interpolation, and recompute every screen gate.",
+  "limits": "Uses saved explicit parses without reimplementing the parsing policy; shares the declared PCG64 random draws with production."
+}

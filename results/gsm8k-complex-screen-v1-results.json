@@ -1,0 +1,363 @@
+{
+  "status": "supplementary_answer_audit",
+  "split": "validation",
+  "source_sha256": "35ef9e355c67f3f582a307db536b813ba187541ad52cb998b57d68b0ddae6e09",
+  "packet_sha256": "bd661f09bc51f4677c72f53c3377596cd13db6888efed52199467d7aa33a3ee5",
+  "annotations_sha256": "16fed635d39b96bf5c9dcfc28791128f3464ebdf6ac043419e066f24cedc02a5",
+  "audit_code_sha256": "294d3b60f83a7eedb8e1d99c93d1214b4629b23d76acb0cbd64f4a5aef182cb6",
+  "summary": {
+    "cot": {
+      "n": 256,
+      "primary_completed_correct": 218,
+      "audited_completed_correct": 227,
+      "unparsed": 13,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.04296875,
+          "ci95": [
+            0.0,
+            0.0859375
+          ],
+          "wins": 22,
+          "losses": 11
+        }
+      }
+    },
+    "first": {
+      "n": 256,
+      "primary_completed_correct": 221,
+      "audited_completed_correct": 226,
+      "unparsed": 6,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.0390625,
+          "ci95": [
+            -0.0078125,
+            0.0859375
+          ],
+          "wins": 24,
+          "losses": 14
+        }
+      }
+    },
+    "icl_a": {
+      "n": 256,
+      "primary_completed_correct": 227,
+      "audited_completed_correct": 230,
+      "unparsed": 6,
+      "truncated": 1,
+      "paired": {
+        "zero": {
+          "gain": 0.0546875,
+          "ci95": [
+            0.015625,
+            0.09375
+          ],
+          "wins": 21,
+          "losses": 7
+        },
+        "first": {
+          "gain": 0.015625,
+          "ci95": [
+            -0.01953125,
+            0.0546875
+          ],
+          "wins": 14,
+          "losses": 10
+        },
+        "cot": {
+          "gain": 0.01171875,
+          "ci95": [
+            -0.0234375,
+            0.046875
+          ],
+          "wins": 11,
+          "losses": 8
+        }
+      }
+    },
+    "icl_b": {
+      "n": 256,
+      "primary_completed_correct": 227,
+      "audited_completed_correct": 229,
+      "unparsed": 4,
+      "truncated": 0,
+      "paired": {
+        "zero": {
+          "gain": 0.05078125,
+          "ci95": [
+            0.0078125,
+            0.09375
+          ],
+          "wins": 23,
+          "losses": 10
+        },
+        "first": {
+          "gain": 0.01171875,
+          "ci95": [
+            -0.02734375,
+            0.05078125
+          ],
+          "wins": 15,
+          "losses": 12
+        },
+        "cot": {
+          "gain": 0.0078125,
+          "ci95": [
+            -0.02734375,
+            0.04296875
+          ],
+          "wins": 12,
+          "losses": 10
+        }
+      }
+    },
+    "zero": {
+      "n": 256,
+      "primary_completed_correct": 210,
+      "audited_completed_correct": 216,
+      "unparsed": 10,
+      "truncated": 0,
+      "paired": {}
+    }
+  },
+  "annotations": [
+    {
+      "response_id": "be3080d7285c5c93532af432378ac8d0d050183258ab3bd7aa17afe824e43f38",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 742 beads."
+    },
+    {
+      "response_id": "0bdb631d9d001795ff7e6c28daeeb7fe270f7c8b64906156bfeef369eb528ffe",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It gives alternative hypothetical box counts and ends with an unresolved placeholder, not a definite numerical answer."
+    },
+    {
+      "response_id": "5929c08735e679a865f8a6256e9576315895c6873dd253d3b938ebd176361fef",
+      "stated_answer": "85",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 85 mph; no code execution is needed."
+    },
+    {
+      "response_id": "5989387f6db1bcf86a8b5ece879619b48086485d7dbcb8b5e67c4ffd190e20bc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final answer remains an expression in unknown F and P, without a completed numerical total."
+    },
+    {
+      "response_id": "e981fa53ecc642594726bd2cdbbaf0892c3b885386aa99e8e2ef7967e4159192",
+      "stated_answer": "4.5",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 4.5 hours."
+    },
+    {
+      "response_id": "fb4b3f8033fdd1cd33543e0ce38f65e54f7e3dcb97168a0dc79e642840c26df3",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final answer explicitly says the sixth platform."
+    },
+    {
+      "response_id": "443d4b00d94b7cd7c11e90e17c52f60fbe1b67a47db679d45c170dee0d804137",
+      "stated_answer": "7",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 7 weeks."
+    },
+    {
+      "response_id": "60615987ceed9d2db3a7942105902b31e1230c8532e832e9861819ba849beb26",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 14 hits per player; its calculation is preserved."
+    },
+    {
+      "response_id": "90b38944880ee30c8084d63105a07e2bd3077a3ce81834ba0c9678c10a4dcf71",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final answer explicitly says the sixth platform."
+    },
+    {
+      "response_id": "f947f88ed01b168099ab2bc8f2124d743b6d562031a7e7139ee08885f01a1776",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final answer explicitly states four ten-dollar bills."
+    },
+    {
+      "response_id": "756ab493f1f0708df33b409acd3c066b448ae9199969cd4f8252bf7dafb31802",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states 6 hits per player."
+    },
+    {
+      "response_id": "8574a7c01707bec508a1715c69695452d1557d273b71ea9b3f8919b728826b7e",
+      "stated_answer": "50",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states 50 calories per dollar."
+    },
+    {
+      "response_id": "c75a19f3a3f4519ffe79a638fceabce9e67c00795987835ad03883214e2859e7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It leaves the requested weight as an expression in an unknown weight; the intermediate towel count is not the requested answer."
+    },
+    {
+      "response_id": "d898a46071855ebf3907829b3f2271c428e5d929305526dfb2d75a980327ea50",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states four ten-dollar bills."
+    },
+    {
+      "response_id": "84bc2d9acc664934a250d003fb10f6e7c4f368c74c44801a1d96aa000684210a",
+      "stated_answer": "108000",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total cost of $108,000."
+    },
+    {
+      "response_id": "ec80166789b7d79426d8b6a02d05d93cfd5f698b0d47ab73c86a2d54f0c4fe3f",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 25 percent."
+    },
+    {
+      "response_id": "a3d0d7cd7a737b2a4c8d1ce3a70ce7d540d1c606e10a34dd5bd69fdd42d00dfd",
+      "stated_answer": "23",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states that June's sword is 23 inches longer."
+    },
+    {
+      "response_id": "aa6441b5c1daa5201f2d4faca174ff57092cb4b28d86405cc644b9419f91032e",
+      "stated_answer": "102000",
+      "reviewed": true,
+      "rationale": "The response explicitly states a loss of $102,000; that stated amount is preserved."
+    },
+    {
+      "response_id": "8b8b85571d600b7a113f75009b23ba75df84d3881bf651de99b89b9cd806c6c0",
+      "stated_answer": "222",
+      "reviewed": true,
+      "rationale": "The response explicitly states that Jordan now weighs 222 pounds."
+    },
+    {
+      "response_id": "2e1ad4d4ac6065b3b9da15ad2eac7fba174b3e26ee86cf9519064d7ae9f550b9",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final boxed expression depends on unspecified x and y and gives no completed numerical income."
+    },
+    {
+      "response_id": "c237ab30d9e7079a7048ce057d0e68fa30b61ba5941a181729bf63d790445265",
+      "stated_answer": "69",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total of 69 points."
+    },
+    {
+      "response_id": "72fa076c70d8e467083658ef2eeeaf14eaa6925b6b078542950cd02f66e73f9e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It states separate totals of 6 and 11 goals but never states the requested combined total; adding them would complete missing work."
+    },
+    {
+      "response_id": "5e517eefb4ca5e1a7871aff961ff8f9139f9b367f334fc5b397b548758227838",
+      "stated_answer": "616",
+      "reviewed": true,
+      "rationale": "The final calculation explicitly states revenue of $616."
+    },
+    {
+      "response_id": "15482647099141d9335d1264bc312c3ce501fd88c2002b18084d7f5c9ca2be9b",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total of 742 beads."
+    },
+    {
+      "response_id": "ff527e5ed2e2aae051c7555c4c888b0105b848be7f13dd7e4539ee9418b3d0e0",
+      "stated_answer": "464",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly selects 464 jars after its earlier fractional value; the stated result is preserved."
+    },
+    {
+      "response_id": "40c284f8b67d4e7967856cc3b6697fb505fc4179b3539df03bf3f84a4dbeeb92",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 9 hits per player; its stated result is preserved."
+    },
+    {
+      "response_id": "8c315569fd564b84c1a51fcb058f9df3aa56bebb7da9d1c1193a8ec00d9a3d0c",
+      "stated_answer": "18",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states that the second route is 18 minutes longer."
+    },
+    {
+      "response_id": "35798f82d9c2fb037b6cb094b1fd375ffd3dce3d2336282c74733f724d798399",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 54 minutes per day."
+    },
+    {
+      "response_id": "26aa9159c151ab6ef2be71264999c7d40c3e3411e9b9c05020db6ffdf7b2df15",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "It explicitly gives a boxed 25 hours before the code block; no execution or further calculation is needed."
+    },
+    {
+      "response_id": "6b32595293ba9387b03c76dce0e12ffb1a9c3aa23a96505dda7b6e14a9080654",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 6 hits per player."
+    },
+    {
+      "response_id": "39f202d5df0a50fdae2fe02f185b93faa7931907b61b82ea7dadf75f17ffb493",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final quoted answer explicitly states $14 per month for each person."
+    },
+    {
+      "response_id": "e84a145eb3f4b43c08706c1aeb0a282c552f10cba5c6c0dbb2e3ab26b4c398c7",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The final answer explicitly selects the third platform after rounding; that stated choice is preserved."
+    },
+    {
+      "response_id": "45dd9f1f268cf1b2af511023094e15f86ef3d0154b376a578ee256511fd17868",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The response explicitly states one pack of stickers at both its beginning and end."
+    },
+    {
+      "response_id": "d44a1cdfb78b820ccd4b51bae9d4fe33058dc2dad2e8c763ecba167c6c29b9ea",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "It explicitly gives a boxed 36 percent before the code block; no code execution is needed."
+    },
+    {
+      "response_id": "f137019b653a4e90a6f4e2ad3b7b4e192492ad3d38aaa53c624e0e46ba77833d",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final answer explicitly states $14 per month."
+    },
+    {
+      "response_id": "829d62d643ef2f153c10465adb8e81ff644c28f4db0b345558d214cd9af4826d",
+      "stated_answer": "19",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a combined age of 19 years."
+    },
+    {
+      "response_id": "44e9bfdf3840ae328b62674d20d76197226032bf31ab833b88773080964fdb96",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It leaves the requested weekly earnings as an expression in unknown x and y."
+    },
+    {
+      "response_id": "29c308a4f735c9408e462ac34048949d3e81bfd082494c2e23451ac55925bc02",
+      "stated_answer": "25.0",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 25.0 percent; the displayed output is transcribed without executing the code."
+    },
+    {
+      "response_id": "a47cb87de79149c2c7a772e29030a2295c63601700b1d9dd934fde39698fc94d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It repeatedly rejects its own inferred age and restarts the calculation, ending with an unfinished equation and no settled answer."
+    }
+  ],
+  "limitations": "Only unparsed answers are reviewed. Parsed grades are unchanged. Truncated responses receive no completed-answer credit. This is a single-reviewer supplementary measure with exploratory, unadjusted paired intervals; it does not change the primary metric, direction, or selection."
+}
