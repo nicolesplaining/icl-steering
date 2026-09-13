@@ -58,6 +58,26 @@ The [official repository](https://github.com/Jii111/LTV) was inspected at
   [Configuration](https://github.com/Jii111/LTV/blob/e019cb49ee64c1e0914fb139d1a811321b3051e0/config/config_regression.py),
   [generation and parsing](https://github.com/Jii111/LTV/blob/e019cb49ee64c1e0914fb139d1a811321b3051e0/run/run_regression.py#L58).
 
+An [executable boundary check](../analysis/ltv_boundary_audit.py) confirms the
+normalization distinction in our Transformers 4.51.3 environment using a
+tiny randomly initialized Qwen2 on CPU. `hidden_states[-1]` exactly equals
+the normalized final-block output and differs from the raw block output.
+Adding the same shift before and after normalization produces different
+states. The hook sees sequence lengths three and one for prompt processing
+and a cached decoding step, respectively. The
+[saved evidence](../results/ltv-boundary-audit.json) records the versions and
+script hash. This tests our installed architecture semantics; it does not
+establish what runtime produced the paper's results. Our existing GSM8K
+runner captures and injects at the same internal-block output, so this
+finding does not invalidate the running controls.
+
+Reproduce on CPU with an unused output path:
+
+```bash
+CUDA_VISIBLE_DEVICES='' USE_TF=0 .venv-benchmark/bin/python \
+  analysis/ltv_boundary_audit.py --output runs/ltv-boundary-check.json
+```
+
 ## Implication for this experiment
 
 The pending controls address a narrower empirical question: does the fixed
