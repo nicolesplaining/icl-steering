@@ -1,0 +1,31 @@
+{
+  "status": "declared_before_full_fit_and_generation",
+  "declared_at": "2026-09-13T07:03:48.589664+00:00",
+  "source_commit": "be84d35062c86621f68d4ed90463430bbb86d0f5",
+  "parent_report_commit": "f0b2eddf6870932c50eea3562909e506c2b1d086",
+  "manifest_sha256": "b27e8bd60b6e133ddaffe542b321bfcfd714a13f33b9317e398f0ae3b9c95951",
+  "code_sha256": "e09e1fac050a94c32dec901df68fc84a103ef2e4b2c2a7d7a95d5db15bb94841",
+  "n_extract": 128,
+  "n_extraction_states": 620,
+  "n_development": 128,
+  "n_reserved": 256,
+  "inherited_rows": 1664,
+  "new_rows": 512,
+  "new_conditions": [
+    "shared_low",
+    "permuted_low",
+    "real_high",
+    "shared_high"
+  ],
+  "scales": [
+    0.1,
+    1.0
+  ],
+  "permutation_seed": 2390,
+  "max_intervention_prefix": 128,
+  "paired_contrasts_per_metric": 7,
+  "tests_passed": 4,
+  "gpu": 0,
+  "confirmation_supported": false,
+  "candidate_selection_supported": false
+}
