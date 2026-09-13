@@ -3,10 +3,26 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from analysis.gsm8k_fresh_pool import inventory, partition_inventory
+from analysis.gsm8k_fresh_pool import digest, inventory, partition_inventory
 
 
 class FreshPoolTests(unittest.TestCase):
+    def test_prior_inventory_does_not_mark_unused_pool_as_used(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            runs = Path(tmp)
+            pools = {'train': [{'problem_id': 'gsm8k:train:7', 'calculation_annotations': 4}], 'test': []}
+            summary = {'no_sampling_or_generation': True, 'splits': {
+                s: {'fresh': len(rows), 'identities_and_counts_sha256': digest(rows)}
+                for s, rows in pools.items()}}
+            (runs/'summary.json').write_text(json.dumps(summary))
+            (runs/'fresh-pool.json').write_text(json.dumps(pools))
+            (runs/'prepared.json').write_text(json.dumps({'problem_id': 'gsm8k:train:3'}))
+            self.assertEqual(inventory(runs)[0], {'gsm8k:train:3'})
+            pools['train'][0]['problem_id'] = 'gsm8k:train:8'
+            (runs/'fresh-pool.json').write_text(json.dumps(pools))
+            with self.assertRaisesRegex(ValueError, 'Invalid prior fresh-pool'):
+                inventory(runs)
+
     def test_nested_ids_text_duplicates_and_reserved_exclusions(self):
         tables = {'train': [
             {'question': 'Previously extracted', 'answer': '<<1=1>>'},

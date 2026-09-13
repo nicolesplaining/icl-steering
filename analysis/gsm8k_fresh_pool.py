@@ -54,6 +54,17 @@ def inventory(runs):
             values = (json.loads(line) for line in content.splitlines() if line.strip())
         else:
             values = [json.loads(content)]
+        if path.name == 'fresh-pool.json':
+            # Merely listing unused IDs in an earlier inventory does not use them.
+            summary = json.loads((path.parent/'summary.json').read_text())
+            pools = values[0]
+            if (summary.get('no_sampling_or_generation') is not True
+                    or set(pools) != {'train', 'test'}
+                    or any(digest(rows) != summary['splits'][split]['identities_and_counts_sha256']
+                           or len(rows) != summary['splits'][split]['fresh']
+                           for split, rows in pools.items())):
+                raise ValueError('Invalid prior fresh-pool inventory: '+str(path))
+            continue
         for value in values:
             identities(value, ids, questions, generated)
     return ids, questions, generated, files
