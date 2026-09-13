@@ -1,0 +1,1913 @@
+{
+  "packet_sha256": "1c15fee71949d2331f438b9bb2b643e38e2917e6e9c7ed98b2f6af4facb8c2e6",
+  "answers": [
+    {
+      "response_id": "be3080d7285c5c93532af432378ac8d0d050183258ab3bd7aa17afe824e43f38",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 742 beads."
+    },
+    {
+      "response_id": "0bdb631d9d001795ff7e6c28daeeb7fe270f7c8b64906156bfeef369eb528ffe",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It gives alternative hypothetical box counts and ends with an unresolved placeholder, not a definite numerical answer."
+    },
+    {
+      "response_id": "5929c08735e679a865f8a6256e9576315895c6873dd253d3b938ebd176361fef",
+      "stated_answer": "85",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 85 mph; no code execution is needed."
+    },
+    {
+      "response_id": "5989387f6db1bcf86a8b5ece879619b48086485d7dbcb8b5e67c4ffd190e20bc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final answer remains an expression in unknown F and P, without a completed numerical total."
+    },
+    {
+      "response_id": "e981fa53ecc642594726bd2cdbbaf0892c3b885386aa99e8e2ef7967e4159192",
+      "stated_answer": "4.5",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 4.5 hours."
+    },
+    {
+      "response_id": "fb4b3f8033fdd1cd33543e0ce38f65e54f7e3dcb97168a0dc79e642840c26df3",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final answer explicitly says the sixth platform."
+    },
+    {
+      "response_id": "443d4b00d94b7cd7c11e90e17c52f60fbe1b67a47db679d45c170dee0d804137",
+      "stated_answer": "7",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 7 weeks."
+    },
+    {
+      "response_id": "60615987ceed9d2db3a7942105902b31e1230c8532e832e9861819ba849beb26",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 14 hits per player; its calculation is preserved."
+    },
+    {
+      "response_id": "90b38944880ee30c8084d63105a07e2bd3077a3ce81834ba0c9678c10a4dcf71",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final answer explicitly says the sixth platform."
+    },
+    {
+      "response_id": "f947f88ed01b168099ab2bc8f2124d743b6d562031a7e7139ee08885f01a1776",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final answer explicitly states four ten-dollar bills."
+    },
+    {
+      "response_id": "756ab493f1f0708df33b409acd3c066b448ae9199969cd4f8252bf7dafb31802",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states 6 hits per player."
+    },
+    {
+      "response_id": "8574a7c01707bec508a1715c69695452d1557d273b71ea9b3f8919b728826b7e",
+      "stated_answer": "50",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states 50 calories per dollar."
+    },
+    {
+      "response_id": "c75a19f3a3f4519ffe79a638fceabce9e67c00795987835ad03883214e2859e7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It leaves the requested weight as an expression in an unknown weight; the intermediate towel count is not the requested answer."
+    },
+    {
+      "response_id": "d898a46071855ebf3907829b3f2271c428e5d929305526dfb2d75a980327ea50",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "The final bracketed answer explicitly states four ten-dollar bills."
+    },
+    {
+      "response_id": "84bc2d9acc664934a250d003fb10f6e7c4f368c74c44801a1d96aa000684210a",
+      "stated_answer": "108000",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total cost of $108,000."
+    },
+    {
+      "response_id": "ec80166789b7d79426d8b6a02d05d93cfd5f698b0d47ab73c86a2d54f0c4fe3f",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 25 percent."
+    },
+    {
+      "response_id": "a3d0d7cd7a737b2a4c8d1ce3a70ce7d540d1c606e10a34dd5bd69fdd42d00dfd",
+      "stated_answer": "23",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states that June's sword is 23 inches longer."
+    },
+    {
+      "response_id": "aa6441b5c1daa5201f2d4faca174ff57092cb4b28d86405cc644b9419f91032e",
+      "stated_answer": "102000",
+      "reviewed": true,
+      "rationale": "The response explicitly states a loss of $102,000; that stated amount is preserved."
+    },
+    {
+      "response_id": "8b8b85571d600b7a113f75009b23ba75df84d3881bf651de99b89b9cd806c6c0",
+      "stated_answer": "222",
+      "reviewed": true,
+      "rationale": "The response explicitly states that Jordan now weighs 222 pounds."
+    },
+    {
+      "response_id": "2e1ad4d4ac6065b3b9da15ad2eac7fba174b3e26ee86cf9519064d7ae9f550b9",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "The final boxed expression depends on unspecified x and y and gives no completed numerical income."
+    },
+    {
+      "response_id": "c237ab30d9e7079a7048ce057d0e68fa30b61ba5941a181729bf63d790445265",
+      "stated_answer": "69",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total of 69 points."
+    },
+    {
+      "response_id": "72fa076c70d8e467083658ef2eeeaf14eaa6925b6b078542950cd02f66e73f9e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It states separate totals of 6 and 11 goals but never states the requested combined total; adding them would complete missing work."
+    },
+    {
+      "response_id": "5e517eefb4ca5e1a7871aff961ff8f9139f9b367f334fc5b397b548758227838",
+      "stated_answer": "616",
+      "reviewed": true,
+      "rationale": "The final calculation explicitly states revenue of $616."
+    },
+    {
+      "response_id": "15482647099141d9335d1264bc312c3ce501fd88c2002b18084d7f5c9ca2be9b",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a total of 742 beads."
+    },
+    {
+      "response_id": "ff527e5ed2e2aae051c7555c4c888b0105b848be7f13dd7e4539ee9418b3d0e0",
+      "stated_answer": "464",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly selects 464 jars after its earlier fractional value; the stated result is preserved."
+    },
+    {
+      "response_id": "40c284f8b67d4e7967856cc3b6697fb505fc4179b3539df03bf3f84a4dbeeb92",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 9 hits per player; its stated result is preserved."
+    },
+    {
+      "response_id": "8c315569fd564b84c1a51fcb058f9df3aa56bebb7da9d1c1193a8ec00d9a3d0c",
+      "stated_answer": "18",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states that the second route is 18 minutes longer."
+    },
+    {
+      "response_id": "35798f82d9c2fb037b6cb094b1fd375ffd3dce3d2336282c74733f724d798399",
+      "stated_answer": "54",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 54 minutes per day."
+    },
+    {
+      "response_id": "26aa9159c151ab6ef2be71264999c7d40c3e3411e9b9c05020db6ffdf7b2df15",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "It explicitly gives a boxed 25 hours before the code block; no execution or further calculation is needed."
+    },
+    {
+      "response_id": "6b32595293ba9387b03c76dce0e12ffb1a9c3aa23a96505dda7b6e14a9080654",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states 6 hits per player."
+    },
+    {
+      "response_id": "39f202d5df0a50fdae2fe02f185b93faa7931907b61b82ea7dadf75f17ffb493",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final quoted answer explicitly states $14 per month for each person."
+    },
+    {
+      "response_id": "e84a145eb3f4b43c08706c1aeb0a282c552f10cba5c6c0dbb2e3ab26b4c398c7",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "The final answer explicitly selects the third platform after rounding; that stated choice is preserved."
+    },
+    {
+      "response_id": "45dd9f1f268cf1b2af511023094e15f86ef3d0154b376a578ee256511fd17868",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "The response explicitly states one pack of stickers at both its beginning and end."
+    },
+    {
+      "response_id": "d44a1cdfb78b820ccd4b51bae9d4fe33058dc2dad2e8c763ecba167c6c29b9ea",
+      "stated_answer": "36",
+      "reviewed": true,
+      "rationale": "It explicitly gives a boxed 36 percent before the code block; no code execution is needed."
+    },
+    {
+      "response_id": "f137019b653a4e90a6f4e2ad3b7b4e192492ad3d38aaa53c624e0e46ba77833d",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "The final answer explicitly states $14 per month."
+    },
+    {
+      "response_id": "829d62d643ef2f153c10465adb8e81ff644c28f4db0b345558d214cd9af4826d",
+      "stated_answer": "19",
+      "reviewed": true,
+      "rationale": "The final sentence explicitly states a combined age of 19 years."
+    },
+    {
+      "response_id": "44e9bfdf3840ae328b62674d20d76197226032bf31ab833b88773080964fdb96",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It leaves the requested weekly earnings as an expression in unknown x and y."
+    },
+    {
+      "response_id": "29c308a4f735c9408e462ac34048949d3e81bfd082494c2e23451ac55925bc02",
+      "stated_answer": "25.0",
+      "reviewed": true,
+      "rationale": "The final boxed quantity explicitly states 25.0 percent; the displayed output is transcribed without executing the code."
+    },
+    {
+      "response_id": "a47cb87de79149c2c7a772e29030a2295c63601700b1d9dd934fde39698fc94d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "It repeatedly rejects its own inferred age and restarts the calculation, ending with an unfinished equation and no settled answer."
+    },
+    {
+      "response_id": "c7873514d826202c1fba7b4bdab1902ee7d1d045421e4847f795a603af606f92",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats First/find without stating a numerical answer."
+    },
+    {
+      "response_id": "39d41dca5e4a09a518ba70c2ad68a338e0b8ffb4b15f9201787aa4270856cffc",
+      "stated_answer": "99",
+      "reviewed": true,
+      "rationale": "Explicitly totals ducks and ducklings as 99."
+    },
+    {
+      "response_id": "2afd5b314fb9eeda1e7fd7ab03a3d732b85db4e9198e9d629a0731abf020285f",
+      "stated_answer": "79",
+      "reviewed": true,
+      "rationale": "Explicitly states total spending of $79."
+    },
+    {
+      "response_id": "4e6efabd49396facad2acad3cf1244f76d499fd3d90e765ac624fc6c362f79e8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeated First/find text contains no numerical answer."
+    },
+    {
+      "response_id": "f011c5b3f7e4ac506d5c75998d8f310985fd0ca9e69e4c8d320681b337a49390",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Declares the exact weekly amount cannot be calculated; only partial expenses and a revenue formula appear."
+    },
+    {
+      "response_id": "7a44acd1d8838bfc6eef9eb06e0c016c390b2766c956bfc057ea9a57aca966d6",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives a formula with unspecified quantities and explicitly declines a numerical answer."
+    },
+    {
+      "response_id": "0330225ee06044e3510d0bf75d5ffb8a2f92dbe9b23d49bcb6d8b10fb344da17",
+      "stated_answer": "200",
+      "reviewed": true,
+      "rationale": "Explicitly concludes total earnings are 200."
+    },
+    {
+      "response_id": "c4e8415715bd4b52a9f8cf5b4bbeb552c696aa1790baeafe4f24e97d1759381c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly rejects its own age interpretations and ends unfinished; no settled answer to age at marriage."
+    },
+    {
+      "response_id": "afbdee50ca9bafcbe4b8d819c6505865bdbe420b1f08c9c27a96b0d000dc8b30",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats First/find without stating a numerical answer."
+    },
+    {
+      "response_id": "85ebec909106130ab2878300724a1f4c80347501e822d53f62fec069c2bd222a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeated First/find text contains no numerical answer."
+    },
+    {
+      "response_id": "268d73052f782668ef70567f3b36fe4e7531edbf7a9b0954066aa5fb81babcf5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeated First/find text contains no numerical answer."
+    },
+    {
+      "response_id": "dd56bb0ced1b9f23d15c05ea6c7df5dc741d99da720f1699b9338fff620e4c1f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the earlier salary; gives no numerical answer."
+    },
+    {
+      "response_id": "6a535d410cf234909dc5c6e876e27b884dedd39c5612a63f5023fe29c98110e5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Lists a solution plan without performing the calculations or stating an answer."
+    },
+    {
+      "response_id": "cf9991a163c7baacadbbd2250364aa5be328a01e8a77b8c588afc9fe0f460984",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly states each person pays $14 per month."
+    },
+    {
+      "response_id": "ccf782d5102a56f47380e6c90e7d29a70dd2c4647088e44d9ae566147aa23d21",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Rejects its age calculations as impossible and concludes the problem is not solvable."
+    },
+    {
+      "response_id": "d4ef33403ccdb701d0af1af4898b85ce063b7a176aaad836cfcdae772b692ad7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "States separate totals of 6 and 11 for the players but never states their combined total; no addition performed by reviewer."
+    },
+    {
+      "response_id": "5e5911b2449106a934e2c947706c5896f0ca352ab45135ef4eef533d7b12ae00",
+      "stated_answer": "1750",
+      "reviewed": true,
+      "rationale": "Explicitly computes the weekly pages as 1750."
+    },
+    {
+      "response_id": "26d0c65c60ad70b444689cd36b2a61cd6a41f9a8804e4bdb36a66f1cfb330253",
+      "stated_answer": "110",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Greg paid $110."
+    },
+    {
+      "response_id": "8a03a61789b6b9ce821b8566efe960e52295e731d69b1ce74cc5a6fc28a1ab59",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "Explicitly states the minimum required score is 70."
+    },
+    {
+      "response_id": "4452a16a8015db8fd7e117797072e5d19196fa57941d10bbde7cd1518746adc2",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First followed by five repetitions of find; no numerical answer."
+    },
+    {
+      "response_id": "68bfe10400222350cf2843a25e3df2aa3fa548ba0335734bdbce101ae5f89e8d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops at The answer is with no answer."
+    },
+    {
+      "response_id": "64d8dcff305aca4822486d6cfb5f5a9cddd4404bb00a0239d240ee39076c83fa",
+      "stated_answer": "128400",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the monetary loss is $128,400."
+    },
+    {
+      "response_id": "820c7b28ed19806e98a4ac0e3efaf9a9e0741ca5f6b7f166bbe119aa841da61a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Derives 88 but explicitly rejects that result as nonsensical and requests corrected information; no accepted final answer."
+    },
+    {
+      "response_id": "3a31cc69525763cac36e8624d9ec6085c3d4604c93bb5de2530d6ffbd03e3ec8",
+      "stated_answer": "80",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the four-week gas cost is $80."
+    },
+    {
+      "response_id": "03d2dd67a240932923862001f2e0404f7d43fb1aba9278123b0a3aad87ea7c94",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "44eb098a36037abda28cfa46a5a926bc542822569530565799aedf10b0aa234b",
+      "stated_answer": "53",
+      "reviewed": true,
+      "rationale": "Explicitly states the donation is $53."
+    },
+    {
+      "response_id": "a9525f212a4f90603b1855808ec6e0d8f9ba77029669f34c595ae941049433de",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First followed by seven repetitions of find; no numerical answer."
+    },
+    {
+      "response_id": "e175f47105517a8be6b5491f15fba6ee9af6d20ed12800398bc5591e09066b71",
+      "stated_answer": "222",
+      "reviewed": true,
+      "rationale": "Explicitly states Jordan now weighs 222 pounds."
+    },
+    {
+      "response_id": "3be5ae0fcc286be05eb91a0705c9642802356ec7aa46282f775c2cbbef66dc32",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly states one remaining shirt costs $20."
+    },
+    {
+      "response_id": "c2f12cb6f3d53840f1d34c859e86bcf57127de4b0cf64ca3cbfb6b191af57115",
+      "stated_answer": "31",
+      "reviewed": true,
+      "rationale": "Explicitly states the sum of their ages will be 31 years."
+    },
+    {
+      "response_id": "d47c7cbb7284ce8b879cebc7211d9b71d06a0fc83a5b2147d1c490ffde54c431",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives a plan to calculate daily and weekly profit but no numerical result."
+    },
+    {
+      "response_id": "c2df6c48ee937beaf220c5321d5acd70f153baf0526f713bc0bf3cbc008b8b75",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the correct-answer counts; gives no score."
+    },
+    {
+      "response_id": "4372954c73768a1f7daf017c3e97ea534ef6681f39071ea6aff52b7158ca799b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions, including joined words; no numerical answer."
+    },
+    {
+      "response_id": "0649098a10561e0512a1654d0403f575413cb0d18708a1d982f2410620bc79f3",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "d3f2fccf8a2fe8092df59f6888bef6cde632abe41e2ab510e706f77318133152",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only asks to find the current age; gives no numerical answer."
+    },
+    {
+      "response_id": "3adfd4a4af9fd7c7875527557a0746db096c864349923048219be34b22f9538a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Provides a formula with unspecified quantities and explicitly declines a numerical answer."
+    },
+    {
+      "response_id": "eb613ab21d0bb56b435ac08664bdd0fac647bf343c67ccdc4047ab4d23145ae1",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 30 minus 26 leaves 4 cupcakes."
+    },
+    {
+      "response_id": "2f3273534fc49f0b9738b5fd90451da7d25630cb635dcb7e19dd14b9d577db0f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First followed by nine repetitions of find; no numerical answer."
+    },
+    {
+      "response_id": "7db120e0460f08d29e94609f8cf1b34e2839866661eeebc3fe53b495cb42132f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First followed by repeated find; no numerical answer."
+    },
+    {
+      "response_id": "a7fa1bc1cc865adc8e8c45659acab516922bbae61cdf3e8498c1904f9a887724",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Provides a formula with unspecified quantities and explicitly declines exact weekly earnings."
+    },
+    {
+      "response_id": "0e967eaefb25f29967ef3a3f5ac8d9b6be6c3cabc9c0e6cfbe95ced3efdb724b",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 hours before the code block; no code executed."
+    },
+    {
+      "response_id": "8d043b7249c04be1dd3166d493fe214155bff8db8de607f6351c3fb4a2255aba",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding weekly earnings; gives no amount."
+    },
+    {
+      "response_id": "1ebd2009a6897092d57d500517f17b4917c04fc29a6a1ce56d9c0eb4f8c87be1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Lists a solution plan without stating the total earnings."
+    },
+    {
+      "response_id": "604012c4e4ea54319cec7a84517bac2de23ba2a0d4638f7b8719975fb99efdc0",
+      "stated_answer": "475",
+      "reviewed": true,
+      "rationale": "Explicitly totals earnings as $475."
+    },
+    {
+      "response_id": "f8d8703ada63a904dbdfcd33abc194c4ef1a338da329f427c115e0c6ed9624b2",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Explicitly computes money left as $4.00."
+    },
+    {
+      "response_id": "5687fd24e7034920cf6010864323f4257fc195c32af72702ebe650d5da92c312",
+      "stated_answer": "49",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Walter gets 49 bananas; transcribed without correcting interpretation."
+    },
+    {
+      "response_id": "b5a8b96b7292ee2111b027fd4302b52eab741170e819f2500b76c81f37adad14",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a plan to compare minutes per question; no numerical difference."
+    },
+    {
+      "response_id": "04aeebbe35e30a2598a35475731c6e323892db148c4bcda18143b0f56c431086",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the total purchase price; no bill stated."
+    },
+    {
+      "response_id": "ee754b778a839b810acb3410550e7a83dc7d9ab80c05afd9dd16f36b2e835de6",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a plan to add and multiply vegetables; no numerical total."
+    },
+    {
+      "response_id": "295a4f8ab300ab9b7d2f3a8ad1dd9d7c8d507ec4652ac6b8b1fedd1778dea6aa",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "f2bfb8ffef34ea41764f0caf6f672ef59abf219e6ff9ee6142116bc94e86e583",
+      "stated_answer": "320",
+      "reviewed": true,
+      "rationale": "Explicitly totals the seeds as 320."
+    },
+    {
+      "response_id": "a16e1b192bc1188b7df0b208154a614a71d21d4eb0d339682e81c96586b47bb1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no number of bonnets per orphanage."
+    },
+    {
+      "response_id": "f6d30924984631074393f49a5ed65dd40ccc7a02d586b176dc3f8893c75c0b42",
+      "stated_answer": "27.67",
+      "reviewed": true,
+      "rationale": "Explicitly states the new win percentage is 27.67%; retained as stated."
+    },
+    {
+      "response_id": "996a11714f37f8212dfdcc184c302e76da9e601665ea5212d0c58cbe26f48df5",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 742 beads are needed."
+    },
+    {
+      "response_id": "7bac9d00c89ddeee65d6e0fe903ea0036e0c8107ab355e01a4af6bfd6671e687",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "Explicitly concludes one pallet of paper cups."
+    },
+    {
+      "response_id": "e052eb35e18f877a2b734525accd1619e671ac53041777538662cd00d72c589e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no earnings stated."
+    },
+    {
+      "response_id": "0815e93c37eabc60110837edcb6f6c750c6c07ecb64b8ebb5bcb816961d375c1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a plan to calculate daily and weekly earnings; no amount stated."
+    },
+    {
+      "response_id": "51428618071c3fbd910fab8a52d8e9a7e8ad5f63007fb16a4a0f249a3ab40b2b",
+      "stated_answer": "5",
+      "reviewed": true,
+      "rationale": "Explicitly computes the change as $5.00."
+    },
+    {
+      "response_id": "68e6ee9e9173c21ae4cbed3b5db585c0f7796e92a9240debc3ecd6c3b0d9e9a6",
+      "stated_answer": "119",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 119 pies over seven days."
+    },
+    {
+      "response_id": "d25b6c4a33c61ba5bb47cfcd67b00235a9d8442f0c3bd983497d7e00783088bd",
+      "stated_answer": "4.5",
+      "reviewed": true,
+      "rationale": "Explicitly states and boxes 4.5 hours; no code executed."
+    },
+    {
+      "response_id": "a5cef19d0a7979d7062125f3bced535b0bada20ceb93e9c182468eb2da86f3c2",
+      "stated_answer": "49",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Walter gets 49 bananas; retained as stated."
+    },
+    {
+      "response_id": "13a90ace454a210cfeef8bd9b7c8f71d01f29a1e431a6c7fed70a0e2b5e3b471",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops at The candy bar cost with no number."
+    },
+    {
+      "response_id": "97331c530dbad7f1d3fbc2c8890500cabef9ec819d980a8fac64083891b4b9cc",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Anna was 4 years old before the unfilled answer placeholder; retained as stated."
+    },
+    {
+      "response_id": "fb65864f4916a6da0fa034a34b4e5b39202c5bcc73c7678844b5f4856f044c7d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "b372ae044ce8e3b8265147824140980bf3e4d5c7a83c1e018032e0b5a1dd9145",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly states and boxes 25 percent; no code executed."
+    },
+    {
+      "response_id": "14715ec61d3ebebd83aeeb1d44965dbf8e689ac1d95e3e80d09e00c2fef9ebbe",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the total bricks; no number."
+    },
+    {
+      "response_id": "eee0ae0515d2f73927d50267a2826c763b4f7a842557ad0ada79cc0b4fb1ede1",
+      "stated_answer": "1104",
+      "reviewed": true,
+      "rationale": "Explicitly states total earnings of $1,104."
+    },
+    {
+      "response_id": "eb5e1117ea2de8f6a421a4bfc5868b03a3355cd9afcebc9d71a5b5692256a2c5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "7f2e4b044437a141dda9662e958a5cd76e779f48a8ff3edec46f121d441be964",
+      "stated_answer": "49",
+      "reviewed": true,
+      "rationale": "Explicitly concludes Walter gets 49 bananas; retained as stated."
+    },
+    {
+      "response_id": "7210c48b1f8f9e7f5575616948c718999e787b004275e5bdf3adb3440d9c13c3",
+      "stated_answer": "116",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 116 vegetables per week."
+    },
+    {
+      "response_id": "2f5b8a62b55927e6d267655ad9ede389d9c744594702faaea7b8a29e629977c8",
+      "stated_answer": "62",
+      "reviewed": true,
+      "rationale": "Explicitly states a total of 62 paintings."
+    },
+    {
+      "response_id": "9747b42aee8e789e689031767ccdcd62e1b126bcdae6fc7d4dc6138fcce8b0b1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives a verbal solution plan and ends with an unfilled answer placeholder; no numerical remainder."
+    },
+    {
+      "response_id": "68392612afd6b6dc6c26e68f249d4e39ab32264baa625aebdbca0eda942aa463",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Rejects the problem interpretation and explicitly says Anna\u2019s age cannot be determined."
+    },
+    {
+      "response_id": "ec052ed465782900277b64a22447b322fcc1b73177379da19be2bcde6b53ee6c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "613a660bbc7ecd076c1299dc964d9a832453aeaef28c275b78a701ca1a304752",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no money remaining stated."
+    },
+    {
+      "response_id": "dbe65699623eff66d984c282ff07881b5dd982a6797ba8898d220c6b17a9b3c3",
+      "stated_answer": "108000",
+      "reviewed": true,
+      "rationale": "Explicitly states the total ad cost is $108,000."
+    },
+    {
+      "response_id": "35784a3fa9cb03be718a0572bbfde5f4325e3c54584738bc6a4cc04cebf6a48f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "af0381b999bc8b8b6edfb44277df5bf2a0bea8f2f279c41be6c6f9f852fe162d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Contains only an unfilled answer placeholder for the cost."
+    },
+    {
+      "response_id": "8d0b9e74c317f636eeb16dcd4e4a42261f08a5514e73737a8453cd102a83d75f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "65bd83f80574816533386b4ef43b60f120d33bf5d0b6673797c3be1dcd1a9fe4",
+      "stated_answer": "320",
+      "reviewed": true,
+      "rationale": "Explicitly totals the seeds as 320."
+    },
+    {
+      "response_id": "2bce06ec3e3d5c07a0a287cd17dccee76aead53a1d2de4af6bbc9f68dbf80853",
+      "stated_answer": "1160",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the embroidery takes 1,160 minutes; retained as stated."
+    },
+    {
+      "response_id": "f3abc67ef01ef77c299fc380cce28e508525f640732e6c57f09d9a491f8fbcf3",
+      "stated_answer": "36.0",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 36.0 percent in prose after the code; no code executed."
+    },
+    {
+      "response_id": "9dba891dee8fd9afbc89d47270698e1de91a9dd6b259a9ce77b392a76c9f4d4a",
+      "stated_answer": "49",
+      "reviewed": true,
+      "rationale": "Explicitly states 49 cents per week."
+    },
+    {
+      "response_id": "96c3f0def9ee464d854d14d8a521e190c7a51891332e9b348acd386485b3d96c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "b7d11714f793cb1aea6154336005214b8c9139c097a8d75d2371bea04f7130fa",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops at The answer is with no answer."
+    },
+    {
+      "response_id": "7d0cf23ede673ed56e75399655c50903fbd4ea4294083abd66770f380f91cdf4",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats the premise and an unfinished calculation introduction; never states the average."
+    },
+    {
+      "response_id": "3598a5f95e5ce23a374af97e3b15df9d96d03c71b50cadc3a0a45ac2125e5ce8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a plan to group and discount books; no total cost stated."
+    },
+    {
+      "response_id": "f2e478f8b899f89638245b6f2123ddbd015e7123681d0c7d6e0ad6867122178f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "ba0fcac6d81e2378aa40201ad02d3b3ed61f7998ed4a95f489fdb76df4f358b0",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 742 beads are needed."
+    },
+    {
+      "response_id": "757ce5dc00ac1c51234f5a1f745da149305dfbc8c661e509b2a099f61016c7ec",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 hours before the code block; no code executed."
+    },
+    {
+      "response_id": "f6361b65b49c5decb97ad2778266193c36f91ac4502d1df9b4140f9b07e5a7ff",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "Explicitly computes money left as $60."
+    },
+    {
+      "response_id": "0517053833715feeb902cbb050ca2353920d0632436de8d7c876aa3c9266d4c9",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "3eb96cb3b4ad8b406ab2e79369a36ff795f3f83faa75200584d10898d58c4e0e",
+      "stated_answer": "108000",
+      "reviewed": true,
+      "rationale": "Explicitly states the total ad cost is $108,000."
+    },
+    {
+      "response_id": "4f9b628444a74a4f797979aafc74061ffc232825d5145c32d3c19253f7edee6c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "96b52a8bc37c0d5a52b30d7761e660b6452d4d1102501a40d3bab133c2f604ec",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the garage bulb count; no pack count."
+    },
+    {
+      "response_id": "9c28cc9a5f95e33257b7d88c7d8214f2b94937ca3f7e0c51b5d3fb74cf2fb27d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "69a8bca58af64563571da0505d50040031fc1b9e4ca93033940acc3b3fec03a6",
+      "stated_answer": "9",
+      "reviewed": true,
+      "rationale": "Explicitly concludes each other player averages 9 hits; retained as stated."
+    },
+    {
+      "response_id": "fe1a488a746ee879a66b98f4f1a6943f856885040696e5c4005db684598b33d7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the number of showers; no water total."
+    },
+    {
+      "response_id": "383e1106bbfdd892895d30cee56b7d70f439afc16bacb5a01338e0fa8a4a276a",
+      "stated_answer": "27.67",
+      "reviewed": true,
+      "rationale": "Explicitly states the new win percentage is 27.67%; retained as stated."
+    },
+    {
+      "response_id": "2ec5467cb2e7d61d52c1a1c1522093b7f7bc0cfae9345a74137ec157ca729903",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions, including joined words; no numerical answer."
+    },
+    {
+      "response_id": "7b888f5b73569847eba82f85a88c28f23de8eaa44211d69ff3e329823ac1512e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the answer; no age sum stated."
+    },
+    {
+      "response_id": "87cf07909ef43a9f8d2b1db594195392536ea2b802548be94b5ca76d9b2ea4bb",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Lists a solution plan; no jar count stated."
+    },
+    {
+      "response_id": "51e5bfa6e48b2c96a406598249521fe56fb66bdb8db1f9df13a53ab3452682bc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Sets up an inequality but does not solve it; ends with an answer placeholder."
+    },
+    {
+      "response_id": "9a0279d24880ceb3c744b68fffa551bf684be13f293137f1bd35bd1684cfb324",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly concludes there are 20 children."
+    },
+    {
+      "response_id": "3c7f73e83aa1451bcfb534b1ffe00af1bf7931bc8eee539d1749e6f0a70af6bf",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "cb809dee9e03105e163df870dcb9a8a71ea4786cedc1cef77ef859f006a7bbdb",
+      "stated_answer": "588",
+      "reviewed": true,
+      "rationale": "Explicitly computes weekly earnings as $588."
+    },
+    {
+      "response_id": "7eaac8819ddd0d5fb81ff32cdbaaffe063949d0d22b19a6519b7da2361b63d57",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the picture count; no cost stated."
+    },
+    {
+      "response_id": "a651f5f885547a48b39bb498a943dda8e5d6a2ee01a64eaa67afccdf0b52831a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Explicitly says the exact weight cannot be found and provides only a formula."
+    },
+    {
+      "response_id": "afa8d8c075ebdaf7aa18e575437ff6be7ecc46f295217304c201735e2743cd40",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops at The answer is without a value."
+    },
+    {
+      "response_id": "6bdd57f100a6015bd538bcb0fb645e2b066eab78da9dc14baafc2eed2a448e07",
+      "stated_answer": "41.25",
+      "reviewed": true,
+      "rationale": "Explicitly states the future average age is 41.25 years."
+    },
+    {
+      "response_id": "2a5d4525fb48480f47d79744c0c9cab22bf6e57d7346e62a92a990932b96c14a",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "Explicitly computes change as $15."
+    },
+    {
+      "response_id": "2bbd70ea06eb66ebec786a2bb143f319414dc7b2b14ec21c5c2280dd13168983",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly states each person pays $14 monthly."
+    },
+    {
+      "response_id": "f3caa746f07f8fcddec0c1b863022755a66e89ed466c5ad9f90b205dcfba7543",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "ba394319e6d08403989ad6a30ab5f5c0dddb1a7ad88cab95c96cfeeb59b6dd38",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "Explicitly states 100 jars left; retained as stated."
+    },
+    {
+      "response_id": "33d01cb75726ec3ec56d1ae2d37d74042800b66a7ed8566945573c97fed49842",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "75c604e0b80a6aa4c46da7aceb2209866d2df71fcceadf12882e9522012d0b99",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "bacf4bfdbc8437dd0b452665d84a48ef3eaaab37b3f73b4e957112b3f3295e8b",
+      "stated_answer": "108000",
+      "reviewed": true,
+      "rationale": "Explicitly totals the three companies' cost as 108000."
+    },
+    {
+      "response_id": "1fa440b948d098d83978d72189fe1e12983f41cdc4f1ea3be5530cc2a20028cd",
+      "stated_answer": "31",
+      "reviewed": true,
+      "rationale": "Explicitly states the future age sum is 31 years."
+    },
+    {
+      "response_id": "3d231f46b5863bdd3a32fca8c879d5f9d4170853083cc998f7e98dabcdbc01ed",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 742 beads are needed."
+    },
+    {
+      "response_id": "4efd2584aedbe82d23a547376aa35994e445db721b384115391058649cac50f5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "93b5b7664b4e6a377c4bdcfc5ce7fa868046fc878c2d0ca72d3d4d9d046d9b39",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Gives a formula with unspecified quantities and explicitly declines a numerical answer."
+    },
+    {
+      "response_id": "c56da589e3b917cd1b1b110d1619ff8e87115059548dd5f0454d7bc07f740cbb",
+      "stated_answer": "15",
+      "reviewed": true,
+      "rationale": "Explicitly computes change as $15."
+    },
+    {
+      "response_id": "4c2b7b70930f6f9a91d8a5bed01c934b993351a86052b82f26e92043d945fa49",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "b7b4e13c9c72e2104b1fefcea6e90484efe435af788e7ef2da118918ead50a5d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops before the first calculation result; no weekly cost stated."
+    },
+    {
+      "response_id": "e7a10090f7951b3804170049fabff16751ccbc5b0e780abb2191665f1901a91d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding monthly earnings; no remainder stated."
+    },
+    {
+      "response_id": "54a25088a2133f58531f38d51323a3e548bfaa7d8930721c510a405f8ff45823",
+      "stated_answer": "60",
+      "reviewed": true,
+      "rationale": "Explicitly states Mary has $60 left."
+    },
+    {
+      "response_id": "0aab2d614d89b146436ee68fea937855e1dbb27b6f9c666bc4b6f1526cba1b0f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "e5c29db44277525962fcb3c6fcb766774399688d955ced656c7af3f8b3b4eceb",
+      "stated_answer": "204000",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the loss is $204,000; retained as stated."
+    },
+    {
+      "response_id": "b9bcfe460bd395a291c4c673891616cb3316d0f7c93bddb8a0ccaac2958c6ecd",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "3e8ce4c27213bd3a78cbe59cec86e451f75fa52f7fe2ddec2d43fe1a4dff569e",
+      "stated_answer": "27",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 27 dollars received."
+    },
+    {
+      "response_id": "28b7358e5d40ef53eaeb900c318781d5c323f151c7debb163eff7997c57f0e53",
+      "stated_answer": "55",
+      "reviewed": true,
+      "rationale": "Explicitly states weekly earnings of $55."
+    },
+    {
+      "response_id": "e08a42e27739ed1f30dfbd78f807ebcf3e78264d37ff176fef26740064fcafbb",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "34f0e1f99fc269f7ba4ccd4737304b349e3290afe939bd56ef02b42d803feacf",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly states one remaining shirt costs $20."
+    },
+    {
+      "response_id": "60a29e3847152e576e265f004370ed9e599d2212739275205a6225fc2c5285b6",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "Explicitly concludes they need three pizzas."
+    },
+    {
+      "response_id": "af4ac29129a58c556c65359aa69737d06ee40ac3e4a249ed8455d01f88b6bb24",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly rejects proposed invitation totals and ends in an unfinished search; no settled answer."
+    },
+    {
+      "response_id": "3119568b5887b1a73a3341a5b5eb972fdd206e34e56ed0c945aef94d28ea06b7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "f8ac52a067b1377bea4795ac8408130f4cd99c9b9910ea00ffd01034395f0d76",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "b44c89c8606fb66949c87aa8862bb8d76c5f64e1c12cba783b0c74851bf5cbff",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "4c707ab92cd8c8ec8dc542214c8d5144903afd6a2024e1921634514a23c40a92",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Leaves towel weight as an unknown expression and ends with an unfilled answer placeholder."
+    },
+    {
+      "response_id": "31e888a6d071299c5d800ecac6f977d739346f048e80353c07b5a72945b35833",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats an unfinished calculation plan; no fish count stated."
+    },
+    {
+      "response_id": "b9ceb76e4c682067732634bd0bcc7934c6ee24ad47e21ed692113420d0d56de5",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Explicitly states four $10 bills are needed."
+    },
+    {
+      "response_id": "f707453b97d1fcab0f698563389ddbfefe31ca42a4a809412bfc1fdb79a8b297",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "Explicitly states six hits per player across six games."
+    },
+    {
+      "response_id": "d44bcd7a389325ab6a6675f06e5916fc1b46ab2ad4ec0a52040d5e60b226caa1",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "9d2b4bb4c54111de3c4bde6a5fa8180dcfb90d9ee0d083a01ea41d6472fe2393",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the budget; no ball count."
+    },
+    {
+      "response_id": "9389dad51cbdb82db0e8d0ccba23e01499b58406a8f8ca0eafea24e2f946bc41",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "e6b8fe4922728c45902c8e73352a40017d4a41cbadc4b11daf75589a838b4a78",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly states $14 per month."
+    },
+    {
+      "response_id": "87454efd48b040158c7d7f0d577145e3a0e471db77d56d8d24c9ff692f7a0003",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Continues adding ticket prices without settling on a total and ends unfinished."
+    },
+    {
+      "response_id": "f303445300a6b53b71d6b850d9878c3f3808efceab0eaecc903a8a4af7dcf804",
+      "stated_answer": "7",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the average is seven hours."
+    },
+    {
+      "response_id": "9fbd3bc1e7444b5d7d27d0fdea356f366139d1bd2479eb5275dd76ed2b3451b1",
+      "stated_answer": "17",
+      "reviewed": true,
+      "rationale": "Explicitly combines both players' scores into 17 goals."
+    },
+    {
+      "response_id": "d2c9bb6d5788982faf6a2f4b91b5f882e7a19d9fdb794695251ad3219b06fe4e",
+      "stated_answer": "119",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 119 pies."
+    },
+    {
+      "response_id": "8ae32dcd02b87a4b4941e06ce9b97b2b1fdb8911b99d802a44dfc9f43cba8c52",
+      "stated_answer": "11",
+      "reviewed": true,
+      "rationale": "Explicitly states 11 hits per player; retained as stated."
+    },
+    {
+      "response_id": "f5c20f3d9b8001445f7ab46d5ffa41702928a17f1d42f9cf297b9eb8e87a9f40",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "3fa39e463195240c161efc19a6221d605f719ebe53caa3675b5e627b0ed04364",
+      "stated_answer": "100",
+      "reviewed": true,
+      "rationale": "Explicitly totals the bricks as 100."
+    },
+    {
+      "response_id": "6d046b3392468d5b08dc2f7b462e669cce8846459ed3a6e4e100bb75f92f0ce2",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 14 hits per player; retained as stated."
+    },
+    {
+      "response_id": "077e77e00712a4ff5a9cac76a319333b1c3f77acdd358d7154444d0643ff425a",
+      "stated_answer": "116",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 116 vegetables per week."
+    },
+    {
+      "response_id": "0780a2167fd89a80e77b7b7c416291ae4c920349059d57fc5ed4efee0c6c8d81",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats a calculation plan and ends unfinished; no card remainder."
+    },
+    {
+      "response_id": "30d2a5407b6a26049eeec3750c4f63c0572782a5c09932549f9db0e7b2a3b81f",
+      "stated_answer": "31",
+      "reviewed": true,
+      "rationale": "Explicitly states the future age sum is 31 years."
+    },
+    {
+      "response_id": "0b9ad50e5b80e8a9632f6c8a9927546543ec95cebbbab88ab506ed3f5b1e8b40",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "87f82b2b134dfcb441654806c4ba20cc8c145a164c87b4d30bb53c0cfbdffff5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Lists a solution plan without computing the balance."
+    },
+    {
+      "response_id": "1d8fc9765b7927efca098b58d1f6c4c81a2edd32cea4cac2abc95b5bf03b59e2",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "e700111f4752f0d9edda66e1553daef768eeb6c7819942cafc808186f53402b7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the total stripes; no count."
+    },
+    {
+      "response_id": "eacbcfdd41f8cffb67232a27f58a3b629f83be90679b0d3a92f8cc24af9f44c7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "d09daea50f591096a2af2dcb91d1c94216df3dfa5b97fa4561276ba37c523f69",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "7da4e72bed78d41313d34c72faec2a115e60d55eaba9e443cdb978808a5a7c82",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "Explicitly states the required score is at least 70."
+    },
+    {
+      "response_id": "e71282e624c5ccb4e9b5dbe878499b58012e3fd7bec6dce9e1e80107f8a24b81",
+      "stated_answer": "86",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 86 more fish."
+    },
+    {
+      "response_id": "0e77ab6fc088933080a04bd43d4dc9aea657d4f2c5b16e98c457f52738f91f18",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no total parts used."
+    },
+    {
+      "response_id": "7a188c30ce02c3797d984e5183e846a79793da024d9aeec7263cd78b20e3e899",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "0c3a199179c05a69f4aba029527118ad05fc3c6d77546cd94053af4ffc697fd5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops at The answer is with no number."
+    },
+    {
+      "response_id": "efa16030814bd70af62f476ddaf1809240a892fd4a406f7307eec27666b59930",
+      "stated_answer": "10",
+      "reviewed": true,
+      "rationale": "Explicitly converts the filming time to 10 hours."
+    },
+    {
+      "response_id": "5e56d80a7cba75fd7aecc484a7fafe2c5e0e35e337b3022341319aace8c114c1",
+      "stated_answer": "0",
+      "reviewed": true,
+      "rationale": "Replaces its negative result with an explicit final answer of 0 additional cans; retained as stated."
+    },
+    {
+      "response_id": "b8d5c309083ae690cb8cf4838b6504bd8bf5b80a0006941075fcab81f75ee5d8",
+      "stated_answer": "0",
+      "reviewed": true,
+      "rationale": "Replaces its negative result with an explicit final answer of 0 additional cans; retained as stated."
+    },
+    {
+      "response_id": "89395b3572815a12331cddb6bca600ba9693e35ff21647ae96fce49178159916",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "af7269b11253573881e4c5b6acb4c4026ea211316e96cf514b69784641542723",
+      "stated_answer": "34",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the average is 34."
+    },
+    {
+      "response_id": "e88b3e02be8c6dd6a53ba2a094470b3e2eb41f5e452b35e711dbbd1ab647ac04",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "41c1fc4d219d857a696ec720a508bd5f36afb7124448c62f7750401b92d16305",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "bfcc3872909ced5da889e02d03cff0647deacba7ff4150e8fa9425fa0c0f13d2",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "145466bfc0d29280f9f69ccb00c00e75f6b22f31722b76fc1d302a49bf62739b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "States that unknown sales quantities prevent an exact result and leaves a symbolic answer."
+    },
+    {
+      "response_id": "65a789d6094fa0656c9063bc3e1c7410ee5dbdfc61c49fc5e2ed8a15bd3a810a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats the question without answering it."
+    },
+    {
+      "response_id": "a5b26f94a4e9df333c8f3be8f10153da5b2c47a99abe12a8015c00c2c568e9f7",
+      "stated_answer": "2",
+      "reviewed": true,
+      "rationale": "Explicitly concludes two more batches are needed."
+    },
+    {
+      "response_id": "08401e2ad6a9467d3f62c819528d8d0b02f1d62c8a75b21dfecaaf506d197179",
+      "stated_answer": "770",
+      "reviewed": true,
+      "rationale": "Explicitly totals weekly meals as 770."
+    },
+    {
+      "response_id": "8d9f81ff4224371497b650d781560b067ce70602d23dd4270cb8d61cd8258542",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no sandwich cost."
+    },
+    {
+      "response_id": "b2af927e42a4de1e6e76d3e8ccff6a76ca783c554f8bfcfa0e26eed81994f620",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "c1a05f4362ac6c793d15535bc33aa81c7ee7da9c21f0999f311547c434f29507",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "a6fd6f535f7ad0566522bc527ccbed343c26d5cadcbe1dadb1646b032b4fbf86",
+      "stated_answer": "41.25",
+      "reviewed": true,
+      "rationale": "Explicitly states the future average age is 41.25 years."
+    },
+    {
+      "response_id": "26784f89c78ff25aa2029078c7021c452c9be052cb3a827cb007a263dd8d9866",
+      "stated_answer": "140",
+      "reviewed": true,
+      "rationale": "Explicitly states one hundred forty horses per week; transcribed from words without correcting the reasoning."
+    },
+    {
+      "response_id": "07e3d91932ee7de74d038ff6e0fa768dc18508de5d2064e24201dd70e0055fe8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats equation setup and ends unfinished; no towel weight stated."
+    },
+    {
+      "response_id": "1c7e92f7df78f158a92759ccef093fbf6625db38ccac86a5d27a3d5d3239e12f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "15e8ef8a2e08b9a8e6581856b563c4456b08096be8c4791828199be91670d5d4",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "Explicitly states six hits per player."
+    },
+    {
+      "response_id": "1be20e96e93b8d6dd83b80e79438bd6479098935953cff6223ff09a186b2ec45",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly states and boxes 25 percent; no code executed."
+    },
+    {
+      "response_id": "d3b23ce5560af459ab69a42094dfded062732caa54cd7774b0b3fff05f84d4ef",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly states total spending of 20 dollars."
+    },
+    {
+      "response_id": "660122b6815c013587077b572383cd51f13ae8c305965ef2be28c6cd4182a1f7",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 hours before the code block; no code executed."
+    },
+    {
+      "response_id": "9aac761af0e49de3295168180fc26513985ee9455dcce9246460e1276ea5acee",
+      "stated_answer": "2.12",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 2.12 hits per player per game; retained as stated without unit correction."
+    },
+    {
+      "response_id": "49f012eb8f99df736a5bf36650a17e19adaf5114ce506ef2e13a1a505e44c853",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding Zendaya's time; no average stated."
+    },
+    {
+      "response_id": "156a061c7ff7c9b30fea65e52c9d76361f07a52f0642ab0b99490c5d17fc8657",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no remaining money stated."
+    },
+    {
+      "response_id": "180e25936d7777b8ca48a7ae9a0763ccab9cb265a808cfb3e3eb83233190eebf",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding an intermediate fish count; no final stock count."
+    },
+    {
+      "response_id": "d44ce8dc9117160b5d740b5b9b463d7aa717242e9c743199be083b9b3d453cad",
+      "stated_answer": "770",
+      "reviewed": true,
+      "rationale": "Explicitly states 770 meals per week."
+    },
+    {
+      "response_id": "e41e3087474398021fca3cb2fe51d51062d70a350bbd4c6469f5029a6bdf2118",
+      "stated_answer": "131",
+      "reviewed": true,
+      "rationale": "Explicitly states the candy bar costs 131 cents."
+    },
+    {
+      "response_id": "18ce1baca4c13803cfb276f66815f3045ab5d8fa8e375b8a161c9a7c07f40850",
+      "stated_answer": "270",
+      "reviewed": true,
+      "rationale": "Explicitly states the wait is 270 seconds shorter."
+    },
+    {
+      "response_id": "f927932f1620abad09cbfcbd87133450dcd8400ce040e9cd65d49c9486cf1e66",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "4d8fb71f589e7c33f191e84b667d2a1d91c1bbffc63cd0c6698eab413c216d91",
+      "stated_answer": "85",
+      "reviewed": true,
+      "rationale": "Explicitly states and boxes 85 mph; no code executed."
+    },
+    {
+      "response_id": "aacdbacc60dce31d239c3b7775d0caf96b72a2b284f2d1c325b011362906536b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a plan to calculate the spending; no total."
+    },
+    {
+      "response_id": "334383d7e5c3bf175177b046884af13fc69b0133e6e5c9a5ad4e4ce75b9cd26c",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "396d2d218b89df55b6eba31827bd49c683e2e4ddc6ced069e7318b514c3ccb55",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 hours before the code block; no code executed."
+    },
+    {
+      "response_id": "3edd93e50cdbc028f2e1a8714ef57b7bd669fe0b01322b217aaa795cf110b8de",
+      "stated_answer": "4",
+      "reviewed": true,
+      "rationale": "Explicitly states $4.00 remains."
+    },
+    {
+      "response_id": "09ab0b596cc2e1dc3332942e0b560bd239cbea68b4ee0366bc80bdff9081e993",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "dd38323bc8c86646048f175265994b4094ac38e318d88b5d80908f0155796e24",
+      "stated_answer": "27.67",
+      "reviewed": true,
+      "rationale": "Explicitly states 27.67 percent; retained as stated."
+    },
+    {
+      "response_id": "cbe2a4099167d5af68c0bd0d7ee6af5c60a73710cebb6f88657e2689dba4a896",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats the shower-frequency premise and ends unfinished; no water total."
+    },
+    {
+      "response_id": "c5d9a82deed6a99c5fc984df3bd96744f30846d77f0f19a13278354f579eea27",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no weekly episode count."
+    },
+    {
+      "response_id": "f376722424a44ab6d911b5be0097e3c8f9dce1078d48b4b0eeb72dca46aef0d0",
+      "stated_answer": "41.25",
+      "reviewed": true,
+      "rationale": "Explicitly states the average age is 41.25 years."
+    },
+    {
+      "response_id": "fef90e49b235d49cfbe6056b8c294c8407c2f84fda36936f1ca29b7f10cd3843",
+      "stated_answer": "22",
+      "reviewed": true,
+      "rationale": "Explicitly concludes the second route is 22 minutes longer; retained as stated."
+    },
+    {
+      "response_id": "931cf27166657235000270c63aa7c72e41d222568dcfa6396bf8cee2f4ed1000",
+      "stated_answer": "4300",
+      "reviewed": true,
+      "rationale": "Explicitly totals the distance as 4300 meters; retained as stated."
+    },
+    {
+      "response_id": "43f72351063cc553b357c3c1d9bff54fa4ba97a08240bf3811d68f74edf1ba59",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "32237b5f71d37be3c6318d2a136828835c80f1ffb8be2a6b3f334f267239d024",
+      "stated_answer": "98",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 98 horses per week."
+    },
+    {
+      "response_id": "ceb9d8245727fc0a4658a103c51ee1643d3d3524e2ff40332650b2ea77a7cc4d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "dfa78209b6fcca9fd0e99ae85df8be71b8e19982d02499747af3984d1ae01d0b",
+      "stated_answer": "98",
+      "reviewed": true,
+      "rationale": "Explicitly totals 98 musicians."
+    },
+    {
+      "response_id": "fcd2e7a29292e1169a4b83eff56db7b51efd5deee6f2be9a20d02bcf1226d3ff",
+      "stated_answer": "35",
+      "reviewed": true,
+      "rationale": "Explicitly states 35 additional cans are needed."
+    },
+    {
+      "response_id": "87e2b76ca043f6d04d6a496d233e8f2ecc95cd7b8f34e90d3213924a8af6fc2e",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding an intermediate food quantity; no total."
+    },
+    {
+      "response_id": "6b303cd431e4ad493630893eff94ffe314ac9a742bff6fcfaee1220652a28cc7",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Stops at The answer is with no number."
+    },
+    {
+      "response_id": "1f1053198242451ee18bf2098a11c16be71ed5dceb906f4d2abfb26c88f6f3bb",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Explicitly says the answer cannot be determined without more information."
+    },
+    {
+      "response_id": "e5452772b9a915b7376737fbbf4857ffa5cd3768928955d775148aba92160458",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "57e3268ade5ce900bd4818cb9801d740c362e00c420083a4c83461cc0484c0b7",
+      "stated_answer": "485",
+      "reviewed": true,
+      "rationale": "Explicitly states total marks of 485."
+    },
+    {
+      "response_id": "7c67a89718ac8730ad930f2400e31df376af6062ebf219cc9b51793e3b315426",
+      "stated_answer": "742",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 742 beads are needed."
+    },
+    {
+      "response_id": "801844a52e4e600e3a68fd5a3c1527767250a14af86270c9295a42a9075cb958",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "Explicitly states each bag of chips costs $3."
+    },
+    {
+      "response_id": "f6a77e164d3ba840fc65609e24ac8d8107e86a7daba8e4256bc1d902f05120a6",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "5b3320407fcd6b56a13dcc4c9d993d85eefadceaea35dba387636b662f90ed50",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding Walter's banana count; no share stated."
+    },
+    {
+      "response_id": "7266e824756ed6b451a442f8862e1b2213c63bba4ac8b69429ce9a5bf3eeacf5",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "a94a98878a789ddb3225de81d736352bbe8db5e01678cdf759fbe30fe9ba787b",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly states $14 per month."
+    },
+    {
+      "response_id": "187b504ebcd0d33adfaca6701b077276c6328800605f300b26b4aa7aef216b23",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "0d2f7fb83bcf5641aabe509bce062e4a773e0a960fc9dd8c8d4ce0b653166d21",
+      "stated_answer": "47",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 47 minutes of recess."
+    },
+    {
+      "response_id": "e6e669faa035bc3f9d419a8e15bbe54d7e99b97c90533362ed649bb9ae8328d1",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "Explicitly states the required score is at least 70."
+    },
+    {
+      "response_id": "1749d2e6011e7761de8a301bcfea427bd416dbd62fc44e450c27bcf78660e203",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly states one remaining shirt costs $20."
+    },
+    {
+      "response_id": "45b220e7df3b46d4e28c5b42308fc13364da8c3e033d6a0f5d15ff849b59d0ab",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "ed9ed4756d2e4f266de3425dd0cee4727ef38915f0681480102098a0547544ad",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 percent for the actual question before unrelated generated dialogue; unrelated answers ignored."
+    },
+    {
+      "response_id": "ca29126b11b110d4c215bed2b622131992cc8118801d3a0e49cf521a4a9d5b95",
+      "stated_answer": "98",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 98 horses per week."
+    },
+    {
+      "response_id": "f29498725981f23059a793bdd98b8ae718e7d4672f5025d729965f358d026522",
+      "stated_answer": "3",
+      "reviewed": true,
+      "rationale": "Explicitly concludes three more pencils."
+    },
+    {
+      "response_id": "a066ee35717d429322a9cfc376488d140f250f28fc2519b69a579f384437044a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeats a calculation plan and ends unfinished; no card remainder."
+    },
+    {
+      "response_id": "243928423356703a7f1b291e0233235cd2419c0361fb7440adc97ce9c5a30c2f",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a solution plan; no total marks."
+    },
+    {
+      "response_id": "0aedec6dbb6a1fae1762c7b7dd3f1708aa6ef030150728f7e03accb9c8a38d72",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 14 lambs."
+    },
+    {
+      "response_id": "6692bb5a5912197e78283cfeeb5c672dbcd54d9de5e4db414d47b50078d73eba",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding birdhouse count; no earnings."
+    },
+    {
+      "response_id": "51de5f48c81bd156ca8842130d0e4ac1c30a3e7749cecb6ccfad770b5694076d",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only Let/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "988397173ecd978fc6de24508f74534ed7a9ec2ac3b0615b3171f6b7509cb5fd",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 30 nuts are needed; retained as stated."
+    },
+    {
+      "response_id": "4ef951a959292d00842ad19f787508509bcc1caf5a02248156f9d00d32285005",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding delivered jars; no good-for-sale count."
+    },
+    {
+      "response_id": "1854dc6cf5a721c66321fff54be4b10501add3f3e4dbfea7546b81696c144cf8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only gives a plan for intermediate scores; no combined total."
+    },
+    {
+      "response_id": "e79f1317f4029d81a409ad1befb40d1fc820fd872e146fd558fcbbd65d0e45cc",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "68c1b57a4204fc1822bdb736991564257b914449d781b77f66540a0a5972239b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding rental cost; no per-person amount."
+    },
+    {
+      "response_id": "eae06d9692e7472a328ae775c62324a425167193cd6fe648bd619e83faaf19ed",
+      "stated_answer": "41.25",
+      "reviewed": true,
+      "rationale": "Explicitly states the future average age is 41.25 years."
+    },
+    {
+      "response_id": "6e333a0264945f675296331d29784aaa67f959a3a25b1e03b6a6902a6a5deba2",
+      "stated_answer": "4.5",
+      "reviewed": true,
+      "rationale": "Explicitly states and boxes 4.5 hours; no code executed."
+    },
+    {
+      "response_id": "5b61b9d0a0534698d66ea7914a8cd174cde86b483154c7deeb2ad7b28e486072",
+      "stated_answer": "1",
+      "reviewed": true,
+      "rationale": "Explicitly states one pallet of paper cups."
+    },
+    {
+      "response_id": "61f05336986ca4402e891ad3c5fbf216f38be543bf4641369679efc23472b64c",
+      "stated_answer": "30",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 30 nuts are needed; retained as stated."
+    },
+    {
+      "response_id": "59692cad7fc8a6b1bf3511db038c5b88ba1db71a807775a0d6b9999be8d833f8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Repeatedly rejects the computed negative sale price and ends unfinished; no settled answer."
+    },
+    {
+      "response_id": "abc4dfa97e745b3d021ba5388db0c890d63de29d754cf5785c55cd096415d692",
+      "stated_answer": "588",
+      "reviewed": true,
+      "rationale": "Explicitly concludes weekly earnings of $588."
+    },
+    {
+      "response_id": "50f2aec64c9278a6d80ecd8cd2332f45e724ba1ee58c79eaa079047b728f97db",
+      "stated_answer": "258",
+      "reviewed": true,
+      "rationale": "Explicitly totals 258 dolls."
+    },
+    {
+      "response_id": "671725fee870abb2d641d9e93b5cf5e3f8fcc71c4009487c3406253830fa89e2",
+      "stated_answer": "6",
+      "reviewed": true,
+      "rationale": "Explicitly states six hits per player."
+    },
+    {
+      "response_id": "2d8a8716a7005f40d319375d7d11bfbf0fefdc2cebe33b952040633ea6f7712a",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "424ddf47953346afc90aaf9e3b547fd0e02ba4f2612f3dd13003dbcf695fadf2",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Rejects its age calculations and explicitly concludes there is no valid solution."
+    },
+    {
+      "response_id": "cb8c03dde5e67658a8287f1152e1d5a94e39942ab349a1c65cc8f1d5721ef32d",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 percent."
+    },
+    {
+      "response_id": "711c3162025ea4f27bce9b82a0141f7fb49ef4adb6f05f3cfae2f618d0ba11bb",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only First/find repetitions; no numerical answer."
+    },
+    {
+      "response_id": "e8467ef859bfd36ea628dc1c858ec8698cd41be031d2de24bfe20b32e11fbe3b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "b292ee0300c072600761681242c3c354996a93aa0ff4193a275487eed5796d7c",
+      "stated_answer": "12",
+      "reviewed": true,
+      "rationale": "Explicitly states 12 eggs per hen per week."
+    },
+    {
+      "response_id": "e4be05a9aa996ca4329ed8f918586fe636ef340b9a7d12b62725afd16f17cbc9",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding consumed calories; no remaining amount."
+    },
+    {
+      "response_id": "3779154495026445ea3f244280fe276ceff9d523c9710fd615e84774886e6e88",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding distances; no difference stated."
+    },
+    {
+      "response_id": "21f36f7a2e10c813340aedb09e9b34afb268ea442ee228950e5359b2b2b97570",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the intermediate oil volume; no additional amount stated."
+    },
+    {
+      "response_id": "da7cfa259f597960912801a0ad73a74f98855093263c3b28353b412ff070e02c",
+      "stated_answer": "56",
+      "reviewed": true,
+      "rationale": "Explicitly states 56 pills over two weeks; retained as stated."
+    },
+    {
+      "response_id": "ac50a9a297002548240a79700519e052851ee73346e0dd1e135ee77b110dd8ad",
+      "stated_answer": "280",
+      "reviewed": true,
+      "rationale": "Explicitly states total water use of 280 gallons."
+    },
+    {
+      "response_id": "0eae6a8e0c7c2dc849302f140f924788ce5658457ed7912dbeb5b0fca95b0638",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding the discounted-day count; no cost stated."
+    },
+    {
+      "response_id": "6116f331d7e95a91c14fae4a593240c2729dcd15f93c21de9120a6bffe93f6c6",
+      "stated_answer": "53",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 53 pairs of socks; retained as stated."
+    },
+    {
+      "response_id": "5922d38e9c601eb8288e2b58d86d60d8f36ee27c441a3ef217f355f89f0e77f8",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly boxes 25 hours before the code block; no code executed."
+    },
+    {
+      "response_id": "4158fb829b99cf1995efafb7744aef0a71fc3379a912797129d4218b3605bc73",
+      "stated_answer": "70",
+      "reviewed": true,
+      "rationale": "Explicitly states the required score is at least 70."
+    },
+    {
+      "response_id": "1c260ce5de6adc94e6e39ef0bab52b9259c34df0c6b30635477b5471e363030e",
+      "stated_answer": "27.67",
+      "reviewed": true,
+      "rationale": "Explicitly states 27.67 percent; retained as stated."
+    },
+    {
+      "response_id": "c8047e21aab84f59d6c1e89ee06eb3a4db16e9e5270e7d2353c50d7920d7eeaf",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "4e153602ad23893c154abd783bb099abb2b41bae7278432dd084b9e91ef0e6b8",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Rejects its age interpretation and explicitly concludes the problem is not solvable."
+    },
+    {
+      "response_id": "42beb66291de5234927cc03848fc522a949a4f1ab8c2f27907aed8ee2ee4a699",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Empty response."
+    },
+    {
+      "response_id": "40af7c69e4aea4068236bf3ad0091ad1ced1724ff38e82f0704dd5741fd09f86",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 14 lambs."
+    },
+    {
+      "response_id": "c768a6d227ad6a94be166ab155e7a4d57b83ae6d254a0bc5cda4ac9786b60cc1",
+      "stated_answer": "20",
+      "reviewed": true,
+      "rationale": "Explicitly states one remaining shirt costs $20."
+    },
+    {
+      "response_id": "7175fdc9c2f65b58f567d8552069c0e6ad162f199bd65fa109461ae72323d06b",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Only instructs finding initial sticker shares; no final Andrew share."
+    },
+    {
+      "response_id": "72dd95b5bf20cb4e5e660aed4a4ab6efcbb5c7a5a43d41e68ddbda0765d4bf41",
+      "stated_answer": null,
+      "reviewed": true,
+      "rationale": "Explicitly says the answer cannot be determined without additional information."
+    },
+    {
+      "response_id": "3e8d1783e878acd612cf7f79e5554fef34e2c4a032bbe7597c878d406dd509ff",
+      "stated_answer": "45",
+      "reviewed": true,
+      "rationale": "Explicitly concludes 45 pairs, including a displayed sum equated to 45; retained without arithmetic correction."
+    },
+    {
+      "response_id": "17ab10d827927727bdcfd03e83128a4cdbc1fa321a9b1785396d47b999d69fd4",
+      "stated_answer": "25",
+      "reviewed": true,
+      "rationale": "Explicitly states and boxes 25 percent; no code executed."
+    },
+    {
+      "response_id": "a8e24dcc1cc577218a230c055bfef25ce335a6addf30be822f5c869c2d693af1",
+      "stated_answer": "14",
+      "reviewed": true,
+      "rationale": "Explicitly states each person pays $14 monthly."
+    }
+  ]
+}
