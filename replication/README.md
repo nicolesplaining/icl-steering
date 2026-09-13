@@ -250,3 +250,31 @@ CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
 
 This runner has no steering or confirmation entry point. A failed screen
 ends this fixed-bank setup; it does not trigger another seed or sample.
+
+If the screen passes, the [fixed-candidate stage](../research/gsm8k-fixed-candidate-protocol.md)
+replays its audit before preparing any intervention inputs. It reuses the
+baseline rows and generates only the block-13, half-strength prefill ridge
+candidate and its matched raw mean. It has no parameter grid or test stage.
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_fixed_candidate prepare --output runs/gsm8k-fixed-candidate-v1
+```
+
+Commit the prepared manifest declaration before generating. The run-local
+`declaration.json` must contain the manifest's `manifest_sha256`.
+
+```bash
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_fixed_candidate validate --output runs/gsm8k-fixed-candidate-v1
+```
+
+Initialize review from `inherited-annotations.json`, keeping those annotations
+unchanged. Review all remaining blinded items and commit the merged annotations.
+Create `review-freeze.json` with the same fields used for the screen, then:
+
+```bash
+CUDA_VISIBLE_DEVICES='' PYTHONPATH=src .venv-benchmark/bin/python \
+  -m analysis.gsm8k_fixed_candidate select --output runs/gsm8k-fixed-candidate-v1 \
+  --annotations runs/gsm8k-fixed-candidate-v1/validation-review-annotations.json
+```
