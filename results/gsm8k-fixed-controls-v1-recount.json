@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-13T02:39:35.692212+00:00",
+  "report_file_sha256": "04d536cbadf2f3dd65c68e1011e28dc365932ef3ec6f2c2baf0dd7b0a7379410",
+  "rows": 2048,
+  "conditions": 16,
+  "paired_contrasts": 30,
+  "counts_wins_losses_exact_p_and_holm_recounted": true,
+  "bootstrap_intervals": "Produced by the frozen reporting function; not independently recomputed here.",
+  "reserved_rows": 0,
+  "parent_eligible": false
+}

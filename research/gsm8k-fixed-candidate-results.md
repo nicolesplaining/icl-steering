@@ -12,6 +12,12 @@ than magnitude or another shared activation effect, caused the difference.
 The intervention is a linear map producing a different vector for each
 question, not one universal direction. The model weights stay frozen.
 
+The subsequent [supplementary controls](gsm8k-fixed-controls-results.md)
+score 106/128 for a scalar control given ridge's per-question norms, compared
+with ridge's 107/128. The raw-mean contrast survives adjustment, but a need
+for the learned full-map directions is not established. The failed gate
+remains unchanged.
+
 ## Development results
 
 All conditions use the same 128 questions. The five baseline output sets

@@ -90,4 +90,7 @@ Even favorable controls would remain development evidence. The candidate
 failed its declared text-cue gate; this literature finding does not reopen
 confirmation or justify changing that gate. A later experiment using a
 different intervention site or decoding rule must declare those choices
-before evaluating them. The current controls should finish first.
+before evaluating them. The [completed controls](gsm8k-fixed-controls-results.md)
+subsequently found 107/128 for ridge and 106/128 for the norm-matched scalar
+control. They do not establish a need for the full-map directions and leave
+the original gate failed.
