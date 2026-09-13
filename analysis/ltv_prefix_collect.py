@@ -18,7 +18,8 @@ ROOT = Path(__file__).parents[1]
 def code_hash():
     return ltv.audit.digest({'parent': ltv.code_hash(), 'files': {
         str(p.relative_to(ROOT)): base.file_hash(p) for p in [Path(__file__),
-        ROOT/'analysis/ltv_prefix_metrics.py', ROOT/'research/ltv-prefix-alignment-plan.md']}})
+        ROOT/'analysis/ltv_prefix_metrics.py', ROOT/'analysis/ltv_prefix_report.py',
+        ROOT/'research/ltv-prefix-alignment-plan.md']}})
 
 
 def require_failed_parent(parent):
@@ -48,6 +49,11 @@ def require_failed_parent(parent):
 
 def prepare(parent, output):
     config, data = require_failed_parent(parent)
+    if (output/'manifest.json').exists():
+        manifest, _ = verify(output)
+        if manifest['parent'] != str(parent.resolve()):
+            raise ValueError('Prepared diagnostic belongs to another parent')
+        return
     questions = [{'problem_id': p['problem_id'],
                   'prompts': {k: p['prompts'][k] for k in ['zero', 'icl_a']}}
                  for p in data['splits']['extract']]

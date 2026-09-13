@@ -18,6 +18,26 @@ def test_parent_failure_and_declaration_required_before_gpu(tmp_path, monkeypatc
         diagnostic.collect(tmp_path)
 
 
+def test_preparation_preserves_frozen_inputs_and_omits_query_answers(tmp_path, monkeypatch):
+    parent, output = tmp_path/'parent', tmp_path/'diagnostic'
+    parent.mkdir()
+    for name in ['manifest.json', 'prepared.json', 'fit.json', 'maps.npz', 'extraction.npz',
+                 'selection.json', 'validation-audit.json', 'validation-annotations.json', 'review-freeze.json']:
+        (parent/name).write_text('{}')
+    questions = [{'problem_id': str(i), 'answer': 'unused reference answer',
+        'prompts': {'zero': f'question {i}', 'icl_a': f'demos question {i}'}} for i in range(128)]
+    monkeypatch.setattr(diagnostic, 'require_failed_parent', lambda path: ({}, {'splits': {'extract': questions}}))
+    diagnostic.prepare(parent, output)
+    before = (output/'manifest.json').read_bytes()
+    diagnostic.prepare(parent, output)
+    assert (output/'manifest.json').read_bytes() == before
+    prepared = diagnostic.base.read(output/'prepared.json')['questions']
+    assert all(set(q) == {'problem_id', 'prompts'} for q in prepared)
+    (parent/'fit.json').write_text('{"changed": true}')
+    with pytest.raises(ValueError, match='parent input changed'):
+        diagnostic.prepare(parent, output)
+
+
 def small_engine(monkeypatch):
     torch.manual_seed(2911)
     model = Qwen2ForCausalLM(Qwen2Config(vocab_size=64, hidden_size=8,
