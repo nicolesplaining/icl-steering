@@ -1,0 +1,26 @@
+{
+  "status": "declared_before_extraction_and_new_generation",
+  "declared_at": "2026-09-13T02:59:05.859736+00:00",
+  "source_commit": "b0e3c80",
+  "parent_results_commit": "151bc30",
+  "manifest_sha256": "39f17a23bbab29ef6abd0ecb765fd406baf64b4ac849d9a33340a9d8e626a228",
+  "code_sha256": "f1195e39bcc6150c9efbcdcfbbfec556f6bcde8be62a9855de51a39cb45434d6",
+  "n_extract": 128,
+  "n_development": 128,
+  "n_reserved": 256,
+  "new_conditions": [
+    "steered",
+    "mean",
+    "scalar",
+    "scalar_norm",
+    "permuted",
+    "prefill"
+  ],
+  "lambda": 5,
+  "strength": 1,
+  "site": "final_norm",
+  "primary_scope": "all",
+  "tests_passed": 24,
+  "gpu": 0,
+  "confirmation_supported": false
+}
